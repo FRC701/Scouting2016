@@ -25,19 +25,18 @@ class _TeamInfo(object):
         self.autoOther = 0                  # number of matches for which the team did something else in auto
 
         self.teleLowBar = []
-        self.teleDamageCounter1 = []
-        self.teleDefences1 = []
-        self.teleDamagecounter2 = []
-        self.teleDefences2 = []
-        self.teleDamageCounter3 = []
-        self.teleDefences3 = []
-        self.teleDamageCounter4 = []
-        self.teleDefences4 = []
-        self.teleDamageCounter5 = []
-        self.teleBouldersInLowGoal = []
-        self.teleBouldersInHighGoal = []
-        self.teleBouldersInLowGoal = []
-        self.teleBouldersInHighGoal = []
+        self.telePortcullis = []
+        self.teleChevaldeFrise = []
+        self.teleRamparts = []
+        self.teleMoat = []
+        self.teleDrawbridge = []
+        self.teleSallyPort = []
+        self.teleRoughTerrain = []
+        self.teleRockWall = []
+        self.teleLowGoal = []
+        self.teleHighGoal = []
+        self.teleBouldersFromLowGoal = []
+        self.teleBouldersFromHighGoal = []
 
         self.postFouls = []                 # list containing the number of fouls each match
         self.postTechFouls = []
@@ -55,11 +54,11 @@ class _TeamInfo(object):
         self.hasFoul = 0                    # number of matches for which the robot received a foul
 
     def get_info(self):
-        self.avgAutoBoulderInLowGoal = float(sum(self.autoBouldersInLowGoal))/float(len(self.autoBouldersInLowGoal)) if len(self.autoBouldersInLowGoal) else 0
-        self.avgAutoBouldersInHighGoal = float(sum(self.autoBoulderInHighGoal))/float(len(self.autoBouldersInHighGoal)) if len(self.autoBouldersInHIghGoal) else 0
+        self.avgAutoLowGoal = float(sum(self.autoLowGoal))/float(len(self.autoLowGoal)) if len(self.autoLowGoal) else 0
+        self.avgAutoHighGoal = float(sum(self.autoHighGoal))/float(len(self.autoHighGoal)) if len(self.autoHighGoal) else 0
 
-        self.avgTeleBouldersInLowGoal = float(sum(self.teleBouldersInLowGoal))/float(len(self.teleBouldersInLowGoal)) if len(self.teleBouldersInLowGoal) else 0
-        self.avgTeleBouldersInHighGoal = float(sum(self.teleBOuldersInHighGoal))/float)(len(self.teleBouldersInHighGoal)) if len(self.teleBouldersInHighGoal) else 0
+        self.avgLowGoal = float(sum(self.teleLowGoal))/float(len(self.teleLowGoal)) if len(self.teleLowGoal) else 0
+        self.avgHighGoal = float(sum(self.teleHighGoal))/float)(len(self.teleHighGoal)) if len(self.teleHighGoal) else 0
         
         self.avgPostFoul = sum(self.postFouls)/len(self.postFouls) if len(self.postFouls) else 0
         self.avgPostTechFoul = sum(self.postTechFoul)/len(self.postTechFouls) if len(self.postTechFouls) else 0 
@@ -132,6 +131,7 @@ class TeamRankings(object):
 
     off_rank = []
     auto_rank = []
+    auto_Crosses_Defences_rank = []
     auto_Low_Goal_rank = []
     auto_High_Goal_rank = []
     tele_rank = []

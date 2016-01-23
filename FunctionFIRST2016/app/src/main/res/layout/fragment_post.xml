@@ -1,0 +1,205 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".PostFragment"
+    android:background="@color/DarkGreen">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollViewPost"
+        android:layout_above="@+id/button">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_numFouls"
+        android:id="@+id/textNumFouls"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/Gold" />
+
+
+    <com.vandenrobotics.functionfirst.views.NumberPicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pickerNumFouls"
+        android:layout_below="@+id/textNumFouls"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textNumTechFouls"
+        android:layout_toRightOf="@+id/textNumFouls"
+        android:layout_toEndOf="@+id/textNumFouls"
+        android:text="@string/text_numTechFouls"
+        android:paddingLeft="10dp"
+        android:textColor="@color/Gold"/>
+
+    <com.vandenrobotics.functionfirst.views.NumberPicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pickerNumTechFouls"
+        android:layout_below="@+id/textNumTechFouls"
+        android:layout_toRightOf="@+id/textNumFouls"
+        android:layout_toEndOf="@+id/pickerNumFouls"
+        android:paddingLeft="10dp" />
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cb_gotRedCard"
+        android:id="@+id/cb_gotRedCard"
+        android:layout_below="@+id/pickerNumFouls"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:checked="false"
+        android:textColor="@color/Gold" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cb_gotYellowCard"
+        android:id="@+id/cb_gotYellowCard"
+        android:layout_alignLeft="@+id/pickerNumTechFouls"
+        android:checked="false"
+        android:textColor="@color/Gold"
+        android:layout_below="@+id/pickerNumTechFouls"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cb_wasDisabled"
+        android:id="@+id/cb_wasDisabled"
+        android:layout_below="@+id/cb_gotRedCard"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:checked="false"
+        android:textColor="@color/Gold" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cb_PlayedDefensively"
+        android:id="@+id/cb_PlayedDefensively"
+        android:layout_below="@+id/cb_wasDisabled"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/Gold"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_Capture"
+        android:layout_below="@+id/cb_PlayedDefensively"
+        android:text="@string/cb_Captured"
+        android:textColor="@color/Gold"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_Breached"
+        android:layout_below="@+id/cb_Capture"
+        android:text="@string/cb_Breached"
+        android:textColor="@color/Gold"/>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cb_Breached"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/rg_ChallengeState">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_ChallengeState"
+            android:text="@string/text_ChallengeState"
+            android:textColor="@color/Gold"
+            android:textStyle="bold"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rb_NotAttempted"
+            android:id="@+id/rb_NotAttemptedC"
+            android:textColor="@color/Gold"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rb_Attempted"
+            android:id="@+id/rb_AttemptedC"
+            android:textColor="@color/Gold"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rb_Successful"
+            android:id="@+id/rb_SuccessfulC"
+            android:textColor="@color/Gold"/>
+    </RadioGroup>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rg_ChallengeState"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/rg_ScaleState">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_ScaleState"
+            android:text="@string/text_ScaleState"
+            android:textColor="@color/Gold"
+            android:textStyle="bold"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rb_NotAttempted"
+            android:id="@+id/rb_NotAttemptedS"
+            android:textColor="@color/Gold"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rb_Attempted"
+            android:id="@+id/rb_AttemptedS"
+            android:textColor="@color/Gold"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rb_Successful"
+            android:id="@+id/rb_SuccessfulS"
+            android:textColor="@color/Gold"/>
+
+    </RadioGroup>
+
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_finish"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/Gold"
+        android:onClick="finishMatch" />
+
+</RelativeLayout>

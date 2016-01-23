@@ -120,7 +120,7 @@ class Entry(object):
         self.teleDC4 = (self.teleDamageCounter4*5) 
         self.teleDC5 = (self.teleDamageCounter5*5)
         
-        self.teleDefencesScore = (self.teleDC1 + self.teleDC2 + self.teleDC3 + self.teleDC4 + self.teleDC5)
+        self.teleDefencesDamageScore = (self.teleDC1 + self.teleDC2 + self.teleDC3 + self.teleDC4 + self.teleDC5)
 
         self.teleLowGoal = (self.teleBouldersInlowGoal*2)
         self.teleHighGoal = (self.teleBouldersInHighGoal*5)

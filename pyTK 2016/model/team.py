@@ -20,8 +20,8 @@ class _TeamInfo(object):
         self.autoCrossesDefences = 0
         self.autoDefences1 = []
         self.autoDefences2 = []
-        self.autoBouldersInLowGoal = []
-        self.autoBouldersInHigh = []
+        self.autoLowGoal = []
+        self.autoHigh = []
         self.autoOther = 0                  # number of matches for which the team did something else in auto
 
         self.teleLowBar = []
@@ -35,8 +35,8 @@ class _TeamInfo(object):
         self.teleRockWall = []
         self.teleLowGoal = []
         self.teleHighGoal = []
-        self.teleBouldersFromLowGoal = []
-        self.teleBouldersFromHighGoal = []
+        self.teleFromLowGoal = []
+        self.teleFromHighGoal = []
 
         self.postFouls = []                 # list containing the number of fouls each match
         self.postTechFouls = []
@@ -47,7 +47,13 @@ class _TeamInfo(object):
         self.postCaptured = 0
         self.postBreached = 0
         self.postChallengeState = []
+        self.NotAttempedC = 0
+        self.AttemptedC = 0
+        self.SuccessfulC = 0
         self.postScaleState = []
+        self.NotAttemptedS = 0
+        self.AttemptedS = 0
+        self.SuccessfulS = 0
 
         self.scoredInTele = 0               # number of matches for which the robot scored in tele-op
         self.scoredInAuto = 0               # number of matches for which the robot scored in auto
@@ -57,8 +63,8 @@ class _TeamInfo(object):
         self.avgAutoLowGoal = float(sum(self.autoLowGoal))/float(len(self.autoLowGoal)) if len(self.autoLowGoal) else 0
         self.avgAutoHighGoal = float(sum(self.autoHighGoal))/float(len(self.autoHighGoal)) if len(self.autoHighGoal) else 0
 
-        self.avgLowGoal = float(sum(self.teleLowGoal))/float(len(self.teleLowGoal)) if len(self.teleLowGoal) else 0
-        self.avgHighGoal = float(sum(self.teleHighGoal))/float)(len(self.teleHighGoal)) if len(self.teleHighGoal) else 0
+        self.avgTeleLowGoal = float(sum(self.teleLowGoal))/float(len(self.teleLowGoal)) if len(self.teleLowGoal) else 0
+        self.avgTeleHighGoal = float(sum(self.teleHighGoal))/float(len(self.teleHighGoal)) if len(self.teleHighGoal) else 0
         
         self.avgPostFoul = sum(self.postFouls)/len(self.postFouls) if len(self.postFouls) else 0
         self.avgPostTechFoul = sum(self.postTechFoul)/len(self.postTechFouls) if len(self.postTechFouls) else 0 
@@ -77,12 +83,15 @@ class _TeamScores(object):
         self.oScores = []               # list holding offensive scores
         self.tScores = []               # list holding total scores
         self.autoScores = []            # list holding auto scores
+        self.autoCrossesDefencesScores = []
         self.autoLowGoal = []
         self.autoHighGoal = []
         self.teleScores = []            # list holding tele scores
         self.teleDefencesDamageScore = []
         self.teleLowGoal = []
         self.teleHighGoal = []
+        self.postChallengeStateScore = []
+        self.postScaleStateScore = []
         self.foulScores = []            # list holding foul scores
         
     def get_maxmin_scores(self):
@@ -92,6 +101,8 @@ class _TeamScores(object):
         self.minTotalScore = min(self.tScores)
         self.maxAutoScore = max(self.autoScores)
         self.minAutoScore = min(self.autoScores)
+        self.maxAutoCrossesDefencesScore = max(self.autoCrossesDefencesScores)
+        self.minAutoCrossesDefencesScore = min(self.autoCrossesDefencesScores)
         self.maxAutoLowGoal = max(self.autoLowGoal)
         self.minAutoLowGoal = min(self.autoLowGoal)
         self.maxAutoHighGoal = max(self.autoHighGoal)
@@ -104,18 +115,23 @@ class _TeamScores(object):
         self.minTeleLowGoal = min(self.teleLowGoal)
         self.maxTeleHighGoal = max(self.teleHighGoal)
         self.minTeleHighGoal = min(self.teleHighGoal)
+        self.maxPostChallengeStateScore = max(self.postChallengeStateScores)
+        self.minPostScaleStateScore = min(self.postScaleStateScores)
         self.maxFoulScore = max(self.foulScores)
         self.minFoulScore = min(self.foulScores)
 
     def get_avg_scores(self, matches=1, auto=0):
         self.avgOffScore = sum(self.oScores)/matches if matches else 0
         self.avgAutoScore = sum(self.autoScores)/auto if auto else 0
+        self.avgAutoCrossessDefencesScore = sum(self.autoCrossesDefencesScore)/auto if auto else 0
         self.avgAutoLowGoal = sum(self.autoLowGoal)/auto if auto else 0
         self.avgAutoHighGoal = sum(self.autoHighGoal)/auto if auto else 0
         self.avgTeleScore = sum(self.teleScores)/matches if matches else 0
         self.avgTeleDefencesDamageScore = sum(self.teleDefencesDamageScore)/matches if matches else 0
         self.avgTeleLowGoal = sum(self.teleLowGoal)/matches if matches else 0
         self.avgTeleHighGoal = sum(self.teleHighGoal)/matches if matches else 0
+        self.avgPostChallengeStateScore = sum(self.postChallengStateScore)/matches if matches else 0
+        self.avgPostScaleStateScore = sum(self.postScaleStateScore)/matches if matches else 0
         self.avgFoulScore = sum(self.foulScores)/matches if matches else 0
         self.avgTotalScore = sum(self.tScores)/matches if matches else 0
 
@@ -138,6 +154,8 @@ class TeamRankings(object):
     tele_Defences_Damage_rank = []
     tele_Low_Goal_rank = []
     tele_High_Goal_rank = []
+    post_Challenge_State_Successful = []
+    post_Scale_State_Successful = []
     foul_rank = []
     tot_rank = []
     
@@ -188,12 +206,21 @@ class Team(object):
         self.pHadAuto = str(int(100*self.Info.autoHadAuto)/len(matches)) + "%"
         self.pReachesDefences = str(int(100*self.Info.autoReachesDefences)/len(matches)) + "%"
         self.pCrossesDefences = str(int(100*self.Info.autoCrossesDefences)/len(matches)) + "%"
+        self.avgCrossesDefencesScore = round(self.Info.autoCrossesDefencesScore, 2)
         self.avgAutoScore = round(self.Scores.avgAutoScore,2)
         self.avgAutoLowGoal = round(self.Scores.avgAutoLowGoal,2)
         self.avgAutoHighGoal = round(self.Scores.avgAutoHighGoal,2)
         self.pAutoOther = str(int(100*self.Info.autoOther)/len(matches)) + "%"
         
         self.avgTeleScore = round(self.Scores.avgTeleScore,2)
+        self.pTelePortcullis = str(int(100*self.Info.telePortcullis)/int(self.Scores.teleDefencesDamageScore/5)) + "%"
+        self.pTeleChevaldeFrise = str(int(100*self.Info.teleChevaldeFrise)/int(self.Scores.teleDefencesDamageScore/5)) + "%"
+        self.pTeleMoat = str(int(100*self.Info.tele)/int(self.Scores.teleDefencesDamageScore/5)) + "%"
+        self.pTeleRamparts = str(int(100*self.Info.teleRamparts)/int(self.Scores.teleDefencesDamageScore/5)) + "%"
+        self.pTeleDrawbridge = str(int(100*self.Info.teleDrawbridge)/int(self.Scores.teleDefencesDamageScore/5)) + "%"
+        self.pTeleSallyPort = str(int(100*self.Info.teleSallyPort)/int(self.Scores.teleDefencesDamageScore/5)) + "%"
+        self.pTeleRoughTerrain = str(int(100*self.Info.teleRoughTerrain)/int(self.Scores.teleDefencesDamageScore/5)) + "%"
+        self.pTeleRockWall = str(int(100*self.Info.teleRockWall)/int(self.Scores.teleDefencesDamageScore/5)) + "%"
         self.avgTeleDefencesDamageScore = round(self.Scores.avgTeleDefencesDamageScore, 2)
         self.avgTeleLowGoal = round(self.Scores.avgTeleLowGoal,2)
         self.avgTeleHighGoal = round(self.Scores.avgTeleHighGoal,2)
@@ -206,6 +233,14 @@ class Team(object):
         self.pPlayedDefensively = str(int(100*self.Info.postPlayedDefensively)/len(matches)) + "%"
         self.pCaptured = str(int(100*self.Info.postCaptured)/len(matches)) + "%"
         self.pBreached = str(int(100*self.Info.postBreached)/len(matches)) + "%"
+        self.avgChallengStateScore = round(self.Scores.avgChallengeStateScore, 2)
+        self.pChallengeStateNotAttempted = str(int(100*self.Info.NotAttemptedC)/len(self.Info.postChallengeState)) + "%"
+        self.pChallengeStateAttempted = str(int(100*self.Info.AttemptedC)/len(self.Info.postChallengeState)) + "%"
+        self.pChallengeStateSuccessful = str(int(100*self.Info.SuccessfulC)/len(self.Info.postChallengeState)) + "%"
+        self.avgScaleStateScore = round(self.Score.avgScaleStateScore, 2)
+        self.pScaleStateNotAttempted = str(int(100*self.Info.NotAttemptedS)/len(self.Info.postScaleState)) + "%"
+        self.pScaleStateAttempted = str(int(100*self.Info.AttemptedS)/len(self.Info.postScaleState)) + "%"
+        self.pScaleStateSuccessful = str(int(100*self.Info.SuccessfulS)/len(self.Info.postScaleState)) + "%"
 
     def getAttr(self, source):
         return getattr(self, source)

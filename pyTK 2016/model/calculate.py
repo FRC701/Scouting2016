@@ -80,6 +80,9 @@ def assign_team_values(team, entry):
     team.Info.AttemptedC += int (entry.AttemptedC)
     team.Info.SuccessfulC += int (entry.SuccessfulC)
     team.Info.postScaleStateScore.append(float(entry.postScaleStateScore))
+    team.Info.NotAttemptedS += int (entry.NotAttempedS)
+    team.Info.AttemptedS += int (entry.AttemptedS)
+    team.Info.SuccessfulS += int (entry.SuccessfulS)
 
     team.Info.scoredInTele += int(entry.scoredInTele)
     team.Info.scoredInAuto += int(entry.scoredInAuto)
@@ -94,8 +97,10 @@ def assign_team_values(team, entry):
     team.Scores.teleDefencesDamageScore.append(entry.teleDefencesDamageScore)
     team.Scores.teleLowGoal.append(entry.teleLowGoal)
     team.Scores.teleHighGoal.append(entry.teleHighGoal)
-    team.Scores.postChallengeStateScore.append(entry.postChallengeStateScore)
-    team.Scores.postScaleStateScore.append(entry.postScaleStateScore)
+    #team.Scores.postChallengeStateScore.append(entry.postChallengeStateScore)
+    team.Scores.postChallengeStateSuccessful.append(entry.SuccessfulC)
+    #team.Scores.postScaleStateScore.append(entry.postScaleStateScore)
+    team.Scores.postScaleStateSuccessful.append(entry.SuccessfulS)
     team.Scores.foulScores.append(entry.foulScore)
     team.Scores.tScores.append(entry.totalScore)
 
@@ -145,62 +150,62 @@ def get_auto_Crosses_Defence_rank(sort="avg",rev=True):
     for team in Team.team_list:
         if sort == "avg":
             if team.Info.autoHadAuto > 0:
-                TeamRankings.auto_Crosses_Defences_rank.append([team.Scores.avgCrossesDefencesScore,team.number])
+                TeamRankings.auto_Crosses_Defences_rank.append([team.Scores.avgAutoCrossesDefencesScore,team.number])
         elif sort == "max":
             if team.Info.autoHadAuto > 0:
-                TeamRankings.auto_Crosses_Defences_rank.append([team.Scores.maxCrossesDefencesScore,team.number])
+                TeamRankings.auto_Crosses_Defences_rank.append([team.Scores.maxAutoCrossesDefencesScore,team.number])
         elif sort == "min":
             if team.Info.autoHadAuto > 0:
-                TeamRankings.auto_Crosses_Defences_rank.append([team.Scores.minCrossesDefencesScore,team.number])
+                TeamRankings.auto_Crosses_Defences_rank.append([team.Scores.minAutoCrossesDefencesScore,team.number])
 
     TeamRankings.auto_Crosses_Defences_rank.sort(reverse=rev)
 
     return TeamRankings.auto_Crosses_Defences_rank
 
-def get_auto_container_rank(sort="avg",rev=True):
+def get_auto_Low_Goal_rank(sort="avg",rev=True):
 
-    TeamRankings.auto_container_rank = []
+    TeamRankings.auto_Low_Goal_rank = []
     
     for team in Team.team_list:
         if sort == "avg":
             if team.Info.autoHadAuto > 0:
-                TeamRankings.auto_container_rank.append([team.Scores.avgAutoContainerScore,team.number])
+                TeamRankings.auto_Low_Goal_rank.append([team.Scores.avgAutoLowGoal,team.number])
         elif sort == "max":
             if team.Info.autoHadAuto > 0:
-                TeamRankings.auto_container_rank.append([team.Scores.maxAutoContainerScore,team.number])
+                TeamRankings.auto_Low_Goal_rank.append([team.Scores.maxAutoLowGoal,team.number])
         elif sort == "min":
             if team.Info.autoHadAuto > 0:
-                TeamRankings.auto_container_rank.append([team.Scores.minAutoContainerScore,team.number])
+                TeamRankings.auto_Low_Goal_rank.append([team.Scores.minAutoLowGoal,team.number])
 
-    TeamRankings.auto_container_rank.sort(reverse=rev)
+    TeamRankings.auto_Low_Goal_rank.sort(reverse=rev)
 
-    return TeamRankings.auto_container_rank
+    return TeamRankings.auto_Low_Goal_rank
 
-def get_auto_robot_rank(sort="avg",rev=True):
+def get_auto_High_Goal_rank(sort="avg",rev=True):
 
-    TeamRankings.auto_robot_rank = []
+    TeamRankings.auto_High_Goal_rank = []
     
     for team in Team.team_list:
         if sort == "avg":
             if team.Info.autoHadAuto > 0:
-                TeamRankings.auto_robot_rank.append([team.Scores.avgAutoRobotScore,team.number])
+                TeamRankings.auto_High_Goal_rank.append([team.Scores.avgAutoHighGoal,team.number])
         elif sort == "max":
             if team.Info.autoHadAuto > 0:
-                TeamRankings.auto_robot_rank.append([team.Scores.maxAutoRobotScore,team.number])
+                TeamRankings.auto_High_Goal_rank.append([team.Scores.maxAutoHighGoal,team.number])
         elif sort == "min":
             if team.Info.autoHadAuto > 0:
-                TeamRankings.auto_robot_rank.append([team.Scores.minAutoRobotScore,team.number])
+                TeamRankings.auto_High_Goal_rank.append([team.Scores.minAutoHighGoal,team.number])
 
-    TeamRankings.auto_robot_rank.sort(reverse=rev)
+    TeamRankings.auto_High_Goal_rank.sort(reverse=rev)
 
-    return TeamRankings.auto_robot_rank
+    return TeamRankings.auto_High_Goal_rank
 
 def get_tele_rank(sort="avg",rev=True):
 
     TeamRankings.tele_rank = []
 
     for team in Team.team_list:
-        if sort == "avg":
+        if sort == "avg":s
             TeamRankings.tele_rank.append([team.Scores.avgTeleScore,team.number])
         elif sort == "max":
             TeamRankings.tele_rank.append([team.Scores.maxTeleScore,team.number])
@@ -211,53 +216,69 @@ def get_tele_rank(sort="avg",rev=True):
 
     return TeamRankings.tele_rank
 
-def get_tele_tote_rank(sort="avg",rev=True):
+def get_tele_Defences_Damage_Score_rank(sort="avg",rev=True):
 
-    TeamRankings.tele_tote_rank = []
-
-    for team in Team.team_list:
-        if sort == "avg":
-            TeamRankings.tele_tote_rank.append([team.Scores.avgTeleToteScore,team.number])
-        elif sort == "max":
-            TeamRankings.tele_tote_rank.append([team.Scores.maxTeleToteScore,team.number])
-        elif sort == "min":
-            TeamRankings.tele_tote_rank.append([team.Scores.minTeleToteScore,team.number])
-
-    TeamRankings.tele_tote_rank.sort(reverse=rev)
-
-    return TeamRankings.tele_tote_rank
-
-def get_tele_container_rank(sort="avg",rev=True):
-
-    TeamRankings.tele_container_rank = []
+    TeamRankings.tele_Defences_Damage_Score_rank = []
 
     for team in Team.team_list:
         if sort == "avg":
-            TeamRankings.tele_container_rank.append([team.Scores.avgTeleContainerScore,team.number])
+            TeamRankings.tele_Defences_Damage_Score_rank.append([team.Scores.avgTeleDefencesDamageScore,team.number])
         elif sort == "max":
-            TeamRankings.tele_container_rank.append([team.Scores.maxTeleContainerScore,team.number])
+            TeamRankings.tele_Defences_Damage_Score_rank.append([team.Scores.maxTeleDefencesDamageScore,team.number])
         elif sort == "min":
-            TeamRankings.tele_container_rank.append([team.Scores.minTeleContainerScore,team.number])
+            TeamRankings.tele_Defences_Damage_Score_rank.append([team.Scores.minTeleDefencesDamageScore,team.number])
 
-    TeamRankings.tele_container_rank.sort(reverse=rev)
+    TeamRankings.tele_Defences_Damage_Score_rank.sort(reverse=rev)
 
-    return TeamRankings.tele_container_rank
+    return TeamRankings.tele_Defences_Damage_Score_rank
 
-def get_tele_litter_rank(sort="avg",rev=True):
+def get_tele_Low_Goal_rank(sort="avg",rev=True):
 
-    TeamRankings.tele_litter_rank = []
+    TeamRankings.tele_Low_Goal_rank = []
 
     for team in Team.team_list:
         if sort == "avg":
-            TeamRankings.tele_litter_rank.append([team.Scores.avgTeleLitterScore,team.number])
+            TeamRankings.tele_Low_Goal_rank.append([team.Scores.avgTeleBouldersInLowGoal,team.number])
         elif sort == "max":
-            TeamRankings.tele_litter_rank.append([team.Scores.maxTeleLitterScore,team.number])
+            TeamRankings.tele_Low_Goal_rank.append([team.Scores.maxTeleBouldersInLowGoal,team.number])
         elif sort == "min":
-            TeamRankings.tele_litter_rank.append([team.Scores.minTeleLitterScore,team.number])
+            TeamRankings.tele_Low_Goal_rank.append([team.Scores.minTeleBouldersInLowGoal,team.number])
 
-    TeamRankings.tele_litter_rank.sort(reverse=rev)
+    TeamRankings.tele_Low_Goal_rank.sort(reverse=rev)
 
-    return TeamRankings.tele_litter_rank
+    return TeamRankings.tele_Low_Goal_rank
+
+def get_tele_High_Goal_rank(sort="avg",rev=True):
+
+    TeamRankings.tele_High_Goal_rank = []
+
+    for team in Team.team_list:
+        if sort == "avg":
+            TeamRankings.tele_High_Goal_rank.append([team.Scores.avgTeleBouldersInHighGoal,team.number])
+        elif sort == "max":
+            TeamRankings.tele_High_Goal_rank.append([team.Scores.maxTeleBouldersInHighGoal,team.number])
+        elif sort == "min":
+            TeamRankings.tele_High_Goal_rank.append([team.Scores.minTeleBouldersInHighGoal,team.number])
+
+    TeamRankings.tele_High_Goal_rank.sort(reverse=rev)
+
+    return TeamRankings.tele_High_Goal_rank
+
+def get_post_Challenge_State_Successful_rank(sort="avg",rev=False):
+
+    TeamRankings.post_Challenge_State_Successful_rank = []
+
+    for team in Team.team_list:
+        if sort == "avg":
+            TeamRankings.post_Challenge_State_Successful_rank.append([team.Scores.avgPostChallengeStateSuccessful,team.number])
+        elif sort == "max":
+            TeamRankings.post_Challenge_State_Successsful_rank.append([team.Scores.maxPostChallengeStateSuccessful, team.number])
+        elif sort == "min":
+            TeamRankings.post_Challenge_State_Successsful_rank.append([team.Scores.minPostChallengeStateSuccessful, team.number])
+
+    TeamRankings.post_Challenge_State_Successsful_rank.sort(reverse=rev)
+
+    return TeamRankings.post_Challenge_State_Successsful_rank
 
 def get_foul_rank(sort="avg",rev=False): # foul rank default from least points to most
 

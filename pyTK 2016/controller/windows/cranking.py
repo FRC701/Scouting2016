@@ -24,24 +24,31 @@ class RankingController():
     # the function to call when that option is selected
     rankingTypes = ["None",
                     "Offensive Score",
+                    "Defensive Score",
                     "Total Score",
                     "Auto Score",
-                    "Auto Stack Score","Auto Container Score","Auto Robot Score",
+                    "Auto Crosses Defences Score","Auto Boulders in Low Goal Score","Auto Boulders in High Goal Score",
                     "Tele Score",
-                    "Tele Tote Score","Tele Container Score","Tele Litter Score",
-                    "Foul Score"]
+                    "Tele Defences Damage Score","Tele Boulders in Low Goal Score","Tele Boulders in High Goal Score","Tele Times Challenge was Successful", "Tele Times Scaling was Successful",
+                    "Weighted Score", "Offensive Weighted Score", "Defensive Weighted Score", "Foul Score"]
 
     rankingIndex = [("None",get_none),
                     ("Offensive Score",get_off_rank),
+                    ("Defensive Score",get_def_rank),
                     ("Total Score",get_tot_rank),
                     ("Auto Score",get_auto_rank),
-                    ("Auto Stack Score",get_auto_stack_rank),
-                    ("Auto Container Score",get_auto_container_rank),
-                    ("Auto Robot Score",get_auto_robot_rank),
+                    ("Auto Crosses Defences Score",get_Crosses_Defences_rank),
+                    ("Auto Boulders in Low Goal Score",get_Low_Goal_rank),
+                    ("Auto Boulders in High Goal Score",get_High_Goal_rank),
                     ("Tele Score",get_tele_rank),
-                    ("Tele Tote Score",get_tele_tote_rank),
-                    ("Tele Container Score",get_tele_container_rank),
-                    ("Tele Litter Score",get_tele_litter_rank),                     
+                    ("Tele Defences Damage Score",get_Defences_Damage_rank),
+                    ("Tele Boulders in Low Goal Score",get_tele_Low_Goal_rank),
+                    ("Tele Boulders in High Goal Score",get_tele_High_Goal_rank),
+                    ("Tele Times Challenge was Successful",get_post_Challenge_State_Successful_rank),
+                    ("Tele Times Scaling was Successful",get_post_Scale_State_Successful_rank),
+                    ("Weighted Score",get_w_rank),
+                    ("Offensive Weighthed Score",get_wo_rank),
+                    ("Defensive Weighted Score",get_wd_rank),
                     ("Foul Score",get_foul_rank)]
 
     sortOptions = [("Maximum","max"),("Average","avg"),("Minimum","min")]

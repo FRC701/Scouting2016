@@ -13,6 +13,8 @@ class _TeamInfo(object):
 
     def __init__(self):
         self.matches = []                   # list holding the matches the team was in
+        self.numOff = 0                     # the number of matches for which the team played offensively
+        self.numDef = 0                     # the number of matches for which the team played defensively
         self.noShow = 0                     # number of matches for which the team didn't show up
         
         self.autoHadAuto = 0                # number of matches for which the team had autonomous
@@ -24,6 +26,7 @@ class _TeamInfo(object):
         self.autoHigh = []
         self.autoOther = 0                  # number of matches for which the team did something else in auto
 
+        self.teleHadTele = 0
         self.teleLowBar = []
         self.telePortcullis = []
         self.teleChevaldeFrise = []
@@ -81,7 +84,11 @@ class _TeamScores(object):
 
     def __init__(self):
         self.oScores = []               # list holding offensive scores
+        self.dScores = []           # list holding defensive scores
         self.tScores = []               # list holding total scores
+        self.wScores = []           # list holding weighted  scores
+        self.woScores = []          # list holding weighted offensive scores
+        self.wdScores = []          # list holding weighted defensive scores
         self.autoScores = []            # list holding auto scores
         self.autoCrossesDefencesScores = []
         self.autoLowGoal = []
@@ -97,8 +104,16 @@ class _TeamScores(object):
     def get_maxmin_scores(self):
         self.maxOffScore = max(self.oScores)
         self.minOffScore = min(self.oScores)
+        self.maxDefScore = max(self.dScores)
+        self.minDefScore = min(self.dScores)
         self.maxTotalScore = max(self.tScores)
         self.minTotalScore = min(self.tScores)
+        self.maxWScore = max(self.wScores)
+        self.minWScore = min(self.wScores)
+        self.maxWOScore = max(self.woScores)
+        self.minWOScore = min(self.woScores)
+        self.maxWDScore = max(self.wdScores)
+        self.minWDScore = min(self.wdScores)
         self.maxAutoScore = max(self.autoScores)
         self.minAutoScore = min(self.autoScores)
         self.maxAutoCrossesDefencesScore = max(self.autoCrossesDefencesScores)
@@ -120,7 +135,7 @@ class _TeamScores(object):
         self.maxFoulScore = max(self.foulScores)
         self.minFoulScore = min(self.foulScores)
 
-    def get_avg_scores(self, matches=1, auto=0):
+    def get_avgOff_scores(self, matches=1, auto=0):
         self.avgOffScore = sum(self.oScores)/matches if matches else 0
         self.avgAutoScore = sum(self.autoScores)/auto if auto else 0
         self.avgAutoCrossessDefencesScore = sum(self.autoCrossesDefencesScore)/auto if auto else 0
@@ -134,6 +149,15 @@ class _TeamScores(object):
         self.avgPostScaleStateScore = sum(self.postScaleStateScore)/matches if matches else 0
         self.avgFoulScore = sum(self.foulScores)/matches if matches else 0
         self.avgTotalScore = sum(self.tScores)/matches if matches else 0
+        
+     def get_avgDef_scores(self, matches=1, defensive=0, assistive=0):
+        self.avgDefScore = sum(self.dScores)/matches if defensive else 0
+
+    def get_avgWeight_scores(self):
+        self.avgTotalScore = sum(self.tScores)/len(self.tScores) if len(self.tScores) else 0
+        self.avgWScore = sum(self.wScores)/len(self.wScores) if len(self.wScores) else 0
+        self.avgWOScore = sum(self.woScores)/len(self.woScores) if len(self.woScores) else 0
+        self.avgWDScore = sum(self.wdScores)/len(self.wdScores) if len(self.wdScores) else 0
 
     def getAttr(self, source):
         return getattr(self, source)
@@ -147,6 +171,7 @@ class TeamRankings(object):
 
     off_rank = []
     auto_rank = []
+    def_rank = []
     auto_Crosses_Defences_rank = []
     auto_Low_Goal_rank = []
     auto_High_Goal_rank = []
@@ -156,8 +181,13 @@ class TeamRankings(object):
     tele_High_Goal_rank = []
     post_Challenge_State_Successful = []
     post_Scale_State_Successful = []
+    w_rank = []
+    wo_rank = []
+    wd_rank = []
+    wa_rank = []
     foul_rank = []
     tot_rank = []
+    
     
     def __init__(self):
         print
@@ -189,13 +219,27 @@ class Team(object):
 
         # a few of the final details predefined so as to satisfy predictions with null teams
         self.avgOff = 0
+        self.avgDef = 0
         self.pOff = 0
-        
-    def get_details(self): # gets all of the information for the team
+        self.pDef = 0     
+
+def get_primary_details(self): # gets the offensive values of Team
         self.Info.get_info()
-        self.Scores.get_avg_scores(len(self.Info.matches),self.Info.autoHadAuto)
+        self.Scores.get_avgOff_scores(len(self.Info.matches),
+                                   self.Info.numOff,
+                                   self.Info.autoHadAuto, self.Info.teleHadTele)
+
+    def get_secondary_details(self): # gets the defensive values of the team
+        self.Info.get_info()
+        self.Scores.get_avgDef_scores(len(self.Info.matches),
+                                         self.Info.numDef)
+
+    def get_tertiary_details(self): # gets the max and min scores, etc. of the team
+        self.Scores.get_avgWeight_scores()
         self.Scores.get_maxmin_scores()
 
+
+    def get_final_details(self): # gets all of the information for the team
         matches = self.Info.matches
         self.numMatch = len(matches)
         self.pNoShow  = str(int(100*self.Info.noShow)/len(matches)) + "%"

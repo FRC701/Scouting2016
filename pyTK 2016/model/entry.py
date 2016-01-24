@@ -98,8 +98,9 @@ class Entry(object):
         self.entries.append(self)
     def sort(self):
         """Calculates basic scoring and information."""
-            
-        self.avgTeleBouldersInLowGoal = float(sum(self.teleBouldersInLowGoal))/float(len(self.teleBouldersInLowGoal)) if len(self.BouldersInLowGoal) else 0
+        self.avgAutoBouldersInLowGoal = float(sum(self.autoBouldersInLowGoal))/float(len(self.autoBouldersInLowGoal)) if len(self.autoBouldersInLowGoal) else 0
+        self.avgAutoBouldersInHighGoal = float(sum(self.autoBouldersInHighGoal))/float(len(self.autoBouldersInHighGoal)) if len(self.autoBouldersInHighGoal) else 0
+        self.avgTeleBouldersInLowGoal = float(sum(self.teleBouldersInLowGoal))/float(len(self.teleBouldersInLowGoal)) if len(self.teleBouldersInLowGoal) else 0
         self.avgTeleBouldersInHighGoal = float(sum(self.teleBouldersInHighGoal))/float(len(self.teleBouldersInHighGoal)) if len(self.teleBouldersInHighGoal) else 0
         self.avgTeleBouldersFromLowGoal = float(sum(self.teleBouldersFromLowGoal))/float(len(self.teleBouldersFromLowGoal)) if len(self.teleBouldersFromLowGoal) else 0
         self.avgTeleBouldersFromHighGoal = float(sum(self.teleBouldersFromHighGoal))/float(len(self.teleBouldersFromHighGoal)) if len(self.teleBouldersFromHighGoal) else 0
@@ -112,6 +113,8 @@ class Entry(object):
 
         self.autoCrossesDefencesScore = 10 if self.autoDefences1 >=1 and self.autoDefences2 = 0 elif self.autoDefences2 >= 1 and self.autoDefences = 0 else self.autoCrossesDefencesScore = 0
         self.autoCrossesDefencesScore = 20 if self.autoDefences1 >=1 and self.autoDefences2 >= 1 else self.autoCrossesDefencesScore = 0
+
+        self.avgAutoCrossesDefencesScore = float(sum(self.autoCrossesDefencesScore))/float(len(self.autoDefencesScore)) if len(self.autoDefencesScore) else 0
 
         self.autoLowGoal = (self.autoBouldersInLowGoal*5)
         self.autoHighGoal = (self.autoBouldersInHighGoal*10)
@@ -156,15 +159,26 @@ class Entry(object):
         
         self.teleDefencesDamageScore = (self.teleDC1 + self.teleDC2 + self.teleDC3 + self.teleDC4 + self.teleDC5)
 
-        self.teleLowGoal = (self.teleBouldersInlowGoal*2)
+        self.avgTeleDefencesDamageScore = float(sum(self.teleDefencesDamageScore))/float(len(self.teleDamageDamageScore)) if len(self.teleDefencesDamageScore)  else 0
+
+        self.teleLowGoal = (self.teleBouldersInLowGoal*2)
         self.teleHighGoal = (self.teleBouldersInHighGoal*5)
+
+        self.teleFromLowGoal = (self.teleBouldersFromLowGoal*2)
+        self.teleFromHighGoal = (self.teleBouldersFromHighGoal*5)
+
+        self.DefensiveScore = (self.teleFromLowGoal + self.teleFromHighGoal)
 
         self.postChallengeStateScore = 5 if self.postChallengeState = 2 else self.postChallengeStateScore = 0
         self.postScaleStateScore = 15 if self.postScaleState = 2 else self.postScaleStateScore = 0
         
         self.teleScore = (self.teleDefencesDamageScore + self.teleLowGoal + self.teleHighGoal + self.postChallengeStateScore + self.postScaleStateScore)
 
+        self.postChallengeStateScore = 0
+        self.postScaleStateScore = 0
+
         self.postChallengeStateScore = 5 if self.postChallengeState = 2 else self.postChallengeStateScore = 0
+        self.postScaleStateScore = 5 if self.postScaleState = 1 else self.postScaleStateScore = 0
         self.postScaleStateScore = 15 if self.postScaleState = 2 else self.postScaleStateScore = 0
 
         self.NotAttemptedC = True if self.postChallengeState = 0 else False
@@ -174,6 +188,9 @@ class Entry(object):
         self.NotAttemptedS = True if self.postScaleState = 0 else False
         self.AttemptedS = True if self.postScaleState = 1 else False 
         self.SuccessfulS = True if self.postScaleState = 2 else False
+
+        self.avgTeleChallengeStateSuccessful = float(sum(self.SuccessfulC))/float(len(self.postChallengeState)) if len(self.postChallengeState) else 0
+        self.avgTeleScaleStateSuccessful = float(sum(self.SuccesfulS))/float(len(self.postScaleState)) if len(self.postScaleState) else 0 
 
         self.scoredInAuto = True if self.autoScore > 0 else False
         self.scoredInTele = True if self.teleScore > 0 else False

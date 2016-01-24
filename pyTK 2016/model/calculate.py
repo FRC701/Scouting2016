@@ -31,16 +31,92 @@ def calculate_data():
 
             assign_team_values(newTeam,entry)
 
-    # get the rest of the information about each team
+   # get primary offensive information about the team
     for team in Team.team_list:
-        team.get_details()
+        team.get_primary_details()
+    
+    # get basic match data from the entries
+    for entry in Entry.entries:
+        done = False
+        for match in Match.matches:
+            if match.number == entry.match:
+                assign_basic_match_values(match, entry)
+
+                done = True
+        if done==False:
+            newMatch = Match(entry.match)
+            print "Added Match #: " + str(entry.match)
+            assign_basic_match_values(newMatch, entry)
+
+    # get defensive scores for each entry
+    for entry in Entry.entries:
+        if entry.defensive:
+            for match in Match.matches:
+                if match.number == entry.match:
+                    if entry.allianceColor == 0:
+                        oppOff = match.offScore1
+                        allOff = match.offScore0
+                        allDef = match.def0
+                    elif entry.allianceColor == 1:
+                        oppOff = match.offScore0
+                        allOff = match.offScore1
+                        allDef = match.def1
+        else:
+            oppOff = 0
+            allOff = 0
+            allDef = 0
+
+        entry.secondary_sort(oppOff,allOff,allDef)
+
+        # get total score for the entry
+        entry.tertiary_sort()
+
+    # get team defensive scores
+    for entry in Entry.entries:
+        for team in Team.team_list:
+            if team.number == entry.team:
+                team.Scores.dScores.append(entry.defensiveScore)
+    for team in Team.team_list:
+        team.get_secondary_details()
+
+    # get match defensive scores
+    for entry in Entry.entries:
+        for match in Match.matches:
+            if match.number == entry.match:
+                if entry.allianceColor == 0:
+                    match.defScore0 += entry.defensiveScore
+                elif entry.allianceColor == 1:
+                    match.defScore1 += entry.defensiveScore
+    # get match total scores
+    for match in Match.matches:
+        match.get_total()
+
+    # weight = (s[m]/(s[w]-s[1]))
+    for entry in Entry.entries:
+        for match in Match.matches:
+            if match.number == entry.match:
+                entry.wScore = abs(entry.totalScore/(match.total0 - match.total1)) if match.total0 != match.total1 else entry.totalScore
+                entry.woScore = abs(entry.offensiveScore/(match.offScore0 - match.offScore1)) if match.offScore0 != match.offScore1 else entry.offensiveScore
+                entry.wdScore = abs(entry.defensiveScore/(match.defScore0 - match.defScore1)) if match.defScore0 != match.defScore1 else entry.defensiveScore
+                    
+    # get team average, weighted, total, and max/min scores
+    for team in Team.team_list:
+        for entry in Entry.entries:
+            if entry.team == team.number:
+                team.Scores.wScores.append(entry.wScore)
+                team.Scores.woScores.append(entry.woScore)
+                team.Scores.wdScores.append(entry.wdScore)
+                team.Scores.tScores.append(entry.totalScore)
+
+        team.get_tertiary_details()
+        team.get_final_details()
 
 #------------------------------------------------------------------------------
 # assign_basic_team_values function
 #   -- assigns some basic values from an entry to a team
 #   -- still needs error handling
 #------------------------------------------------------------------------------
-def assign_team_values(team, entry):
+def assign_basic_team_values(team, entry):
     team.Info.matches.append(entry.match)
     team.Info.noShow += int(entry.noShow)
 
@@ -97,13 +173,32 @@ def assign_team_values(team, entry):
     team.Scores.teleDefencesDamageScore.append(entry.teleDefencesDamageScore)
     team.Scores.teleLowGoal.append(entry.teleLowGoal)
     team.Scores.teleHighGoal.append(entry.teleHighGoal)
-    #team.Scores.postChallengeStateScore.append(entry.postChallengeStateScore)
+    team.Scores.postChallengeStateScore.append(entry.postChallengeStateScore)
     team.Scores.postChallengeStateSuccessful.append(entry.SuccessfulC)
-    #team.Scores.postScaleStateScore.append(entry.postScaleStateScore)
+    team.Scores.postScaleStateScore.append(entry.postScaleStateScore)
     team.Scores.postScaleStateSuccessful.append(entry.SuccessfulS)
     team.Scores.foulScores.append(entry.foulScore)
     team.Scores.tScores.append(entry.totalScore)
-
+    
+#------------------------------------------------------------------------------
+# assign_basic_match_values function
+#   -- assigns some basic values from the entry to a match
+#   -- still needs error handling
+#------------------------------------------------------------------------------
+def assign_basic_match_values(match, entry):
+    match.teams.append(entry.team)
+    if entry.allianceColor == 0:
+        match.all0.append(entry.team)
+        match.offScore0 += entry.offensiveScore
+        match.off0 += int(entry.offensive)
+        match.def0 += int(entry.defensive)
+                    
+    elif entry.allianceColor == 1:
+        match.all1.append(entry.team)
+        match.offScore1 += entry.offensiveScore
+        match.off1 += int(entry.offensive)
+        match.def1 += int(entry.defensive)
+    
 #------------------------------------------------------------------------------
 # get_rank functions
 #   -- calculates rankings for avg, min, and max scores for each team
@@ -123,6 +218,25 @@ def get_off_rank(sort="avg",rev=True):
     TeamRankings.off_rank.sort(reverse=rev)
 
     return TeamRankings.off_rank
+
+def get_def_rank(sort="avg",rev=True):
+
+    TeamRankings.def_rank = []
+    
+    for team in Team.team_list:
+        if sort == "avg":
+            if team.Info.numDef > 0:
+                TeamRankings.def_rank.append([team.Scores.avgDefScore,team.number])
+        elif sort == "max":
+            if team.Info.numDef > 0:
+                TeamRankings.def_rank.append([team.Scores.maxDefScore,team.number])
+        elif sort == "min":
+            if team.Info.numDef > 0:
+                TeamRankings.def_rank.append([team.Scores.minDefScore,team.number])
+
+    TeamRankings.def_rank.sort(reverse=rev)
+
+    return TeamRankings.def_rank
 
 def get_auto_rank(sort="avg",rev=True):
 
@@ -280,6 +394,77 @@ def get_post_Challenge_State_Successful_rank(sort="avg",rev=False):
 
     return TeamRankings.post_Challenge_State_Successsful_rank
 
+def get_post_Scale_State_Successful_rank(sort="avg",rev=False):
+
+    TeamRankings.post_Scale_State_Successful_rank = []
+
+    for team in Team.team_list:
+        if sort == "avg":
+            TeamRankings.post_Scale_State_Successful_rank.append([team.Scores.avgPostScaleStateSuccessful,team.number])
+        elif sort == "max":
+            TeamRankings.post_Scale_State_Successsful_rank.append([team.Scores.maxPostScaleStateSuccessful, team.number])
+        elif sort == "min":
+            TeamRankings.post_Scale_State_Successsful_rank.append([team.Scores.minPostScaleStateSuccessful, team.number])
+
+    TeamRankings.post_Scale_State_Successsful_rank.sort(reverse=rev)
+
+    return TeamRankings.post_Scale_State_Successsful_rank
+
+def get_w_rank(sort="avg",rev=True):
+
+    TeamRankings.w_rank = []
+    
+    for team in Team.team_list:
+        if sort == "avg":
+                TeamRankings.w_rank.append([team.Scores.avgWScore,team.number])
+        elif sort == "max":
+                TeamRankings.w_rank.append([team.Scores.maxWScore,team.number])
+        elif sort == "min":
+                TeamRankings.w_rank.append([team.Scores.minWScore,team.number])
+
+    TeamRankings.w_rank.sort(reverse=rev)
+
+    return TeamRankings.w_rank
+
+def get_wo_rank(sort="avg",rev=True):
+
+    TeamRankings.wo_rank = []
+    
+    for team in Team.team_list:
+        if sort == "avg":
+            if team.Info.numOff > 0:
+                TeamRankings.wo_rank.append([team.Scores.avgWOScore,team.number])
+        elif sort == "max":
+            if team.Info.numOff > 0:
+                TeamRankings.wo_rank.append([team.Scores.maxWOScore,team.number])
+        elif sort == "min":
+            if team.Info.numOff > 0:
+                TeamRankings.wo_rank.append([team.Scores.minWOScore,team.number])
+
+    TeamRankings.wo_rank.sort(reverse=rev)
+
+    return TeamRankings.wo_rank
+
+def get_wd_rank(sort="avg",rev=True):
+
+    TeamRankings.wd_rank = []
+    
+    for team in Team.team_list:
+        if sort == "avg":
+            if team.Info.numDef > 0:
+                TeamRankings.wd_rank.append([team.Scores.avgWDScore,team.number])
+        elif sort == "max":
+            if team.Info.numDef > 0:
+                TeamRankings.wd_rank.append([team.Scores.maxWDScore,team.number])
+        elif sort == "min":
+            if team.Info.numDef > 0:
+                TeamRankings.wd_rank.append([team.Scores.minWDScore,team.number])
+
+    TeamRankings.wd_rank.sort(reverse=rev)
+
+    return TeamRankings.wd_rank
+
+
 def get_foul_rank(sort="avg",rev=False): # foul rank default from least points to most
 
     TeamRankings.foul_rank = []
@@ -320,16 +505,25 @@ def get_tot_rank(sort="avg",rev=True):
 #   -- calculates predicted alliance scores predicts match outcomes
 #------------------------------------------------------------------------------
 def predict_scores(team1=None,team2=None,team3=None):
+    pOff1 = float(team1.pOff.rstrip("%"))/100
+    pOff2 = float(team2.pOff.rstrip("%"))/100
+    pOff3 = float(team3.pOff.rstrip("%"))/100
+    pDef1 = float(team1.pDef.rstrip("%"))/100
+    pDef2 = float(team2.pDef.rstrip("%"))/100
+    pDef3 = float(team3.pDef.rstrip("%"))/100
+    pAst1 = float(team1.pAst.rstrip("%"))/100
+    pAst2 = float(team2.pAst.rstrip("%"))/100
+    pAst3 = float(team3.pAst.rstrip("%"))/100
     try:
-        # make each team a confidence internal over proportion means and use
-        # that confidence interval to calculate a total range of scores (from lowest
-        # theoretical to highest theoretical, then take the center of that
-        # total range and place it as the expected offensive score
-        offScore = (team1.avgOff+team2.avgOff+team3.avgOff)
+        offScore = ((team1.avgOff*pOff1)+(team2.avgOff*pOff2)+(team3.avgOff*pOff3))
+        defScore = ((team1.avgDef*pDef1)+(team2.avgDef*pDef2)+(team3.avgDef*pDef3))
+        astScore = ((team1.avgAst*pAst1)+(team2.avgAst*pAst2)+(team3.avgAst*pAst3))
     except:
         offScore = 0
+        defScore = 0
+        astScore = 0
 
-    expectedScores = [offScore]
+    expectedScores = [offScore, defScore, astScore]
 
     return expectedScores
 

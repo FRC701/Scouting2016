@@ -64,14 +64,18 @@ class Predict(Frame):
 
             if teamVals == self.rVals:
                 self.rOffScore.set("Expected Offensive Score: " + str(data[0]))
+                self.rDefScore.set("Expected Defensive Score: " + str(data[1]))
             elif teamVals == self.bVals:
                 self.bOffScore.set("Expected Offensive Score: " + str(data[0]))
+                self.bDefScore.set("Expected Defensive Score: " + str(data[1]))
 
         elif teamVals[0][0].get() == "0" or teamVals[1][0].get() == "0" or teamVals[2][0].get() == "0":
             if teamVals == self.rVals:
                 self.rOffScore.set("Expected Offensive Score: N/A")
+                self.rDefScore.set("Expected Defensive Score: N/A")
             elif teamVals == self.bVals:
                 self.bOffScore.set("Expected Offensive Score: N/A")
+                self.bDefScore.set("Expected Defensive Score: N/A")
             
             
     def create_AllianceOptions(self):
@@ -182,17 +186,25 @@ class Predict(Frame):
     def create_ScoreLabels(self):
         # Red Alliance
         self.rOffScore = StringVar()
+        self.rDefScore = StringVar()
         self.rOffScore.set("Expected Offensive Score: N/A")
+        self.rDefScore.set("Expected Defensive Score: N/A")
 
         self.rOffLabel = Label(self.redPrediction, textvariable=self.rOffScore,anchor=W)
         self.rOffLabel.pack(side=TOP,pady=5)
+        self.rDefLabel = Label(self.redPrediction, textvariable=self.rDefScore,anchor=W)
+        self.rDefLabel.pack(side=TOP,pady=5)
 
         # Blue Alliance
         self.bOffScore = StringVar()
+        self.bDefScore = StringVar()
         self.bOffScore.set("Expected Offensive Score: N/A")
+        self.bDefScore.set("Expected Defensive Score: N/A")
 
         self.bOffLabel = Label(self.bluePrediction, textvariable=self.bOffScore,anchor=W)
         self.bOffLabel.pack(side=TOP,pady=5)
+        self.bDefLabel = Label(self.bluePrediction, textvariable=self.bDefScore,anchor=W)
+        self.bDefLabel.pack(side=TOP,pady=5)
         
     def startup(self):
         

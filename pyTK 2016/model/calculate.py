@@ -15,7 +15,7 @@ from entry import *
 def calculate_data():
     
     for entry in Entry.entries:
-        entry.sort()
+        entry.primary_sort()
 
     # get basic team data from the entries
     for entry in Entry.entries:

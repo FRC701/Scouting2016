@@ -96,7 +96,7 @@ class Entry(object):
         index += 1
 
         self.entries.append(self)
-    def sort(self):
+    def primary_sort(self):
         """Calculates basic scoring and information."""
         self.avgAutoBouldersInLowGoal = float(sum(self.autoBouldersInLowGoal))/float(len(self.autoBouldersInLowGoal)) if len(self.autoBouldersInLowGoal) else 0
         self.avgAutoBouldersInHighGoal = float(sum(self.autoBouldersInHighGoal))/float(len(self.autoBouldersInHighGoal)) if len(self.autoBouldersInHighGoal) else 0
@@ -199,4 +199,15 @@ class Entry(object):
         self.offensiveScore = (self.autoScore + self.teleScore)
         self.foulScore = (5*self.postFouls + 5*self.postTechFoul)
 
-        self.totalScore = (self.offensiveScore - self.foulScore)
+        self.offensive = True if self.offensiveScore > 0 else False
+        self.defensive = self.postPlayedDefensively
+
+    def secondary_sort(self, oppOff, allOff, allDef):
+        # result = difference between offensive scores /
+        #          the number of defensive players
+        self.defensiveScore = (allOff-oppOff) / allDef / 2.0 if self.defensive else 0
+    def tertiary_sort(self):
+        """Calculates total scores."""
+        self.totalScore = (self.offensiveScore + self.defensiveScore 
+                           - self.foulScore)
+        self.totalTAScore = (self.offensiveScore + self.defensiveScore)

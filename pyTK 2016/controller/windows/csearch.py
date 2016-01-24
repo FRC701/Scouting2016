@@ -14,16 +14,14 @@ class SearchController():
     """Class that handles commands from the search window."""
 
     entryItemGenAuto = [("avgOff","Offensive Score >= "),
+                        ("avgDef","Defensive Score >= "),
                         ("avgTotal","Total Score >= "),
                         ("avgAutoScore","Auto Score >= "),
-                        ("avgAutoStackScore","Auto Tote-Stack Set Score >= "),
-                        ("avgAutoContainerScore","Auto Container Set Score >= "),
-                        ("avgAutoRobotScore","Auto Robot Set Score >= "),
-                        ("avgAutoTotesToZone","Auto Totes Brought to Zone >= "),
-                        ("avgAutoContainersToZone","Auto Containers Brought to Zone >= "),
-                        ("avgAutoContainersFromStep","Auto Containers Taken From Step >= "),
-                        ("avgAutoTotesFromStep","Auto Totes Taken From Step >= "),
-                        ("avgAutoStackTotalTotes","Auto Totes Contribued to Stack >= ")]
+                        ("avgAutoReachesDefencesScore","Auto Reaches Defences >= "),
+                        ("avgAutoCrossesDefencesScore","Auto Crosses Defences Score >= "),
+                        ("avgAutoLowGoalScore","Auto Boulders in Low Goal Score >= "),
+                        ("avgAutoHighGoalScore","Auto Boulders in High Goal Score >= "),
+                        
 
     entryItemTelePost = [("avgTeleScore","Tele Score >= "),
                          ("avgTeleToteScore","Tele Tote Score >= "),

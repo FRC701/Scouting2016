@@ -170,8 +170,8 @@ class TeamRankings(object):
     """Used to keep track of rankings for each team."""
 
     off_rank = []
-    auto_rank = []
     def_rank = []
+    auto_rank = []    
     auto_Crosses_Defences_rank = []
     auto_Low_Goal_rank = []
     auto_High_Goal_rank = []
@@ -179,12 +179,11 @@ class TeamRankings(object):
     tele_Defences_Damage_rank = []
     tele_Low_Goal_rank = []
     tele_High_Goal_rank = []
-    post_Challenge_State_Successful = []
-    post_Scale_State_Successful = []
+    post_Challenge_State_Successful_rank = []
+    post_Scale_State_Successful_rank = []
     w_rank = []
     wo_rank = []
     wd_rank = []
-    wa_rank = []
     foul_rank = []
     tot_rank = []
     

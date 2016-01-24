@@ -120,6 +120,8 @@
 
     <string name="pit_scout_question_1">Test</string>
     <string name="pit_scout_question_2">Test</string>
+
     <string name="text_bouldersBlockedFromLowGoal">Boulders Bocked From Scoring in Low Goal</string>
     <string name="text_bouldersBlockedFromHighGoal">Boulders Blocked from Scoring in High Goal</string>
+
 </resources>

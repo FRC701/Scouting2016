@@ -57,7 +57,7 @@ def parse_data(info):
             new += str(character)
         else:  
             try:
-                data.append(float(new))
+                data.append(new)
                 new=""
             except:
                 break

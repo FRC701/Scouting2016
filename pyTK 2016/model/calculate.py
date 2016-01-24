@@ -45,35 +45,41 @@ def assign_team_values(team, entry):
     team.Info.noShow += int(entry.noShow)
 
     team.Info.autoHadAuto += int(entry.autoHadAuto)
-    team.Info.autoTotesToZone.append(float(entry.autoTotesToZone))
-    team.Info.autoContainersToZone.append(float(entry.autoContainersToZone))
-    team.Info.autoContainersFromStep.append(float(entry.autoContainersFromStep))
-    team.Info.autoTotesFromStep.append(float(entry.autoTotesFromStep))
-    team.Info.autoStackTotalTotes.append(float(entry.autoStackTotalTotes))
-    team.Info.autoEndInZone += int(entry.autoEndInZone)
+    team.Info.autoReachesDefences += int (entry.autoReacheesDefences)
+    team.Info.autoReachesDefences.append(float(entry.autoReachesDefencesScore))
+    team.Info.autoCrossesDefences += int (entry.autoReachesDefences)
+    team.Info.autoCrossesdefencesScore.append(float(entry.autoCrosssesDefencesScore))
+    team.Info.autoLowGoal.append(float(entry.autoLowGoal))
+    team.Info.autoHighGoal.append(float(entry.autoHighGoal))
     team.Info.autoOther += int(entry.autoOther)
 
-    team.Info.teleStackTotes.append(float(entry.avgTeleStackTotes))
-    team.Info.teleStepStackTotes.append(float(entry.avgTeleStepStackTotes))
-    team.Info.teleStackHeights.append(float(entry.avgTeleStackHeights))
-    team.Info.teleStepStackHeights.append(float(entry.avgTeleStepStackHeights))
-    team.Info.teleStackContainers.append(float(entry.avgTeleStackContainers))
-    team.Info.teleStackContainerHeights.append(float(entry.avgTeleStackContainerHeights))
-    team.Info.teleStackLitter.append(float(entry.avgTeleStackLitter))
-    team.Info.teleStackKnockedOver.append(float(entry.avgTeleStackKnockedOver))
-    team.Info.teleStepStackKnockedOver.append(float(entry.avgTeleStackKnockedOver))
-    team.Info.teleStacksScored.append(float(entry.teleStacksScored))
-    team.Info.teleStepStacksScored.append(float(entry.teleStepStacksScored))
+    team.Info.teleLowBar.append(float(entry.teleLowBarDamage))
+    team.Info.telePortcullis.append(float(entry.telePortcullisDamage))
+    team.Info.teleChevaldeFrise.append(float(entry.teleChevaldeFriseDamage))
+    team.Info.teleMoat.append(float(entry.teleMoatDamage))
+    team.Info.teleRamparts.append(float(entry.teleRampartsDamage))
+    team.Info.teleDrawbridge.append(float(entry.teleDrawbridgeDamage))
+    team.Info.teleSallyPort.append(float(entry.teleSallyPortDamage))
+    team.Info.teleRockWall.append(float(entry.teleRockWallDamage))
+    team.Info.teleRoughTerrain.append(float(entry.teleRoughTerrainDamage))
+    team.Info.teleDefencesDamageScore.append(float(entry.teleDefencesDamageScore))
 
-    team.Info.teleTotesFromChute.append(float(entry.teleTotesFromChute))
-    team.Info.teleLitterFromChute.append(float(entry.teleLitterFromChute))
-    team.Info.teleTotesFromLandfill.append(float(entry.teleTotesFromLandfill))
-    team.Info.teleLitterToLandfill.append(float(entry.teleLitterToLandfill))
+    team.Info.teleLowGoal.append(float(entry.teleLowGoal))
+    team.Info.teleHighGoal.append(float(entry.teleHighGoal))
 
     team.Info.postFouls.append(float(entry.postFouls))
+    team.Info.postTechFouls.sppend(float(entry.postTechFoals))
     team.Info.postRedCard += int(entry.postRedCard)
     team.Info.postYellowCard += int(entry.postYellowCard)
     team.Info.postDisabled += int(entry.postDisabled)
+    team.Info.postPlayedDefensively += int(entry.postPlayedDefensively)
+    team.Info.postCapture += int(entry.postCapture)
+    team.Info.postBreached += int (entry.postBreached)
+    team.Info.postChallengeStateScore.append(float(entry.postChallengeStateScore))
+    team.Info.NotAttemptedC += int (entry.NotAttempedC)
+    team.Info.AttemptedC += int (entry.AttemptedC)
+    team.Info.SuccessfulC += int (entry.SuccessfulC)
+    team.Info.postScaleStateScore.append(float(entry.postScaleStateScore))
 
     team.Info.scoredInTele += int(entry.scoredInTele)
     team.Info.scoredInAuto += int(entry.scoredInAuto)
@@ -81,13 +87,15 @@ def assign_team_values(team, entry):
 
     team.Scores.oScores.append(entry.offensiveScore)
     team.Scores.autoScores.append(entry.autoScore)
-    team.Scores.autoStackScores.append(entry.autoStackScore)
-    team.Scores.autoContainerScores.append(entry.autoContainerScore)
-    team.Scores.autoRobotScores.append(entry.autoRobotScore)
+    team.Scores.autoCrossesDefencesScore.append(entry.autoCrossesDefencesScore)
+    team.Scores.autoLowGoal.append(entry.autoLowGoal)
+    team.Scores.autoHighGoal.append(entry.autoHighGoal)
     team.Scores.teleScores.append(entry.teleScore)
-    team.Scores.teleToteScores.append(entry.teleToteScore)
-    team.Scores.teleContainerScores.append(entry.teleContainerScore)
-    team.Scores.teleLitterScores.append(entry.teleLitterScore)
+    team.Scores.teleDefencesDamageScore.append(entry.teleDefencesDamageScore)
+    team.Scores.teleLowGoal.append(entry.teleLowGoal)
+    team.Scores.teleHighGoal.append(entry.teleHighGoal)
+    team.Scores.postChallengeStateScore.append(entry.postChallengeStateScore)
+    team.Scores.postScaleStateScore.append(entry.postScaleStateScore)
     team.Scores.foulScores.append(entry.foulScore)
     team.Scores.tScores.append(entry.totalScore)
 
@@ -130,24 +138,24 @@ def get_auto_rank(sort="avg",rev=True):
 
     return TeamRankings.auto_rank
 
-def get_auto_stack_rank(sort="avg",rev=True):
+def get_auto_Crosses_Defence_rank(sort="avg",rev=True):
 
-    TeamRankings.auto_stack_rank = []
+    TeamRankings.auto_Crosses_Defence_rank = []
     
     for team in Team.team_list:
         if sort == "avg":
             if team.Info.autoHadAuto > 0:
-                TeamRankings.auto_stack_rank.append([team.Scores.avgAutoStackScore,team.number])
+                TeamRankings.auto_Crosses_Defences_rank.append([team.Scores.avgCrossesDefencesScore,team.number])
         elif sort == "max":
             if team.Info.autoHadAuto > 0:
-                TeamRankings.auto_stack_rank.append([team.Scores.maxAutoStackScore,team.number])
+                TeamRankings.auto_Crosses_Defences_rank.append([team.Scores.maxCrossesDefencesScore,team.number])
         elif sort == "min":
             if team.Info.autoHadAuto > 0:
-                TeamRankings.auto_stack_rank.append([team.Scores.minAutoStackScore,team.number])
+                TeamRankings.auto_Crosses_Defences_rank.append([team.Scores.minCrossesDefencesScore,team.number])
 
-    TeamRankings.auto_stack_rank.sort(reverse=rev)
+    TeamRankings.auto_Crosses_Defences_rank.sort(reverse=rev)
 
-    return TeamRankings.auto_stack_rank
+    return TeamRankings.auto_Crosses_Defences_rank
 
 def get_auto_container_rank(sort="avg",rev=True):
 

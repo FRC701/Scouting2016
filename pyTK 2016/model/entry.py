@@ -111,8 +111,11 @@ class Entry(object):
 
         self.autoCrossesDefencesScore = 0
 
-        self.autoCrossesDefencesScore = 10 if self.autoDefences1 >=1 and self.autoDefences2 = 0 elif self.autoDefences2 >= 1 and self.autoDefences = 0 else self.autoCrossesDefencesScore = 0
-        self.autoCrossesDefencesScore = 20 if self.autoDefences1 >=1 and self.autoDefences2 >= 1 else self.autoCrossesDefencesScore = 0
+        if self.autoDefences1 >= 1 and self.autoDefences2 == 0:
+             self.autoCrossesDefencesScore = 10
+        elif self.autoDefences2 >= 1 and self.autoDefences == 0:
+             self.autoCrossesDefencesScore = 10
+        self.autoCrossesDefencesScore = 20 if self.autoDefences1 >= 1 and self.autoDefences2 >= 1 else 0
 
         self.avgAutoCrossesDefencesScore = float(sum(self.autoCrossesDefencesScore))/float(len(self.autoDefencesScore)) if len(self.autoDefencesScore) else 0
 
@@ -125,30 +128,30 @@ class Entry(object):
 
         self.telePortcullisDamage = 0
         self.teleChevaldeFriseDamage = 0
-        if self.teleDefences1 = "Portcullis":
+        if self.teleDefences1 == "Portcullis":
             self.telePortcullisDamage = self.teleDamageCounter2
-        elif self.teleDefences1 = "Cheval de Frise":
+        elif self.teleDefences1 == "Cheval de Frise":
             self.teleChevaldeFriseDamage = self.teleDamageCounter2
 
         self.teleMoatDamage = 0
         self.teleRampartsDamage = 0
-        if self.teleDefences2 = "Moat":
+        if self.teleDefences2 == "Moat":
             self.teleMoatDamage = self.teleDamageCounter3
-        elif self.teleDefences2 = "Rmaparts":
+        elif self.teleDefences2 == "Rmaparts":
             self.teleRampartsDamage = self.teleDamageCounter3
             
         self.teleDrawbridgeDamage = 0
         self.teleSallyPortDamage = 0
-        if self.teleDefences3 = "Drawbridge":
+        if self.teleDefences3 == "Drawbridge":
             self.teleDrawbridgeDamage = self.teleDamageCounter4
-        elif self.teleDefences4 = "Sally Port":
+        elif self.teleDefences4 == "Sally Port":
             self.teleSallyPortDamage = self.teleDamageCounter4
 
         self.teleRockWallDamage = 0
         self.teleRoughTerrain = 0
-        if self.Defences4 = "Rock Wall":
+        if self.Defences4 == "Rock Wall":
             self.teleRockWallDamage = self.teleDamageCounter5
-        elif self.Defences4 = "Rough Terrain":
+        elif self.Defences4 == "Rough Terrain":
             self.teleRoughTerrainDamage = self.teleDamageCounter5
         
         self.teleDC1 = (self.teleDamageCounter1*5) 
@@ -177,17 +180,17 @@ class Entry(object):
         self.postChallengeStateScore = 0
         self.postScaleStateScore = 0
 
-        self.postChallengeStateScore = 5 if self.postChallengeState = 2 else self.postChallengeStateScore = 0
-        self.postScaleStateScore = 5 if self.postScaleState = 1 else self.postScaleStateScore = 0
-        self.postScaleStateScore = 15 if self.postScaleState = 2 else self.postScaleStateScore = 0
+        self.postChallengeStateScore = 5 if self.postChallengeState == 2 else 0
+        self.postScaleStateScore = 5 if self.postScaleState == 1 else 0
+        self.postScaleStateScore = 15 if self.postScaleState == 2 else 0
 
-        self.NotAttemptedC = True if self.postChallengeState = 0 else False
-        self.AttemptedC = True if self.postChallenState = 1 else False
-        self.SuccessfulC = True if self.postChallenState = 2 else False
+        self.NotAttemptedC = True if self.postChallengeState == 0 else False
+        self.AttemptedC = True if self.postChallenState == 1 else False
+        self.SuccessfulC = True if self.postChallenState == 2 else False
 
-        self.NotAttemptedS = True if self.postScaleState = 0 else False
-        self.AttemptedS = True if self.postScaleState = 1 else False 
-        self.SuccessfulS = True if self.postScaleState = 2 else False
+        self.NotAttemptedS = True if self.postScaleState == 0 else False
+        self.AttemptedS = True if self.postScaleState == 1 else False 
+        self.SuccessfulS = True if self.postScaleState == 2 else False
 
         self.avgTeleChallengeStateSuccessful = float(sum(self.SuccessfulC))/float(len(self.postChallengeState)) if len(self.postChallengeState) else 0
         self.avgTeleScaleStateSuccessful = float(sum(self.SuccesfulS))/float(len(self.postScaleState)) if len(self.postScaleState) else 0 

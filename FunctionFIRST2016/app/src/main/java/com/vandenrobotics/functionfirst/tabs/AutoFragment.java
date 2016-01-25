@@ -191,8 +191,6 @@ public class AutoFragment extends Fragment implements AdapterView.OnItemSelected
     private void enableAutoViews(){
         reachesDefences.setEnabled(true);
         crossesDefences.setEnabled(true);
-        Defences1.setEnabled(true);
-        Defences2.setEnabled(true);
         bouldersInLowGoal.setEnabled(true);
         bouldersInHighGoal.setEnabled(true);
         /*for(ToggleButton tb : autoStack){

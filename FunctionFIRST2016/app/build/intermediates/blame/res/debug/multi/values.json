@@ -5964,11 +5964,11 @@
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 123,
+                        "startLine": 124,
                         "startColumn": 4,
-                        "startOffset": 7022,
+                        "startOffset": 7024,
                         "endColumn": 103,
-                        "endOffset": 7121
+                        "endOffset": 7123
                     }
                 }
             },
@@ -5983,11 +5983,11 @@
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 122,
+                        "startLine": 123,
                         "startColumn": 4,
-                        "startOffset": 6920,
+                        "startOffset": 6922,
                         "endColumn": 100,
-                        "endOffset": 7016
+                        "endOffset": 7018
                     }
                 }
             },

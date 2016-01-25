@@ -257,9 +257,9 @@ def get_auto_rank(sort="avg",rev=True):
 
     return TeamRankings.auto_rank
 
-def get_auto_Crosses_Defence_rank(sort="avg",rev=True):
+def get_auto_Crosses_Defences_rank(sort="avg",rev=True):
 
-    TeamRankings.auto_Crosses_Defence_rank = []
+    TeamRankings.auto_Crosses_Defences_rank = []
     
     for team in Team.team_list:
         if sort == "avg":
@@ -330,21 +330,21 @@ def get_tele_rank(sort="avg",rev=True):
 
     return TeamRankings.tele_rank
 
-def get_tele_Defences_Damage_Score_rank(sort="avg",rev=True):
+def get_tele_Defences_Damage_rank(sort="avg",rev=True):
 
-    TeamRankings.tele_Defences_Damage_Score_rank = []
+    TeamRankings.tele_Defences_Damage_rank = []
 
     for team in Team.team_list:
         if sort == "avg":
-            TeamRankings.tele_Defences_Damage_Score_rank.append([team.Scores.avgTeleDefencesDamageScore,team.number])
+            TeamRankings.tele_Defences_Damage_rank.append([team.Scores.avgTeleDefencesDamageScore,team.number])
         elif sort == "max":
-            TeamRankings.tele_Defences_Damage_Score_rank.append([team.Scores.maxTeleDefencesDamageScore,team.number])
+            TeamRankings.tele_Defences_Damage_rank.append([team.Scores.maxTeleDefencesDamageScore,team.number])
         elif sort == "min":
-            TeamRankings.tele_Defences_Damage_Score_rank.append([team.Scores.minTeleDefencesDamageScore,team.number])
+            TeamRankings.tele_Defences_Damage_rank.append([team.Scores.minTeleDefencesDamageScore,team.number])
 
-    TeamRankings.tele_Defences_Damage_Score_rank.sort(reverse=rev)
+    TeamRankings.tele_Defences_Damage_rank.sort(reverse=rev)
 
-    return TeamRankings.tele_Defences_Damage_Score_rank
+    return TeamRankings.tele_Defences_Damage_rank
 
 def get_tele_Low_Goal_rank(sort="avg",rev=True):
 

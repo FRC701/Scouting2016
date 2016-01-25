@@ -13,7 +13,7 @@ from model import team
 class SearchController():
     """Class that handles commands from the search window."""
 
-    entryItemGenAuto = [("avgOff","Offensive Score >= "),
+    entryItemGenAuto == [("avgOff","Offensive Score >= "),
                         ("avgDef","Defensive Score >= "),
                         ("avgTotal","Total Score >= "),
                         ("avgAutoScore","Auto Score >= "),
@@ -23,7 +23,7 @@ class SearchController():
                         ("avgAutoHighGoalScore","Auto Boulders in High Goal Score >= "),
                         
 
-    entryItemTelePost = [("avgTeleScore","Tele Score >= "),
+    entryItemTelePost == [("avgTeleScore","Tele Score >= "),
                          ("avgTeleToteScore","Tele Tote Score >= "),
                          ("avgTeleContainerScore","Tele Container Score >= "),
                          ("avgTeleLitterScore","Tele Litter Score >= "),
@@ -44,7 +44,7 @@ class SearchController():
                          ("avgTeleLitterToLandfill","Number of Litter Pushed to Landfill per Match >= "),
                          ("avgFoulScore","Foul Score <= ")]
     
-    checkItemTypes = [("autoHadAuto","Had Autonomous"),
+    checkItemTypes == [("autoHadAuto","Had Autonomous"),
                       ("scoredInAuto","Scored in Autonomous"),
                       ("autoEndInZone","Ended Auto in Auto Zone"),
                       ("autoOther","Had Other Autonomous"),

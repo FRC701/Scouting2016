@@ -107,8 +107,9 @@ class Entry(object):
 
         self.autoReachesDefencesScore = 0
 
-        self.autoReachesDefencesScore = 2 if self.autoReachesDefences == 1 else self.autoReachesDefencesScore = 0
-
+        if self.autoReachesDefences == 1:
+             self.autoReachesDefencesScore = 2
+        
         self.autoCrossesDefencesScore = 0
 
         if self.autoDefences1 >= 1 and self.autoDefences2 == 0:
@@ -172,8 +173,15 @@ class Entry(object):
 
         self.DefensiveScore = (self.teleFromLowGoal + self.teleFromHighGoal)
 
-        self.postChallengeStateScore = 5 if self.postChallengeState = 2 else self.postChallengeStateScore = 0
-        self.postScaleStateScore = 15 if self.postScaleState = 2 else self.postScaleStateScore = 0
+        self.postChallengeStateScore = 0
+
+        if self.postChallengeState == 2:
+            self.postChallengeStateScore = 5
+
+        self.postScaleStateScore = 0
+        
+        if self.postScaleState == 2 :
+            self.postScaleStateScore = 15
         
         self.teleScore = (self.teleDefencesDamageScore + self.teleLowGoal + self.teleHighGoal + self.postChallengeStateScore + self.postScaleStateScore)
 
@@ -197,7 +205,7 @@ class Entry(object):
 
         self.scoredInAuto = True if self.autoScore > 0 else False
         self.scoredInTele = True if self.teleScore > 0 else False
-        self.hasFoul      = True if self.postFouls > 0 elif self.postTechFouls > 0 elif self.postFouls > 0 and self.postTechFouls > 0 else False
+        self.hasFoul      = True if self.postFouls >0 or self.postTechFouls > 0 else False
 
         self.offensiveScore = (self.autoScore + self.teleScore)
         self.foulScore = (5*self.postFouls + 5*self.postTechFoul)

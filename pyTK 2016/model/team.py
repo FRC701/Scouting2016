@@ -150,7 +150,7 @@ class _TeamScores(object):
         self.avgFoulScore = sum(self.foulScores)/matches if matches else 0
         self.avgTotalScore = sum(self.tScores)/matches if matches else 0
         
-     def get_avgDef_scores(self, matches=1, defensive=0, assistive=0):
+    def get_avgDef_scores(self, matches=1, defensive=0):
         self.avgDefScore = sum(self.dScores)/matches if defensive else 0
 
     def get_avgWeight_scores(self):
@@ -222,7 +222,7 @@ class Team(object):
         self.pOff = 0
         self.pDef = 0     
 
-def get_primary_details(self): # gets the offensive values of Team
+    def get_primary_details(self): # gets the offensive values of Team
         self.Info.get_info()
         self.Scores.get_avgOff_scores(len(self.Info.matches),
                                    self.Info.numOff,
@@ -259,7 +259,7 @@ def get_primary_details(self): # gets the offensive values of Team
         self.pTelePortcullis = str(int(100*self.Info.telePortcullis)/int(self.Scores.teleDefencesDamageScore/5)) + "%"
         self.pTeleChevaldeFrise = str(int(100*self.Info.teleChevaldeFrise)/int(self.Scores.teleDefencesDamageScore/5)) + "%"
         self.pTeleMoat = str(int(100*self.Info.tele)/int(self.Scores.teleDefencesDamageScore/5)) + "%"
-        self.pTeleRamparts = str(int(100*self.Info.teleRamparts)/int(self.Scores.teleDefencesDamageScore/5)) + "%"
+        self.pTeleRamparts = str(int(100*self.Info.teleRamparts)/int(self.Scores.teleDefencesDamageScore/5)) + "%"
         self.pTeleDrawbridge = str(int(100*self.Info.teleDrawbridge)/int(self.Scores.teleDefencesDamageScore/5)) + "%"
         self.pTeleSallyPort = str(int(100*self.Info.teleSallyPort)/int(self.Scores.teleDefencesDamageScore/5)) + "%"
         self.pTeleRoughTerrain = str(int(100*self.Info.teleRoughTerrain)/int(self.Scores.teleDefencesDamageScore/5)) + "%"

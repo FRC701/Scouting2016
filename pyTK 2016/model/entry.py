@@ -33,9 +33,9 @@ class Entry(object):
         index += 1
         self.autoCrossesDefences = bool(int(data[index]))
         index += 1
-        self.autoDefences1 = int(data[index]))
+        self.autoDefences1 = int(data[index])
         index += 1
-        self.autoDefences2 = int(data[index]))
+        self.autoDefences2 = int(data[index])
         index += 1
         self.autoBouldersInLowGoal = float(data[index])
         index += 1
@@ -45,33 +45,33 @@ class Entry(object):
         
 
         # tele-op data
-        self.teleLowBar = str(data[index]))
+        self.teleLowBar = str(data[index])
         index +=1
-        self.teleDamageCounter1 = float(data[index]))
+        self.teleDamageCounter1 = float(data[index])
         index +=1
-        self.teleDefences1 = str(data[index]))
+        self.teleDefences1 = str(data[index])
         index +=1
-        self.teleDamageCounter2 = float(data[index]))
+        self.teleDamageCounter2 = float(data[index])
         index +=1
-        self.teleDefences2 = str(data[index]))
+        self.teleDefences2 = str(data[index])
         index +=1
-        self.teleDamageCounter3 = float(data[index]))
+        self.teleDamageCounter3 = float(data[index])
         index +=1
-        self.teleDefences3 = str(data[index]))
+        self.teleDefences3 = str(data[index])
         index +=1
-        self.teleDamageCounter4 = float(data[index]))
+        self.teleDamageCounter4 = float(data[index])
         index +=1
-        self.teleDefences4 = str(data[index]))
+        self.teleDefences4 = str(data[index])
         index +=1
-        self.teleDamageCounter5 = float(data[index]))
+        self.teleDamageCounter5 = float(data[index])
         index +=1
-        self.teleBouldersInLowGoal = float(data[index]))
+        self.teleBouldersInLowGoal = float(data[index])
         index +=1
-        self.teleBouldersInHighGoal = float(data[index]))
+        self.teleBouldersInHighGoal = float(data[index])
         index +=1
-        self.teleBouldersFromLowGoal = float(data[index]))
+        self.teleBouldersFromLowGoal = float(data[index])
         index +=1
-        self.teleBouldersFromHighGoal = float(data[index]))
+        self.teleBouldersFromHighGoal = float(data[index])
          
         # post data
         self.postFouls = float(data[index])
@@ -90,9 +90,9 @@ class Entry(object):
         index += 1
         self.postBreached = bool(int(data[index]))
         index += 1
-        self.postChallengeState = int(data[index]))
+        self.postChallengeState = int(data[index])
         index += 1
-        self.postScaleState = int(data[index]))
+        self.postScaleState = int(data[index])
         index += 1
 
         self.entries.append(self)
@@ -107,7 +107,7 @@ class Entry(object):
 
         self.autoReachesDefencesScore = 0
 
-        self.autoReachesDefencesScore = 2 if self.autoReachesDefences = 1 else self.autoReachesDefencesScore = 0
+        self.autoReachesDefencesScore = 2 if self.autoReachesDefences == 1 else self.autoReachesDefencesScore = 0
 
         self.autoCrossesDefencesScore = 0
 

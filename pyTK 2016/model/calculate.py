@@ -319,7 +319,7 @@ def get_tele_rank(sort="avg",rev=True):
     TeamRankings.tele_rank = []
 
     for team in Team.team_list:
-        if sort == "avg":s
+        if sort == "avg":
             TeamRankings.tele_rank.append([team.Scores.avgTeleScore,team.number])
         elif sort == "max":
             TeamRankings.tele_rank.append([team.Scores.maxTeleScore,team.number])

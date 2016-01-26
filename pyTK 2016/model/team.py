@@ -257,13 +257,21 @@ class Team(object):
         
         self.avgTeleScore = round(self.Scores.avgTeleScore,2)
         self.pTelePortcullis = str(int(100*self.Info.telePortcullis)/int(self.Scores.teleDefencesDamageScore/5)) + "%"
+        self.pTelePortcullisM = str(int(100*self.Info.telePortcullis)/len(matches)) + "%"
         self.pTeleChevaldeFrise = str(int(100*self.Info.teleChevaldeFrise)/int(self.Scores.teleDefencesDamageScore/5)) + "%"
+        self.pTeleChevaldeFriseM = str(int(100*self.Info.teleChevaldeFrise)/len(matches)) + "%"
         self.pTeleMoat = str(int(100*self.Info.tele)/int(self.Scores.teleDefencesDamageScore/5)) + "%"
+        self.pTeleMoatM = str(int(100*self.Info.teleMoat)/len(matches)) + "%"
         self.pTeleRamparts = str(int(100*self.Info.teleRamparts)/int(self.Scores.teleDefencesDamageScore/5)) + "%"
+        self.pTeleRampartsM = str(int(100*self.Info.teleRamparts)/len(matches)) + "%"
         self.pTeleDrawbridge = str(int(100*self.Info.teleDrawbridge)/int(self.Scores.teleDefencesDamageScore/5)) + "%"
+        self.pTeleDrawbridgeM = str(int(100*self.Info.teleDrawbridge)/len(matches)) + "%"
         self.pTeleSallyPort = str(int(100*self.Info.teleSallyPort)/int(self.Scores.teleDefencesDamageScore/5)) + "%"
+        self.pTeleSallyPortM = str(int(100*self.Info.teleSallyPort)/len(matches)) + "%"
         self.pTeleRoughTerrain = str(int(100*self.Info.teleRoughTerrain)/int(self.Scores.teleDefencesDamageScore/5)) + "%"
+        self.pTeleRoughTerrainM = str(int(100*self.Info.teleRoughTerrain)/len(matches)) + "%"
         self.pTeleRockWall = str(int(100*self.Info.teleRockWall)/int(self.Scores.teleDefencesDamageScore/5)) + "%"
+        self.pTeleRockWallM = str(int(100*self.Info.teleRockWall)/len(matches)) + "%"
         self.avgTeleDefencesDamageScore = round(self.Scores.avgTeleDefencesDamageScore, 2)
         self.avgTeleLowGoal = round(self.Scores.avgTeleLowGoal,2)
         self.avgTeleHighGoal = round(self.Scores.avgTeleHighGoal,2)

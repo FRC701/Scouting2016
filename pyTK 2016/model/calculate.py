@@ -7,6 +7,7 @@ from statlib import stats
 
 from team import *
 from entry import *
+from match import *
 
 #------------------------------------------------------------------------------
 # calculate_data function

@@ -2,7 +2,6 @@
 # entry module
 #   -- makes sense of the data collected
 #------------------------------------------------------------------------------
-from stack import *
 
 #------------------------------------------------------------------------------
 # Entry class
@@ -24,6 +23,7 @@ class Entry(object):
         self.allianceColor = int(data[index])
         index += 1
         self.noShow = bool(int(data[index]))
+        index += 1
         
         
         # autonomous data
@@ -42,7 +42,7 @@ class Entry(object):
         self.autoBouldersInHighGoal = float(data[index])
         index += 1
         self.autoOther = bool(int(data[index]))
-        
+        index += 1
 
         # tele-op data
         self.teleLowBar = str(data[index])
@@ -72,6 +72,7 @@ class Entry(object):
         self.teleBouldersFromLowGoal = float(data[index])
         index +=1
         self.teleBouldersFromHighGoal = float(data[index])
+        index +=1 
          
         # post data
         self.postFouls = float(data[index])
@@ -93,7 +94,7 @@ class Entry(object):
         self.postChallengeState = int(data[index])
         index += 1
         self.postScaleState = int(data[index])
-        index += 1
+        
 
         self.entries.append(self)
     def primary_sort(self):

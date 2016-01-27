@@ -21,9 +21,11 @@ class PredictController():
                        "Alliance 7","Alliance 8"]
     
     predictIndex = [("avgOff","O-Scr"),
+                    ("avgDef","D-Scr"),
                     ("avgTotal","T-Scr"),
                     ("pHadAuto","Auto %"),
                     ("avgAutoScore","A-Scr"),
+                    ("avgAutoReachesDefencesScore","A-Rd-Scr"),
                     ("avgAutoCrossesDefencesScore","A-Cd-Scr"),
                     ("avgAutoBouldersInLowGoal","A-Bilg-Scr"),
                     ("avgAutoBouldersInHighGoal","A-Bihg-Scr"),

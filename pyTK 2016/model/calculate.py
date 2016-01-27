@@ -167,6 +167,7 @@ def assign_basic_team_values(team, entry):
 
     team.Scores.oScores.append(entry.offensiveScore)
     team.Scores.autoScores.append(entry.autoScore)
+    team.Scores.autoReachesDefencesScores.append(entry.autoReachesDefencesScores)
     team.Scores.autoCrossesDefencesScore.append(entry.autoCrossesDefencesScore)
     team.Scores.autoLowGoal.append(entry.autoLowGoal)
     team.Scores.autoHighGoal.append(entry.autoHighGoal)

@@ -16,11 +16,11 @@ class Entry(object):
     def __init__(self, data):
         # general info
         index = 0
-        self.match = int(data[index])
+        self.match = str(data[index])
         index += 1
-        self.team = int(data[index])
+        self.team = str(data[index])
         index += 1
-        self.allianceColor = int(data[index])
+        self.allianceColor = str(data[index])
         index += 1
         self.noShow = bool(int(data[index]))
         index += 1

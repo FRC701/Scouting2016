@@ -1,0 +1,5 @@
+1,399,0,0$true,false,true,0,4,1,0,false$Low Bar,0,Cheval de Frise,1,Ramparts,0,Drawbridge,2,Rock Wall,0,0,3,0,0$2,0,0,0,0,0,0,0,0,0
+2,701,0,0$true,false,true,9,0,0,2,false$Low Bar,2,Cheval de Frise,2,Ramparts,2,Sally Port,1,Rock Wall,2,4,5,0,0$0,0,0,0,0,0,1,1,2,2
+3,399,0,0$false,false,false,0,0,0,0,false$Low Bar,0,,0,,0,,0,Rock Wall,0,0,0,0,0$0,0,0,0,0,0,0,0,0,0
+4,399,0,0$true,false,false,0,0,0,0,true$Low Bar,0,,0,,0,,0,,0,0,0,0,0$0,0,0,0,0,1,0,0,2,0
+5,1891,0,0$true,true,false,0,0,0,0,false$Low Bar,1,Cheval de Frise,2,Moat,1,Drawbridge,2,Rock Wall,1,1,1,0,0$1,1,0,0,0,0,0,0,0,2

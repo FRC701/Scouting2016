@@ -55,11 +55,11 @@ def parse_data(info):
     data = []
     new = ""
     for character in info:
-        if character != "\n" and character !="," and character != "$" and character != "/r":
+        if character != "\n" and character !="," and character != "$" and character != "\r":
             new += str(character)
         else:  
             try:
-                data.append (new)
+                data.append(new)
                 new=""
             except:
                 break

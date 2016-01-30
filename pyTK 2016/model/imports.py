@@ -4,6 +4,7 @@
 #------------------------------------------------------------------------------
 from entry import *
 from team import *
+from match import *
 import model
 
 #------------------------------------------------------------------------------
@@ -19,6 +20,7 @@ def import_data(Filename=""):
     Entry.entries = []
     Team.team_list = []
     Team.available = []
+    Match.matches = []
 
     try:
         newData = open(Filename, "r")
@@ -57,7 +59,7 @@ def parse_data(info):
             new += str(character)
         else:  
             try:
-                data.append(new)
+                data.append (new)
                 new=""
             except:
                 break

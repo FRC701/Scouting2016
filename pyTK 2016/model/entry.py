@@ -99,12 +99,12 @@ class Entry(object):
         self.entries.append(self)
     def primary_sort(self):
         """Calculates basic scoring and information."""
-        self.avgAutoBouldersInLowGoal = float(sum(self.autoBouldersInLowGoal))/float(len(self.autoBouldersInLowGoal)) if len(self.autoBouldersInLowGoal) else 0
-        self.avgAutoBouldersInHighGoal = float(sum(self.autoBouldersInHighGoal))/float(len(self.autoBouldersInHighGoal)) if len(self.autoBouldersInHighGoal) else 0
-        self.avgTeleBouldersInLowGoal = float(sum(self.teleBouldersInLowGoal))/float(len(self.teleBouldersInLowGoal)) if len(self.teleBouldersInLowGoal) else 0
-        self.avgTeleBouldersInHighGoal = float(sum(self.teleBouldersInHighGoal))/float(len(self.teleBouldersInHighGoal)) if len(self.teleBouldersInHighGoal) else 0
-        self.avgTeleBouldersFromLowGoal = float(sum(self.teleBouldersFromLowGoal))/float(len(self.teleBouldersFromLowGoal)) if len(self.teleBouldersFromLowGoal) else 0
-        self.avgTeleBouldersFromHighGoal = float(sum(self.teleBouldersFromHighGoal))/float(len(self.teleBouldersFromHighGoal)) if len(self.teleBouldersFromHighGoal) else 0
+        self.avgAutoBouldersInLowGoal = float(sum(self.autoBouldersInLowGoal))/float(len(self.autoBouldersInLowGoal)) if float(len(self.autoBouldersInLowGoal)) else 0
+        self.avgAutoBouldersInHighGoal = float(sum(self.autoBouldersInHighGoal))/float(len(self.autoBouldersInHighGoal)) if float(len(self.autoBouldersInHighGoal)) else 0
+        self.avgTeleBouldersInLowGoal = float(sum(self.teleBouldersInLowGoal))/float(len(self.teleBouldersInLowGoal)) if float(len(self.teleBouldersInLowGoal)) else 0
+        self.avgTeleBouldersInHighGoal = float(sum(self.teleBouldersInHighGoal))/float(len(self.teleBouldersInHighGoal)) if float(len(self.teleBouldersInHighGoal)) else 0
+        self.avgTeleBouldersFromLowGoal = float(sum(self.teleBouldersFromLowGoal))/float(len(self.teleBouldersFromLowGoal)) if float(len(self.teleBouldersFromLowGoal)) else 0
+        self.avgTeleBouldersFromHighGoal = float(sum(self.teleBouldersFromHighGoal))/float(len(self.teleBouldersFromHighGoal)) if float(len(self.teleBouldersFromHighGoal)) else 0
 
         self.autoReachesDefencesScore = 0
 

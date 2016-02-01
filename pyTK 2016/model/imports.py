@@ -65,4 +65,5 @@ def parse_data(info):
                 break
             if "\n" in character: break
             if "\r" in character: break
+        
     return data

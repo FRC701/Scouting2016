@@ -13,6 +13,7 @@ class Entry(object):
 
     entries = [] # list holding all the entries, 6 per match
     
+    
     def __init__(self, data):
         # general info
         index = 0
@@ -25,7 +26,7 @@ class Entry(object):
         self.noShow = bool(int(data[index]))
         index += 1
         
-        
+        """
         # autonomous data
         self.autoHadAuto = bool(int(data[index]))
         index += 1
@@ -94,9 +95,10 @@ class Entry(object):
         self.postChallengeState = int(data[index])
         index += 1
         self.postScaleState = int(data[index])
-        
+        """
 
         self.entries.append(self)
+        
     def primary_sort(self):
         """Calculates basic scoring and information."""
         self.avgAutoBouldersInLowGoal = float(sum(self.autoBouldersInLowGoal))/float(len(self.autoBouldersInLowGoal)) if float(len(self.autoBouldersInLowGoal)) else 0
@@ -179,6 +181,7 @@ class Entry(object):
         if self.postChallengeState == 2:
             self.postChallengeStateScore = 5
 
+
         self.postScaleStateScore = 0
         
         if self.postScaleState == 2 :
@@ -223,3 +226,4 @@ class Entry(object):
         self.totalScore = (self.offensiveScore + self.defensiveScore 
                            - self.foulScore)
         self.totalTAScore = (self.offensiveScore + self.defensiveScore)
+        

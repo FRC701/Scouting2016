@@ -19,9 +19,7 @@ class _TeamInfo(object):
         
         self.autoHadAuto = 0                # number of matches for which the team had autonomous
         self.autoReachesDefences = 0
-        self.autoReachesDefencesScore = []
         self.autoCrossesDefences = 0
-        self.autoCrossesDefencesScore = []
         self.autoDefences1 = []
         self.autoDefences2 = []
         self.autoLowGoal = []
@@ -140,29 +138,29 @@ class _TeamScores(object):
         self.minTeleLowGoal = min(self.teleLowGoal)
         self.maxTeleHighGoal = max(self.teleHighGoal)
         self.minTeleHighGoal = min(self.teleHighGoal)
-        self.maxPostChallengeStateScore = max(self.postChallengeStateScores)
-        self.minPostChallengeStateSuccessful = min(self.postChallengeScores)
-        self.maxPostChallengeStateScore = max(self.postChallengeStateSuccessful)
+        self.maxPostChallengeStateScore = max(self.postChallengeStateScore)
+        self.minPostChallengeStateScore = min(self.postChallengeStateScore)
+        self.maxPostChallengeStateSuccessful = max(self.postChallengeStateSuccessful)
         self.minPostChallengeStateSuccessful = min(self.postChallengeStateSuccessful)
-        self.maxPostScaleStateScore = max(self.postScaleStateScores)
-        self.minPostScaleStateScore = min(self.postScaleStateScores)
-        self.maxPostScaleStateScore = max(self.postScaleStateSuccessful)
-        self.minPostScaleStateScore = min(self.postScaleStateSuccessful)
+        self.maxPostScaleStateScore = max(self.postScaleStateScore)
+        self.minPostScaleStateScore = min(self.postScaleStateScore)
+        self.maxPostScaleStateSuccessful = max(self.postScaleStateSuccessful)
+        self.minPostScaleStateSuccessful = min(self.postScaleStateSuccessful)
         self.maxFoulScore = max(self.foulScores)
         self.minFoulScore = min(self.foulScores)
 
     def get_avgOff_scores(self, matches=1,offensive=0, auto=0, tele=0):
         self.avgOffScore = sum(self.oScores)/matches if matches else 0
         self.avgAutoScore = sum(self.autoScores)/auto if auto else 0
-        self.avgAutoReachesDefencesScore = sum(self.autoReachesDefencesScore)/auto if auto else 0
-        self.avgAutoCrossessDefencesScore = sum(self.autoCrossesDefencesScore)/auto if auto else 0
+        self.avgAutoReachesDefencesScores = sum(self.autoReachesDefencesScores)/auto if auto else 0
+        self.avgAutoCrossessDefencesScores = sum(self.autoCrossesDefencesScores)/auto if auto else 0
         self.avgAutoLowGoal = sum(self.autoLowGoal)/auto if auto else 0
         self.avgAutoHighGoal = sum(self.autoHighGoal)/auto if auto else 0
         self.avgTeleScore = sum(self.teleScores)/matches if matches else 0
         self.avgTeleDefencesDamageScore = sum(self.teleDefencesDamageScore)/matches if matches else 0
         self.avgTeleLowGoal = sum(self.teleLowGoal)/matches if matches else 0
         self.avgTeleHighGoal = sum(self.teleHighGoal)/matches if matches else 0
-        self.avgPostChallengeStateScore = sum(self.postChallengStateScore)/matches if matches else 0
+        self.avgPostChallengeStateScore = sum(self.postChallengeStateScore)/matches if matches else 0
         self.avgPostScaleStateScore = sum(self.postScaleStateScore)/matches if matches else 0
         self.avgFoulScore = sum(self.foulScores)/matches if matches else 0
         self.avgTotalScore = sum(self.tScores)/matches if matches else 0
@@ -266,8 +264,8 @@ class Team(object):
         self.pHadAuto = str(int(100*self.Info.autoHadAuto)/len(matches)) + "%"
         self.pReachesDefences = str(int(100*self.Info.autoReachesDefences)/len(matches)) + "%"
         self.pCrossesDefences = str(int(100*self.Info.autoCrossesDefences)/len(matches)) + "%"
-        self.avgReachesDefencesScore = round(self.Info.autoReachesDefencesScore, 2)
-        self.avgCrossesDefencesScore = round(self.Info.autoCrossesDefencesScore, 2)
+        self.avgReachesDefencesScores = self.Scores.autoReachesDefencesScores
+        self.avgCrossesDefencesScores = self.Scores.autoCrossesDefencesScores
         self.avgAutoScore = round(self.Scores.avgAutoScore,2)
         self.avgAutoLowGoal = round(self.Scores.avgAutoLowGoal,2)
         self.avgAutoHighGoal = round(self.Scores.avgAutoHighGoal,2)

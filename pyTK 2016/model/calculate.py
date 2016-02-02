@@ -125,9 +125,7 @@ def assign_basic_team_values(team, entry):
 
     team.Info.autoHadAuto += int(entry.autoHadAuto)
     team.Info.autoReachesDefences += int (entry.autoReachesDefences)
-    team.Info.autoReachesDefencesScore.append(float(entry.autoReachesDefencesScore))
     team.Info.autoCrossesDefences += int (entry.autoCrossesDefences)
-    team.Info.autoCrossesDefencesScore.append(float(entry.autoCrossesDefencesScore))
     team.Info.autoLowGoal.append(float(entry.autoLowGoal))
     team.Info.autoHighGoal.append(float(entry.autoHighGoal))
     team.Info.autoOther += int(entry.autoOther)

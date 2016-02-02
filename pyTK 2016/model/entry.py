@@ -144,7 +144,7 @@ class Entry(object):
             self.teleSallyPortDamage = self.teleDamageCounter4
 
         self.teleRockWallDamage = 0
-        self.teleRoughTerrain = 0
+        self.teleRoughTerrainDamage = 0
         if self.teleDefences4 == "Rock Wall":
             self.teleRockWallDamage = self.teleDamageCounter5
         elif self.teleDefences4 == "Rough Terrain":

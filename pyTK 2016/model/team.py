@@ -19,11 +19,13 @@ class _TeamInfo(object):
         
         self.autoHadAuto = 0                # number of matches for which the team had autonomous
         self.autoReachesDefences = 0
+        self.autoReachesDefencesScore = []
         self.autoCrossesDefences = 0
+        self.autoCrossesDefencesScore = []
         self.autoDefences1 = []
         self.autoDefences2 = []
         self.autoLowGoal = []
-        self.autoHigh = []
+        self.autoHighGoal = []
         self.autoOther = 0                  # number of matches for which the team did something else in auto
 
         self.teleHadTele = 0
@@ -38,6 +40,7 @@ class _TeamInfo(object):
         self.teleRockWall = []
         self.teleLowGoal = []
         self.teleHighGoal = []
+        self.teleDefencesDamageScore = []
         self.teleFromLowGoal = []
         self.teleFromHighGoal = []
 
@@ -46,14 +49,16 @@ class _TeamInfo(object):
         self.postRedCard = 0                # number of matches for which robot received red card
         self.postYellowCard = 0             # number of matches for which robot received yellow card
         self.postDisabled = 0               # number of matches for which robot was disabled
-        self.postplayedDefensively = 0
+        self.postPlayedDefensively = 0
         self.postCaptured = 0
         self.postBreached = 0
         self.postChallengeState = []
-        self.NotAttempedC = 0
+        self.postChallengeStateScore = []
+        self.NotAttemptedC = 0
         self.AttemptedC = 0
         self.SuccessfulC = 0
         self.postScaleState = []
+        self.postScaleStateScore = []
         self.NotAttemptedS = 0
         self.AttemptedS = 0
         self.SuccessfulS = 0
@@ -70,7 +75,7 @@ class _TeamInfo(object):
         self.avgTeleHighGoal = float(sum(self.teleHighGoal))/float(len(self.teleHighGoal)) if len(self.teleHighGoal) else 0
         
         self.avgPostFoul = sum(self.postFouls)/len(self.postFouls) if len(self.postFouls) else 0
-        self.avgPostTechFoul = sum(self.postTechFoul)/len(self.postTechFouls) if len(self.postTechFouls) else 0 
+        self.avgPostTechFoul = sum(self.postTechFouls)/len(self.postTechFouls) if len(self.postTechFouls) else 0 
                 
     def getAttr(self, source):
         return getattr(self, source)
@@ -90,6 +95,7 @@ class _TeamScores(object):
         self.woScores = []          # list holding weighted offensive scores
         self.wdScores = []          # list holding weighted defensive scores
         self.autoScores = []            # list holding auto scores
+        self.autoReachesDefencesScores = []
         self.autoCrossesDefencesScores = []
         self.autoLowGoal = []
         self.autoHighGoal = []
@@ -98,7 +104,9 @@ class _TeamScores(object):
         self.teleLowGoal = []
         self.teleHighGoal = []
         self.postChallengeStateScore = []
+        self.postChallengeStateSuccessful = []
         self.postScaleStateScore = []
+        self.postScaleStateSuccessful = []
         self.foulScores = []            # list holding foul scores
         
     def get_maxmin_scores(self):
@@ -116,6 +124,8 @@ class _TeamScores(object):
         self.minWDScore = min(self.wdScores)
         self.maxAutoScore = max(self.autoScores)
         self.minAutoScore = min(self.autoScores)
+        self.maxAutoReachesDefencesScore = max(self.autoReachesDefencesScores)
+        self.minAutoReachesDefencesScore = min(self.autoReachesDefencesScores)
         self.maxAutoCrossesDefencesScore = max(self.autoCrossesDefencesScores)
         self.minAutoCrossesDefencesScore = min(self.autoCrossesDefencesScores)
         self.maxAutoLowGoal = max(self.autoLowGoal)
@@ -131,13 +141,20 @@ class _TeamScores(object):
         self.maxTeleHighGoal = max(self.teleHighGoal)
         self.minTeleHighGoal = min(self.teleHighGoal)
         self.maxPostChallengeStateScore = max(self.postChallengeStateScores)
+        self.minPostChallengeStateSuccessful = min(self.postChallengeScores)
+        self.maxPostChallengeStateScore = max(self.postChallengeStateSuccessful)
+        self.minPostChallengeStateSuccessful = min(self.postChallengeStateSuccessful)
+        self.maxPostScaleStateScore = max(self.postScaleStateScores)
         self.minPostScaleStateScore = min(self.postScaleStateScores)
+        self.maxPostScaleStateScore = max(self.postScaleStateSuccessful)
+        self.minPostScaleStateScore = min(self.postScaleStateSuccessful)
         self.maxFoulScore = max(self.foulScores)
         self.minFoulScore = min(self.foulScores)
 
-    def get_avgOff_scores(self, matches=1, auto=0):
+    def get_avgOff_scores(self, matches=1,offensive=0, auto=0, tele=0):
         self.avgOffScore = sum(self.oScores)/matches if matches else 0
         self.avgAutoScore = sum(self.autoScores)/auto if auto else 0
+        self.avgAutoReachesDefencesScore = sum(self.autoReachesDefencesScore)/auto if auto else 0
         self.avgAutoCrossessDefencesScore = sum(self.autoCrossesDefencesScore)/auto if auto else 0
         self.avgAutoLowGoal = sum(self.autoLowGoal)/auto if auto else 0
         self.avgAutoHighGoal = sum(self.autoHighGoal)/auto if auto else 0
@@ -249,6 +266,7 @@ class Team(object):
         self.pHadAuto = str(int(100*self.Info.autoHadAuto)/len(matches)) + "%"
         self.pReachesDefences = str(int(100*self.Info.autoReachesDefences)/len(matches)) + "%"
         self.pCrossesDefences = str(int(100*self.Info.autoCrossesDefences)/len(matches)) + "%"
+        self.avgReachesDefencesScore = round(self.Info.autoReachesDefencesScore, 2)
         self.avgCrossesDefencesScore = round(self.Info.autoCrossesDefencesScore, 2)
         self.avgAutoScore = round(self.Scores.avgAutoScore,2)
         self.avgAutoLowGoal = round(self.Scores.avgAutoLowGoal,2)

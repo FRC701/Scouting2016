@@ -23,14 +23,14 @@ def calculate_data():
         done = False
         for team in Team.team_list:
             if team.number == entry.team:
-                assign_team_values(team, entry)
+                assign_basic_team_values(team, entry)
 
                 done = True
         if done == False:
             newTeam = Team(entry.team)
             print "Added Team #: " + str(entry.team)
 
-            assign_team_values(newTeam,entry)
+            assign_basic_team_values(newTeam, entry)
 
    # get primary offensive information about the team
     for team in Team.team_list:
@@ -119,13 +119,15 @@ def calculate_data():
 #------------------------------------------------------------------------------
 def assign_basic_team_values(team, entry):
     team.Info.matches.append(entry.match)
+    team.Info.numOff += int(entry.offensive)
+    team.Info.numDef += int(entry.defensive)
     team.Info.noShow += int(entry.noShow)
 
     team.Info.autoHadAuto += int(entry.autoHadAuto)
-    team.Info.autoReachesDefences += int (entry.autoReacheesDefences)
-    team.Info.autoReachesDefences.append(float(entry.autoReachesDefencesScore))
-    team.Info.autoCrossesDefences += int (entry.autoReachesDefences)
-    team.Info.autoCrossesdefencesScore.append(float(entry.autoCrosssesDefencesScore))
+    team.Info.autoReachesDefences += int (entry.autoReachesDefences)
+    team.Info.autoReachesDefencesScore.append(float(entry.autoReachesDefencesScore))
+    team.Info.autoCrossesDefences += int (entry.autoCrossesDefences)
+    team.Info.autoCrossesDefencesScore.append(float(entry.autoCrossesDefencesScore))
     team.Info.autoLowGoal.append(float(entry.autoLowGoal))
     team.Info.autoHighGoal.append(float(entry.autoHighGoal))
     team.Info.autoOther += int(entry.autoOther)
@@ -145,19 +147,19 @@ def assign_basic_team_values(team, entry):
     team.Info.teleHighGoal.append(float(entry.teleHighGoal))
 
     team.Info.postFouls.append(float(entry.postFouls))
-    team.Info.postTechFouls.sppend(float(entry.postTechFoals))
+    team.Info.postTechFouls.append(float(entry.postTechFouls))
     team.Info.postRedCard += int(entry.postRedCard)
     team.Info.postYellowCard += int(entry.postYellowCard)
     team.Info.postDisabled += int(entry.postDisabled)
     team.Info.postPlayedDefensively += int(entry.postPlayedDefensively)
-    team.Info.postCapture += int(entry.postCapture)
+    team.Info.postCaptured += int(entry.postCaptured)
     team.Info.postBreached += int (entry.postBreached)
     team.Info.postChallengeStateScore.append(float(entry.postChallengeStateScore))
-    team.Info.NotAttemptedC += int (entry.NotAttempedC)
+    team.Info.NotAttemptedC += int (entry.NotAttemptedC)
     team.Info.AttemptedC += int (entry.AttemptedC)
     team.Info.SuccessfulC += int (entry.SuccessfulC)
     team.Info.postScaleStateScore.append(float(entry.postScaleStateScore))
-    team.Info.NotAttemptedS += int (entry.NotAttempedS)
+    team.Info.NotAttemptedS += int (entry.NotAttemptedS)
     team.Info.AttemptedS += int (entry.AttemptedS)
     team.Info.SuccessfulS += int (entry.SuccessfulS)
 
@@ -167,8 +169,8 @@ def assign_basic_team_values(team, entry):
 
     team.Scores.oScores.append(entry.offensiveScore)
     team.Scores.autoScores.append(entry.autoScore)
-    team.Scores.autoReachesDefencesScores.append(entry.autoReachesDefencesScores)
-    team.Scores.autoCrossesDefencesScore.append(entry.autoCrossesDefencesScore)
+    team.Scores.autoReachesDefencesScores.append(entry.autoReachesDefencesScore)
+    team.Scores.autoCrossesDefencesScores.append(entry.autoCrossesDefencesScore)
     team.Scores.autoLowGoal.append(entry.autoLowGoal)
     team.Scores.autoHighGoal.append(entry.autoHighGoal)
     team.Scores.teleScores.append(entry.teleScore)
@@ -180,7 +182,7 @@ def assign_basic_team_values(team, entry):
     team.Scores.postScaleStateScore.append(entry.postScaleStateScore)
     team.Scores.postScaleStateSuccessful.append(entry.SuccessfulS)
     team.Scores.foulScores.append(entry.foulScore)
-    team.Scores.tScores.append(entry.totalScore)
+   
     
 #------------------------------------------------------------------------------
 # assign_basic_match_values function

@@ -130,15 +130,15 @@ def assign_basic_team_values(team, entry):
     team.Info.autoHighGoal.append(float(entry.autoHighGoal))
     team.Info.autoOther += int(entry.autoOther)
 
-    team.Info.teleLowBar.append(float(entry.teleLowBarDamage))
-    team.Info.telePortcullis.append(float(entry.telePortcullisDamage))
-    team.Info.teleChevaldeFrise.append(float(entry.teleChevaldeFriseDamage))
-    team.Info.teleMoat.append(float(entry.teleMoatDamage))
-    team.Info.teleRamparts.append(float(entry.teleRampartsDamage))
-    team.Info.teleDrawbridge.append(float(entry.teleDrawbridgeDamage))
-    team.Info.teleSallyPort.append(float(entry.teleSallyPortDamage))
-    team.Info.teleRockWall.append(float(entry.teleRockWallDamage))
-    team.Info.teleRoughTerrain.append(float(entry.teleRoughTerrainDamage))
+    team.Info.teleLowBarDamage.append(float(entry.teleLowBarDamage))
+    team.Info.telePortcullisDamage.append(float(entry.telePortcullisDamage))
+    team.Info.teleChevaldeFriseDamage.append(float(entry.teleChevaldeFriseDamage))
+    team.Info.teleMoatDamage.append(float(entry.teleMoatDamage))
+    team.Info.teleRampartsDamage.append(float(entry.teleRampartsDamage))
+    team.Info.teleDrawbridgeDamage.append(float(entry.teleDrawbridgeDamage))
+    team.Info.teleSallyPortDamage.append(float(entry.teleSallyPortDamage))
+    team.Info.teleRockWallDamage.append(float(entry.teleRockWallDamage))
+    team.Info.teleRoughTerrainDamage.append(float(entry.teleRoughTerrainDamage))
     team.Info.teleDefencesDamageScore.append(float(entry.teleDefencesDamageScore))
 
     team.Info.teleLowGoal.append(float(entry.teleLowGoal))
@@ -266,13 +266,13 @@ def get_auto_Crosses_Defences_rank(sort="avg",rev=True):
     for team in Team.team_list:
         if sort == "avg":
             if team.Info.autoHadAuto > 0:
-                TeamRankings.auto_Crosses_Defences_rank.append([team.Scores.avgAutoCrossesDefencesScore,team.number])
+                TeamRankings.auto_Crosses_Defences_rank.append([team.Scores.avgAutoCrossesDefencesScores,team.number])
         elif sort == "max":
             if team.Info.autoHadAuto > 0:
-                TeamRankings.auto_Crosses_Defences_rank.append([team.Scores.maxAutoCrossesDefencesScore,team.number])
+                TeamRankings.auto_Crosses_Defences_rank.append([team.Scores.maxAutoCrossesDefencesScores,team.number])
         elif sort == "min":
             if team.Info.autoHadAuto > 0:
-                TeamRankings.auto_Crosses_Defences_rank.append([team.Scores.minAutoCrossesDefencesScore,team.number])
+                TeamRankings.auto_Crosses_Defences_rank.append([team.Scores.minAutoCrossesDefencesScores,team.number])
 
     TeamRankings.auto_Crosses_Defences_rank.sort(reverse=rev)
 
@@ -354,11 +354,11 @@ def get_tele_Low_Goal_rank(sort="avg",rev=True):
 
     for team in Team.team_list:
         if sort == "avg":
-            TeamRankings.tele_Low_Goal_rank.append([team.Scores.avgTeleBouldersInLowGoal,team.number])
+            TeamRankings.tele_Low_Goal_rank.append([team.Scores.avgTeleLowGoal,team.number])
         elif sort == "max":
-            TeamRankings.tele_Low_Goal_rank.append([team.Scores.maxTeleBouldersInLowGoal,team.number])
+            TeamRankings.tele_Low_Goal_rank.append([team.Scores.maxTeleLowGoal,team.number])
         elif sort == "min":
-            TeamRankings.tele_Low_Goal_rank.append([team.Scores.minTeleBouldersInLowGoal,team.number])
+            TeamRankings.tele_Low_Goal_rank.append([team.Scores.minTeleLowGoal,team.number])
 
     TeamRankings.tele_Low_Goal_rank.sort(reverse=rev)
 
@@ -370,11 +370,11 @@ def get_tele_High_Goal_rank(sort="avg",rev=True):
 
     for team in Team.team_list:
         if sort == "avg":
-            TeamRankings.tele_High_Goal_rank.append([team.Scores.avgTeleBouldersInHighGoal,team.number])
+            TeamRankings.tele_High_Goal_rank.append([team.Scores.avgTeleHighGoal,team.number])
         elif sort == "max":
-            TeamRankings.tele_High_Goal_rank.append([team.Scores.maxTeleBouldersInHighGoal,team.number])
+            TeamRankings.tele_High_Goal_rank.append([team.Scores.maxTeleHighGoal,team.number])
         elif sort == "min":
-            TeamRankings.tele_High_Goal_rank.append([team.Scores.minTeleBouldersInHighGoal,team.number])
+            TeamRankings.tele_High_Goal_rank.append([team.Scores.minTeleHighGoal,team.number])
 
     TeamRankings.tele_High_Goal_rank.sort(reverse=rev)
 
@@ -388,13 +388,13 @@ def get_post_Challenge_State_Successful_rank(sort="avg",rev=False):
         if sort == "avg":
             TeamRankings.post_Challenge_State_Successful_rank.append([team.Scores.avgPostChallengeStateSuccessful,team.number])
         elif sort == "max":
-            TeamRankings.post_Challenge_State_Successsful_rank.append([team.Scores.maxPostChallengeStateSuccessful, team.number])
+            TeamRankings.post_Challenge_State_Successful_rank.append([team.Scores.maxPostChallengeStateSuccessful, team.number])
         elif sort == "min":
-            TeamRankings.post_Challenge_State_Successsful_rank.append([team.Scores.minPostChallengeStateSuccessful, team.number])
+            TeamRankings.post_Challenge_State_Successful_rank.append([team.Scores.minPostChallengeStateSuccessful, team.number])
 
-    TeamRankings.post_Challenge_State_Successsful_rank.sort(reverse=rev)
+    TeamRankings.post_Challenge_State_Successful_rank.sort(reverse=rev)
 
-    return TeamRankings.post_Challenge_State_Successsful_rank
+    return TeamRankings.post_Challenge_State_Successful_rank
 
 def get_post_Scale_State_Successful_rank(sort="avg",rev=False):
 
@@ -404,13 +404,13 @@ def get_post_Scale_State_Successful_rank(sort="avg",rev=False):
         if sort == "avg":
             TeamRankings.post_Scale_State_Successful_rank.append([team.Scores.avgPostScaleStateSuccessful,team.number])
         elif sort == "max":
-            TeamRankings.post_Scale_State_Successsful_rank.append([team.Scores.maxPostScaleStateSuccessful, team.number])
+            TeamRankings.post_Scale_State_Successful_rank.append([team.Scores.maxPostScaleStateSuccessful, team.number])
         elif sort == "min":
-            TeamRankings.post_Scale_State_Successsful_rank.append([team.Scores.minPostScaleStateSuccessful, team.number])
+            TeamRankings.post_Scale_State_Successful_rank.append([team.Scores.minPostScaleStateSuccessful, team.number])
 
-    TeamRankings.post_Scale_State_Successsful_rank.sort(reverse=rev)
+    TeamRankings.post_Scale_State_Successful_rank.sort(reverse=rev)
 
-    return TeamRankings.post_Scale_State_Successsful_rank
+    return TeamRankings.post_Scale_State_Successful_rank
 
 def get_w_rank(sort="avg",rev=True):
 
@@ -507,25 +507,22 @@ def get_tot_rank(sort="avg",rev=True):
 #   -- calculates predicted alliance scores predicts match outcomes
 #------------------------------------------------------------------------------
 def predict_scores(team1=None,team2=None,team3=None):
-    pOff1 = float(team1.pOff.rstrip("%"))/100
-    pOff2 = float(team2.pOff.rstrip("%"))/100
-    pOff3 = float(team3.pOff.rstrip("%"))/100
-    pDef1 = float(team1.pDef.rstrip("%"))/100
-    pDef2 = float(team2.pDef.rstrip("%"))/100
-    pDef3 = float(team3.pDef.rstrip("%"))/100
-    pAst1 = float(team1.pAst.rstrip("%"))/100
-    pAst2 = float(team2.pAst.rstrip("%"))/100
-    pAst3 = float(team3.pAst.rstrip("%"))/100
+    #pOff1 = float(team1.pOff.rstrip("%"))/100
+    #pOff2 = float(team2.pOff.rstrip("%"))/100
+    #pOff3 = float(team3.pOff.rstrip("%"))/100
+    #pDef1 = float(team1.pDef.rstrip("%"))/100
+    #pDef2 = float(team2.pDef.rstrip("%"))/100
+    #pDef3 = float(team3.pDef.rstrip("%"))/100
+   
     try:
-        offScore = ((team1.avgOff*pOff1)+(team2.avgOff*pOff2)+(team3.avgOff*pOff3))
-        defScore = ((team1.avgDef*pDef1)+(team2.avgDef*pDef2)+(team3.avgDef*pDef3))
-        astScore = ((team1.avgAst*pAst1)+(team2.avgAst*pAst2)+(team3.avgAst*pAst3))
+        offScore = ((team1.avgOff)+(team2.avgOff)+(team3.avgOff))
+        defScore = ((team1.avgDef)+(team2.avgDef)+(team3.avgDef))
+       
     except:
         offScore = 0
         defScore = 0
-        astScore = 0
 
-    expectedScores = [offScore, defScore, astScore]
+    expectedScores = [offScore, defScore]
 
     return expectedScores
 

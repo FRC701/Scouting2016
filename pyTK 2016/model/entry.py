@@ -109,11 +109,11 @@ class Entry(object):
         
         self.autoCrossesDefencesScore = 0
 
-        if self.autoDefences1 >= 1 and self.autoDefences2 == 0:
+        if self.autoDefences1 > 0 and self.autoDefences2 == 0:
              self.autoCrossesDefencesScore = 10
-        elif self.autoDefences2 >= 1 and self.autoDefences1 == 0:
+        elif self.autoDefences2 > 0 and self.autoDefences1 == 0:
              self.autoCrossesDefencesScore = 10
-        self.autoCrossesDefencesScore = 20 if self.autoDefences1 >= 1 and self.autoDefences2 >= 1 else 0
+        self.autoCrossesDefencesScore = 20 if self.autoDefences1 > 0 and self.autoDefences2 > 0 else 0
 
         self.autoLowGoal = (self.autoBouldersInLowGoal*5)
         self.autoHighGoal = (self.autoBouldersInHighGoal*10)
@@ -150,13 +150,17 @@ class Entry(object):
         elif self.teleDefences4 == "Rough Terrain":
             self.teleRoughTerrainDamage = self.teleDamageCounter5
         
-        self.teleDC1 = (self.teleDamageCounter1*5) 
-        self.teleDC2 = (self.teleDamageCounter2*5) 
-        self.teleDC3 = (self.teleDamageCounter3*5) 
-        self.teleDC4 = (self.teleDamageCounter4*5) 
-        self.teleDC5 = (self.teleDamageCounter5*5)
+        self.teleDC1 = (self.teleLowBarDamage*5) 
+        self.teleDC2 = (self.telePortcullisDamage*5) 
+        self.teleDC3 = (self.teleChevaldeFriseDamage*5) 
+        self.teleDC4 = (self.teleMoatDamage*5) 
+        self.teleDC5 = (self.teleRampartsDamage*5)
+        self.teleDC6 = (self.teleDrawbridgeDamage*5)
+        self.teleDC7 = (self.teleSallyPortDamage*5)
+        self.teleDC8 = (self.teleRockWallDamage*5)
+        self.teleDC9 = (self.teleRoughTerrainDamage*5)
         
-        self.teleDefencesDamageScore = (self.teleDC1 + self.teleDC2 + self.teleDC3 + self.teleDC4 + self.teleDC5)
+        self.teleDefencesDamageScore = (self.teleDC1 + self.teleDC2 + self.teleDC3 + self.teleDC4 + self.teleDC5 + self.teleDC6 + self.teleDC7 + self.teleDC8 + self.teleDC9)
 
         self.teleLowGoal = (self.teleBouldersInLowGoal*2)
         self.teleHighGoal = (self.teleBouldersInHighGoal*5)

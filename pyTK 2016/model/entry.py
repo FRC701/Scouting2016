@@ -70,11 +70,7 @@ class Entry(object):
         index +=1
         self.teleBouldersInHighGoal = float(data[index])
         index +=1
-        self.teleBouldersFromLowGoal = float(data[index])
-        index +=1
-        self.teleBouldersFromHighGoal = float(data[index])
-        index +=1 
-         
+       
         # post data
         self.postFouls = float(data[index])
         index += 1

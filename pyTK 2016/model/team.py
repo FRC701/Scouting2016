@@ -37,8 +37,6 @@ class _TeamInfo(object):
         self.teleDefencesDamageScore = []
         self.teleLowGoal = []
         self.teleHighGoal = []
-        self.teleFromLowGoal = []
-        self.teleFromHighGoal = []
 
         self.postFouls = []                 # list containing the number of fouls each match
         self.postTechFouls = []

@@ -28,7 +28,7 @@ class Choose(Frame):
             self.current = now
         self.after(250, self.pollList)
 
-    def load_team(self,event=None,data=""):
+    def load_team(self,event=None,data=" "):
         data = self.wantedList.rList[int(data[0])]
         try:
             number = re.search('Team (.*)', data).group(1)

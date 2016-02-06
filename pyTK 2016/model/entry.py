@@ -27,11 +27,11 @@ class Entry(object):
         index += 1
         
         # autonomous data
-        self.autoHadAuto = bool(data[index])
+        self.autoHadAuto = (str(data[index]) == 'true')
         index += 1
-        self.autoReachesDefences = bool(data[index])
+        self.autoReachesDefences = (str(data[index]) == 'true')
         index += 1
-        self.autoCrossesDefences = bool(data[index])
+        self.autoCrossesDefences = (str(data[index]) == 'true')
         index += 1
         self.autoDefences1 = int(data[index])
         index += 1
@@ -41,7 +41,7 @@ class Entry(object):
         index += 1
         self.autoBouldersInHighGoal = float(data[index])
         index += 1
-        self.autoOther = bool(data[index])
+        self.autoOther = (str(data[index]) == 'true')
         index += 1
 
         
@@ -100,17 +100,19 @@ class Entry(object):
        
         self.autoReachesDefencesScore = 0
 
-        if self.autoReachesDefences == 1:
+        if self.autoReachesDefences == False:
              self.autoReachesDefencesScore = 2
-        
-        self.autoCrossesDefencesScore = 0
 
-        if self.autoDefences1 > 0 and self.autoDefences2 == 0:
+        self.autoCrossesDefencesScore = 0 
+
+        if   self.autoDefences1 > 0 and self.autoDefences2 == 0:
              self.autoCrossesDefencesScore = 10
         elif self.autoDefences2 > 0 and self.autoDefences1 == 0:
              self.autoCrossesDefencesScore = 10
-             
-        self.autoCrossesDefencesScore = 20 if self.autoDefences1 > 0 and self.autoDefences2 > 0 else 0
+        elif self.autoDefences1 > 0 and self.autoDefences2 > 0:
+             self.autoCrossesDefencesScore = 20
+
+       
 
         self.autoLowGoal = (self.autoBouldersInLowGoal*5)
         self.autoHighGoal = (self.autoBouldersInHighGoal*10)

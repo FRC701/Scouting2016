@@ -33,17 +33,11 @@ class TeamData(Frame):
             self.dataFrame = Frame(self, relief=SUNKEN,bd=1)
             self.dataFrame.pack(side=BOTTOM,pady=10)
 
-            """
-            #make listbox and scroller containing pitscouting notes
-            self.scrollbar3 = Scrollbar(self.dataFrame)
-            self.scrollbar3.pack(side=RIGHT,fill=Y)
-            self.pitInfo = Listbox(self.dataFrame,height=20,width=50,
-            """ 
 
             #make the listbox and scroller containing maxmin values
             self.scrollbar2 = Scrollbar(self.dataFrame)
             self.scrollbar2.pack(side=RIGHT,fill=Y)
-            self.teamScores = Listbox(self.dataFrame,height=20,width=50,
+            self.teamScores = Listbox(self.dataFrame,height=30,width=60,
                                       yscrollcommand=self.scrollbar2.set)
             for x, y in self.controller.maxminLabelVals:
                 self.labelVar = str(y) + str(self.controller.data.Scores.getAttr(x))
@@ -54,7 +48,7 @@ class TeamData(Frame):
             #make the listbox and scroller containing information values
             self.scrollbar = Scrollbar(self.dataFrame)
             self.scrollbar.pack(side=RIGHT,fill=Y)
-            self.teamData = Listbox(self.dataFrame,height=20,width=50,
+            self.teamData = Listbox(self.dataFrame,height=30,width=70,
                                     yscrollcommand=self.scrollbar.set)
             for x, y in self.controller.dataLabelVals:
                 self.labelVar = str(y) + str(self.controller.data.getAttr(x))

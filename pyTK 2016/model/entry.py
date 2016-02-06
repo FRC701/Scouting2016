@@ -70,7 +70,7 @@ class Entry(object):
         index +=1
         self.teleBouldersInHighGoal = float(data[index])
         index +=1
-       
+         
         # post data
         self.postFouls = float(data[index])
         index += 1
@@ -109,6 +109,7 @@ class Entry(object):
              self.autoCrossesDefencesScore = 10
         elif self.autoDefences2 > 0 and self.autoDefences1 == 0:
              self.autoCrossesDefencesScore = 10
+             
         self.autoCrossesDefencesScore = 20 if self.autoDefences1 > 0 and self.autoDefences2 > 0 else 0
 
         self.autoLowGoal = (self.autoBouldersInLowGoal*5)
@@ -161,11 +162,6 @@ class Entry(object):
         self.teleLowGoal = (self.teleBouldersInLowGoal*2)
         self.teleHighGoal = (self.teleBouldersInHighGoal*5)
 
-        self.teleFromLowGoal = (self.teleBouldersFromLowGoal*2)
-        self.teleFromHighGoal = (self.teleBouldersFromHighGoal*5)
-
-        self.DefensiveScore = (self.teleFromLowGoal + self.teleFromHighGoal)
-
         self.postChallengeStateScore = 0
 
         if self.postChallengeState == 2:
@@ -199,7 +195,7 @@ class Entry(object):
         self.hasFoul      = True if self.postFouls >0 or self.postTechFouls > 0 else False
 
         self.offensiveScore = (self.autoScore + self.teleScore)
-        self.foulScore = (5*self.postFouls + 5*self.postTechFouls)
+        self.foulScore = (5*self.postFouls) + (5*self.postTechFouls)
 
         self.offensive = True if self.offensiveScore > 0 else False
         self.defensive = self.postPlayedDefensively

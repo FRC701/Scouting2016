@@ -47,7 +47,7 @@ class RankingController():
                     ("Tele Times Challenge was Successful",get_post_Challenge_State_Successful_rank),
                     ("Tele Times Scaling was Successful",get_post_Scale_State_Successful_rank),
                     ("Weighted Score",get_w_rank),
-                    ("Offensive Weighthed Score",get_wo_rank),
+                    ("Offensive Weighted Score",get_wo_rank),
                     ("Defensive Weighted Score",get_wd_rank),
                     ("Foul Score",get_foul_rank)]
 

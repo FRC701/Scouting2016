@@ -35,6 +35,15 @@ class _TeamInfo(object):
         self.teleRoughTerrainDamage = []
         self.teleRockWallDamage = []
         self.teleDefencesDamageScore = []
+        self.teleDC1 = []
+        self.teleDC2 = []
+        self.teleDC3 = []
+        self.teleDC4 = []
+        self.teleDC5 = []
+        self.teleDC6 = []
+        self.teleDC7 = []
+        self.teleDC8 = []
+        self.teleDC9 = []
         self.teleLowGoal = []
         self.teleHighGoal = []
 
@@ -65,23 +74,23 @@ class _TeamInfo(object):
         self.avgAutoLowGoal = float(sum(self.autoLowGoal))/float(len(self.autoLowGoal)) if len(self.autoLowGoal) else 0
         self.avgAutoHighGoal = float(sum(self.autoHighGoal))/float(len(self.autoHighGoal)) if len(self.autoHighGoal) else 0
 
-        self.pTeleLowBarDamage = float(sum(100*self.teleLowBarDamage))/float(sum(self.teleDefencesDamageScore)) if sum(self.teleDefencesDamageScore) else 0
+        self.pTeleLowBarDamage = float(sum(100*self.teleDC1))/float(sum(self.teleDefencesDamageScore)) if sum(self.teleDefencesDamageScore) else 0
         self.pTeleLowBarDamageM = float(sum(self.teleLowBarDamage))/float(len(self.matches)) if len(self.matches) else 0
-        self.pTelePortcullisDamage = float(sum(100*self.telePortcullisDamage))/float(sum(self.teleDefencesDamageScore)) if sum(self.teleDefencesDamageScore) else 0
+        self.pTelePortcullisDamage = float(sum(100*self.teleDC2))/float(sum(self.teleDefencesDamageScore)) if sum(self.teleDefencesDamageScore) else 0
         self.pTelePortcullisDamageM = float(sum(self.telePortcullisDamage))/float(len(self.matches)) if len(self.matches) else 0
-        self.pTeleChevaldeFriseDamage = float(sum(100*self.teleChevaldeFriseDamage))/float(sum(self.teleDefencesDamageScore)) if sum(self.teleDefencesDamageScore) else 0
+        self.pTeleChevaldeFriseDamage = float(sum(100*self.teleDC3))/float(sum(self.teleDefencesDamageScore)) if sum(self.teleDefencesDamageScore) else 0
         self.pTeleChevaldeFriseDamageM = float(sum(self.teleChevaldeFriseDamage))/float(len(self.matches)) if len(self.matches) else 0
-        self.pTeleMoatDamage = float(sum(100*self.teleMoatDamage))/float(sum(self.teleDefencesDamageScore)) if sum(self.teleDefencesDamageScore) else 0
+        self.pTeleMoatDamage = float(sum(100*self.teleDC4))/float(sum(self.teleDefencesDamageScore)) if sum(self.teleDefencesDamageScore) else 0
         self.pTeleMoatDamageM = float(sum(self.teleMoatDamage))/float(len(self.matches)) if len(self.matches) else 0
-        self.pTeleRampartsDamage = float(sum(100*self.teleRampartsDamage))/float(sum(self.teleDefencesDamageScore)) if sum(self.teleDefencesDamageScore) else 0
+        self.pTeleRampartsDamage = float(sum(100*self.teleDC5))/float(sum(self.teleDefencesDamageScore)) if sum(self.teleDefencesDamageScore) else 0
         self.pTeleRampartsDamageM = float(sum(self.teleRampartsDamage))/float(len(self.matches)) if len(self.matches) else 0
-        self.pTeleDrawbridgeDamage = float(sum(100*self.teleDrawbridgeDamage))/float(sum(self.teleDefencesDamageScore)) if sum(self.teleDefencesDamageScore) else 0
+        self.pTeleDrawbridgeDamage = float(sum(100*self.teleDC6))/float(sum(self.teleDefencesDamageScore)) if sum(self.teleDefencesDamageScore) else 0
         self.pTeleDrawbridgeDamageM = float(sum(self.teleDrawbridgeDamage))/float(len(self.matches)) if len(self.matches) else 0
-        self.pTeleSallyPortDamage = float(sum(100*self.teleSallyPortDamage))/float(sum(self.teleDefencesDamageScore)) if sum(self.teleDefencesDamageScore) else 0
+        self.pTeleSallyPortDamage = float(sum(100*self.teleDC7))/float(sum(self.teleDefencesDamageScore)) if sum(self.teleDefencesDamageScore) else 0
         self.pTeleSallyPortDamageM = float(sum(self.teleSallyPortDamage))/float(len(self.matches)) if len(self.matches) else 0
-        self.pTeleRockWallDamage = float(sum(100*self.teleRockWallDamage))/float(sum(self.teleDefencesDamageScore)) if sum(self.teleDefencesDamageScore) else 0
+        self.pTeleRockWallDamage = float(sum(100*self.teleDC8))/float(sum(self.teleDefencesDamageScore)) if sum(self.teleDefencesDamageScore) else 0
         self.pTeleRockWallDamageM = float(sum(self.teleRockWallDamage))/float(len(self.matches)) if len(self.matches) else 0
-        self.pTeleRoughTerrainDamage = float(sum(100*self.teleRoughTerrainDamage))/float(sum(self.teleDefencesDamageScore)) if sum(self.teleDefencesDamageScore) else 0
+        self.pTeleRoughTerrainDamage = float(sum(100*self.teleDC9))/float(sum(self.teleDefencesDamageScore)) if sum(self.teleDefencesDamageScore) else 0
         self.pTeleRoughTerrainDamageM = float(sum(self.teleRoughTerrainDamage))/float(len(self.matches)) if len(self.matches) else 0
 
         self.avgTeleLowGoal = float(sum(self.teleLowGoal))/float(len(self.teleLowGoal)) if len(self.teleLowGoal) else 0

@@ -44,8 +44,6 @@ public class TeleFragment extends Fragment {
 
     private NumberPicker BouldersInLowGoal;
     private NumberPicker BouldersInHighGoal;
-    private NumberPicker BouldersFromLowGoal;
-    private NumberPicker BouldersFromHighGoal;
 
 
 
@@ -102,8 +100,7 @@ public class TeleFragment extends Fragment {
         BouldersInLowGoal.setValue(teleData.BouldersInLowGoal);
         BouldersInHighGoal.setValue(teleData.BouldersInHighGoal);
 
-        BouldersFromLowGoal.setValue(teleData.BouldersFromLowGoal);
-        BouldersFromHighGoal.setValue(teleData.BouldersFromHighGoal);
+
 
         if(disableDefences.isChecked())
             disableDefenceViews();
@@ -129,8 +126,6 @@ public class TeleFragment extends Fragment {
         teleData.BouldersInLowGoal = BouldersInLowGoal.getValue();
         teleData.BouldersInHighGoal = BouldersInHighGoal.getValue();
 
-        teleData.BouldersFromLowGoal = BouldersFromLowGoal.getValue();
-        teleData.BouldersFromHighGoal = BouldersFromHighGoal.getValue();
 
         return teleData;
     }
@@ -153,8 +148,6 @@ public class TeleFragment extends Fragment {
               BouldersInLowGoal = (NumberPicker)view.findViewById(R.id.picker_bouldersScoredInLowGoal);
               BouldersInHighGoal = (NumberPicker)view.findViewById(R.id.picker_bouldersScoredInHighGoal);
 
-              BouldersFromLowGoal = (NumberPicker)view.findViewById(R.id.picker_bouldersBlockedFromLowGoal);
-              BouldersFromHighGoal = (NumberPicker)view.findViewById(R.id.picker_bouldersBlockedFromHighGoal);
 
 
               disableDefences = (CheckBox)view.findViewById(R.id.cb_DisableDefences);
@@ -186,10 +179,7 @@ public class TeleFragment extends Fragment {
               BouldersInLowGoal.setMaxValue(50);
               BouldersInHighGoal.setMinValue(0);
               BouldersInHighGoal.setMaxValue(50);
-              BouldersFromLowGoal.setMinValue(0);
-              BouldersFromLowGoal.setMaxValue(50);
-              BouldersFromHighGoal.setMinValue(0);
-              BouldersFromHighGoal.setMaxValue(50);
+
 
             B_DamageCounterTele1.setTag(0);
             B_DamageCounterTele1.setOnClickListener(new View.OnClickListener() {

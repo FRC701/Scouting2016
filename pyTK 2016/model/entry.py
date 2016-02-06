@@ -179,7 +179,7 @@ class Entry(object):
         self.postScaleStateScore = 0
 
         self.postChallengeStateScore = 5 if self.postChallengeState == 2 else 0
-        self.postScaleStateScore = 5 if self.postScaleState == 1 else 0
+        #self.postScaleStateScore = 5 if self.postScaleState == 1 else 0
         self.postScaleStateScore = 15 if self.postScaleState == 2 else 0
 
         self.NotAttemptedC = True if self.postChallengeState == 0 else False

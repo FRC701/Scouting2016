@@ -1465,11 +1465,11 @@ containing a value of this type.
         public static final int action_mode_close_button=0x7f0c0020;
         public static final int activity_chooser_view_content=0x7f0c0021;
         public static final int always=0x7f0c0016;
-        public static final int answer_1=0x7f0c0095;
+        public static final int answer_1=0x7f0c0091;
         public static final int beginning=0x7f0c0013;
         public static final int button=0x7f0c0067;
-        public static final int button2=0x7f0c0092;
-        public static final int button3=0x7f0c0093;
+        public static final int button2=0x7f0c008e;
+        public static final int button3=0x7f0c008f;
         public static final int button_about=0x7f0c0049;
         public static final int button_damageCounterTele1=0x7f0c0081;
         public static final int button_damageCounterTele2=0x7f0c0083;
@@ -1498,7 +1498,7 @@ containing a value of this type.
         public static final int disableHome=0x7f0c000c;
         public static final int downloadEventListView=0x7f0c0040;
         public static final int dropdown=0x7f0c001c;
-        public static final int editText2=0x7f0c0097;
+        public static final int editText2=0x7f0c0093;
         public static final int edit_query=0x7f0c0033;
         public static final int end=0x7f0c0014;
         public static final int expand_activities_button=0x7f0c0022;
@@ -1520,7 +1520,7 @@ containing a value of this type.
         public static final int never=0x7f0c0019;
         public static final int none=0x7f0c000e;
         public static final int normal=0x7f0c000a;
-        public static final int option_layout=0x7f0c0091;
+        public static final int option_layout=0x7f0c008d;
         public static final int pager=0x7f0c004a;
         public static final int pager_title_strip=0x7f0c004b;
         public static final int pickerBouldersInHighGoal=0x7f0c0062;
@@ -1534,12 +1534,10 @@ containing a value of this type.
         public static final int picker_DamageCounterTele3=0x7f0c0084;
         public static final int picker_DamageCounterTele4=0x7f0c0086;
         public static final int picker_DamageCounterTele5=0x7f0c007f;
-        public static final int picker_bouldersBlockedFromHighGoal=0x7f0c0090;
-        public static final int picker_bouldersBlockedFromLowGoal=0x7f0c008e;
         public static final int picker_bouldersScoredInHighGoal=0x7f0c008a;
         public static final int picker_bouldersScoredInLowGoal=0x7f0c0088;
-        public static final int pit_scout_question_1=0x7f0c0094;
-        public static final int pit_scout_question_2=0x7f0c0096;
+        public static final int pit_scout_question_1=0x7f0c0090;
+        public static final int pit_scout_question_2=0x7f0c0092;
         public static final int progress_circular=0x7f0c0005;
         public static final int progress_horizontal=0x7f0c0006;
         public static final int radio=0x7f0c002b;
@@ -1589,8 +1587,6 @@ containing a value of this type.
         public static final int text_appSubtitle=0x7f0c0044;
         public static final int text_appTitle=0x7f0c0043;
         public static final int text_appVersion=0x7f0c0046;
-        public static final int text_bouldersBlockedFromHighGoal=0x7f0c008f;
-        public static final int text_bouldersBlockedFromLowGoal=0x7f0c008d;
         public static final int text_bouldersScoredInHighGoal=0x7f0c008b;
         public static final int text_bouldersScoredInLowGoal=0x7f0c0089;
         public static final int text_developerInfo=0x7f0c0045;

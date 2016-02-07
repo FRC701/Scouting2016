@@ -292,8 +292,8 @@ class Team(object):
         self.pHadAuto = str(int(100*self.Info.autoHadAuto)/len(matches)) + "%"
         self.pReachesDefences = str(int(100*self.Info.autoReachesDefences)/len(matches)) + "%"
         self.pCrossesDefences = str(int(100*self.Info.autoCrossesDefences)/len(matches)) + "%"
-        self.avgAutoReachesDefencesScores = self.Scores.avgAutoReachesDefencesScores
-        self.avgAutoCrossesDefencesScores = self.Scores.avgAutoCrossesDefencesScores
+        self.avgAutoReachesDefencesScores = str(self.Scores.avgAutoReachesDefencesScores)
+        self.avgAutoCrossesDefencesScores = str(self.Scores.avgAutoCrossesDefencesScores)
         self.avgAutoScore = round(self.Scores.avgAutoScore,2)
         self.avgAutoLowGoal = round(self.Scores.avgAutoLowGoal,2)
         self.avgAutoHighGoal = round(self.Scores.avgAutoHighGoal,2)

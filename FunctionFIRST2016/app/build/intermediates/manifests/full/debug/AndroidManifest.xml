@@ -44,10 +44,10 @@
         <activity
             android:name="com.vandenrobotics.functionfirst.activities.ScoutActivity"
             android:label="@string/title_activity_scout"
-            android:parentActivityName="com.vandenrobotics.functionfirst.activities.EventListActivity" >
+            android:parentActivityName="com.vandenrobotics.functionfirst.activities.OptionScreenActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.vandenrobotics.functionfirst.activities.EventListActivity" />
+                android:value="com.vandenrobotics.functionfirst.activities.OptionScreenActivity" />
         </activity>
         <activity
             android:name="com.vandenrobotics.functionfirst.activities.MatchActivity"
@@ -57,6 +57,24 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.vandenrobotics.functionfirst.activities.ScoutActivity" />
+        </activity>
+        <activity
+            android:name="com.vandenrobotics.functionfirst.activities.OptionScreenActivity"
+            android:label="@string/title_activity_match"
+            android:parentActivityName="com.vandenrobotics.functionfirst.activities.EventListActivity"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vandenrobotics.functionfirst.activities.EventListActivity" />
+        </activity>
+        <activity
+            android:name="com.vandenrobotics.functionfirst.activities.PitScoutActivity"
+            android:label="@string/title_activity_match"
+            android:parentActivityName="com.vandenrobotics.functionfirst.activities.OptionScreenActivity"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vandenrobotics.functionfirst.activities.OptionScreenActivity" />
         </activity>
     </application>
 

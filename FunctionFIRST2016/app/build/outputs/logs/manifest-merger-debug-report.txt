@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\src\main\AndroidManifest.xml:2:1-61:12
+ADDED from C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\src\main\AndroidManifest.xml:2:1-81:12
 	package
 		ADDED from C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\src\main\AndroidManifest.xml:3:5-47
 		INJECTED from C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\src\main\AndroidManifest.xml
@@ -42,7 +42,7 @@ ADDED from C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\src\main\AndroidM
 	android:name
 		ADDED from C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\src\main\AndroidManifest.xml:15:22-72
 application
-ADDED from C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\src\main\AndroidManifest.xml:20:5-59:19
+ADDED from C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\src\main\AndroidManifest.xml:20:5-79:19
 MERGED from [com.android.support:appcompat-v7:21.0.2] C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.2\AndroidManifest.xml:16:5-19
 MERGED from [com.android.support:support-v4:21.0.2] C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\AndroidManifest.xml:16:5-19
 	android:label
@@ -88,7 +88,7 @@ ADDED from C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\src\main\AndroidM
 	android:label
 		ADDED from C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\src\main\AndroidManifest.xml:44:13-57
 	android:parentActivityName
-		ADDED from C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\src\main\AndroidManifest.xml:45:13-71
+		ADDED from C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\src\main\AndroidManifest.xml:45:13-74
 	android:name
 		ADDED from C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\src\main\AndroidManifest.xml:43:13-53
 activity#com.vandenrobotics.functionfirst.activities.MatchActivity
@@ -101,3 +101,23 @@ ADDED from C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\src\main\AndroidM
 		ADDED from C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\src\main\AndroidManifest.xml:53:13-67
 	android:name
 		ADDED from C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\src\main\AndroidManifest.xml:51:13-53
+activity#com.vandenrobotics.functionfirst.activities.OptionScreenActivity
+ADDED from C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\src\main\AndroidManifest.xml:59:9-67:20
+	android:screenOrientation
+		ADDED from C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\src\main\AndroidManifest.xml:63:13-50
+	android:label
+		ADDED from C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\src\main\AndroidManifest.xml:61:13-57
+	android:parentActivityName
+		ADDED from C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\src\main\AndroidManifest.xml:62:13-71
+	android:name
+		ADDED from C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\src\main\AndroidManifest.xml:60:13-60
+activity#com.vandenrobotics.functionfirst.activities.PitScoutActivity
+ADDED from C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\src\main\AndroidManifest.xml:68:9-76:20
+	android:screenOrientation
+		ADDED from C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\src\main\AndroidManifest.xml:72:13-50
+	android:label
+		ADDED from C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\src\main\AndroidManifest.xml:70:13-57
+	android:parentActivityName
+		ADDED from C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\src\main\AndroidManifest.xml:71:13-74
+	android:name
+		ADDED from C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\src\main\AndroidManifest.xml:69:13-56

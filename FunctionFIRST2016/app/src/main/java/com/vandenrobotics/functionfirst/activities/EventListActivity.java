@@ -21,7 +21,6 @@ import com.vandenrobotics.functionfirst.tools.JSONTools;
 import com.vandenrobotics.functionfirst.tools.TheBlueAllianceRestClient;
 import com.vandenrobotics.functionfirst.views.EventArrayAdapter;
 import com.vandenrobotics.functionfirst.views.EventListView;
-import com.vandenrobotics.functionfirst.views.OptionScreen;
 
 import org.apache.http.Header;
 import org.json.JSONArray;
@@ -259,7 +258,7 @@ public class EventListActivity extends Activity {
     }
 
     private Intent loadEventToScout(JSONObject event){
-        Intent intent = new Intent(this, ScoutActivity.class);
+        Intent intent = new Intent(this, OptionScreenActivity.class);
         try {
             intent.putExtra("event", event.getString("key"));
         } catch (JSONException e){

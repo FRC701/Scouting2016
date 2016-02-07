@@ -389,37 +389,7 @@ def get_tele_High_Goal_rank(sort="avg",rev=True):
 
     return TeamRankings.tele_High_Goal_rank
 
-def get_post_Challenge_State_Successful_rank(sort="avg",rev=False):
 
-    TeamRankings.post_Challenge_State_Successful_rank = []
-
-    for team in Team.team_list:
-        if sort == "avg":
-            TeamRankings.post_Challenge_State_Successful_rank.append([team.Scores.avgPostChallengeStateSuccessful,team.number])
-        elif sort == "max":
-            TeamRankings.post_Challenge_State_Successful_rank.append([team.Scores.maxPostChallengeStateSuccessful, team.number])
-        elif sort == "min":
-            TeamRankings.post_Challenge_State_Successful_rank.append([team.Scores.minPostChallengeStateSuccessful, team.number])
-
-    TeamRankings.post_Challenge_State_Successful_rank.sort(reverse=rev)
-
-    return TeamRankings.post_Challenge_State_Successful_rank
-
-def get_post_Scale_State_Successful_rank(sort="avg",rev=False):
-
-    TeamRankings.post_Scale_State_Successful_rank = []
-
-    for team in Team.team_list:
-        if sort == "avg":
-            TeamRankings.post_Scale_State_Successful_rank.append([team.Scores.avgPostScaleStateSuccessful,team.number])
-        elif sort == "max":
-            TeamRankings.post_Scale_State_Successful_rank.append([team.Scores.maxPostScaleStateSuccessful, team.number])
-        elif sort == "min":
-            TeamRankings.post_Scale_State_Successful_rank.append([team.Scores.minPostScaleStateSuccessful, team.number])
-
-    TeamRankings.post_Scale_State_Successful_rank.sort(reverse=rev)
-
-    return TeamRankings.post_Scale_State_Successful_rank
 
 def get_w_rank(sort="avg",rev=True):
 

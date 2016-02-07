@@ -42,10 +42,10 @@
         <activity
             android:name=".activities.ScoutActivity"
             android:label="@string/title_activity_scout"
-            android:parentActivityName=".activities.EventListActivity" >
+            android:parentActivityName=".activities.OptionScreenActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.vandenrobotics.functionfirst.activities.EventListActivity" />
+                android:value="com.vandenrobotics.functionfirst.activities.OptionScreenActivity" />
         </activity>
         <activity
             android:name=".activities.MatchActivity"
@@ -56,6 +56,26 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.vandenrobotics.functionfirst.activities.ScoutActivity"/>
         </activity>
+        <activity
+            android:name=".activities.OptionScreenActivity"
+            android:label="@string/title_activity_match"
+            android:parentActivityName=".activities.EventListActivity"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vandenrobotics.functionfirst.activities.EventListActivity"/>
+        </activity>
+        <activity
+            android:name=".activities.PitScoutActivity"
+            android:label="@string/title_activity_match"
+            android:parentActivityName=".activities.OptionScreenActivity"
+            android:screenOrientation="landscape">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.vandenrobotics.functionfirst.activities.OptionScreenActivity"/>
+        </activity>
+
+
     </application>
 
 </manifest>

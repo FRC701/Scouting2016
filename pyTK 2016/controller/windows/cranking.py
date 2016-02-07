@@ -29,7 +29,7 @@ class RankingController():
                     "Auto Score",
                     "Auto Crosses Defences Score","Auto Boulders in Low Goal Score","Auto Boulders in High Goal Score",
                     "Tele Score",
-                    "Tele Defences Damage Score","Tele Boulders in Low Goal Score","Tele Boulders in High Goal Score","Tele Times Challenge was Successful", "Tele Times Scaling was Successful",
+                    "Tele Defences Damage Score","Tele Boulders in Low Goal Score","Tele Boulders in High Goal Score",
                     "Weighted Score", "Offensive Weighted Score", "Defensive Weighted Score", "Foul Score"]
 
     rankingIndex = [("None",get_none),
@@ -44,8 +44,6 @@ class RankingController():
                     ("Tele Defences Damage Score",get_tele_Defences_Damage_rank),
                     ("Tele Boulders in Low Goal Score",get_tele_Low_Goal_rank),
                     ("Tele Boulders in High Goal Score",get_tele_High_Goal_rank),
-                    ("Tele Times Challenge was Successful",get_post_Challenge_State_Successful_rank),
-                    ("Tele Times Scaling was Successful",get_post_Scale_State_Successful_rank),
                     ("Weighted Score",get_w_rank),
                     ("Offensive Weighted Score",get_wo_rank),
                     ("Defensive Weighted Score",get_wd_rank),

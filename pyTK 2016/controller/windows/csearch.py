@@ -50,6 +50,12 @@ class SearchController():
     checkItemTypes = [("autoHadAuto","Had Autonomous"),
                       ("autoOther","Had Other Autonomous"),
                       ("scoredInTele","Scored in Tele"),
+                      ("NotAttemptedC","Challenge Not Attempted"),
+                      ("AttemptedC","Challenge Attempted"),
+                      ("SuccessfulC","Challenge Successful"),
+                      ("NotAttemptedS","Scale Not Attempted"),
+                      ("AttemptedS","Scale Attempted"),
+                      ("SuccessfulS","Scale Successful"),
                       ("postNoShow","Always Showed Up"),
                       ("postDisabled","Never Disabled"),
                       ("hasFoul","No Fouls"),
@@ -126,7 +132,13 @@ class SearchController():
                 "noShow":searchNever,
                 "hasFoul":searchNever,
                 "postHadYellow":searchNever,
-                "postHadRed":searchNever}
+                "postHadRed":searchNever,
+                "NotAttemptedC":searchHas,
+                "AttemptedC":searchHas,
+                "SuccessfulC":searchHas,
+                "NotAttemptedS":searchHas,
+                "AttemptedS":searchHas,
+                "SuccessfulS":searchHas}
 
     def search(self):
         self.matchedList = team.Team.team_list

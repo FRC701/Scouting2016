@@ -324,6 +324,7 @@
     <string name="button_startMatch">Start Match</string>
     <string name="cb_Breached">Breached</string>
     <string name="cb_Captured">Captured</string>
+    <string name="cb_PlayedAssistively">Played Assistively</string>
     <string name="cb_PlayedDefensively">Played Defensively</string>
     <string name="cb_endInAuto">Robot Ends in Auto Zone?</string>
     <string name="cb_gotRedCard">Robot Received Red Card?</string>
@@ -338,6 +339,7 @@
     <string name="pit_scout">Pit Scout</string>
     <string name="pit_scout_question_1">Test</string>
     <string name="pit_scout_question_2">Test</string>
+    <string name="pit_scout_question_3">Test</string>
     <string name="rb_Attempted">Attempted</string>
     <string name="rb_NotAttempted">Not Attempted</string>
     <string name="rb_Successful">Successful</string>
@@ -354,8 +356,6 @@
     <string name="text_appSubtitle">For the 2016 FRC Season: Stronghold</string>
     <string name="text_appTitle">FUNCTION FIRST</string>
     <string name="text_appVersion">Deployment Version 2</string>
-    <string name="text_bouldersBlockedFromHighGoal">Boulders Blocked from Scoring in High Goal</string>
-    <string name="text_bouldersBlockedFromLowGoal">Boulders Bocked From Scoring in Low Goal</string>
     <string name="text_crossesDefences">Crosses Defences?</string>
     <string name="text_developerInfo">Designed by FIRST Team 701</string>
     <string name="text_deviceNumber">Device #</string>

@@ -40,6 +40,8 @@ class SearchController():
     checkItemTypes = [("autoHadAuto","Had Autonomous"),
                       ("autoOther","Had Other Autonomous"),
                       ("scoredInTele","Scored in Tele"),
+                      ("postPlayedDefensively","Played Defensively"),
+                      ("postPlayedAssistively","Played Assistively"),
                       ("NotAttemptedC","Challenge Not Attempted"),
                       ("AttemptedC","Challenge Attempted"),
                       ("SuccessfulC","Challenge Successful"),

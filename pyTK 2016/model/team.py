@@ -53,6 +53,7 @@ class _TeamInfo(object):
         self.postYellowCard = 0             # number of matches for which robot received yellow card
         self.postDisabled = 0               # number of matches for which robot was disabled
         self.postPlayedDefensively = 0
+        self.postPlayedAssistively = 0
         self.postCaptured = 0
         self.postBreached = 0
         self.postChallengeState = []
@@ -328,6 +329,7 @@ class Team(object):
         self.pYellow = str(int(100*self.Info.postYellowCard)/len(matches)) + "%"
         self.pRed = str(int(100*self.Info.postRedCard)/len(matches)) + "%"
         self.pPlayedDefensively = str(int(100*self.Info.postPlayedDefensively)/len(matches)) + "%"
+        self.pPlayedAssistively = str(int(100*self.Info.postPlayedAssistively)/len(matches)) + "%"
         self.pCaptured = str(int(100*self.Info.postCaptured)/len(matches)) + "%"
         self.pBreached = str(int(100*self.Info.postBreached)/len(matches)) + "%"
         self.avgPostChallengeStateScores = round(self.Scores.avgPostChallengeStateScore, 2)

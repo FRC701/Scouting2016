@@ -28,6 +28,7 @@ public class PostFragment extends Fragment {
     private CheckBox gotYellowCard;
     private CheckBox wasDisabled;
     private CheckBox playedDefensively;
+    private CheckBox playedAssistively;
     private CheckBox capture;
     private CheckBox breached;
     private RadioGroup challengeState;
@@ -80,6 +81,7 @@ public class PostFragment extends Fragment {
         gotYellowCard.setChecked(postData.gotYellowCard);
         wasDisabled.setChecked(postData.wasDisabled);
         playedDefensively.setChecked(postData.playedDefensively);
+        playedAssistively.setChecked(postData.playedAssistively);
         capture.setChecked(postData.capture);
         breached.setChecked(postData.breached);
         challengeStateButtonPressed = postData.challengeState;
@@ -95,6 +97,7 @@ public class PostFragment extends Fragment {
             postData.gotYellowCard = gotYellowCard.isChecked();
             postData.wasDisabled = wasDisabled.isChecked();
             postData.playedDefensively = playedDefensively.isChecked();
+            postData.playedAssistively = playedAssistively.isChecked();
             postData.capture = capture.isChecked();
             postData.breached = breached.isChecked();
             switch(challengeState.getCheckedRadioButtonId()){
@@ -142,6 +145,7 @@ public class PostFragment extends Fragment {
             gotYellowCard = (CheckBox)view.findViewById(R.id.cb_gotYellowCard);
             wasDisabled = (CheckBox)view.findViewById(R.id.cb_wasDisabled);
             playedDefensively = (CheckBox)view.findViewById(R.id.cb_PlayedDefensively);
+            playedAssistively = (CheckBox)view.findViewById(R.id.cb_PlayedAssistively);
             capture = (CheckBox)view.findViewById(R.id.cb_Capture);
             breached = (CheckBox)view.findViewById(R.id.cb_Breached);
             challengeState = (RadioGroup)view.findViewById(R.id.rg_ChallengeState);

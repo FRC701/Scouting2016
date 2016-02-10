@@ -239,6 +239,8 @@ public class AutoFragment extends Fragment implements AdapterView.OnItemSelected
         crossesDefences.setEnabled(true);
         Defences1.setEnabled(true);
         Defences2.setEnabled(true);
+        bouldersInLowGoal.setEnabled(true);
+        bouldersInHighGoal.setEnabled(true);
     }
 
     private void disableCrossesDefenceViews(){
@@ -248,6 +250,10 @@ public class AutoFragment extends Fragment implements AdapterView.OnItemSelected
         Defences1.setSelection(0);
         Defences2.setEnabled(false);
         Defences2.setSelection(0);
+        bouldersInLowGoal.setEnabled(false);
+        bouldersInLowGoal.setValue(0);
+        bouldersInHighGoal.setEnabled(false);
+        bouldersInHighGoal.setValue(0);
     }
 
     public void onItemSelected(AdapterView<?> parent, View view,

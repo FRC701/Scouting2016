@@ -84,6 +84,8 @@ class Entry(object):
         index += 1
         self.postPlayedDefensively = bool(int(data[index]))
         index += 1
+        self.postPlayedAssistively = bool(int(data[index]))
+        index += 1
         self.postCaptured = bool(int(data[index]))
         index += 1
         self.postBreached = bool(int(data[index]))
@@ -201,6 +203,8 @@ class Entry(object):
 
         self.offensive = True if self.offensiveScore > 0 else False
         self.defensive = self.postPlayedDefensively
+        self.assistive = self.postPlayedAssistively
+        
 
     def secondary_sort(self, oppOff, allOff, allDef):
         # result = difference between offensive scores /

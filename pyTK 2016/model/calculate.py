@@ -159,6 +159,7 @@ def assign_basic_team_values(team, entry):
     team.Info.postYellowCard += int(entry.postYellowCard)
     team.Info.postDisabled += int(entry.postDisabled)
     team.Info.postPlayedDefensively += int(entry.postPlayedDefensively)
+    team.Info.postPlayedAssistively += int(entry.postPlayedAssistively)
     team.Info.postCaptured += int(entry.postCaptured)
     team.Info.postBreached += int (entry.postBreached)
     team.Info.postChallengeStateScore.append(float(entry.postChallengeStateScore))

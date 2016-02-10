@@ -14,6 +14,7 @@ public class PostData implements Parcelable {
     public boolean gotYellowCard;
     public boolean wasDisabled;
     public boolean playedDefensively;
+    public boolean playedAssistively;
     public boolean capture;
     public boolean breached;
     public int challengeState;
@@ -27,6 +28,7 @@ public class PostData implements Parcelable {
         gotYellowCard = false;
         wasDisabled = false;
         playedDefensively = false;
+        playedAssistively = false;
         capture = false;
         breached = false;
         challengeState = 0;
@@ -54,10 +56,11 @@ public class PostData implements Parcelable {
             gotYellowCard = (data[3]==1);
             wasDisabled = (data[4]==1);
             playedDefensively = (data[5]==1);
-            capture = (data[6]==1);
-            breached = (data[7]==1);
-            challengeState = data[8];
-            scaleState= data[9];
+            playedAssistively = (data[6]==1);
+            capture = (data[7]==1);
+            breached = (data[8]==1);
+            challengeState = data[9];
+            scaleState= data[10];
 
         } catch (IndexOutOfBoundsException e){
             e.printStackTrace();
@@ -72,6 +75,7 @@ public class PostData implements Parcelable {
         gotYellowCard = postData.gotYellowCard;
         wasDisabled = postData.wasDisabled;
         playedDefensively = postData.playedDefensively;
+        playedAssistively = postData.playedAssistively;
         capture = postData.capture;
         breached = postData.breached;
         challengeState = postData.challengeState;
@@ -84,10 +88,13 @@ public class PostData implements Parcelable {
         int tempYellowCard = gotYellowCard? 1 : 0;
         int tempDisabled = wasDisabled? 1 : 0;
         int tempPlayedDefensively = playedDefensively? 1 : 0;
+        int tempPlayedAssistively = playedAssistively? 1 : 0;
         int tempCapture = capture? 1 : 0;
         int tempBreached = breached? 1 : 0;
 
-        return numFouls+","+numTechFouls+","+tempRedCard+","+tempYellowCard+","+tempDisabled+","+tempPlayedDefensively+","+tempCapture+","+tempBreached+","+challengeState+","+scaleState;
+        return numFouls+","+numTechFouls+","+tempRedCard+","+tempYellowCard+","+tempDisabled+","+tempPlayedDefensively+","
+                +tempPlayedAssistively+","
+                +tempCapture+","+tempBreached+","+challengeState+","+scaleState;
     }
 
     @Override

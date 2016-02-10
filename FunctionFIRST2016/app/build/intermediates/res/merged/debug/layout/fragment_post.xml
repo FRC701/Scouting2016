@@ -106,8 +106,19 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/cb_Capture"
+        android:text="@string/cb_PlayedAssistively"
+        android:id="@+id/cb_PlayedAssistively"
         android:layout_below="@+id/cb_PlayedDefensively"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/Gold"/>
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_Capture"
+        android:layout_below="@+id/cb_PlayedAssistively"
         android:text="@string/cb_Captured"
         android:textColor="@color/Gold"/>
 

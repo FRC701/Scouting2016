@@ -72,14 +72,6 @@ public class ScoutActivity extends Activity {
         }
 
 
-
-
-
-
-
-
-
-
         Collections.sort(team_numbers);
 
         spinnerDevices = (Spinner)findViewById(R.id.spinnerDeviceNumber);

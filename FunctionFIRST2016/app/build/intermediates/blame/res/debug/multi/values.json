@@ -3409,14 +3409,7 @@
                     "endOffset": 29337
                 },
                 "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 106,
-                        "startColumn": 4,
-                        "startOffset": 6193,
-                        "endColumn": 67,
-                        "endOffset": 6256
-                    }
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -3568,8 +3561,8 @@
                     "startLine": 339,
                     "startColumn": 4,
                     "startOffset": 30085,
-                    "endColumn": 53,
-                    "endOffset": 30134
+                    "endColumn": 112,
+                    "endOffset": 30193
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -3579,9 +3572,9 @@
                 "to": {
                     "startLine": 340,
                     "startColumn": 4,
-                    "startOffset": 30139,
-                    "endColumn": 53,
-                    "endOffset": 30188
+                    "startOffset": 30198,
+                    "endColumn": 76,
+                    "endOffset": 30270
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -3591,93 +3584,142 @@
                 "to": {
                     "startLine": 341,
                     "startColumn": 4,
-                    "startOffset": 30193,
-                    "endColumn": 53,
-                    "endOffset": 30242
+                    "startOffset": 30275,
+                    "endColumn": 121,
+                    "endOffset": 30392
                 },
                 "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 123,
+                        "startColumn": 4,
+                        "startOffset": 7071,
+                        "endColumn": 121,
+                        "endOffset": 7188
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 342,
                     "startColumn": 4,
-                    "startOffset": 30247,
-                    "endColumn": 50,
-                    "endOffset": 30293
+                    "startOffset": 30397,
+                    "endColumn": 112,
+                    "endOffset": 30505
                 },
                 "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 124,
+                        "startColumn": 4,
+                        "startOffset": 7194,
+                        "endColumn": 112,
+                        "endOffset": 7302
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 343,
                     "startColumn": 4,
-                    "startOffset": 30298,
-                    "endColumn": 57,
-                    "endOffset": 30351
+                    "startOffset": 30510,
+                    "endColumn": 129,
+                    "endOffset": 30635
                 },
                 "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 125,
+                        "startColumn": 4,
+                        "startOffset": 7308,
+                        "endColumn": 129,
+                        "endOffset": 7433
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 344,
                     "startColumn": 4,
-                    "startOffset": 30356,
-                    "endColumn": 52,
-                    "endOffset": 30404
+                    "startOffset": 30640,
+                    "endColumn": 148,
+                    "endOffset": 30784
                 },
                 "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 126,
+                        "startColumn": 4,
+                        "startOffset": 7439,
+                        "endColumn": 148,
+                        "endOffset": 7583
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 345,
                     "startColumn": 4,
-                    "startOffset": 30409,
-                    "endColumn": 96,
-                    "endOffset": 30501
+                    "startOffset": 30789,
+                    "endColumn": 107,
+                    "endOffset": 30892
                 },
                 "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 127,
+                        "startColumn": 4,
+                        "startOffset": 7589,
+                        "endColumn": 107,
+                        "endOffset": 7692
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 346,
                     "startColumn": 4,
-                    "startOffset": 30506,
-                    "endColumn": 94,
-                    "endOffset": 30596
+                    "startOffset": 30897,
+                    "endColumn": 144,
+                    "endOffset": 31037
                 },
                 "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 128,
+                        "startColumn": 4,
+                        "startOffset": 7698,
+                        "endColumn": 144,
+                        "endOffset": 7838
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 347,
                     "startColumn": 4,
-                    "startOffset": 30601,
-                    "endColumn": 53,
-                    "endOffset": 30650
+                    "startOffset": 31042,
+                    "endColumn": 119,
+                    "endOffset": 31157
                 },
                 "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 129,
+                        "startColumn": 4,
+                        "startOffset": 7844,
+                        "endColumn": 119,
+                        "endOffset": 7959
+                    }
                 }
             },
             {
                 "to": {
                     "startLine": 348,
                     "startColumn": 4,
-                    "startOffset": 30655,
-                    "endColumn": 53,
-                    "endOffset": 30704
+                    "startOffset": 31162,
+                    "endColumn": 50,
+                    "endOffset": 31208
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -3687,9 +3729,9 @@
                 "to": {
                     "startLine": 349,
                     "startColumn": 4,
-                    "startOffset": 30709,
-                    "endColumn": 53,
-                    "endOffset": 30758
+                    "startOffset": 31213,
+                    "endColumn": 57,
+                    "endOffset": 31266
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -3699,9 +3741,9 @@
                 "to": {
                     "startLine": 350,
                     "startColumn": 4,
-                    "startOffset": 30763,
-                    "endColumn": 53,
-                    "endOffset": 30812
+                    "startOffset": 31271,
+                    "endColumn": 52,
+                    "endOffset": 31319
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -3711,9 +3753,9 @@
                 "to": {
                     "startLine": 351,
                     "startColumn": 4,
-                    "startOffset": 30817,
-                    "endColumn": 63,
-                    "endOffset": 30876
+                    "startOffset": 31324,
+                    "endColumn": 96,
+                    "endOffset": 31416
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -3723,9 +3765,9 @@
                 "to": {
                     "startLine": 352,
                     "startColumn": 4,
-                    "startOffset": 30881,
-                    "endColumn": 46,
-                    "endOffset": 30923
+                    "startOffset": 31421,
+                    "endColumn": 94,
+                    "endOffset": 31511
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -3735,9 +3777,9 @@
                 "to": {
                     "startLine": 353,
                     "startColumn": 4,
-                    "startOffset": 30928,
-                    "endColumn": 55,
-                    "endOffset": 30979
+                    "startOffset": 31516,
+                    "endColumn": 53,
+                    "endOffset": 31565
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -3747,9 +3789,9 @@
                 "to": {
                     "startLine": 354,
                     "startColumn": 4,
-                    "startOffset": 30984,
-                    "endColumn": 70,
-                    "endOffset": 31050
+                    "startOffset": 31570,
+                    "endColumn": 53,
+                    "endOffset": 31619
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -3759,9 +3801,9 @@
                 "to": {
                     "startLine": 355,
                     "startColumn": 4,
-                    "startOffset": 31055,
-                    "endColumn": 80,
-                    "endOffset": 31131
+                    "startOffset": 31624,
+                    "endColumn": 53,
+                    "endOffset": 31673
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -3771,9 +3813,9 @@
                 "to": {
                     "startLine": 356,
                     "startColumn": 4,
-                    "startOffset": 31136,
-                    "endColumn": 56,
-                    "endOffset": 31188
+                    "startOffset": 31678,
+                    "endColumn": 53,
+                    "endOffset": 31727
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -3783,9 +3825,9 @@
                 "to": {
                     "startLine": 357,
                     "startColumn": 4,
-                    "startOffset": 31193,
-                    "endColumn": 64,
-                    "endOffset": 31253
+                    "startOffset": 31732,
+                    "endColumn": 63,
+                    "endOffset": 31791
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -3795,9 +3837,9 @@
                 "to": {
                     "startLine": 358,
                     "startColumn": 4,
-                    "startOffset": 31258,
-                    "endColumn": 66,
-                    "endOffset": 31320
+                    "startOffset": 31796,
+                    "endColumn": 46,
+                    "endOffset": 31838
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -3807,9 +3849,9 @@
                 "to": {
                     "startLine": 359,
                     "startColumn": 4,
-                    "startOffset": 31325,
-                    "endColumn": 73,
-                    "endOffset": 31394
+                    "startOffset": 31843,
+                    "endColumn": 55,
+                    "endOffset": 31894
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -3819,9 +3861,9 @@
                 "to": {
                     "startLine": 360,
                     "startColumn": 4,
-                    "startOffset": 31399,
-                    "endColumn": 54,
-                    "endOffset": 31449
+                    "startOffset": 31899,
+                    "endColumn": 70,
+                    "endOffset": 31965
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -3831,9 +3873,9 @@
                 "to": {
                     "startLine": 361,
                     "startColumn": 4,
-                    "startOffset": 31454,
-                    "endColumn": 65,
-                    "endOffset": 31515
+                    "startOffset": 31970,
+                    "endColumn": 80,
+                    "endOffset": 32046
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -3843,9 +3885,9 @@
                 "to": {
                     "startLine": 362,
                     "startColumn": 4,
-                    "startOffset": 31520,
-                    "endColumn": 73,
-                    "endOffset": 31589
+                    "startOffset": 32051,
+                    "endColumn": 56,
+                    "endOffset": 32103
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -3855,9 +3897,9 @@
                 "to": {
                     "startLine": 363,
                     "startColumn": 4,
-                    "startOffset": 31594,
-                    "endColumn": 63,
-                    "endOffset": 31653
+                    "startOffset": 32108,
+                    "endColumn": 64,
+                    "endOffset": 32168
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -3867,9 +3909,9 @@
                 "to": {
                     "startLine": 364,
                     "startColumn": 4,
-                    "startOffset": 31658,
-                    "endColumn": 52,
-                    "endOffset": 31706
+                    "startOffset": 32173,
+                    "endColumn": 66,
+                    "endOffset": 32235
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -3879,10 +3921,33 @@
                 "to": {
                     "startLine": 365,
                     "startColumn": 4,
-                    "startOffset": 31711,
-                    "endLine": 367,
-                    "endColumn": 120,
-                    "endOffset": 32036
+                    "startOffset": 32240,
+                    "endColumn": 73,
+                    "endOffset": 32309
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 366,
+                    "startColumn": 4,
+                    "startOffset": 32314,
+                    "endColumn": 54,
+                    "endOffset": 32364
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 367,
+                    "startColumn": 4,
+                    "startOffset": 32369,
+                    "endColumn": 65,
+                    "endOffset": 32430
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -3892,10 +3957,21 @@
                 "to": {
                     "startLine": 368,
                     "startColumn": 4,
-                    "startOffset": 32041,
-                    "endLine": 369,
-                    "endColumn": 96,
-                    "endOffset": 32240
+                    "startOffset": 32435,
+                    "endColumn": 73,
+                    "endOffset": 32504
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 369,
+                    "startColumn": 4,
+                    "startOffset": 32509,
+                    "endColumn": 63,
+                    "endOffset": 32568
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -3905,10 +3981,9 @@
                 "to": {
                     "startLine": 370,
                     "startColumn": 4,
-                    "startOffset": 32245,
-                    "endLine": 371,
-                    "endColumn": 66,
-                    "endOffset": 32422
+                    "startOffset": 32573,
+                    "endColumn": 52,
+                    "endOffset": 32621
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -3916,23 +3991,12 @@
             },
             {
                 "to": {
-                    "startLine": 372,
+                    "startLine": 371,
                     "startColumn": 4,
-                    "startOffset": 32427,
-                    "endColumn": 114,
-                    "endOffset": 32537
-                },
-                "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 373,
-                    "startColumn": 4,
-                    "startOffset": 32542,
-                    "endColumn": 111,
-                    "endOffset": 32649
+                    "startOffset": 32626,
+                    "endLine": 373,
+                    "endColumn": 120,
+                    "endOffset": 32951
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -3942,21 +4006,10 @@
                 "to": {
                     "startLine": 374,
                     "startColumn": 4,
-                    "startOffset": 32654,
-                    "endColumn": 119,
-                    "endOffset": 32769
-                },
-                "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 375,
-                    "startColumn": 4,
-                    "startOffset": 32774,
-                    "endColumn": 80,
-                    "endOffset": 32850
+                    "startOffset": 32956,
+                    "endLine": 375,
+                    "endColumn": 96,
+                    "endOffset": 33155
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -3966,21 +4019,10 @@
                 "to": {
                     "startLine": 376,
                     "startColumn": 4,
-                    "startOffset": 32855,
-                    "endColumn": 80,
-                    "endOffset": 32931
-                },
-                "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 377,
-                    "startColumn": 4,
-                    "startOffset": 32936,
-                    "endColumn": 80,
-                    "endOffset": 33012
+                    "startOffset": 33160,
+                    "endLine": 377,
+                    "endColumn": 66,
+                    "endOffset": 33337
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -3990,9 +4032,9 @@
                 "to": {
                     "startLine": 378,
                     "startColumn": 4,
-                    "startOffset": 33017,
-                    "endColumn": 94,
-                    "endOffset": 33107
+                    "startOffset": 33342,
+                    "endColumn": 114,
+                    "endOffset": 33452
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -4002,10 +4044,21 @@
                 "to": {
                     "startLine": 379,
                     "startColumn": 4,
-                    "startOffset": 33112,
-                    "endLine": 380,
-                    "endColumn": 84,
-                    "endOffset": 33324
+                    "startOffset": 33457,
+                    "endColumn": 111,
+                    "endOffset": 33564
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 380,
+                    "startColumn": 4,
+                    "startOffset": 33569,
+                    "endColumn": 119,
+                    "endOffset": 33684
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -4015,10 +4068,33 @@
                 "to": {
                     "startLine": 381,
                     "startColumn": 4,
-                    "startOffset": 33329,
-                    "endLine": 383,
-                    "endColumn": 99,
-                    "endOffset": 33655
+                    "startOffset": 33689,
+                    "endColumn": 80,
+                    "endOffset": 33765
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 382,
+                    "startColumn": 4,
+                    "startOffset": 33770,
+                    "endColumn": 80,
+                    "endOffset": 33846
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 383,
+                    "startColumn": 4,
+                    "startOffset": 33851,
+                    "endColumn": 80,
+                    "endOffset": 33927
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -4028,10 +4104,22 @@
                 "to": {
                     "startLine": 384,
                     "startColumn": 4,
-                    "startOffset": 33660,
+                    "startOffset": 33932,
+                    "endColumn": 94,
+                    "endOffset": 34022
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 385,
+                    "startColumn": 4,
+                    "startOffset": 34027,
                     "endLine": 386,
-                    "endColumn": 86,
-                    "endOffset": 33980
+                    "endColumn": 84,
+                    "endOffset": 34239
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -4041,33 +4129,10 @@
                 "to": {
                     "startLine": 387,
                     "startColumn": 4,
-                    "startOffset": 33985,
-                    "endColumn": 66,
-                    "endOffset": 34047
-                },
-                "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 388,
-                    "startColumn": 4,
-                    "startOffset": 34052,
-                    "endColumn": 50,
-                    "endOffset": 34098
-                },
-                "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 389,
-                    "startColumn": 4,
-                    "startOffset": 34103,
-                    "endColumn": 64,
-                    "endOffset": 34163
+                    "startOffset": 34244,
+                    "endLine": 389,
+                    "endColumn": 99,
+                    "endOffset": 34570
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -4077,33 +4142,10 @@
                 "to": {
                     "startLine": 390,
                     "startColumn": 4,
-                    "startOffset": 34168,
-                    "endColumn": 80,
-                    "endOffset": 34244
-                },
-                "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 391,
-                    "startColumn": 4,
-                    "startOffset": 34249,
-                    "endColumn": 70,
-                    "endOffset": 34315
-                },
-                "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 392,
-                    "startColumn": 4,
-                    "startOffset": 34320,
-                    "endColumn": 68,
-                    "endOffset": 34384
+                    "startOffset": 34575,
+                    "endLine": 392,
+                    "endColumn": 86,
+                    "endOffset": 34895
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -4113,9 +4155,9 @@
                 "to": {
                     "startLine": 393,
                     "startColumn": 4,
-                    "startOffset": 34389,
-                    "endColumn": 58,
-                    "endOffset": 34443
+                    "startOffset": 34900,
+                    "endColumn": 66,
+                    "endOffset": 34962
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -4125,9 +4167,9 @@
                 "to": {
                     "startLine": 394,
                     "startColumn": 4,
-                    "startOffset": 34448,
-                    "endColumn": 76,
-                    "endOffset": 34520
+                    "startOffset": 34967,
+                    "endColumn": 50,
+                    "endOffset": 35013
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -4137,9 +4179,9 @@
                 "to": {
                     "startLine": 395,
                     "startColumn": 4,
-                    "startOffset": 34525,
-                    "endColumn": 67,
-                    "endOffset": 34588
+                    "startOffset": 35018,
+                    "endColumn": 64,
+                    "endOffset": 35078
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -4149,9 +4191,9 @@
                 "to": {
                     "startLine": 396,
                     "startColumn": 4,
-                    "startOffset": 34593,
-                    "endColumn": 59,
-                    "endOffset": 34648
+                    "startOffset": 35083,
+                    "endColumn": 80,
+                    "endOffset": 35159
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -4161,9 +4203,9 @@
                 "to": {
                     "startLine": 397,
                     "startColumn": 4,
-                    "startOffset": 34653,
-                    "endColumn": 72,
-                    "endOffset": 34721
+                    "startOffset": 35164,
+                    "endColumn": 70,
+                    "endOffset": 35230
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -4173,9 +4215,9 @@
                 "to": {
                     "startLine": 398,
                     "startColumn": 4,
-                    "startOffset": 34726,
-                    "endColumn": 62,
-                    "endOffset": 34784
+                    "startOffset": 35235,
+                    "endColumn": 68,
+                    "endOffset": 35299
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -4185,9 +4227,9 @@
                 "to": {
                     "startLine": 399,
                     "startColumn": 4,
-                    "startOffset": 34789,
-                    "endColumn": 62,
-                    "endOffset": 34847
+                    "startOffset": 35304,
+                    "endColumn": 58,
+                    "endOffset": 35358
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -4197,9 +4239,9 @@
                 "to": {
                     "startLine": 400,
                     "startColumn": 4,
-                    "startOffset": 34852,
-                    "endColumn": 52,
-                    "endOffset": 34900
+                    "startOffset": 35363,
+                    "endColumn": 76,
+                    "endOffset": 35435
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -4209,9 +4251,9 @@
                 "to": {
                     "startLine": 401,
                     "startColumn": 4,
-                    "startOffset": 34905,
-                    "endColumn": 51,
-                    "endOffset": 34952
+                    "startOffset": 35440,
+                    "endColumn": 67,
+                    "endOffset": 35503
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -4221,9 +4263,9 @@
                 "to": {
                     "startLine": 402,
                     "startColumn": 4,
-                    "startOffset": 34957,
-                    "endColumn": 52,
-                    "endOffset": 35005
+                    "startOffset": 35508,
+                    "endColumn": 59,
+                    "endOffset": 35563
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -4233,9 +4275,9 @@
                 "to": {
                     "startLine": 403,
                     "startColumn": 4,
-                    "startOffset": 35010,
-                    "endColumn": 49,
-                    "endOffset": 35055
+                    "startOffset": 35568,
+                    "endColumn": 72,
+                    "endOffset": 35636
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
@@ -4245,9 +4287,81 @@
                 "to": {
                     "startLine": 404,
                     "startColumn": 4,
-                    "startOffset": 35060,
+                    "startOffset": 35641,
+                    "endColumn": 62,
+                    "endOffset": 35699
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 405,
+                    "startColumn": 4,
+                    "startOffset": 35704,
+                    "endColumn": 62,
+                    "endOffset": 35762
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 406,
+                    "startColumn": 4,
+                    "startOffset": 35767,
+                    "endColumn": 52,
+                    "endOffset": 35815
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 407,
+                    "startColumn": 4,
+                    "startOffset": 35820,
+                    "endColumn": 51,
+                    "endOffset": 35867
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 408,
+                    "startColumn": 4,
+                    "startOffset": 35872,
+                    "endColumn": 52,
+                    "endOffset": 35920
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 409,
+                    "startColumn": 4,
+                    "startOffset": 35925,
+                    "endColumn": 49,
+                    "endOffset": 35970
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 410,
+                    "startColumn": 4,
+                    "startOffset": 35975,
                     "endColumn": 65,
-                    "endOffset": 35121
+                    "endOffset": 36036
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\values\\styles.xml"
@@ -4255,12 +4369,12 @@
             },
             {
                 "to": {
-                    "startLine": 405,
+                    "startLine": 411,
                     "startColumn": 4,
-                    "startOffset": 35126,
-                    "endLine": 411,
+                    "startOffset": 36041,
+                    "endLine": 417,
                     "endColumn": 12,
-                    "endOffset": 35598
+                    "endOffset": 36513
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4268,12 +4382,12 @@
             },
             {
                 "to": {
-                    "startLine": 412,
+                    "startLine": 418,
                     "startColumn": 4,
-                    "startOffset": 35603,
-                    "endLine": 415,
+                    "startOffset": 36518,
+                    "endLine": 421,
                     "endColumn": 12,
-                    "endOffset": 35820
+                    "endOffset": 36735
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4281,12 +4395,12 @@
             },
             {
                 "to": {
-                    "startLine": 416,
+                    "startLine": 422,
                     "startColumn": 4,
-                    "startOffset": 35825,
-                    "endLine": 419,
+                    "startOffset": 36740,
+                    "endLine": 425,
                     "endColumn": 12,
-                    "endOffset": 36042
+                    "endOffset": 36957
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4294,12 +4408,12 @@
             },
             {
                 "to": {
-                    "startLine": 420,
+                    "startLine": 426,
                     "startColumn": 4,
-                    "startOffset": 36047,
-                    "endLine": 424,
+                    "startOffset": 36962,
+                    "endLine": 430,
                     "endColumn": 12,
-                    "endOffset": 36310
+                    "endOffset": 37225
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4307,12 +4421,12 @@
             },
             {
                 "to": {
-                    "startLine": 425,
+                    "startLine": 431,
                     "startColumn": 4,
-                    "startOffset": 36315,
-                    "endLine": 428,
+                    "startOffset": 37230,
+                    "endLine": 434,
                     "endColumn": 12,
-                    "endOffset": 36537
+                    "endOffset": 37452
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4320,12 +4434,12 @@
             },
             {
                 "to": {
-                    "startLine": 429,
+                    "startLine": 435,
                     "startColumn": 4,
-                    "startOffset": 36542,
-                    "endLine": 432,
+                    "startOffset": 37457,
+                    "endLine": 438,
                     "endColumn": 12,
-                    "endOffset": 36767
+                    "endOffset": 37682
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4333,12 +4447,12 @@
             },
             {
                 "to": {
-                    "startLine": 433,
+                    "startLine": 439,
                     "startColumn": 4,
-                    "startOffset": 36772,
-                    "endLine": 436,
+                    "startOffset": 37687,
+                    "endLine": 442,
                     "endColumn": 12,
-                    "endOffset": 36997
+                    "endOffset": 37912
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4346,12 +4460,12 @@
             },
             {
                 "to": {
-                    "startLine": 437,
+                    "startLine": 443,
                     "startColumn": 4,
-                    "startOffset": 37002,
-                    "endLine": 440,
+                    "startOffset": 37917,
+                    "endLine": 446,
                     "endColumn": 12,
-                    "endOffset": 37227
+                    "endOffset": 38142
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4359,12 +4473,12 @@
             },
             {
                 "to": {
-                    "startLine": 441,
+                    "startLine": 447,
                     "startColumn": 4,
-                    "startOffset": 37232,
-                    "endLine": 444,
+                    "startOffset": 38147,
+                    "endLine": 450,
                     "endColumn": 12,
-                    "endOffset": 37457
+                    "endOffset": 38372
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4372,12 +4486,12 @@
             },
             {
                 "to": {
-                    "startLine": 445,
+                    "startLine": 451,
                     "startColumn": 4,
-                    "startOffset": 37462,
-                    "endLine": 448,
+                    "startOffset": 38377,
+                    "endLine": 454,
                     "endColumn": 12,
-                    "endOffset": 37684
+                    "endOffset": 38599
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4385,12 +4499,12 @@
             },
             {
                 "to": {
-                    "startLine": 449,
+                    "startLine": 455,
                     "startColumn": 4,
-                    "startOffset": 37689,
-                    "endLine": 452,
+                    "startOffset": 38604,
+                    "endLine": 458,
                     "endColumn": 12,
-                    "endOffset": 37923
+                    "endOffset": 38838
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4398,49 +4512,12 @@
             },
             {
                 "to": {
-                    "startLine": 453,
+                    "startLine": 459,
                     "startColumn": 4,
-                    "startOffset": 37928,
-                    "endLine": 456,
+                    "startOffset": 38843,
+                    "endLine": 462,
                     "endColumn": 12,
-                    "endOffset": 38149
-                },
-                "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 457,
-                    "startColumn": 4,
-                    "startOffset": 38154,
-                    "endLine": 460,
-                    "endColumn": 12,
-                    "endOffset": 38394
-                },
-                "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 461,
-                    "startColumn": 4,
-                    "startOffset": 38399,
-                    "endColumn": 117,
-                    "endOffset": 38512
-                },
-                "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 462,
-                    "startColumn": 4,
-                    "startOffset": 38517,
-                    "endColumn": 117,
-                    "endOffset": 38630
+                    "endOffset": 39064
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4450,10 +4527,10 @@
                 "to": {
                     "startLine": 463,
                     "startColumn": 4,
-                    "startOffset": 38635,
+                    "startOffset": 39069,
                     "endLine": 466,
                     "endColumn": 12,
-                    "endOffset": 38860
+                    "endOffset": 39309
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4463,10 +4540,9 @@
                 "to": {
                     "startLine": 467,
                     "startColumn": 4,
-                    "startOffset": 38865,
-                    "endLine": 470,
-                    "endColumn": 12,
-                    "endOffset": 39108
+                    "startOffset": 39314,
+                    "endColumn": 117,
+                    "endOffset": 39427
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4474,12 +4550,11 @@
             },
             {
                 "to": {
-                    "startLine": 471,
+                    "startLine": 468,
                     "startColumn": 4,
-                    "startOffset": 39113,
-                    "endLine": 474,
-                    "endColumn": 12,
-                    "endOffset": 39327
+                    "startOffset": 39432,
+                    "endColumn": 117,
+                    "endOffset": 39545
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4487,12 +4562,12 @@
             },
             {
                 "to": {
-                    "startLine": 475,
+                    "startLine": 469,
                     "startColumn": 4,
-                    "startOffset": 39332,
-                    "endLine": 479,
+                    "startOffset": 39550,
+                    "endLine": 472,
                     "endColumn": 12,
-                    "endOffset": 39610
+                    "endOffset": 39775
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4500,12 +4575,12 @@
             },
             {
                 "to": {
-                    "startLine": 480,
+                    "startLine": 473,
                     "startColumn": 4,
-                    "startOffset": 39615,
-                    "endLine": 483,
+                    "startOffset": 39780,
+                    "endLine": 476,
                     "endColumn": 12,
-                    "endOffset": 39818
+                    "endOffset": 40023
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4513,12 +4588,12 @@
             },
             {
                 "to": {
-                    "startLine": 484,
+                    "startLine": 477,
                     "startColumn": 4,
-                    "startOffset": 39823,
-                    "endLine": 486,
+                    "startOffset": 40028,
+                    "endLine": 480,
                     "endColumn": 12,
-                    "endOffset": 39949
+                    "endOffset": 40242
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4526,12 +4601,12 @@
             },
             {
                 "to": {
-                    "startLine": 487,
+                    "startLine": 481,
                     "startColumn": 4,
-                    "startOffset": 39954,
-                    "endLine": 490,
+                    "startOffset": 40247,
+                    "endLine": 485,
                     "endColumn": 12,
-                    "endOffset": 40176
+                    "endOffset": 40525
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4539,12 +4614,12 @@
             },
             {
                 "to": {
-                    "startLine": 491,
+                    "startLine": 486,
                     "startColumn": 4,
-                    "startOffset": 40181,
-                    "endLine": 494,
+                    "startOffset": 40530,
+                    "endLine": 489,
                     "endColumn": 12,
-                    "endOffset": 40422
+                    "endOffset": 40733
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4552,12 +4627,12 @@
             },
             {
                 "to": {
-                    "startLine": 495,
+                    "startLine": 490,
                     "startColumn": 4,
-                    "startOffset": 40427,
-                    "endLine": 498,
+                    "startOffset": 40738,
+                    "endLine": 492,
                     "endColumn": 12,
-                    "endOffset": 40647
+                    "endOffset": 40864
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4565,12 +4640,12 @@
             },
             {
                 "to": {
-                    "startLine": 499,
+                    "startLine": 493,
                     "startColumn": 4,
-                    "startOffset": 40652,
-                    "endLine": 502,
+                    "startOffset": 40869,
+                    "endLine": 496,
                     "endColumn": 12,
-                    "endOffset": 40896
+                    "endOffset": 41091
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4578,12 +4653,12 @@
             },
             {
                 "to": {
-                    "startLine": 503,
+                    "startLine": 497,
                     "startColumn": 4,
-                    "startOffset": 40901,
-                    "endLine": 506,
+                    "startOffset": 41096,
+                    "endLine": 500,
                     "endColumn": 12,
-                    "endOffset": 41117
+                    "endOffset": 41337
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4591,12 +4666,12 @@
             },
             {
                 "to": {
-                    "startLine": 507,
+                    "startLine": 501,
                     "startColumn": 4,
-                    "startOffset": 41122,
-                    "endLine": 510,
+                    "startOffset": 41342,
+                    "endLine": 504,
                     "endColumn": 12,
-                    "endOffset": 41362
+                    "endOffset": 41562
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4604,12 +4679,12 @@
             },
             {
                 "to": {
-                    "startLine": 511,
+                    "startLine": 505,
                     "startColumn": 4,
-                    "startOffset": 41367,
-                    "endLine": 515,
+                    "startOffset": 41567,
+                    "endLine": 508,
                     "endColumn": 12,
-                    "endOffset": 41657
+                    "endOffset": 41811
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4617,12 +4692,12 @@
             },
             {
                 "to": {
-                    "startLine": 516,
+                    "startLine": 509,
                     "startColumn": 4,
-                    "startOffset": 41662,
-                    "endLine": 518,
+                    "startOffset": 41816,
+                    "endLine": 512,
                     "endColumn": 12,
-                    "endOffset": 41879
+                    "endOffset": 42032
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4630,12 +4705,25 @@
             },
             {
                 "to": {
-                    "startLine": 519,
+                    "startLine": 513,
                     "startColumn": 4,
-                    "startOffset": 41884,
+                    "startOffset": 42037,
+                    "endLine": 516,
+                    "endColumn": 12,
+                    "endOffset": 42277
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 517,
+                    "startColumn": 4,
+                    "startOffset": 42282,
                     "endLine": 521,
                     "endColumn": 12,
-                    "endOffset": 42117
+                    "endOffset": 42572
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4645,10 +4733,10 @@
                 "to": {
                     "startLine": 522,
                     "startColumn": 4,
-                    "startOffset": 42122,
+                    "startOffset": 42577,
                     "endLine": 524,
                     "endColumn": 12,
-                    "endOffset": 42331
+                    "endOffset": 42794
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4658,10 +4746,10 @@
                 "to": {
                     "startLine": 525,
                     "startColumn": 4,
-                    "startOffset": 42336,
+                    "startOffset": 42799,
                     "endLine": 527,
                     "endColumn": 12,
-                    "endOffset": 42561
+                    "endOffset": 43032
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4671,10 +4759,10 @@
                 "to": {
                     "startLine": 528,
                     "startColumn": 4,
-                    "startOffset": 42566,
+                    "startOffset": 43037,
                     "endLine": 530,
                     "endColumn": 12,
-                    "endOffset": 42784
+                    "endOffset": 43246
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4684,10 +4772,10 @@
                 "to": {
                     "startLine": 531,
                     "startColumn": 4,
-                    "startOffset": 42789,
+                    "startOffset": 43251,
                     "endLine": 533,
                     "endColumn": 12,
-                    "endOffset": 42999
+                    "endOffset": 43476
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4697,10 +4785,10 @@
                 "to": {
                     "startLine": 534,
                     "startColumn": 4,
-                    "startOffset": 43004,
+                    "startOffset": 43481,
                     "endLine": 536,
                     "endColumn": 12,
-                    "endOffset": 43207
+                    "endOffset": 43699
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4710,33 +4798,10 @@
                 "to": {
                     "startLine": 537,
                     "startColumn": 4,
-                    "startOffset": 43212,
-                    "endColumn": 111,
-                    "endOffset": 43319
-                },
-                "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 538,
-                    "startColumn": 4,
-                    "startOffset": 43324,
-                    "endColumn": 111,
-                    "endOffset": 43431
-                },
-                "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 539,
-                    "startColumn": 4,
-                    "startOffset": 43436,
-                    "endColumn": 104,
-                    "endOffset": 43536
+                    "startOffset": 43704,
+                    "endLine": 539,
+                    "endColumn": 12,
+                    "endOffset": 43914
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4746,10 +4811,10 @@
                 "to": {
                     "startLine": 540,
                     "startColumn": 4,
-                    "startOffset": 43541,
+                    "startOffset": 43919,
                     "endLine": 542,
                     "endColumn": 12,
-                    "endOffset": 43750
+                    "endOffset": 44122
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4759,9 +4824,9 @@
                 "to": {
                     "startLine": 543,
                     "startColumn": 4,
-                    "startOffset": 43755,
-                    "endColumn": 133,
-                    "endOffset": 43884
+                    "startOffset": 44127,
+                    "endColumn": 111,
+                    "endOffset": 44234
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4771,9 +4836,9 @@
                 "to": {
                     "startLine": 544,
                     "startColumn": 4,
-                    "startOffset": 43889,
-                    "endColumn": 127,
-                    "endOffset": 44012
+                    "startOffset": 44239,
+                    "endColumn": 111,
+                    "endOffset": 44346
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4783,9 +4848,9 @@
                 "to": {
                     "startLine": 545,
                     "startColumn": 4,
-                    "startOffset": 44017,
-                    "endColumn": 73,
-                    "endOffset": 44086
+                    "startOffset": 44351,
+                    "endColumn": 104,
+                    "endOffset": 44451
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4795,10 +4860,22 @@
                 "to": {
                     "startLine": 546,
                     "startColumn": 4,
-                    "startOffset": 44091,
-                    "endLine": 549,
+                    "startOffset": 44456,
+                    "endLine": 548,
                     "endColumn": 12,
-                    "endOffset": 44339
+                    "endOffset": 44665
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 549,
+                    "startColumn": 4,
+                    "startOffset": 44670,
+                    "endColumn": 133,
+                    "endOffset": 44799
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4808,9 +4885,9 @@
                 "to": {
                     "startLine": 550,
                     "startColumn": 4,
-                    "startOffset": 44344,
-                    "endColumn": 87,
-                    "endOffset": 44427
+                    "startOffset": 44804,
+                    "endColumn": 127,
+                    "endOffset": 44927
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4820,10 +4897,34 @@
                 "to": {
                     "startLine": 551,
                     "startColumn": 4,
-                    "startOffset": 44432,
-                    "endLine": 556,
+                    "startOffset": 44932,
+                    "endColumn": 73,
+                    "endOffset": 45001
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 552,
+                    "startColumn": 4,
+                    "startOffset": 45006,
+                    "endLine": 555,
                     "endColumn": 12,
-                    "endOffset": 44829
+                    "endOffset": 45254
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 556,
+                    "startColumn": 4,
+                    "startOffset": 45259,
+                    "endColumn": 87,
+                    "endOffset": 45342
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4833,9 +4934,22 @@
                 "to": {
                     "startLine": 557,
                     "startColumn": 4,
-                    "startOffset": 44834,
+                    "startOffset": 45347,
+                    "endLine": 562,
+                    "endColumn": 12,
+                    "endOffset": 45744
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 563,
+                    "startColumn": 4,
+                    "startOffset": 45749,
                     "endColumn": 81,
-                    "endOffset": 44911
+                    "endOffset": 45826
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4843,11 +4957,11 @@
             },
             {
                 "to": {
-                    "startLine": 558,
+                    "startLine": 564,
                     "startColumn": 4,
-                    "startOffset": 44916,
+                    "startOffset": 45831,
                     "endColumn": 85,
-                    "endOffset": 44997
+                    "endOffset": 45912
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4855,12 +4969,12 @@
             },
             {
                 "to": {
-                    "startLine": 559,
+                    "startLine": 565,
                     "startColumn": 4,
-                    "startOffset": 45002,
-                    "endLine": 568,
+                    "startOffset": 45917,
+                    "endLine": 574,
                     "endColumn": 12,
-                    "endOffset": 45613
+                    "endOffset": 46528
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4868,24 +4982,11 @@
             },
             {
                 "to": {
-                    "startLine": 569,
+                    "startLine": 575,
                     "startColumn": 4,
-                    "startOffset": 45618,
+                    "startOffset": 46533,
                     "endColumn": 90,
-                    "endOffset": 45704
-                },
-                "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 570,
-                    "startColumn": 4,
-                    "startOffset": 45709,
-                    "endLine": 575,
-                    "endColumn": 12,
-                    "endOffset": 46112
+                    "endOffset": 46619
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4895,9 +4996,22 @@
                 "to": {
                     "startLine": 576,
                     "startColumn": 4,
-                    "startOffset": 46117,
+                    "startOffset": 46624,
+                    "endLine": 581,
+                    "endColumn": 12,
+                    "endOffset": 47027
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 582,
+                    "startColumn": 4,
+                    "startOffset": 47032,
                     "endColumn": 93,
-                    "endOffset": 46206
+                    "endOffset": 47121
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4905,11 +5019,11 @@
             },
             {
                 "to": {
-                    "startLine": 577,
+                    "startLine": 583,
                     "startColumn": 4,
-                    "startOffset": 46211,
+                    "startOffset": 47126,
                     "endColumn": 57,
-                    "endOffset": 46264
+                    "endOffset": 47179
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4917,12 +5031,12 @@
             },
             {
                 "to": {
-                    "startLine": 578,
+                    "startLine": 584,
                     "startColumn": 4,
-                    "startOffset": 46269,
-                    "endLine": 580,
+                    "startOffset": 47184,
+                    "endLine": 586,
                     "endColumn": 12,
-                    "endOffset": 46412
+                    "endOffset": 47327
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4930,12 +5044,12 @@
             },
             {
                 "to": {
-                    "startLine": 581,
+                    "startLine": 587,
                     "startColumn": 4,
-                    "startOffset": 46417,
-                    "endLine": 613,
+                    "startOffset": 47332,
+                    "endLine": 619,
                     "endColumn": 12,
-                    "endOffset": 48905
+                    "endOffset": 49820
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4943,12 +5057,12 @@
             },
             {
                 "to": {
-                    "startLine": 614,
+                    "startLine": 620,
                     "startColumn": 4,
-                    "startOffset": 48910,
-                    "endLine": 616,
+                    "startOffset": 49825,
+                    "endLine": 622,
                     "endColumn": 12,
-                    "endOffset": 49058
+                    "endOffset": 49973
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4956,12 +5070,12 @@
             },
             {
                 "to": {
-                    "startLine": 617,
+                    "startLine": 623,
                     "startColumn": 4,
-                    "startOffset": 49063,
-                    "endLine": 648,
+                    "startOffset": 49978,
+                    "endLine": 654,
                     "endColumn": 12,
-                    "endOffset": 51663
+                    "endOffset": 52578
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4969,12 +5083,12 @@
             },
             {
                 "to": {
-                    "startLine": 649,
+                    "startLine": 655,
                     "startColumn": 4,
-                    "startOffset": 51668,
-                    "endLine": 747,
+                    "startOffset": 52583,
+                    "endLine": 753,
                     "endColumn": 12,
-                    "endOffset": 58406
+                    "endOffset": 59321
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4982,12 +5096,12 @@
             },
             {
                 "to": {
-                    "startLine": 748,
+                    "startLine": 754,
                     "startColumn": 4,
-                    "startOffset": 58411,
-                    "endLine": 843,
+                    "startOffset": 59326,
+                    "endLine": 849,
                     "endColumn": 12,
-                    "endOffset": 65028
+                    "endOffset": 65943
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -4995,12 +5109,12 @@
             },
             {
                 "to": {
-                    "startLine": 844,
+                    "startLine": 850,
                     "startColumn": 4,
-                    "startOffset": 65033,
-                    "endLine": 942,
+                    "startOffset": 65948,
+                    "endLine": 948,
                     "endColumn": 12,
-                    "endOffset": 71867
+                    "endOffset": 72782
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5008,12 +5122,12 @@
             },
             {
                 "to": {
-                    "startLine": 943,
+                    "startLine": 949,
                     "startColumn": 4,
-                    "startOffset": 71872,
-                    "endLine": 957,
+                    "startOffset": 72787,
+                    "endLine": 963,
                     "endColumn": 12,
-                    "endOffset": 72806
+                    "endOffset": 73721
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5021,12 +5135,12 @@
             },
             {
                 "to": {
-                    "startLine": 958,
+                    "startLine": 964,
                     "startColumn": 4,
-                    "startOffset": 72811,
-                    "endLine": 962,
+                    "startOffset": 73726,
+                    "endLine": 968,
                     "endColumn": 12,
-                    "endOffset": 73062
+                    "endOffset": 73977
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5034,12 +5148,12 @@
             },
             {
                 "to": {
-                    "startLine": 963,
+                    "startLine": 969,
                     "startColumn": 4,
-                    "startOffset": 73067,
-                    "endLine": 967,
+                    "startOffset": 73982,
+                    "endLine": 973,
                     "endColumn": 12,
-                    "endOffset": 73298
+                    "endOffset": 74213
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5047,12 +5161,12 @@
             },
             {
                 "to": {
-                    "startLine": 968,
+                    "startLine": 974,
                     "startColumn": 4,
-                    "startOffset": 73303,
-                    "endLine": 977,
+                    "startOffset": 74218,
+                    "endLine": 983,
                     "endColumn": 12,
-                    "endOffset": 73845
+                    "endOffset": 74760
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5060,12 +5174,12 @@
             },
             {
                 "to": {
-                    "startLine": 978,
+                    "startLine": 984,
                     "startColumn": 4,
-                    "startOffset": 73850,
-                    "endLine": 986,
+                    "startOffset": 74765,
+                    "endLine": 992,
                     "endColumn": 12,
-                    "endOffset": 74339
+                    "endOffset": 75254
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5073,12 +5187,12 @@
             },
             {
                 "to": {
-                    "startLine": 987,
+                    "startLine": 993,
                     "startColumn": 4,
-                    "startOffset": 74344,
-                    "endLine": 997,
+                    "startOffset": 75259,
+                    "endLine": 1003,
                     "endColumn": 12,
-                    "endOffset": 75012
+                    "endOffset": 75927
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5086,12 +5200,12 @@
             },
             {
                 "to": {
-                    "startLine": 998,
+                    "startLine": 1004,
                     "startColumn": 4,
-                    "startOffset": 75017,
-                    "endLine": 1000,
+                    "startOffset": 75932,
+                    "endLine": 1006,
                     "endColumn": 12,
-                    "endOffset": 75177
+                    "endOffset": 76092
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5099,12 +5213,12 @@
             },
             {
                 "to": {
-                    "startLine": 1001,
+                    "startLine": 1007,
                     "startColumn": 4,
-                    "startOffset": 75182,
-                    "endLine": 1007,
+                    "startOffset": 76097,
+                    "endLine": 1013,
                     "endColumn": 12,
-                    "endOffset": 75705
+                    "endOffset": 76620
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5112,12 +5226,12 @@
             },
             {
                 "to": {
-                    "startLine": 1008,
+                    "startLine": 1014,
                     "startColumn": 4,
-                    "startOffset": 75710,
-                    "endLine": 1015,
+                    "startOffset": 76625,
+                    "endLine": 1021,
                     "endColumn": 12,
-                    "endOffset": 76269
+                    "endOffset": 77184
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5125,12 +5239,12 @@
             },
             {
                 "to": {
-                    "startLine": 1016,
+                    "startLine": 1022,
                     "startColumn": 4,
-                    "startOffset": 76274,
-                    "endLine": 1022,
+                    "startOffset": 77189,
+                    "endLine": 1028,
                     "endColumn": 12,
-                    "endOffset": 76643
+                    "endOffset": 77558
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5138,12 +5252,12 @@
             },
             {
                 "to": {
-                    "startLine": 1023,
+                    "startLine": 1029,
                     "startColumn": 4,
-                    "startOffset": 76648,
-                    "endLine": 1027,
+                    "startOffset": 77563,
+                    "endLine": 1033,
                     "endColumn": 12,
-                    "endOffset": 77013
+                    "endOffset": 77928
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5151,12 +5265,12 @@
             },
             {
                 "to": {
-                    "startLine": 1028,
+                    "startLine": 1034,
                     "startColumn": 4,
-                    "startOffset": 77018,
-                    "endLine": 1034,
+                    "startOffset": 77933,
+                    "endLine": 1040,
                     "endColumn": 12,
-                    "endOffset": 77504
+                    "endOffset": 78419
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5164,25 +5278,12 @@
             },
             {
                 "to": {
-                    "startLine": 1035,
+                    "startLine": 1041,
                     "startColumn": 4,
-                    "startOffset": 77509,
-                    "endLine": 1044,
-                    "endColumn": 12,
-                    "endOffset": 77981
-                },
-                "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 1045,
-                    "startColumn": 4,
-                    "startOffset": 77986,
+                    "startOffset": 78424,
                     "endLine": 1050,
                     "endColumn": 12,
-                    "endOffset": 78334
+                    "endOffset": 78896
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5192,10 +5293,10 @@
                 "to": {
                     "startLine": 1051,
                     "startColumn": 4,
-                    "startOffset": 78339,
-                    "endLine": 1055,
+                    "startOffset": 78901,
+                    "endLine": 1056,
                     "endColumn": 12,
-                    "endOffset": 78661
+                    "endOffset": 79249
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5203,12 +5304,12 @@
             },
             {
                 "to": {
-                    "startLine": 1056,
+                    "startLine": 1057,
                     "startColumn": 4,
-                    "startOffset": 78666,
-                    "endLine": 1059,
+                    "startOffset": 79254,
+                    "endLine": 1061,
                     "endColumn": 12,
-                    "endOffset": 78967
+                    "endOffset": 79576
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5216,24 +5317,12 @@
             },
             {
                 "to": {
-                    "startLine": 1060,
+                    "startLine": 1062,
                     "startColumn": 4,
-                    "startOffset": 78972,
-                    "endLine": 1064,
+                    "startOffset": 79581,
+                    "endLine": 1065,
                     "endColumn": 12,
-                    "endOffset": 79229
-                },
-                "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 1065,
-                    "startColumn": 4,
-                    "startOffset": 79234,
-                    "endColumn": 112,
-                    "endOffset": 79342
+                    "endOffset": 79882
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5243,35 +5332,34 @@
                 "to": {
                     "startLine": 1066,
                     "startColumn": 4,
-                    "startOffset": 79347,
+                    "startOffset": 79887,
+                    "endLine": 1070,
+                    "endColumn": 12,
+                    "endOffset": 80144
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1071,
+                    "startColumn": 4,
+                    "startOffset": 80149,
+                    "endColumn": 112,
+                    "endOffset": 80257
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1072,
+                    "startColumn": 4,
+                    "startOffset": 80262,
                     "endColumn": 114,
-                    "endOffset": 79457
-                },
-                "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 1067,
-                    "startColumn": 4,
-                    "startOffset": 79462,
-                    "endLine": 1069,
-                    "endColumn": 12,
-                    "endOffset": 79696
-                },
-                "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 1070,
-                    "startColumn": 4,
-                    "startOffset": 79701,
-                    "endLine": 1072,
-                    "endColumn": 12,
-                    "endOffset": 79907
+                    "endOffset": 80372
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5281,10 +5369,10 @@
                 "to": {
                     "startLine": 1073,
                     "startColumn": 4,
-                    "startOffset": 79912,
+                    "startOffset": 80377,
                     "endLine": 1075,
                     "endColumn": 12,
-                    "endOffset": 80124
+                    "endOffset": 80611
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5294,10 +5382,10 @@
                 "to": {
                     "startLine": 1076,
                     "startColumn": 4,
-                    "startOffset": 80129,
+                    "startOffset": 80616,
                     "endLine": 1078,
                     "endColumn": 12,
-                    "endOffset": 80342
+                    "endOffset": 80822
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5307,9 +5395,35 @@
                 "to": {
                     "startLine": 1079,
                     "startColumn": 4,
-                    "startOffset": 80347,
+                    "startOffset": 80827,
+                    "endLine": 1081,
+                    "endColumn": 12,
+                    "endOffset": 81039
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1082,
+                    "startColumn": 4,
+                    "startOffset": 81044,
+                    "endLine": 1084,
+                    "endColumn": 12,
+                    "endOffset": 81257
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1085,
+                    "startColumn": 4,
+                    "startOffset": 81262,
                     "endColumn": 106,
-                    "endOffset": 80449
+                    "endOffset": 81364
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5317,12 +5431,12 @@
             },
             {
                 "to": {
-                    "startLine": 1080,
+                    "startLine": 1086,
                     "startColumn": 4,
-                    "startOffset": 80454,
-                    "endLine": 1083,
+                    "startOffset": 81369,
+                    "endLine": 1089,
                     "endColumn": 12,
-                    "endOffset": 80642
+                    "endOffset": 81557
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5330,12 +5444,12 @@
             },
             {
                 "to": {
-                    "startLine": 1084,
+                    "startLine": 1090,
                     "startColumn": 4,
-                    "startOffset": 80647,
-                    "endLine": 1090,
+                    "startOffset": 81562,
+                    "endLine": 1096,
                     "endColumn": 12,
-                    "endOffset": 81097
+                    "endOffset": 82012
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5343,12 +5457,12 @@
             },
             {
                 "to": {
-                    "startLine": 1091,
+                    "startLine": 1097,
                     "startColumn": 4,
-                    "startOffset": 81102,
-                    "endLine": 1094,
+                    "startOffset": 82017,
+                    "endLine": 1100,
                     "endColumn": 12,
-                    "endOffset": 81337
+                    "endOffset": 82252
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5356,49 +5470,12 @@
             },
             {
                 "to": {
-                    "startLine": 1095,
+                    "startLine": 1101,
                     "startColumn": 4,
-                    "startOffset": 81342,
-                    "endLine": 1098,
+                    "startOffset": 82257,
+                    "endLine": 1104,
                     "endColumn": 12,
-                    "endOffset": 81596
-                },
-                "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 1099,
-                    "startColumn": 4,
-                    "startOffset": 81601,
-                    "endColumn": 100,
-                    "endOffset": 81697
-                },
-                "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 1100,
-                    "startColumn": 4,
-                    "startOffset": 81702,
-                    "endLine": 1103,
-                    "endColumn": 12,
-                    "endOffset": 81884
-                },
-                "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 1104,
-                    "startColumn": 4,
-                    "startOffset": 81889,
-                    "endColumn": 89,
-                    "endOffset": 81974
+                    "endOffset": 82511
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5408,10 +5485,34 @@
                 "to": {
                     "startLine": 1105,
                     "startColumn": 4,
-                    "startOffset": 81979,
-                    "endLine": 1110,
+                    "startOffset": 82516,
+                    "endColumn": 100,
+                    "endOffset": 82612
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1106,
+                    "startColumn": 4,
+                    "startOffset": 82617,
+                    "endLine": 1109,
                     "endColumn": 12,
-                    "endOffset": 82418
+                    "endOffset": 82799
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1110,
+                    "startColumn": 4,
+                    "startOffset": 82804,
+                    "endColumn": 89,
+                    "endOffset": 82889
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5421,9 +5522,22 @@
                 "to": {
                     "startLine": 1111,
                     "startColumn": 4,
-                    "startOffset": 82423,
+                    "startOffset": 82894,
+                    "endLine": 1116,
+                    "endColumn": 12,
+                    "endOffset": 83333
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1117,
+                    "startColumn": 4,
+                    "startOffset": 83338,
                     "endColumn": 111,
-                    "endOffset": 82530
+                    "endOffset": 83445
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5431,12 +5545,12 @@
             },
             {
                 "to": {
-                    "startLine": 1112,
+                    "startLine": 1118,
                     "startColumn": 4,
-                    "startOffset": 82535,
-                    "endLine": 1122,
+                    "startOffset": 83450,
+                    "endLine": 1128,
                     "endColumn": 12,
-                    "endOffset": 83335
+                    "endOffset": 84250
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5444,12 +5558,12 @@
             },
             {
                 "to": {
-                    "startLine": 1123,
+                    "startLine": 1129,
                     "startColumn": 4,
-                    "startOffset": 83340,
-                    "endLine": 1127,
+                    "startOffset": 84255,
+                    "endLine": 1133,
                     "endColumn": 12,
-                    "endOffset": 83665
+                    "endOffset": 84580
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5457,12 +5571,12 @@
             },
             {
                 "to": {
-                    "startLine": 1128,
+                    "startLine": 1134,
                     "startColumn": 4,
-                    "startOffset": 83670,
-                    "endLine": 1141,
+                    "startOffset": 84585,
+                    "endLine": 1147,
                     "endColumn": 12,
-                    "endOffset": 84584
+                    "endOffset": 85499
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5470,12 +5584,12 @@
             },
             {
                 "to": {
-                    "startLine": 1142,
+                    "startLine": 1148,
                     "startColumn": 4,
-                    "startOffset": 84589,
-                    "endLine": 1151,
+                    "startOffset": 85504,
+                    "endLine": 1157,
                     "endColumn": 12,
-                    "endOffset": 85250
+                    "endOffset": 86165
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5483,12 +5597,12 @@
             },
             {
                 "to": {
-                    "startLine": 1152,
+                    "startLine": 1158,
                     "startColumn": 4,
-                    "startOffset": 85255,
-                    "endLine": 1156,
+                    "startOffset": 86170,
+                    "endLine": 1162,
                     "endColumn": 12,
-                    "endOffset": 85535
+                    "endOffset": 86450
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5496,12 +5610,12 @@
             },
             {
                 "to": {
-                    "startLine": 1157,
+                    "startLine": 1163,
                     "startColumn": 4,
-                    "startOffset": 85540,
-                    "endLine": 1197,
+                    "startOffset": 86455,
+                    "endLine": 1203,
                     "endColumn": 12,
-                    "endOffset": 88714
+                    "endOffset": 89629
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5509,12 +5623,12 @@
             },
             {
                 "to": {
-                    "startLine": 1198,
+                    "startLine": 1204,
                     "startColumn": 4,
-                    "startOffset": 88719,
-                    "endLine": 1238,
+                    "startOffset": 89634,
+                    "endLine": 1244,
                     "endColumn": 12,
-                    "endOffset": 91907
+                    "endOffset": 92822
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5522,12 +5636,12 @@
             },
             {
                 "to": {
-                    "startLine": 1239,
+                    "startLine": 1245,
                     "startColumn": 4,
-                    "startOffset": 91912,
-                    "endLine": 1280,
+                    "startOffset": 92827,
+                    "endLine": 1286,
                     "endColumn": 12,
-                    "endOffset": 95226
+                    "endOffset": 96141
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5535,11 +5649,11 @@
             },
             {
                 "to": {
-                    "startLine": 1281,
+                    "startLine": 1287,
                     "startColumn": 4,
-                    "startOffset": 95231,
+                    "startOffset": 96146,
                     "endColumn": 86,
-                    "endOffset": 95313
+                    "endOffset": 96228
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5547,12 +5661,12 @@
             },
             {
                 "to": {
-                    "startLine": 1282,
+                    "startLine": 1288,
                     "startColumn": 4,
-                    "startOffset": 95318,
-                    "endLine": 1285,
+                    "startOffset": 96233,
+                    "endLine": 1291,
                     "endColumn": 12,
-                    "endOffset": 95542
+                    "endOffset": 96457
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5560,12 +5674,12 @@
             },
             {
                 "to": {
-                    "startLine": 1286,
+                    "startLine": 1292,
                     "startColumn": 4,
-                    "startOffset": 95547,
-                    "endLine": 1289,
+                    "startOffset": 96462,
+                    "endLine": 1295,
                     "endColumn": 12,
-                    "endOffset": 95791
+                    "endOffset": 96706
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5573,38 +5687,12 @@
             },
             {
                 "to": {
-                    "startLine": 1290,
+                    "startLine": 1296,
                     "startColumn": 4,
-                    "startOffset": 95796,
-                    "endLine": 1293,
-                    "endColumn": 12,
-                    "endOffset": 96032
-                },
-                "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 1294,
-                    "startColumn": 4,
-                    "startOffset": 96037,
-                    "endLine": 1296,
-                    "endColumn": 12,
-                    "endOffset": 96184
-                },
-                "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 1297,
-                    "startColumn": 4,
-                    "startOffset": 96189,
+                    "startOffset": 96711,
                     "endLine": 1299,
                     "endColumn": 12,
-                    "endOffset": 96355
+                    "endOffset": 96947
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5614,10 +5702,10 @@
                 "to": {
                     "startLine": 1300,
                     "startColumn": 4,
-                    "startOffset": 96360,
+                    "startOffset": 96952,
                     "endLine": 1302,
                     "endColumn": 12,
-                    "endOffset": 96522
+                    "endOffset": 97099
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5627,10 +5715,10 @@
                 "to": {
                     "startLine": 1303,
                     "startColumn": 4,
-                    "startOffset": 96527,
-                    "endLine": 1306,
+                    "startOffset": 97104,
+                    "endLine": 1305,
                     "endColumn": 12,
-                    "endOffset": 96765
+                    "endOffset": 97270
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5638,12 +5726,12 @@
             },
             {
                 "to": {
-                    "startLine": 1307,
+                    "startLine": 1306,
                     "startColumn": 4,
-                    "startOffset": 96770,
-                    "endLine": 1309,
+                    "startOffset": 97275,
+                    "endLine": 1308,
                     "endColumn": 12,
-                    "endOffset": 96935
+                    "endOffset": 97437
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5651,12 +5739,12 @@
             },
             {
                 "to": {
-                    "startLine": 1310,
+                    "startLine": 1309,
                     "startColumn": 4,
-                    "startOffset": 96940,
+                    "startOffset": 97442,
                     "endLine": 1312,
                     "endColumn": 12,
-                    "endOffset": 97108
+                    "endOffset": 97680
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5666,10 +5754,10 @@
                 "to": {
                     "startLine": 1313,
                     "startColumn": 4,
-                    "startOffset": 97113,
+                    "startOffset": 97685,
                     "endLine": 1315,
                     "endColumn": 12,
-                    "endOffset": 97279
+                    "endOffset": 97850
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5679,10 +5767,10 @@
                 "to": {
                     "startLine": 1316,
                     "startColumn": 4,
-                    "startOffset": 97284,
-                    "endLine": 1319,
+                    "startOffset": 97855,
+                    "endLine": 1318,
                     "endColumn": 12,
-                    "endOffset": 97553
+                    "endOffset": 98023
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5690,12 +5778,12 @@
             },
             {
                 "to": {
-                    "startLine": 1320,
+                    "startLine": 1319,
                     "startColumn": 4,
-                    "startOffset": 97558,
-                    "endLine": 1322,
+                    "startOffset": 98028,
+                    "endLine": 1321,
                     "endColumn": 12,
-                    "endOffset": 97752
+                    "endOffset": 98194
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5703,35 +5791,12 @@
             },
             {
                 "to": {
-                    "startLine": 1323,
+                    "startLine": 1322,
                     "startColumn": 4,
-                    "startOffset": 97757,
-                    "endColumn": 83,
-                    "endOffset": 97836
-                },
-                "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 1324,
-                    "startColumn": 4,
-                    "startOffset": 97841,
-                    "endColumn": 95,
-                    "endOffset": 97932
-                },
-                "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 1325,
-                    "startColumn": 4,
-                    "startOffset": 97937,
-                    "endColumn": 95,
-                    "endOffset": 98028
+                    "startOffset": 98199,
+                    "endLine": 1325,
+                    "endColumn": 12,
+                    "endOffset": 98468
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5741,33 +5806,10 @@
                 "to": {
                     "startLine": 1326,
                     "startColumn": 4,
-                    "startOffset": 98033,
-                    "endColumn": 97,
-                    "endOffset": 98126
-                },
-                "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 1327,
-                    "startColumn": 4,
-                    "startOffset": 98131,
-                    "endColumn": 99,
-                    "endOffset": 98226
-                },
-                "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 1328,
-                    "startColumn": 4,
-                    "startOffset": 98231,
-                    "endColumn": 101,
-                    "endOffset": 98328
+                    "startOffset": 98473,
+                    "endLine": 1328,
+                    "endColumn": 12,
+                    "endOffset": 98667
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5777,9 +5819,9 @@
                 "to": {
                     "startLine": 1329,
                     "startColumn": 4,
-                    "startOffset": 98333,
-                    "endColumn": 101,
-                    "endOffset": 98430
+                    "startOffset": 98672,
+                    "endColumn": 83,
+                    "endOffset": 98751
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5789,9 +5831,9 @@
                 "to": {
                     "startLine": 1330,
                     "startColumn": 4,
-                    "startOffset": 98435,
-                    "endColumn": 101,
-                    "endOffset": 98532
+                    "startOffset": 98756,
+                    "endColumn": 95,
+                    "endOffset": 98847
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5801,9 +5843,9 @@
                 "to": {
                     "startLine": 1331,
                     "startColumn": 4,
-                    "startOffset": 98537,
-                    "endColumn": 101,
-                    "endOffset": 98634
+                    "startOffset": 98852,
+                    "endColumn": 95,
+                    "endOffset": 98943
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5813,9 +5855,9 @@
                 "to": {
                     "startLine": 1332,
                     "startColumn": 4,
-                    "startOffset": 98639,
-                    "endColumn": 101,
-                    "endOffset": 98736
+                    "startOffset": 98948,
+                    "endColumn": 97,
+                    "endOffset": 99041
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5825,9 +5867,9 @@
                 "to": {
                     "startLine": 1333,
                     "startColumn": 4,
-                    "startOffset": 98741,
+                    "startOffset": 99046,
                     "endColumn": 99,
-                    "endOffset": 98836
+                    "endOffset": 99141
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5837,9 +5879,9 @@
                 "to": {
                     "startLine": 1334,
                     "startColumn": 4,
-                    "startOffset": 98841,
-                    "endColumn": 95,
-                    "endOffset": 98932
+                    "startOffset": 99146,
+                    "endColumn": 101,
+                    "endOffset": 99243
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5849,9 +5891,9 @@
                 "to": {
                     "startLine": 1335,
                     "startColumn": 4,
-                    "startOffset": 98937,
-                    "endColumn": 111,
-                    "endOffset": 99044
+                    "startOffset": 99248,
+                    "endColumn": 101,
+                    "endOffset": 99345
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5861,9 +5903,9 @@
                 "to": {
                     "startLine": 1336,
                     "startColumn": 4,
-                    "startOffset": 99049,
-                    "endColumn": 128,
-                    "endOffset": 99173
+                    "startOffset": 99350,
+                    "endColumn": 101,
+                    "endOffset": 99447
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5873,9 +5915,9 @@
                 "to": {
                     "startLine": 1337,
                     "startColumn": 4,
-                    "startOffset": 99178,
-                    "endColumn": 122,
-                    "endOffset": 99296
+                    "startOffset": 99452,
+                    "endColumn": 101,
+                    "endOffset": 99549
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5885,9 +5927,9 @@
                 "to": {
                     "startLine": 1338,
                     "startColumn": 4,
-                    "startOffset": 99301,
-                    "endColumn": 141,
-                    "endOffset": 99438
+                    "startOffset": 99554,
+                    "endColumn": 101,
+                    "endOffset": 99651
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5897,9 +5939,9 @@
                 "to": {
                     "startLine": 1339,
                     "startColumn": 4,
-                    "startOffset": 99443,
-                    "endColumn": 141,
-                    "endOffset": 99580
+                    "startOffset": 99656,
+                    "endColumn": 99,
+                    "endOffset": 99751
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5909,9 +5951,9 @@
                 "to": {
                     "startLine": 1340,
                     "startColumn": 4,
-                    "startOffset": 99585,
-                    "endColumn": 97,
-                    "endOffset": 99678
+                    "startOffset": 99756,
+                    "endColumn": 95,
+                    "endOffset": 99847
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5921,9 +5963,9 @@
                 "to": {
                     "startLine": 1341,
                     "startColumn": 4,
-                    "startOffset": 99683,
-                    "endColumn": 113,
-                    "endOffset": 99792
+                    "startOffset": 99852,
+                    "endColumn": 111,
+                    "endOffset": 99959
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5933,9 +5975,9 @@
                 "to": {
                     "startLine": 1342,
                     "startColumn": 4,
-                    "startOffset": 99797,
-                    "endColumn": 93,
-                    "endOffset": 99886
+                    "startOffset": 99964,
+                    "endColumn": 128,
+                    "endOffset": 100088
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5945,9 +5987,9 @@
                 "to": {
                     "startLine": 1343,
                     "startColumn": 4,
-                    "startOffset": 99891,
-                    "endColumn": 127,
-                    "endOffset": 100014
+                    "startOffset": 100093,
+                    "endColumn": 122,
+                    "endOffset": 100211
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5957,9 +5999,9 @@
                 "to": {
                     "startLine": 1344,
                     "startColumn": 4,
-                    "startOffset": 100019,
-                    "endColumn": 121,
-                    "endOffset": 100136
+                    "startOffset": 100216,
+                    "endColumn": 141,
+                    "endOffset": 100353
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5969,9 +6011,9 @@
                 "to": {
                     "startLine": 1345,
                     "startColumn": 4,
-                    "startOffset": 100141,
-                    "endColumn": 95,
-                    "endOffset": 100232
+                    "startOffset": 100358,
+                    "endColumn": 141,
+                    "endOffset": 100495
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5981,9 +6023,9 @@
                 "to": {
                     "startLine": 1346,
                     "startColumn": 4,
-                    "startOffset": 100237,
-                    "endColumn": 111,
-                    "endOffset": 100344
+                    "startOffset": 100500,
+                    "endColumn": 97,
+                    "endOffset": 100593
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -5993,9 +6035,9 @@
                 "to": {
                     "startLine": 1347,
                     "startColumn": 4,
-                    "startOffset": 100349,
-                    "endColumn": 99,
-                    "endOffset": 100444
+                    "startOffset": 100598,
+                    "endColumn": 113,
+                    "endOffset": 100707
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6005,9 +6047,9 @@
                 "to": {
                     "startLine": 1348,
                     "startColumn": 4,
-                    "startOffset": 100449,
-                    "endColumn": 115,
-                    "endOffset": 100560
+                    "startOffset": 100712,
+                    "endColumn": 93,
+                    "endOffset": 100801
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6017,9 +6059,9 @@
                 "to": {
                     "startLine": 1349,
                     "startColumn": 4,
-                    "startOffset": 100565,
-                    "endColumn": 95,
-                    "endOffset": 100656
+                    "startOffset": 100806,
+                    "endColumn": 127,
+                    "endOffset": 100929
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6029,9 +6071,9 @@
                 "to": {
                     "startLine": 1350,
                     "startColumn": 4,
-                    "startOffset": 100661,
-                    "endColumn": 111,
-                    "endOffset": 100768
+                    "startOffset": 100934,
+                    "endColumn": 121,
+                    "endOffset": 101051
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6041,9 +6083,9 @@
                 "to": {
                     "startLine": 1351,
                     "startColumn": 4,
-                    "startOffset": 100773,
-                    "endColumn": 127,
-                    "endOffset": 100896
+                    "startOffset": 101056,
+                    "endColumn": 95,
+                    "endOffset": 101147
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6053,9 +6095,9 @@
                 "to": {
                     "startLine": 1352,
                     "startColumn": 4,
-                    "startOffset": 100901,
-                    "endColumn": 135,
-                    "endOffset": 101032
+                    "startOffset": 101152,
+                    "endColumn": 111,
+                    "endOffset": 101259
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6065,9 +6107,9 @@
                 "to": {
                     "startLine": 1353,
                     "startColumn": 4,
-                    "startOffset": 101037,
-                    "endColumn": 151,
-                    "endOffset": 101184
+                    "startOffset": 101264,
+                    "endColumn": 99,
+                    "endOffset": 101359
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6077,9 +6119,9 @@
                 "to": {
                     "startLine": 1354,
                     "startColumn": 4,
-                    "startOffset": 101189,
-                    "endColumn": 129,
-                    "endOffset": 101314
+                    "startOffset": 101364,
+                    "endColumn": 115,
+                    "endOffset": 101475
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6089,9 +6131,9 @@
                 "to": {
                     "startLine": 1355,
                     "startColumn": 4,
-                    "startOffset": 101319,
-                    "endColumn": 145,
-                    "endOffset": 101460
+                    "startOffset": 101480,
+                    "endColumn": 95,
+                    "endOffset": 101571
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6101,9 +6143,9 @@
                 "to": {
                     "startLine": 1356,
                     "startColumn": 4,
-                    "startOffset": 101465,
-                    "endColumn": 137,
-                    "endOffset": 101598
+                    "startOffset": 101576,
+                    "endColumn": 111,
+                    "endOffset": 101683
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6113,9 +6155,9 @@
                 "to": {
                     "startLine": 1357,
                     "startColumn": 4,
-                    "startOffset": 101603,
-                    "endColumn": 140,
-                    "endOffset": 101739
+                    "startOffset": 101688,
+                    "endColumn": 127,
+                    "endOffset": 101811
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6125,9 +6167,9 @@
                 "to": {
                     "startLine": 1358,
                     "startColumn": 4,
-                    "startOffset": 101744,
-                    "endColumn": 131,
-                    "endOffset": 101871
+                    "startOffset": 101816,
+                    "endColumn": 135,
+                    "endOffset": 101947
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6137,9 +6179,9 @@
                 "to": {
                     "startLine": 1359,
                     "startColumn": 4,
-                    "startOffset": 101876,
-                    "endColumn": 134,
-                    "endOffset": 102006
+                    "startOffset": 101952,
+                    "endColumn": 151,
+                    "endOffset": 102099
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6149,9 +6191,9 @@
                 "to": {
                     "startLine": 1360,
                     "startColumn": 4,
-                    "startOffset": 102011,
-                    "endColumn": 123,
-                    "endOffset": 102130
+                    "startOffset": 102104,
+                    "endColumn": 129,
+                    "endOffset": 102229
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6161,9 +6203,9 @@
                 "to": {
                     "startLine": 1361,
                     "startColumn": 4,
-                    "startOffset": 102135,
-                    "endColumn": 129,
-                    "endOffset": 102260
+                    "startOffset": 102234,
+                    "endColumn": 145,
+                    "endOffset": 102375
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6173,9 +6215,9 @@
                 "to": {
                     "startLine": 1362,
                     "startColumn": 4,
-                    "startOffset": 102265,
-                    "endColumn": 129,
-                    "endOffset": 102390
+                    "startOffset": 102380,
+                    "endColumn": 137,
+                    "endOffset": 102513
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6185,9 +6227,9 @@
                 "to": {
                     "startLine": 1363,
                     "startColumn": 4,
-                    "startOffset": 102395,
-                    "endColumn": 111,
-                    "endOffset": 102502
+                    "startOffset": 102518,
+                    "endColumn": 140,
+                    "endOffset": 102654
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6197,9 +6239,9 @@
                 "to": {
                     "startLine": 1364,
                     "startColumn": 4,
-                    "startOffset": 102507,
-                    "endColumn": 133,
-                    "endOffset": 102636
+                    "startOffset": 102659,
+                    "endColumn": 131,
+                    "endOffset": 102786
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6209,9 +6251,9 @@
                 "to": {
                     "startLine": 1365,
                     "startColumn": 4,
-                    "startOffset": 102641,
-                    "endColumn": 131,
-                    "endOffset": 102768
+                    "startOffset": 102791,
+                    "endColumn": 134,
+                    "endOffset": 102921
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6221,9 +6263,9 @@
                 "to": {
                     "startLine": 1366,
                     "startColumn": 4,
-                    "startOffset": 102773,
-                    "endColumn": 125,
-                    "endOffset": 102894
+                    "startOffset": 102926,
+                    "endColumn": 123,
+                    "endOffset": 103045
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6233,9 +6275,9 @@
                 "to": {
                     "startLine": 1367,
                     "startColumn": 4,
-                    "startOffset": 102899,
-                    "endColumn": 65,
-                    "endOffset": 102960
+                    "startOffset": 103050,
+                    "endColumn": 129,
+                    "endOffset": 103175
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6245,9 +6287,9 @@
                 "to": {
                     "startLine": 1368,
                     "startColumn": 4,
-                    "startOffset": 102965,
-                    "endColumn": 89,
-                    "endOffset": 103050
+                    "startOffset": 103180,
+                    "endColumn": 129,
+                    "endOffset": 103305
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6257,9 +6299,9 @@
                 "to": {
                     "startLine": 1369,
                     "startColumn": 4,
-                    "startOffset": 103055,
-                    "endColumn": 79,
-                    "endOffset": 103130
+                    "startOffset": 103310,
+                    "endColumn": 111,
+                    "endOffset": 103417
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6269,9 +6311,9 @@
                 "to": {
                     "startLine": 1370,
                     "startColumn": 4,
-                    "startOffset": 103135,
-                    "endColumn": 97,
-                    "endOffset": 103228
+                    "startOffset": 103422,
+                    "endColumn": 133,
+                    "endOffset": 103551
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6281,9 +6323,9 @@
                 "to": {
                     "startLine": 1371,
                     "startColumn": 4,
-                    "startOffset": 103233,
-                    "endColumn": 77,
-                    "endOffset": 103306
+                    "startOffset": 103556,
+                    "endColumn": 131,
+                    "endOffset": 103683
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6293,9 +6335,9 @@
                 "to": {
                     "startLine": 1372,
                     "startColumn": 4,
-                    "startOffset": 103311,
-                    "endColumn": 105,
-                    "endOffset": 103412
+                    "startOffset": 103688,
+                    "endColumn": 125,
+                    "endOffset": 103809
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6305,9 +6347,9 @@
                 "to": {
                     "startLine": 1373,
                     "startColumn": 4,
-                    "startOffset": 103417,
-                    "endColumn": 91,
-                    "endOffset": 103504
+                    "startOffset": 103814,
+                    "endColumn": 65,
+                    "endOffset": 103875
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6317,9 +6359,9 @@
                 "to": {
                     "startLine": 1374,
                     "startColumn": 4,
-                    "startOffset": 103509,
-                    "endColumn": 109,
-                    "endOffset": 103614
+                    "startOffset": 103880,
+                    "endColumn": 89,
+                    "endOffset": 103965
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6329,10 +6371,45 @@
                 "to": {
                     "startLine": 1375,
                     "startColumn": 4,
-                    "startOffset": 103619,
-                    "endLine": 1378,
-                    "endColumn": 12,
-                    "endOffset": 103785
+                    "startOffset": 103970,
+                    "endColumn": 79,
+                    "endOffset": 104045
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1376,
+                    "startColumn": 4,
+                    "startOffset": 104050,
+                    "endColumn": 97,
+                    "endOffset": 104143
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1377,
+                    "startColumn": 4,
+                    "startOffset": 104148,
+                    "endColumn": 77,
+                    "endOffset": 104221
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1378,
+                    "startColumn": 4,
+                    "startOffset": 104226,
+                    "endColumn": 105,
+                    "endOffset": 104327
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6342,34 +6419,34 @@
                 "to": {
                     "startLine": 1379,
                     "startColumn": 4,
-                    "startOffset": 103790,
-                    "endLine": 1382,
+                    "startOffset": 104332,
+                    "endColumn": 91,
+                    "endOffset": 104419
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1380,
+                    "startColumn": 4,
+                    "startOffset": 104424,
+                    "endColumn": 109,
+                    "endOffset": 104529
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1381,
+                    "startColumn": 4,
+                    "startOffset": 104534,
+                    "endLine": 1384,
                     "endColumn": 12,
-                    "endOffset": 103950
-                },
-                "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 1383,
-                    "startColumn": 4,
-                    "startOffset": 103955,
-                    "endColumn": 79,
-                    "endOffset": 104030
-                },
-                "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 1384,
-                    "startColumn": 4,
-                    "startOffset": 104035,
-                    "endColumn": 99,
-                    "endOffset": 104130
+                    "endOffset": 104700
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6379,45 +6456,10 @@
                 "to": {
                     "startLine": 1385,
                     "startColumn": 4,
-                    "startOffset": 104135,
-                    "endColumn": 89,
-                    "endOffset": 104220
-                },
-                "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 1386,
-                    "startColumn": 4,
-                    "startOffset": 104225,
-                    "endColumn": 109,
-                    "endOffset": 104330
-                },
-                "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 1387,
-                    "startColumn": 4,
-                    "startOffset": 104335,
-                    "endColumn": 91,
-                    "endOffset": 104422
-                },
-                "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 1388,
-                    "startColumn": 4,
-                    "startOffset": 104427,
-                    "endColumn": 87,
-                    "endOffset": 104510
+                    "startOffset": 104705,
+                    "endLine": 1388,
+                    "endColumn": 12,
+                    "endOffset": 104865
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6427,9 +6469,9 @@
                 "to": {
                     "startLine": 1389,
                     "startColumn": 4,
-                    "startOffset": 104515,
-                    "endColumn": 99,
-                    "endOffset": 104610
+                    "startOffset": 104870,
+                    "endColumn": 79,
+                    "endOffset": 104945
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6439,9 +6481,9 @@
                 "to": {
                     "startLine": 1390,
                     "startColumn": 4,
-                    "startOffset": 104615,
-                    "endColumn": 101,
-                    "endOffset": 104712
+                    "startOffset": 104950,
+                    "endColumn": 99,
+                    "endOffset": 105045
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6451,9 +6493,9 @@
                 "to": {
                     "startLine": 1391,
                     "startColumn": 4,
-                    "startOffset": 104717,
-                    "endColumn": 103,
-                    "endOffset": 104816
+                    "startOffset": 105050,
+                    "endColumn": 89,
+                    "endOffset": 105135
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6463,9 +6505,9 @@
                 "to": {
                     "startLine": 1392,
                     "startColumn": 4,
-                    "startOffset": 104821,
-                    "endColumn": 103,
-                    "endOffset": 104920
+                    "startOffset": 105140,
+                    "endColumn": 109,
+                    "endOffset": 105245
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6475,9 +6517,9 @@
                 "to": {
                     "startLine": 1393,
                     "startColumn": 4,
-                    "startOffset": 104925,
-                    "endColumn": 93,
-                    "endOffset": 105014
+                    "startOffset": 105250,
+                    "endColumn": 91,
+                    "endOffset": 105337
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6487,9 +6529,9 @@
                 "to": {
                     "startLine": 1394,
                     "startColumn": 4,
-                    "startOffset": 105019,
-                    "endColumn": 119,
-                    "endOffset": 105134
+                    "startOffset": 105342,
+                    "endColumn": 87,
+                    "endOffset": 105425
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6499,9 +6541,9 @@
                 "to": {
                     "startLine": 1395,
                     "startColumn": 4,
-                    "startOffset": 105139,
-                    "endColumn": 117,
-                    "endOffset": 105252
+                    "startOffset": 105430,
+                    "endColumn": 99,
+                    "endOffset": 105525
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6511,9 +6553,9 @@
                 "to": {
                     "startLine": 1396,
                     "startColumn": 4,
-                    "startOffset": 105257,
-                    "endColumn": 89,
-                    "endOffset": 105342
+                    "startOffset": 105530,
+                    "endColumn": 101,
+                    "endOffset": 105627
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6523,9 +6565,9 @@
                 "to": {
                     "startLine": 1397,
                     "startColumn": 4,
-                    "startOffset": 105347,
-                    "endColumn": 107,
-                    "endOffset": 105450
+                    "startOffset": 105632,
+                    "endColumn": 103,
+                    "endOffset": 105731
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6535,9 +6577,9 @@
                 "to": {
                     "startLine": 1398,
                     "startColumn": 4,
-                    "startOffset": 105455,
-                    "endColumn": 109,
-                    "endOffset": 105560
+                    "startOffset": 105736,
+                    "endColumn": 103,
+                    "endOffset": 105835
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6547,9 +6589,9 @@
                 "to": {
                     "startLine": 1399,
                     "startColumn": 4,
-                    "startOffset": 105565,
-                    "endColumn": 111,
-                    "endOffset": 105672
+                    "startOffset": 105840,
+                    "endColumn": 93,
+                    "endOffset": 105929
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6559,10 +6601,33 @@
                 "to": {
                     "startLine": 1400,
                     "startColumn": 4,
-                    "startOffset": 105677,
-                    "endLine": 1402,
-                    "endColumn": 12,
-                    "endOffset": 105847
+                    "startOffset": 105934,
+                    "endColumn": 119,
+                    "endOffset": 106049
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1401,
+                    "startColumn": 4,
+                    "startOffset": 106054,
+                    "endColumn": 117,
+                    "endOffset": 106167
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1402,
+                    "startColumn": 4,
+                    "startOffset": 106172,
+                    "endColumn": 89,
+                    "endOffset": 106257
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6572,9 +6637,9 @@
                 "to": {
                     "startLine": 1403,
                     "startColumn": 4,
-                    "startOffset": 105852,
-                    "endColumn": 115,
-                    "endOffset": 105963
+                    "startOffset": 106262,
+                    "endColumn": 107,
+                    "endOffset": 106365
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6584,9 +6649,9 @@
                 "to": {
                     "startLine": 1404,
                     "startColumn": 4,
-                    "startOffset": 105968,
-                    "endColumn": 85,
-                    "endOffset": 106049
+                    "startOffset": 106370,
+                    "endColumn": 109,
+                    "endOffset": 106475
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6596,9 +6661,9 @@
                 "to": {
                     "startLine": 1405,
                     "startColumn": 4,
-                    "startOffset": 106054,
-                    "endColumn": 99,
-                    "endOffset": 106149
+                    "startOffset": 106480,
+                    "endColumn": 111,
+                    "endOffset": 106587
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6608,33 +6673,10 @@
                 "to": {
                     "startLine": 1406,
                     "startColumn": 4,
-                    "startOffset": 106154,
-                    "endColumn": 111,
-                    "endOffset": 106261
-                },
-                "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 1407,
-                    "startColumn": 4,
-                    "startOffset": 106266,
-                    "endColumn": 66,
-                    "endOffset": 106328
-                },
-                "from": {
-                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 1408,
-                    "startColumn": 4,
-                    "startOffset": 106333,
-                    "endColumn": 113,
-                    "endOffset": 106442
+                    "startOffset": 106592,
+                    "endLine": 1408,
+                    "endColumn": 12,
+                    "endOffset": 106762
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6644,9 +6686,9 @@
                 "to": {
                     "startLine": 1409,
                     "startColumn": 4,
-                    "startOffset": 106447,
-                    "endColumn": 67,
-                    "endOffset": 106510
+                    "startOffset": 106767,
+                    "endColumn": 115,
+                    "endOffset": 106878
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6656,9 +6698,9 @@
                 "to": {
                     "startLine": 1410,
                     "startColumn": 4,
-                    "startOffset": 106515,
-                    "endColumn": 115,
-                    "endOffset": 106626
+                    "startOffset": 106883,
+                    "endColumn": 85,
+                    "endOffset": 106964
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6668,9 +6710,9 @@
                 "to": {
                     "startLine": 1411,
                     "startColumn": 4,
-                    "startOffset": 106631,
-                    "endColumn": 131,
-                    "endOffset": 106758
+                    "startOffset": 106969,
+                    "endColumn": 99,
+                    "endOffset": 107064
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6680,9 +6722,9 @@
                 "to": {
                     "startLine": 1412,
                     "startColumn": 4,
-                    "startOffset": 106763,
-                    "endColumn": 115,
-                    "endOffset": 106874
+                    "startOffset": 107069,
+                    "endColumn": 111,
+                    "endOffset": 107176
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6692,9 +6734,9 @@
                 "to": {
                     "startLine": 1413,
                     "startColumn": 4,
-                    "startOffset": 106879,
-                    "endColumn": 68,
-                    "endOffset": 106943
+                    "startOffset": 107181,
+                    "endColumn": 66,
+                    "endOffset": 107243
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6704,9 +6746,9 @@
                 "to": {
                     "startLine": 1414,
                     "startColumn": 4,
-                    "startOffset": 106948,
-                    "endColumn": 94,
-                    "endOffset": 107038
+                    "startOffset": 107248,
+                    "endColumn": 113,
+                    "endOffset": 107357
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6716,9 +6758,9 @@
                 "to": {
                     "startLine": 1415,
                     "startColumn": 4,
-                    "startOffset": 107043,
-                    "endColumn": 114,
-                    "endOffset": 107153
+                    "startOffset": 107362,
+                    "endColumn": 67,
+                    "endOffset": 107425
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6728,9 +6770,9 @@
                 "to": {
                     "startLine": 1416,
                     "startColumn": 4,
-                    "startOffset": 107158,
-                    "endColumn": 112,
-                    "endOffset": 107266
+                    "startOffset": 107430,
+                    "endColumn": 115,
+                    "endOffset": 107541
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6740,9 +6782,9 @@
                 "to": {
                     "startLine": 1417,
                     "startColumn": 4,
-                    "startOffset": 107271,
-                    "endColumn": 98,
-                    "endOffset": 107365
+                    "startOffset": 107546,
+                    "endColumn": 131,
+                    "endOffset": 107673
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6752,9 +6794,9 @@
                 "to": {
                     "startLine": 1418,
                     "startColumn": 4,
-                    "startOffset": 107370,
-                    "endColumn": 119,
-                    "endOffset": 107485
+                    "startOffset": 107678,
+                    "endColumn": 115,
+                    "endOffset": 107789
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6764,9 +6806,9 @@
                 "to": {
                     "startLine": 1419,
                     "startColumn": 4,
-                    "startOffset": 107490,
-                    "endColumn": 121,
-                    "endOffset": 107607
+                    "startOffset": 107794,
+                    "endColumn": 68,
+                    "endOffset": 107858
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6776,9 +6818,9 @@
                 "to": {
                     "startLine": 1420,
                     "startColumn": 4,
-                    "startOffset": 107612,
-                    "endColumn": 110,
-                    "endOffset": 107718
+                    "startOffset": 107863,
+                    "endColumn": 94,
+                    "endOffset": 107953
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6788,9 +6830,9 @@
                 "to": {
                     "startLine": 1421,
                     "startColumn": 4,
-                    "startOffset": 107723,
-                    "endColumn": 100,
-                    "endOffset": 107819
+                    "startOffset": 107958,
+                    "endColumn": 114,
+                    "endOffset": 108068
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6800,9 +6842,9 @@
                 "to": {
                     "startLine": 1422,
                     "startColumn": 4,
-                    "startOffset": 107824,
-                    "endColumn": 104,
-                    "endOffset": 107924
+                    "startOffset": 108073,
+                    "endColumn": 112,
+                    "endOffset": 108181
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6812,9 +6854,9 @@
                 "to": {
                     "startLine": 1423,
                     "startColumn": 4,
-                    "startOffset": 107929,
-                    "endColumn": 99,
-                    "endOffset": 108024
+                    "startOffset": 108186,
+                    "endColumn": 98,
+                    "endOffset": 108280
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6824,9 +6866,9 @@
                 "to": {
                     "startLine": 1424,
                     "startColumn": 4,
-                    "startOffset": 108029,
-                    "endColumn": 117,
-                    "endOffset": 108142
+                    "startOffset": 108285,
+                    "endColumn": 119,
+                    "endOffset": 108400
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6836,9 +6878,9 @@
                 "to": {
                     "startLine": 1425,
                     "startColumn": 4,
-                    "startOffset": 108147,
-                    "endColumn": 90,
-                    "endOffset": 108233
+                    "startOffset": 108405,
+                    "endColumn": 121,
+                    "endOffset": 108522
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6848,9 +6890,9 @@
                 "to": {
                     "startLine": 1426,
                     "startColumn": 4,
-                    "startOffset": 108238,
-                    "endColumn": 122,
-                    "endOffset": 108356
+                    "startOffset": 108527,
+                    "endColumn": 110,
+                    "endOffset": 108633
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6860,9 +6902,9 @@
                 "to": {
                     "startLine": 1427,
                     "startColumn": 4,
-                    "startOffset": 108361,
-                    "endColumn": 99,
-                    "endOffset": 108456
+                    "startOffset": 108638,
+                    "endColumn": 100,
+                    "endOffset": 108734
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6872,9 +6914,9 @@
                 "to": {
                     "startLine": 1428,
                     "startColumn": 4,
-                    "startOffset": 108461,
-                    "endColumn": 103,
-                    "endOffset": 108560
+                    "startOffset": 108739,
+                    "endColumn": 104,
+                    "endOffset": 108839
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6884,9 +6926,9 @@
                 "to": {
                     "startLine": 1429,
                     "startColumn": 4,
-                    "startOffset": 108565,
-                    "endColumn": 95,
-                    "endOffset": 108656
+                    "startOffset": 108844,
+                    "endColumn": 99,
+                    "endOffset": 108939
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6896,9 +6938,9 @@
                 "to": {
                     "startLine": 1430,
                     "startColumn": 4,
-                    "startOffset": 108661,
-                    "endColumn": 87,
-                    "endOffset": 108744
+                    "startOffset": 108944,
+                    "endColumn": 117,
+                    "endOffset": 109057
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6908,9 +6950,9 @@
                 "to": {
                     "startLine": 1431,
                     "startColumn": 4,
-                    "startOffset": 108749,
-                    "endColumn": 105,
-                    "endOffset": 108850
+                    "startOffset": 109062,
+                    "endColumn": 90,
+                    "endOffset": 109148
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6920,9 +6962,9 @@
                 "to": {
                     "startLine": 1432,
                     "startColumn": 4,
-                    "startOffset": 108855,
-                    "endColumn": 91,
-                    "endOffset": 108942
+                    "startOffset": 109153,
+                    "endColumn": 122,
+                    "endOffset": 109271
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6932,9 +6974,9 @@
                 "to": {
                     "startLine": 1433,
                     "startColumn": 4,
-                    "startOffset": 108947,
-                    "endColumn": 91,
-                    "endOffset": 109034
+                    "startOffset": 109276,
+                    "endColumn": 99,
+                    "endOffset": 109371
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6944,9 +6986,9 @@
                 "to": {
                     "startLine": 1434,
                     "startColumn": 4,
-                    "startOffset": 109039,
-                    "endColumn": 113,
-                    "endOffset": 109148
+                    "startOffset": 109376,
+                    "endColumn": 103,
+                    "endOffset": 109475
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6956,9 +6998,9 @@
                 "to": {
                     "startLine": 1435,
                     "startColumn": 4,
-                    "startOffset": 109153,
-                    "endColumn": 89,
-                    "endOffset": 109238
+                    "startOffset": 109480,
+                    "endColumn": 95,
+                    "endOffset": 109571
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6968,9 +7010,9 @@
                 "to": {
                     "startLine": 1436,
                     "startColumn": 4,
-                    "startOffset": 109243,
-                    "endColumn": 83,
-                    "endOffset": 109322
+                    "startOffset": 109576,
+                    "endColumn": 87,
+                    "endOffset": 109659
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6980,9 +7022,9 @@
                 "to": {
                     "startLine": 1437,
                     "startColumn": 4,
-                    "startOffset": 109327,
-                    "endColumn": 53,
-                    "endOffset": 109376
+                    "startOffset": 109664,
+                    "endColumn": 105,
+                    "endOffset": 109765
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -6992,9 +7034,9 @@
                 "to": {
                     "startLine": 1438,
                     "startColumn": 4,
-                    "startOffset": 109381,
-                    "endColumn": 121,
-                    "endOffset": 109498
+                    "startOffset": 109770,
+                    "endColumn": 91,
+                    "endOffset": 109857
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -7004,9 +7046,9 @@
                 "to": {
                     "startLine": 1439,
                     "startColumn": 4,
-                    "startOffset": 109503,
-                    "endColumn": 83,
-                    "endOffset": 109582
+                    "startOffset": 109862,
+                    "endColumn": 91,
+                    "endOffset": 109949
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
@@ -7016,9 +7058,81 @@
                 "to": {
                     "startLine": 1440,
                     "startColumn": 4,
-                    "startOffset": 109587,
+                    "startOffset": 109954,
+                    "endColumn": 113,
+                    "endOffset": 110063
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1441,
+                    "startColumn": 4,
+                    "startOffset": 110068,
+                    "endColumn": 89,
+                    "endOffset": 110153
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1442,
+                    "startColumn": 4,
+                    "startOffset": 110158,
+                    "endColumn": 83,
+                    "endOffset": 110237
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1443,
+                    "startColumn": 4,
+                    "startOffset": 110242,
+                    "endColumn": 53,
+                    "endOffset": 110291
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1444,
+                    "startColumn": 4,
+                    "startOffset": 110296,
+                    "endColumn": 121,
+                    "endOffset": 110413
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1445,
+                    "startColumn": 4,
+                    "startOffset": 110418,
+                    "endColumn": 83,
+                    "endOffset": 110497
+                },
+                "from": {
+                    "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 1446,
+                    "startColumn": 4,
+                    "startOffset": 110502,
                     "endColumn": 119,
-                    "endOffset": 109702
+                    "endOffset": 110617
                 },
                 "from": {
                     "file": "C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\values\\values.xml"

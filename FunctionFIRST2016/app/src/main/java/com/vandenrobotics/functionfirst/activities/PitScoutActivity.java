@@ -1,6 +1,7 @@
 package com.vandenrobotics.functionfirst.activities;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -32,34 +33,26 @@ public class PitScoutActivity extends Activity {
 
     private boolean viewsAssigned = false;
 
+    //private ArrayList<PitData> mPitdata2;
+    //public ArrayList<PitData> mPitDataList;
     public PitData mPitData;
     public EditText Answer1;
     public EditText Answer2;
     public EditText Answer3;
+    public EditText Answer4;
+    public EditText Answer5;
+    public EditText Answer6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
+        assignViews();
         setContentView(R.layout.pit_scouting);
-        mEvent = getIntent().getStringExtra("event");
-        mTeamNumber = getIntent().getIntExtra("teamNumber", 0);
-
-        ArrayList<JSONObject> teamInfo = ExternalStorageTools.readTeams(mEvent);
-
-        teamInfo = JSONTools.sortJSONArray(teamInfo, "team_number");
-        team_numbers = new ArrayList<>(teamInfo.size());
-        try {
-            for (int i = 0; i < teamInfo.size(); i++) {
-                team_numbers.add(i, teamInfo.get(i).getInt("team_number"));
-            }
-        } catch (JSONException e){
-            e.printStackTrace();
-        }
-
-        Collections.sort(team_numbers);
-        assignViews(view);
 
         if (viewsAssigned) loadData(mPitData);
+
+        //mPitData = new PitData();
+        //mPitDataList.add(mPitData);
     }
 
     @Override
@@ -72,12 +65,19 @@ public class PitScoutActivity extends Activity {
     @Override
     public void onResume(){
         super.onResume();
-        assignViews(getView);
+        assignViews();
         if(viewsAssigned) loadData(mPitData);
-    }
+}
 
     public void Submit(View view){
-        mPitData = new PitData(saveData());
+        //mPitData = new PitData(saveData()):
+        //ExternalStorageTools.writeData2(mPitDataList, mEvent);
+
+        Intent intent = new Intent(this, PitScoutActivity.class);
+        intent.putExtra("event", mEvent);
+
+        startActivity(intent);
+        this.finish();
     }
 
     public void loadData(final PitData pitData){
@@ -100,23 +100,44 @@ public class PitScoutActivity extends Activity {
         return pitData;
     }
 
-    private void assignViews(View view){
+    private void assignViews() {
         try {
-            Team = (Spinner)findViewById(R.id.spinnerTeamNumberP);
+
+            mEvent = getIntent().getStringExtra("event");
+            mTeamNumber = getIntent().getIntExtra("teamNumber", 0);
+            //mPitData2 = ExternalStorageTools.readData2(mEvent);
+
+
+            ArrayList<JSONObject> teamInfo = ExternalStorageTools.readTeams(mEvent);
+
+            teamInfo = JSONTools.sortJSONArray(teamInfo, "team_number");
+            team_numbers = new ArrayList<>(teamInfo.size());
+            try {
+                for (int i = 0; i < teamInfo.size(); i++) {
+                    team_numbers.add(i, teamInfo.get(i).getInt("team_number"));
+                }
+            } catch (JSONException e){
+                e.printStackTrace();
+            }
+
+            Collections.sort(team_numbers);
+
+            Team = (Spinner) findViewById(R.id.spinnerTeamNumberP);
             teamAdapter = new ArrayAdapter<>(this, R.layout.spinner_base, team_numbers);
             teamAdapter.setDropDownViewResource(R.layout.spinner_dropdown);
             Team.setAdapter(teamAdapter);
             Team.setSelection(teamAdapter.getPosition(mTeamNumber));
 
-            Answer1 = (EditText)view.findViewById(R.id.answer_1);
-            Answer2 = (EditText)view.findViewById(R.id.answer_2);
-            Answer3 = (EditText)view.findViewById(R.id.answer_3);
-
+            Answer1 = (EditText) findViewById(R.id.answer_1);
+            Answer2 = (EditText) findViewById(R.id.answer_2);
+            Answer3 = (EditText) findViewById(R.id.answer_3);
 
             viewsAssigned = true;
-        } catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
             viewsAssigned = false;
+        }
+
     }
 }
-}
+

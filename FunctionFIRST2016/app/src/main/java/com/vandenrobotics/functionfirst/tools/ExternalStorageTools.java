@@ -5,6 +5,7 @@ import android.os.Environment;
 
 import com.vandenrobotics.functionfirst.model.Match;
 import com.vandenrobotics.functionfirst.model.MatchData;
+import com.vandenrobotics.functionfirst.model.PitData;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -257,6 +258,21 @@ public class ExternalStorageTools {
         }
     }
 
+    public static void writeData2(ArrayList<PitData> pitData, String event){
+        if(isExternalStorageWritable()) {
+            try {
+                FileWriter fileWriter = new FileWriter(createFile("ScoutData2/" + event, "data.txt"));
+                for (int i = 0; i < pitData.size(); i++) {
+                    fileWriter.append(pitData.get(i).toString() + "\n");
+                }
+                fileWriter.flush();
+                fileWriter.close();
+            } catch (IOException e){
+                e.printStackTrace();
+            }
+        }
+    }
+
     public static void writeData(MatchData matchData, String event, int device){
         if(isExternalStorageWritable()) {
             try {
@@ -294,6 +310,30 @@ public class ExternalStorageTools {
         }
             return matchData;
     }
+
+    public static ArrayList<PitData> readData2(String event){
+        ArrayList<PitData> pitData = new ArrayList<>(200);
+        if(isExternalStorageReadable()) {
+            try {
+                String line;
+                FileInputStream fileInputStream = new FileInputStream(createFile("ScoutData2/" + event, "data.txt"));
+                BufferedReader br = new BufferedReader(new InputStreamReader(fileInputStream));
+                while ((line = br.readLine()) != null) {
+                    try {
+                        String[] lineSections = line.split("\\$");
+                        String[] initData = lineSections[0].split(",");
+                        pitData.add(new PitData(line));
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        return pitData;
+    }
+
 
     public static boolean isExternalStorageWritable() {
         String state = Environment.getExternalStorageState();

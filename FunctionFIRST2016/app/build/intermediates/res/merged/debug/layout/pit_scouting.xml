@@ -4,6 +4,16 @@
     android:layout_height="match_parent"
     android:background="@color/DarkGreen">
 
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent">
+
     <Spinner
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -14,7 +24,6 @@
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/pit_scout_question_1"
         android:id="@+id/pit_scout_question_1"
         android:layout_below="@+id/spinnerTeamNumberP"
@@ -27,16 +36,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/answer_1"
+        android:textColor="@color/Black"
+        android:textColorHint="@color/Gray"
+        android:hint="Answer 1"
         android:layout_below="@+id/pit_scout_question_1"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:background="@color/White"
-        android:padding="10dp"/>
+        android:padding="5dp"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/pit_scout_question_2"
         android:id="@+id/pit_scout_question_2"
         android:padding="10dp"
@@ -49,16 +60,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/answer_2"
+        android:hint="Answer 2"
+        android:textColor="@color/Black"
+        android:textColorHint="@color/Gray"
         android:layout_below="@+id/pit_scout_question_2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:background="@color/White"
-        android:padding="10dp"/>
+        android:padding="5dp"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="@string/pit_scout_question_3"
         android:id="@+id/pit_scout_question_3"
         android:padding="10dp"
@@ -71,18 +84,87 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/answer_3"
+        android:hint="Answer 3"
+        android:textColor="@color/Black"
+        android:textColorHint="@color/Gray"
         android:layout_below="@+id/pit_scout_question_3"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:background="@color/White"
-        android:padding="10dp"/>
+        android:padding="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pit_scout_question_4"
+        android:layout_below="@+id/answer_3"
+        android:text="@string/pit_scout_question_4"
+        android:padding="5dp"
+        android:textColor="@color/Gold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/answer_4"
+        android:hint="Answer 4"
+        android:layout_below="@+id/pit_scout_question_4"
+        android:background="@color/White"
+        android:textColor="@color/Black"
+        android:textColorHint="@color/Gray"
+        android:padding="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pit_scout_question_5"
+        android:layout_below="@+id/answer_4"
+        android:text="@string/pit_scout_question_5"
+        android:padding="5dp"
+        android:textColor="@color/Gold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/answer_5"
+        android:layout_below="@+id/pit_scout_question_5"
+        android:background="@color/White"
+        android:hint="Answer 5"
+        android:textColor="@color/Black"
+        android:textColorHint="@color/Gray"
+        android:padding="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pit_scout_question_6"
+        android:layout_below="@+id/answer_5"
+        android:text="@string/pit_scout_question_6"
+        android:textColor="@color/Gold"
+        android:padding="5dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/answer_6"
+        android:layout_below="@+id/pit_scout_question_6"
+        android:background="@color/White"
+        android:hint="Answer 6"
+        android:textColor="@color/Black"
+        android:textColorHint="@color/Gray"
+        android:padding="5dp"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Submit Text"
         android:id="@+id/button_Submit"
+        android:layout_below="@+id/answer_6"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:onClick="Submit"/>
+        android:onClick="Submit"
+        android:textColor="@color/Gold"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
 </RelativeLayout>

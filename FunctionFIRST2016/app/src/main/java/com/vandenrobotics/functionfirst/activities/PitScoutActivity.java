@@ -1,7 +1,6 @@
 package com.vandenrobotics.functionfirst.activities;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -10,14 +9,13 @@ import android.widget.EditText;
 import android.widget.Spinner;
 
 import com.vandenrobotics.functionfirst.R;
-import com.vandenrobotics.functionfirst.model.PitData;
+import com.vandenrobotics.functionfirst.model.PitTeamData;
 import com.vandenrobotics.functionfirst.tools.ExternalStorageTools;
 import com.vandenrobotics.functionfirst.tools.JSONTools;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -28,13 +26,11 @@ public class PitScoutActivity extends Activity implements Spinner.OnItemSelected
 
     public String mEvent;
     private ArrayList<Integer> team_numbers;
+
     private ArrayAdapter<Integer> teamAdapter;
     private Spinner Team;
 
-    private String[] PitData;
-
-    private int teamSelected;
-
+    private ArrayList<EditText> Answers;
     public EditText Answer1;
     public EditText Answer2;
     public EditText Answer3;
@@ -42,20 +38,49 @@ public class PitScoutActivity extends Activity implements Spinner.OnItemSelected
     public EditText Answer5;
     public EditText Answer6;
 
+    private ArrayList<PitTeamData> pitData;
+
+    private int teamSelected;
+    private int indexTeamSelected;
+
+
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setContentView(R.layout.pit_scouting);
+
+        //Array of EditText, storing for easy calling of getText method
+        Answers = new ArrayList<>(6);
+
         mEvent = getIntent().getStringExtra("event");
-        //mPitDataList = getIntent().getParcelableArrayListExtra("pitData");
 
+        Answer1 = (EditText) findViewById(R.id.answer_1);
+        Answers.add(Answer1);
 
-        PitData = new String[7];
+        Answer2 = (EditText) findViewById(R.id.answer_2);
+        Answers.add(Answer2);
 
+        Answer3 = (EditText) findViewById(R.id.answer_3);
+        Answers.add(Answer3);
+
+        Answer4 = (EditText) findViewById(R.id.answer_4);
+        Answers.add(Answer4);
+
+        Answer5 = (EditText) findViewById(R.id.answer_5);
+        Answers.add(Answer5);
+
+        Answer6 = (EditText) findViewById(R.id.answer_6);
+        Answers.add(Answer6);
+
+        //Event passed by Option Screen. Use for writing to file path
+        mEvent = getIntent().getStringExtra("event");
+
+        //Loads info for spinner
         ArrayList<JSONObject> teamInfo = ExternalStorageTools.readTeams(mEvent);
-
         teamInfo = JSONTools.sortJSONArray(teamInfo, "team_number");
+
         team_numbers = new ArrayList<>(teamInfo.size());
+
         try {
             for (int i = 0; i < teamInfo.size(); i++) {
                 team_numbers.add(i, teamInfo.get(i).getInt("team_number"));
@@ -66,41 +91,43 @@ public class PitScoutActivity extends Activity implements Spinner.OnItemSelected
 
         Collections.sort(team_numbers);
 
-        Team = (Spinner) findViewById(R.id.spinnerTeamNumberP);
+        //Sets array of items in spinner depending on number of teams
         teamAdapter = new ArrayAdapter<>(this, R.layout.spinner_base, team_numbers);
         teamAdapter.setDropDownViewResource(R.layout.spinner_dropdown);
+
+        //Links spinner all together
+        Team = (Spinner)findViewById(R.id.spinnerTeamNumberP);
         Team.setAdapter(teamAdapter);
         Team.setSelection(teamAdapter.getPosition(team_numbers.get(0)));
         Team.setOnItemSelectedListener(this);
 
-        Answer1 = (EditText) findViewById(R.id.answer_1);
-        Answer2 = (EditText) findViewById(R.id.answer_2);
-        Answer3 = (EditText) findViewById(R.id.answer_3);
-        Answer4 = (EditText) findViewById(R.id.answer_4);
-        Answer5 = (EditText) findViewById(R.id.answer_5);
-        Answer6 = (EditText) findViewById(R.id.answer_6);
-
-        readData(teamSelected);
     }
 
-    public void Submit(View view) {
+    //Runs when button is clicked
+    public void Submit(View view){
 
         saveData();
 
-        ExternalStorageTools.writePitData(PitData, mEvent);
-
-       /** Intent intent = new Intent(this, PitScoutActivity.class);
+        //Don't see necessity to destroy activity. Unlikely we will leave while pit scouting
+        /*
+        Intent intent = new Intent(this, PitScoutActivity.class);
         intent.putExtra("event", mEvent);
 
         startActivity(intent);
-        this.finish(); */
+        this.finish();
+        */
     }
 
-
+    //Load data depending on what team is selected
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+        //Get the team selected
         teamSelected = team_numbers.get(position);
-        readData(teamSelected);
+        //Get index of the team selected
+        indexTeamSelected = position;
+        //If read data save about that team, will return " " in none found, can be change in TeamPitData
+        readData();
+
     }
 
     @Override
@@ -108,25 +135,38 @@ public class PitScoutActivity extends Activity implements Spinner.OnItemSelected
 
     }
 
-    private void readData(int teamSelected){
-      PitData = ExternalStorageTools.readPitData(teamSelected, mEvent); //return an array and stores in our pitData
-    }
     private void saveData(){
-
-        int index = 0;
-        PitData[index] = "" + teamSelected;
-        index +=1;
-        PitData[index] =  Answer1.getText().toString();
-        index +=1;
-        PitData[index] =  Answer2.getText().toString();
-        index +=1;
-        PitData[index] =  Answer3.getText().toString();
-        index +=1;
-        PitData[index] =  Answer4.getText().toString();
-        index +=1;
-        PitData[index] =  Answer5.getText().toString();
-        index +=1;
-        PitData[index] =  Answer6.getText().toString();
+        updateData();
+        ExternalStorageTools.writePitData(pitData,mEvent);
 
     }
+
+    //read data from file at /ScoutData/mEvent/pitdata.txt
+    private void readData() {
+        //call readData function from ExternalStorageTools, giving even and number of teams,
+        // for creating numberOfTeams TeamPitData objects
+        pitData = ExternalStorageTools.readPitData(team_numbers.size(), mEvent);
+
+        Answer1.setText(pitData.get(indexTeamSelected).answer1);
+        Answer2.setText(pitData.get(indexTeamSelected).answer2);
+        Answer3.setText(pitData.get(indexTeamSelected).answer3);
+        Answer4.setText(pitData.get(indexTeamSelected).answer4);
+        Answer5.setText(pitData.get(indexTeamSelected).answer5);
+        Answer6.setText(pitData.get(indexTeamSelected).answer6);
+
+    }
+
+    public void updateData(){
+
+        pitData.get(indexTeamSelected).team = "" + teamSelected;
+        pitData.get(indexTeamSelected).answer1 = "" + Answer1.getText();
+        pitData.get(indexTeamSelected).answer2 = "" + Answer2.getText();
+        pitData.get(indexTeamSelected).answer3 = "" + Answer3.getText();
+        pitData.get(indexTeamSelected).answer4 = "" + Answer4.getText();
+        pitData.get(indexTeamSelected).answer5 = "" + Answer5.getText();
+        pitData.get(indexTeamSelected).answer6 = "" + Answer6.getText();
+
+    }
+
 }
+

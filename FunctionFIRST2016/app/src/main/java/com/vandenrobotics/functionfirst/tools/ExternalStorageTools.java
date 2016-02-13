@@ -2,11 +2,11 @@ package com.vandenrobotics.functionfirst.tools;
 
 import android.graphics.Bitmap;
 import android.os.Environment;
-import android.widget.ArrayAdapter;
+import android.util.Log;
 
 import com.vandenrobotics.functionfirst.model.Match;
 import com.vandenrobotics.functionfirst.model.MatchData;
-import com.vandenrobotics.functionfirst.model.PitData;
+import com.vandenrobotics.functionfirst.model.PitTeamData;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -20,7 +20,6 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
 import java.io.FileNotFoundException;
-import java.sql.Array;
 import java.util.ArrayList;
 
 /**
@@ -260,20 +259,6 @@ public class ExternalStorageTools {
         }
     }
 
-    public static void writePitData(String[] pitdata, String event){
-        if(isExternalStorageWritable()) {
-            try {
-                FileWriter fileWriter = new FileWriter(createFile("ScoutData/" + event, "PitData.txt"));
-                for (String dataEntry: pitdata){
-                    fileWriter.write(dataEntry + ",");
-                }
-                fileWriter.flush();
-                fileWriter.close();
-            } catch (IOException e){
-                e.printStackTrace();
-            }
-        }
-    }
 
     public static void writeData(MatchData matchData, String event, int device){
         if(isExternalStorageWritable()) {
@@ -310,33 +295,8 @@ public class ExternalStorageTools {
                 e.printStackTrace();
             }
         }
-            return matchData;
+        return matchData;
     }
-
-    public static String[] readPitData(int teamSelected, String event){
-        //reconstruct array from file
-        String[] pitData = new String[7];
-        if(isExternalStorageReadable()) {
-            try {
-                String line;
-                FileInputStream fileInputStream = new FileInputStream(createFile("ScoutData/" + event, "PitData.txt"));
-                BufferedReader br = new BufferedReader(new InputStreamReader(fileInputStream));
-                while ((line = br.readLine()) != null) {
-                    try {
-                        String[] lineSections = line.split("\\$");
-                        String[] initData = lineSections[0].split(",");
-                        pitData.add(new PitData(line));
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    }
-                }
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-        return pitData;
-    }
-
 
     public static boolean isExternalStorageWritable() {
         String state = Environment.getExternalStorageState();
@@ -371,6 +331,7 @@ public class ExternalStorageTools {
     public static void deleteFiles(String dir){
         deleteDirectory(new File(BASE_DIR.getAbsolutePath()+"/ScoutData/"+dir));
     }
+
     public static boolean deleteDirectory(File path) {
         if( path.exists() ) {
             File[] files = path.listFiles();
@@ -391,6 +352,77 @@ public class ExternalStorageTools {
 
     private static String getDeviceString(int device){
         return ((device<4) ? "Red"+device : "Blue"+(device-3));
+    }
+
+    //Writes a data file out of TeamPitData to the event/piddata directory
+    // Goes character by character appending it to the end of the current text.
+    // Meant to be called consecutively and not replace current string.
+    public static void writePitData(ArrayList<PitTeamData> pitData, String event){
+        if(isExternalStorageWritable()) {
+            try {
+                FileWriter fileWriter = new FileWriter(createFile("ScoutData/" + event , "pitdata.txt"));
+
+                /*
+                String  string = "";
+                for(int i = 0; i < pitData.size(); i++){
+                    string += pitData.get(i).toString();
+                }
+                Log.d("Testing", "saveData: " + string);
+                fileWriter.write(string);
+                */
+
+                for (PitTeamData teamPitData: pitData) {
+                    fileWriter.write(teamPitData.toString());
+                }
+
+                /*
+                for(int i = 0; i < TeamPitData.length(); i++){
+                    fileWriter.append(TeamPitData.charAt(i));
+                }
+                */
+                fileWriter.flush();
+                fileWriter.close();
+            } catch (IOException e){
+                e.printStackTrace();
+            }
+        }
+    }
+
+    public static ArrayList<PitTeamData> readPitData(int numberOfTeams, String event){
+
+        //Temporary hold pitData array of TeamPitData
+        ArrayList<PitTeamData> pitData = new ArrayList<>();
+
+        //Magic reconstruct array from file.
+        if(isExternalStorageReadable()){
+            try {
+                //Variable to store retrieving of line from file
+                String line;
+                //Create object to read from file
+                FileInputStream fileInputStream = new FileInputStream(createFile("ScoutData/" + event , "pitdata.txt"));
+                //Buffer to store chars later combined to form string
+                BufferedReader br = new BufferedReader(new InputStreamReader(fileInputStream));
+                //While line = br.ReadLine() finds data, store that in a PitTeamData and add it to pitData
+                while((line = br.readLine())!=null){
+                    pitData.add(new PitTeamData(line));
+                }
+                //If while didn't find data, create "empty" data to fill pitData
+                if(pitData.size() == 0){
+                    for(int i = 0; i < numberOfTeams; i++){
+                        pitData.add(new PitTeamData());
+                    }
+                }
+                br.close();
+                fileInputStream.close();
+
+            } catch (FileNotFoundException e){
+
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+        return pitData;
     }
 
 }

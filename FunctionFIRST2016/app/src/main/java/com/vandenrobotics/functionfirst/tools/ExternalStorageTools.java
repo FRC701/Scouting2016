@@ -2,9 +2,11 @@ package com.vandenrobotics.functionfirst.tools;
 
 import android.graphics.Bitmap;
 import android.os.Environment;
+import android.util.Log;
 
 import com.vandenrobotics.functionfirst.model.Match;
 import com.vandenrobotics.functionfirst.model.MatchData;
+import com.vandenrobotics.functionfirst.model.TeamPitData;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -329,6 +331,7 @@ public class ExternalStorageTools {
     public static void deleteFiles(String dir){
         deleteDirectory(new File(BASE_DIR.getAbsolutePath()+"/ScoutData/"+dir));
     }
+
     public static boolean deleteDirectory(File path) {
         if( path.exists() ) {
             File[] files = path.listFiles();
@@ -351,16 +354,32 @@ public class ExternalStorageTools {
         return ((device<4) ? "Red"+device : "Blue"+(device-3));
     }
 
-    // writes a JSONDocument data file out of PitData to the event/piddata directory
-    public static void writePitData(String[] pitData, String event){
+    //Writes a data file out of TeamPitData to the event/piddata directory
+    // Goes character by character appending it to the end of the current text.
+    // Meant to be called consecutively and not replace current string.
+    public static void writePitData(ArrayList<TeamPitData> pitData, String event){
         if(isExternalStorageWritable()) {
             try {
+                FileWriter fileWriter = new FileWriter(createFile("ScoutData/" + event , "pitdata.txt"));
 
-                FileWriter fileWriter = new FileWriter(createFile("ScoutData/" + event , "PitData.txt"));
-
-                for (String dataEntry: pitData) {
-                    fileWriter.write(dataEntry + ",");
+                /*
+                String  string = "";
+                for(int i = 0; i < pitData.size(); i++){
+                    string += pitData.get(i).toString();
                 }
+                Log.d("Testing", "saveData: " + string);
+                fileWriter.write(string);
+                */
+
+                for (TeamPitData teamPitData: pitData) {
+                   fileWriter.write(teamPitData.toString());
+                }
+
+                /*
+                for(int i = 0; i < TeamPitData.length(); i++){
+                    fileWriter.append(TeamPitData.charAt(i));
+                }
+                */
                 fileWriter.flush();
                 fileWriter.close();
             } catch (IOException e){
@@ -369,21 +388,38 @@ public class ExternalStorageTools {
         }
     }
 
-    public static String[] readPitData(int teamSelected, String event){
-        String[] pitData = new String[7];
+    public static ArrayList<TeamPitData> readPitData(int numberOfTeams, String event){
+
+        //Temporary hold pitData array of TeamPitData
+        ArrayList<TeamPitData> pitData = new ArrayList<>();
+
         //Magic reconstruct array from file.
         if(isExternalStorageReadable()){
-            try{
-                FileInputStream fileInputStream = new FileInputStream(createFile("ScoutData/" + event, "PitData.txt"));
-
+            try {
+                //Variable to store retrieving of line from file
+                String line;
+                //Create object to read from file
+                FileInputStream fileInputStream = new FileInputStream(createFile("ScoutData/" + event , "pitdata.txt"));
+                //Buffer to store chars later combined to form string
+                BufferedReader br = new BufferedReader(new InputStreamReader(fileInputStream));
+                //While line = br.ReadLine() finds data, store that in a TeamPitData and add it to pitData
+                while((line = br.readLine())!=null){
+                    pitData.add(new TeamPitData(line));
+                }
+                //If while didn't find data, create "empty" data to fill pitData
+                if(pitData.size() == 0){
+                    for(int i = 0; i < numberOfTeams; i++){
+                        pitData.add(new TeamPitData());
+                    }
+                }
+                br.close();
+                fileInputStream.close();
 
             } catch (FileNotFoundException e){
-                for (String data: pitData) {
-                    data = "";
-                }
-                return pitData;
-            }
 
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
 
         return pitData;

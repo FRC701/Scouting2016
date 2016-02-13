@@ -1,19 +1,47 @@
 [
     {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
         "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/fragment_tele.xml",
         "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/src/main/res/layout/fragment_tele.xml"
     },
     {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_list_menu_item_radio.xml"
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_list_menu_item_checkbox.xml"
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_action_mode_close_item_material.xml"
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_include.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_activity_chooser_view_include.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
         "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
@@ -24,36 +52,40 @@
         "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/layout/abc_action_menu_layout.xml"
     },
     {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\option_screen.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\option_screen.xml"
-    },
-    {
         "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_post.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\fragment_post.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
         "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/layout/abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_action_bar_up_container.xml"
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_list_menu_item_checkbox.xml"
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
         "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
         "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/layout/abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
         "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_include.xml",
@@ -68,6 +100,14 @@
         "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/src/main/res/layout/option_screen.xml"
     },
     {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_init.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\fragment_init.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
         "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/abc_simple_dropdown_hint.xml",
         "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/layout/abc_simple_dropdown_hint.xml"
     },
@@ -76,124 +116,140 @@
         "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/layout/abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_scout.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\activity_scout.xml"
     },
     {
         "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/fragment_post.xml",
         "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/src/main/res/layout/fragment_post.xml"
     },
     {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_popup_menu_item_layout.xml"
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_event_list.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\activity_event_list.xml"
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_post.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\fragment_post.xml"
     },
     {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_base.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\spinner_base.xml"
     },
     {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pit_scouting.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\pit_scouting.xml"
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
         "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/activity_scout.xml",
         "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/src/main/res/layout/activity_scout.xml"
     },
     {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_init.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\fragment_init.xml"
-    },
-    {
         "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/spinner_dropdown.xml",
         "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/src/main/res/layout/spinner_dropdown.xml"
     },
     {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_screen_toolbar.xml"
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_event_list.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\activity_event_list.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_dropdown.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\spinner_dropdown.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_list_menu_item_icon.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_screen_content_include.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tele.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\fragment_tele.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/layout/abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/activity_match.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/src/main/res/layout/activity_match.xml"
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
         "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_auto.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\fragment_auto.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/layout/abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/activity_event_list.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/src/main/res/layout/activity_event_list.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_expanded_menu_layout.xml"
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pit_scouting.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\pit_scouting.xml"
     },
     {
         "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
         "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_list_menu_item_icon.xml"
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/activity_match.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/src/main/res/layout/activity_match.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_simple_dropdown_hint.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_simple_dropdown_hint.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/activity_event_list.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/src/main/res/layout/activity_event_list.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
         "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
         "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_scout.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\activity_scout.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
         "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
         "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_include.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_activity_chooser_view_include.xml"
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_match.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\activity_match.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
         "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\option_screen.xml",
@@ -204,20 +260,12 @@
         "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
         "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
         "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/layout/abc_search_view.xml"
     },
     {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_match.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\activity_match.xml"
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
         "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/fragment_init.xml",
@@ -228,168 +276,120 @@
         "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/layout/abc_screen_toolbar.xml"
     },
     {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_search_view.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_simple_dropdown_hint.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_simple_dropdown_hint.xml"
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_auto.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\fragment_auto.xml"
     },
     {
         "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
         "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/layout/abc_action_bar_up_container.xml"
     },
     {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
         "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/pit_scouting.xml",
         "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/src/main/res/layout/pit_scouting.xml"
     },
     {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pit_scouting.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\pit_scouting.xml"
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_auto.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\fragment_auto.xml"
     },
     {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_post.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\fragment_post.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_dropdown.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\spinner_dropdown.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/layout/abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_base.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\spinner_base.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/layout/abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tele.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\fragment_tele.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/layout/abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_include.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_activity_chooser_view_include.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/layout/abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/layout/abc_screen_simple.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_simple_dropdown_hint.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_simple_dropdown_hint.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_scout.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\activity_scout.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/layout/abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_init.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\fragment_init.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/src/main/res/layout/activity_main.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_post.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\fragment_post.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_screen_content_include.xml"
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_base.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\spinner_base.xml"
     },
     {
         "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
         "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_scout.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\activity_scout.xml"
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_dropdown.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\spinner_dropdown.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_match.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\activity_match.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_dropdown.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\spinner_dropdown.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tele.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\fragment_tele.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pit_scouting.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\pit_scouting.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_event_list.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\activity_event_list.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_simple_dropdown_hint.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_simple_dropdown_hint.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
         "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
@@ -400,12 +400,20 @@
         "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_action_bar_title_item.xml"
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_event_list.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\activity_event_list.xml"
     },
     {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\spinner_base.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\spinner_base.xml"
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_include.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_activity_chooser_view_include.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_tele.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\fragment_tele.xml"
+    },
+    {
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_init.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\fragment_init.xml"
     },
     {
         "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/spinner_base.xml",
@@ -416,19 +424,11 @@
         "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/layout/abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_match.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\activity_match.xml"
-    },
-    {
         "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
         "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.2/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\21.0.2\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_auto.xml",
-        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Workspace2016\\Scouting2016\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\fragment_auto.xml"
+        "merged": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\build\\intermediates\\res\\merged\\debug\\layout\\option_screen.xml",
+        "source": "/Users/Diego/Documents/workspace/Scouting2016/FunctionFIRST2016/C:\\Users\\Programming701-A\\Downloads\\FunctionFIRST2016\\app\\src\\main\\res\\layout\\option_screen.xml"
     }
 ]

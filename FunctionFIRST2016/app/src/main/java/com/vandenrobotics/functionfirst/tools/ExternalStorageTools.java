@@ -5,7 +5,6 @@ import android.os.Environment;
 
 import com.vandenrobotics.functionfirst.model.Match;
 import com.vandenrobotics.functionfirst.model.MatchData;
-import com.vandenrobotics.functionfirst.model.PitData;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -258,20 +257,6 @@ public class ExternalStorageTools {
         }
     }
 
-    public static void writeData2(ArrayList<PitData> pitData, String event){
-        if(isExternalStorageWritable()) {
-            try {
-                FileWriter fileWriter = new FileWriter(createFile("ScoutData2/" + event, "data.txt"));
-                for (int i = 0; i < pitData.size(); i++) {
-                    fileWriter.append(pitData.get(i).toString() + "\n");
-                }
-                fileWriter.flush();
-                fileWriter.close();
-            } catch (IOException e){
-                e.printStackTrace();
-            }
-        }
-    }
 
     public static void writeData(MatchData matchData, String event, int device){
         if(isExternalStorageWritable()) {
@@ -310,30 +295,6 @@ public class ExternalStorageTools {
         }
             return matchData;
     }
-
-    public static ArrayList<PitData> readData2(String event){
-        ArrayList<PitData> pitData = new ArrayList<>(200);
-        if(isExternalStorageReadable()) {
-            try {
-                String line;
-                FileInputStream fileInputStream = new FileInputStream(createFile("ScoutData2/" + event, "data.txt"));
-                BufferedReader br = new BufferedReader(new InputStreamReader(fileInputStream));
-                while ((line = br.readLine()) != null) {
-                    try {
-                        String[] lineSections = line.split("\\$");
-                        String[] initData = lineSections[0].split(",");
-                        pitData.add(new PitData(line));
-                    } catch (Exception e) {
-                        e.printStackTrace();
-                    }
-                }
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-        return pitData;
-    }
-
 
     public static boolean isExternalStorageWritable() {
         String state = Environment.getExternalStorageState();
@@ -388,6 +349,44 @@ public class ExternalStorageTools {
 
     private static String getDeviceString(int device){
         return ((device<4) ? "Red"+device : "Blue"+(device-3));
+    }
+
+    // writes a JSONDocument data file out of PitData to the event/piddata directory
+    public static void writePitData(String[] pitData, String event){
+        if(isExternalStorageWritable()) {
+            try {
+
+                FileWriter fileWriter = new FileWriter(createFile("ScoutData/" + event , "PitData.txt"));
+
+                for (String dataEntry: pitData) {
+                    fileWriter.write(dataEntry + ",");
+                }
+                fileWriter.flush();
+                fileWriter.close();
+            } catch (IOException e){
+                e.printStackTrace();
+            }
+        }
+    }
+
+    public static String[] readPitData(int teamSelected, String event){
+        String[] pitData = new String[7];
+        //Magic reconstruct array from file.
+        if(isExternalStorageReadable()){
+            try{
+                FileInputStream fileInputStream = new FileInputStream(createFile("ScoutData/" + event, "PitData.txt"));
+
+
+            } catch (FileNotFoundException e){
+                for (String data: pitData) {
+                    data = "";
+                }
+                return pitData;
+            }
+
+        }
+
+        return pitData;
     }
 
 }

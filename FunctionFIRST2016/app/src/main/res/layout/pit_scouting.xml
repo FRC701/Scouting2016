@@ -161,7 +161,7 @@
         android:layout_below="@+id/answer_6"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:onClick="Submit"
+        android:onClick="submit"
         android:textColor="@color/Gold"/>
 
             </RelativeLayout>

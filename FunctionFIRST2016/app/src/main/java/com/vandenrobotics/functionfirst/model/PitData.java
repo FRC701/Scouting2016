@@ -26,9 +26,7 @@ public class PitData implements Parcelable {
     public PitData(String string){
         this();
         try{
-            String[] dataString = string.split(",");
-
-
+            String[] dataString = string.split("\\$");
             int index = 0;
             Team = Integer.parseInt(dataString[index]);
             index += 1;

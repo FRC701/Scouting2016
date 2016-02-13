@@ -2,6 +2,7 @@ package com.vandenrobotics.functionfirst.tools;
 
 import android.graphics.Bitmap;
 import android.os.Environment;
+import android.widget.ArrayAdapter;
 
 import com.vandenrobotics.functionfirst.model.Match;
 import com.vandenrobotics.functionfirst.model.MatchData;
@@ -19,6 +20,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
 import java.io.FileNotFoundException;
+import java.sql.Array;
 import java.util.ArrayList;
 
 /**
@@ -258,12 +260,12 @@ public class ExternalStorageTools {
         }
     }
 
-    public static void writeData2(ArrayList<PitData> pitData, String event){
+    public static void writePitData(String[] pitdata, String event){
         if(isExternalStorageWritable()) {
             try {
-                FileWriter fileWriter = new FileWriter(createFile("ScoutData2/" + event, "data.txt"));
-                for (int i = 0; i < pitData.size(); i++) {
-                    fileWriter.append(pitData.get(i).toString() + "\n");
+                FileWriter fileWriter = new FileWriter(createFile("ScoutData/" + event, "PitData.txt"));
+                for (String dataEntry: pitdata){
+                    fileWriter.write(dataEntry + ",");
                 }
                 fileWriter.flush();
                 fileWriter.close();
@@ -311,12 +313,13 @@ public class ExternalStorageTools {
             return matchData;
     }
 
-    public static ArrayList<PitData> readData2(String event){
-        ArrayList<PitData> pitData = new ArrayList<>(200);
+    public static String[] readPitData(int teamSelected, String event){
+        //reconstruct array from file
+        String[] pitData = new String[7];
         if(isExternalStorageReadable()) {
             try {
                 String line;
-                FileInputStream fileInputStream = new FileInputStream(createFile("ScoutData2/" + event, "data.txt"));
+                FileInputStream fileInputStream = new FileInputStream(createFile("ScoutData/" + event, "PitData.txt"));
                 BufferedReader br = new BufferedReader(new InputStreamReader(fileInputStream));
                 while ((line = br.readLine()) != null) {
                     try {

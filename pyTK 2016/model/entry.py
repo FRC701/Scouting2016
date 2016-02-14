@@ -215,4 +215,27 @@ class Entry(object):
         self.totalScore = (self.offensiveScore + self.defensiveScore 
                            - self.foulScore)
         self.totalTAScore = (self.offensiveScore + self.defensiveScore)
+
+
+class PitEntry(object):
+
+    entries = []
+
+    def __init__(self, data):
+        self.team =int(data[0])
+
+        self.answer1 = str(data[1])
+        self.answer2 = str(data[2])
+        self.answer3 = str(data[3])
+        self.answer4 = str(data[4])
+        self.answer5 = str(data[5])
+        self.answer6 = str(data[6])
+
+        self.entries.append(self)
+
+
+
+
+
+
         

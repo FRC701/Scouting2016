@@ -16,6 +16,21 @@ class App(Frame):
             calculate.calculate_data()
         else:
             tkMessageBox.showinfo("Warning","Import Data Failed.")
+
+
+    def import_pitData(self):
+        imports.import_pitData(tkFileDialog.askopenfilename())
+        self.pitImported = model.pitImported
+        if self.pitImported:
+            calculate.calculate_pit_data()
+        else:
+            tkMessageBox.showinfo("Warning","Import PitData Failed.")
+
+    def clear_importData(self):
+        imports.clear_importData()
+        self.pitImported = False
+        self.imported = False
+        tkMessageBox.showinfo("INFO", "Data Cleared.")
         
     def teamdata(self):
         if self.imported:
@@ -86,6 +101,16 @@ class App(Frame):
         self.importB = Button(self.importFrame, text="Import Data",
                               command=self.import_data)
         self.importB.pack(side=TOP,pady=5)
+
+        self.importA = Button(self.importFrame, text="Import pitData",
+                              command=self.import_pitData)
+        self.importA.pack(side=TOP,pady=5)
+
+        self.clearImportsB = Button(self.importFrame, text="Clear Imports",
+                                    command=self.clear_importData)
+        self.clearImportsB.pack(side=TOP,pady=5)
+
+        
 
     def __init__(self,parent=None):
         self.parent = parent

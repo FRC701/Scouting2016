@@ -203,6 +203,24 @@ class _TeamScores(object):
 
     def getAttr(self, source):
         return getattr(self, source)
+#------------------------------------------------------------------------------
+# TeamPitInfo Class
+#   -- stores data unrelated to performance on the field
+#------------------------------------------------------------------------------
+class _TeamPitInfo(object):
+    """Used to handle information about a teams chassis and other
+       non-performance related information."""
+
+    def __init__(self):
+      self.answer1 = ""
+      self.answer2 = ""
+      self.answer3 = ""
+      self.answer4 = ""
+      self.answer5 = ""
+      self.answer6 = ""
+
+    def getAttr(self, source):
+        return getattr(self, source)    
 
 #------------------------------------------------------------------------------
 # TeamRankings class
@@ -255,6 +273,7 @@ class Team(object):
         self.number = num
         self.Info = _TeamInfo()
         self.Scores = _TeamScores()
+        self.PitInfo = _TeamPitInfo()
         self.team_list.append(self)
         self.available.append(self)
 

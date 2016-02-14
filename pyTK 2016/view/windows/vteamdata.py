@@ -28,16 +28,30 @@ class TeamData(Frame):
         
     def show(self):   
         if self.shown == False:
+             
+            #make the frame to show data to
+            self.pitDataFrame = Frame(self, relief=SUNKEN,bd=1)
+            self.pitDataFrame.pack(side=BOTTOM,pady=10)
+
+            #
+            self.scrollbar3 = Scrollbar(self.pitDataFrame)
+            self.scrollbar3.pack(side=RIGHT, fill=Y)
+            self.teamPitInfo =Listbox(self.pitDataFrame,height=10, width=140,
+                                      yscrollcommand=self.scrollbar3.set)
+            for x, y in self.controller.pitDataStrings:
+                self.labelVar = str(y) + str(self.controller.data.PitInfo.getAttr(x))
+                self.teamPitInfo.insert(END, self.labelVar)
+            self.teamPitInfo.pack(side=RIGHT, fill=Y)
+            self.scrollbar3.config(command=self.teamPitInfo.yview)
             
             #make the frame to show data to
             self.dataFrame = Frame(self, relief=SUNKEN,bd=1)
             self.dataFrame.pack(side=BOTTOM,pady=10)
 
-
             #make the listbox and scroller containing maxmin values
             self.scrollbar2 = Scrollbar(self.dataFrame)
             self.scrollbar2.pack(side=RIGHT,fill=Y)
-            self.teamScores = Listbox(self.dataFrame,height=30,width=60,
+            self.teamScores = Listbox(self.dataFrame,height=30,width=70,
                                       yscrollcommand=self.scrollbar2.set)
             for x, y in self.controller.maxminLabelVals:
                 self.labelVar = str(y) + str(self.controller.data.Scores.getAttr(x))
@@ -79,6 +93,7 @@ class TeamData(Frame):
     def hide(self):
         if self.shown == True:
             self.dataFrame.destroy()
+            self.pitDataFrame.destroy()
             self.graphFrame.destroy()
             self.photoFrame.destroy()
             self.shown = False

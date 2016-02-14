@@ -17,7 +17,7 @@ public class PitTeamData {
 
     public PitTeamData(){
         //If will display text " " by default, can be changed to have hit
-        team = " ";
+        team = "0";
         answer1 = " ";
         answer2 = " ";
         answer3 = " ";
@@ -28,7 +28,7 @@ public class PitTeamData {
 
     public PitTeamData(String string){
 
-        String[] dataString = string.split(",");
+        String[] dataString = string.split("\\$");
 
         team = dataString[0];
 
@@ -42,8 +42,8 @@ public class PitTeamData {
     }
 
     public String toString(){
-        return team + "," + answer1 + "," + answer2 + "," +  answer3 + "," + answer4 + "," + answer4 + ","
-                + answer5 + "," + answer6 + "\n";
+        return team + "$" + answer1 + "$" + answer2 + "$" +  answer3 + "$" + answer4 + "$"
+                + answer5 + "$" + answer6 + "\n";
     }
 
 }

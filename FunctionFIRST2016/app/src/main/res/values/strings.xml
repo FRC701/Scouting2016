@@ -122,7 +122,7 @@
     <string name="pit_scout_question_1">How experienced are your drivers and can they play defensively?</string>
     <string name="pit_scout_question_2">How many cycles can you do?</string>
     <string name="pit_scout_question_3">What kind of drive train does the robot have and how fast does it drive?</string>
-    <string name="pit_scout_question_4">Where does the robot intake from and where does the robot shot?</string>
+    <string name="pit_scout_question_4">Where does the robot intake from?</string>
     <string name="pit_scout_question_5">Is the robot able to shoot in the high goal? If so where do you prefer to shoot?</string>
     <string name="pit_scout_question_6">What kind of shooter does the robot have? (flywheel, 2 axis shooter, actuating shooter, turret,...)</string>
     <string name="pit_scout_question_7">How many defences are you able to cross and what are they?</string>

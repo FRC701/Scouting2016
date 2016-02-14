@@ -82,6 +82,14 @@ class TeamDataController():
                        ("maxTeleLowGoal","Maximum Tele Boulders in Low Goal Score: "),("minTeleLowGoal","Minimum Tele Boulders in Low Goal Score: "),
                        ("maxTeleHighGoal","Maximum Tele Boulders in High Goal Score: "),("minTeleHighGoal","Minimum Tele Boulders in High Goal Score: "),     
                        ("maxFoulScore","Maximum Foul Score: "),("minFoulScore","Minimum Foul Score: ")]
+    
+    pitDataStrings = [("answer1","How experienced are drivers and can they play defensively?: "),
+                      ("answer2","How many cycles can you do?: "),
+                      ("answer3","What kind of drive train does the robot have and how fast can it go?: "),
+                      ("answer4","Where does the robot intake from?: "),
+                      ("answer5","Is the robot able to shoot in the high goal? If so where do you perfer to shoot?: "),
+                      ("answer6","What kind of shooter does the robot have?: ")]
+                       
 
     graphVals = [("avgOff","Scores","oScores"),
                  ("avgTotal","Scores","tScores"),

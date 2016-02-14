@@ -8,28 +8,28 @@
 
     <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true">
-        </LinearLayout>
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
 
     <Button
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:text="@string/pit_scout"
         android:id="@+id/button2"
-        android:layout_centerVertical="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:onClick="pit_scout"
         android:textColor="@color/Gold"/>
 
     <Button
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:text="@string/match_scout"
         android:id="@+id/button3"
-        android:layout_below="@+id/button2"
-        android:layout_centerHorizontal="true"
         android:onClick="match_scout"
         android:textColor="@color/Gold"/>
+
+    </LinearLayout>
 </RelativeLayout>

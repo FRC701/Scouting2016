@@ -111,6 +111,22 @@ def calculate_data():
 
         team.get_tertiary_details()
         team.get_final_details()
+#------------------------------------------------------------------------------
+# calculate_pit_data function
+#   - handles pit data and stores it to the teams
+#------------------------------------------------------------------------------
+def calculate_pit_data():
+    for entry in PitEntry.entries:
+        done = False
+        for team in Team.team_list:
+            if team.number == entry.team:
+                assign_pit_entry_values(team, entry)
+                done = True
+        if done == False:
+            newTeam = Team(entry.team)
+            print "Added Team #: " + str(entry.team)
+            assign_pit_entry_values(Team.team_list[len(Team.team_list)-1],entry)
+        
 
 #------------------------------------------------------------------------------
 # assign_basic_team_values function
@@ -210,6 +226,21 @@ def assign_basic_match_values(match, entry):
         match.offScore1 += entry.offensiveScore
         match.off1 += int(entry.offensive)
         match.def1 += int(entry.defensive)
+
+#------------------------------------------------------------------------------
+# assign_pit_entry_values function
+#   -- takes PitEntry values and puts them into a team
+#   -- still needs error handling
+#------------------------------------------------------------------------------
+def assign_pit_entry_values(team, entry):
+    
+    team.PitInfo.answer1 = entry.answer1
+    team.PitInfo.answer2 = entry.answer2
+    team.PitInfo.answer3 = entry.answer3
+    team.PitInfo.answer4 = entry.answer4
+    team.PitInfo.answer5 = entry.answer5
+    team.PitInfo.answer6 = entry.answer6
+    
     
 #------------------------------------------------------------------------------
 # get_rank functions

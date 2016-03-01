@@ -142,8 +142,9 @@ def assign_basic_team_values(team, entry):
     team.Info.autoHadAuto += int(entry.autoHadAuto)
     team.Info.autoReachesDefences += int (entry.autoReachesDefences)
     team.Info.autoCrossesDefences += int (entry.autoCrossesDefences)
-    team.Info.autoLowGoal.append(float(entry.autoLowGoal))
-    team.Info.autoHighGoal.append(float(entry.autoHighGoal))
+    team.Info.autoStartsAsSpybot += int (entry.autoStartsAsSpybot)
+    team.Info.autoLowGoal.append(float(entry.autoBouldersInLowGoal))
+    team.Info.autoHighGoal.append(float(entry.autoBouldersInHighGoal))
     team.Info.autoOther += int(entry.autoOther)
 
     team.Info.teleLowBarDamage.append(float(entry.teleLowBarDamage))
@@ -166,8 +167,9 @@ def assign_basic_team_values(team, entry):
     team.Info.teleDC9.append(float(entry.teleDC9))
     team.Info.teleDefencesDamageScore.append(float(entry.teleDefencesDamageScore))
 
-    team.Info.teleLowGoal.append(float(entry.teleLowGoal))
-    team.Info.teleHighGoal.append(float(entry.teleHighGoal))
+    team.Info.teleLowGoal.append(float(entry.teleBouldersInLowGoal))
+    team.Info.teleHighGoal.append(float(entry.teleBouldersInHighGoal))
+    team.Info.teleTotalBouldersShot.append(float(entry.teleTotalBouldersShot))
 
     team.Info.postFouls.append(float(entry.postFouls))
     team.Info.postTechFouls.append(float(entry.postTechFouls))

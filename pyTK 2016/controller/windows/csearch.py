@@ -19,8 +19,8 @@ class SearchController():
                         ("avgAutoScore","Auto Score >= "),
                         ("avgAutoReachesDefencesScores","Auto Reaches Defences Score >= "),
                         ("avgAutoCrossesDefencesScores","Auto Crosses Defences Score >= "),
-                        ("avgAutoLowGoal","Auto Boulders in Low Goal Score >= "),
-                        ("avgAutoHighGoal","Auto Boulders in High Goal Score >= ")]
+                        ("avgAutoLowGoal","Auto Boulders in Low Goal >= "),
+                        ("avgAutoHighGoal","Auto Boulders in High Goal >= ")]
                         
 
     entryItemTelePost = [("avgTeleScore","Tele Score >= "),
@@ -38,6 +38,7 @@ class SearchController():
                          ("avgFoulScore","Foul Score <= ")]
     
     checkItemTypes = [("autoHadAuto","Had Autonomous"),
+                      ("autoStartsAsSpybot","Starts as Spybot"),
                       ("autoOther","Had Other Autonomous"),
                       ("scoredInTele","Scored in Tele"),
                       ("postPlayedDefensively","Played Defensively"),
@@ -56,7 +57,7 @@ class SearchController():
                     
     def searchGreater(self, value=None, index=None):
         try:
-            self.matchedList = filter(lambda team:team.getAttr(index)>=int(value.get()), self.matchedList)
+            self.matchedList = filter(lambda team:team.getAttr(index)>=float(value.get()), self.matchedList)
         except:
              print "Invalid Search Parameter " + str(value.get()) + " for " + str(index)
              value.set(0)
@@ -89,11 +90,12 @@ class SearchController():
                 "avgAutoScore":searchGreater,
                 "pReachesDefences":searchGreater,
                 "pCrossesDefences":searchGreater,
-                "avgAutoReachesDefencesScore":searchGreater,
-                "avgAutoCrossesDefencesScore":searchGreater,
-                "avgAutoLowGoalScore":searchGreater,
-                "avgAutoHighGoalScore":searchGreater,
+                "avgAutoReachesDefencesScores":searchGreater,
+                "avgAutoCrossesDefencesScores":searchGreater,
+                "avgAutoLowGoal":searchGreater,
+                "avgAutoHighGoal":searchGreater,
                 "autoHadAuto":searchHas,
+                "autoStartsAsSpybot":searchHas,
                 "scoredInAuto":searchHas,
                 "autoOther":searchHas,
                 "avgTeleScore":searchGreater,

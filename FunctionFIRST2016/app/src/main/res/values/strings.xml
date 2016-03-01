@@ -119,11 +119,11 @@
     <string name="match_scout">Match Scout</string>
     <string name="pit_scout">Pit Scout</string>
 
-    <string name="pit_scout_question_1">How experienced are your drivers?</string>
+    <string name="pit_scout_question_1">How experienced are your drivers? (years for each driver)</string>
     <string name="pit_scout_question_2">How many cycles can you do?</string>
     <string name="pit_scout_question_3">Can you play defensively?</string>
     <string name="pit_scout_question_4">Does the robot shoot in the low goal or high goal?</string>
-    <string name="pit_scout_question_5">Where do you prefer to shoot?</string>
+    <string name="pit_scout_question_5">Where do you prefer to shoot? (left side, middle, right side)+(distance from batter)</string>
     <string name="pit_scout_question_6">Do you have an autonomous, if so which defence do you start in front of?</string>
     <!--<string name="pit_scout_question_7">How many defences are you able to cross and what are they?</string>
     <string name="pit_scout_question_8">If you can cross the Portcullis or Cheval de Frise, in what way do you do it passive or active?</string>

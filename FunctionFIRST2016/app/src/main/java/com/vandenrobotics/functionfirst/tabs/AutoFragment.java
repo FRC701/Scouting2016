@@ -34,6 +34,7 @@ public class AutoFragment extends Fragment implements AdapterView.OnItemSelected
     private CheckBox hadAuto;
     private CheckBox reachesDefences;
     private CheckBox crossesDefences;
+    private CheckBox spybot;
     private Spinner Defences1;
     private Spinner Defences2;
     private ArrayAdapter<CharSequence> DefencesA1;
@@ -89,6 +90,7 @@ public class AutoFragment extends Fragment implements AdapterView.OnItemSelected
         hadAuto.setChecked(autoData.hadAuto);
         reachesDefences.setChecked(autoData.reachesDefences);
         crossesDefences.setChecked(autoData.crossesDefences);
+        spybot.setChecked(autoData.spybot);
         Defences1.setSelection(autoData.Defences1);
         Defences2.setSelection(autoData.Defences2);
         bouldersInLowGoal.setValue(autoData.bouldersInLowGoal);
@@ -110,6 +112,7 @@ public class AutoFragment extends Fragment implements AdapterView.OnItemSelected
             autoData.hadAuto = hadAuto.isChecked();
             autoData.reachesDefences = reachesDefences.isChecked();
             autoData.crossesDefences = crossesDefences.isChecked();
+            autoData.spybot = spybot.isChecked();
             autoData.Defences1 =  Defences1.getSelectedItemPosition();
             autoData.Defences2 = Defences2.getSelectedItemPosition();
             autoData.bouldersInLowGoal = bouldersInLowGoal.getValue();
@@ -127,6 +130,7 @@ public class AutoFragment extends Fragment implements AdapterView.OnItemSelected
             hadAuto = (CheckBox)view.findViewById(R.id.cb_hadAuto);
             reachesDefences = (CheckBox)view.findViewById(R.id.cb_reachesDefences);
             crossesDefences = (CheckBox)view.findViewById(R.id.cb_crossesDefences);
+            spybot = (CheckBox)view.findViewById(R.id.cb_spybot);
 
             Defences1 = (Spinner)view.findViewById(R.id.spinnerDefences1);
             Defences1.setOnItemSelectedListener(this);
@@ -191,6 +195,7 @@ public class AutoFragment extends Fragment implements AdapterView.OnItemSelected
     private void enableAutoViews(){
         reachesDefences.setEnabled(true);
         crossesDefences.setEnabled(true);
+        spybot.setEnabled(true);
         bouldersInLowGoal.setEnabled(true);
         bouldersInHighGoal.setEnabled(true);
         /*for(ToggleButton tb : autoStack){
@@ -204,6 +209,8 @@ public class AutoFragment extends Fragment implements AdapterView.OnItemSelected
         reachesDefences.setEnabled(false);
         crossesDefences.setChecked(false);
         crossesDefences.setEnabled(false);
+        spybot.setChecked(false);
+        spybot.setEnabled(false);
         Defences1.setEnabled(false);
         Defences1.setSelection(0);
         Defences2.setEnabled(false);

@@ -4,12 +4,79 @@
     <shared>
       <config />
     </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_tele.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+    </layouts>
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5f088d8-63a1-48f2-aa79-763d3d549db5" name="Default" comment="" />
+    <list default="true" id="a5f088d8-63a1-48f2-aa79-763d3d549db5" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Workspace2016\Scouting2016\pyTK 2016\MyData.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Workspace2016\Scouting2016\pyTK 2016\data.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Workspace2016\Scouting2016\pyTK 2016\data2.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/model/AutoData$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/model/AutoData$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/model/AutoData.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/model/AutoData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/tabs/AutoFragment$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/tabs/AutoFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/tabs/AutoFragment$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/tabs/AutoFragment$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/tabs/AutoFragment$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/tabs/AutoFragment$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/tabs/AutoFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/tabs/AutoFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/tabs/InitFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/tabs/InitFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/activities/PitScoutActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/activities/PitScoutActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/tabs/PostFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/tabs/PostFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/R$integer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/model/TeleData$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/model/TeleData$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/model/TeleData.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/model/TeleData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/tabs/TeleFragment$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/tabs/TeleFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/tabs/TeleFragment$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/tabs/TeleFragment$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/tabs/TeleFragment$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/tabs/TeleFragment$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/tabs/TeleFragment$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/tabs/TeleFragment$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/tabs/TeleFragment$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/tabs/TeleFragment$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/tabs/TeleFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/vandenrobotics/functionfirst/tabs/TeleFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/model/AutoData.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/model/AutoData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/tabs/AutoFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/tabs/AutoFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pyTK 2016/Data Test.txt" afterPath="$PROJECT_DIR$/../pyTK 2016/Data Test.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/activities/PitScoutActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/activities/PitScoutActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/vandenrobotics/functionfirst/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/vandenrobotics/functionfirst/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/model/TeleData.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/model/TeleData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/tabs/TeleFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/tabs/TeleFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pyTK 2016/model/calculate.py" afterPath="$PROJECT_DIR$/../pyTK 2016/model/calculate.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pyTK 2016/controller/windows/csearch.py" afterPath="$PROJECT_DIR$/../pyTK 2016/controller/windows/csearch.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pyTK 2016/controller/windows/cteamdata.py" afterPath="$PROJECT_DIR$/../pyTK 2016/controller/windows/cteamdata.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pyTK 2016/model/entry.py" afterPath="$PROJECT_DIR$/../pyTK 2016/model/entry.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/fragment_auto.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/fragment_auto.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_auto.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_auto.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/fragment_tele.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/fragment_tele.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tele.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tele.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/pit_scouting.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/pit_scouting.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pyTK 2016/pitdata.txt" afterPath="$PROJECT_DIR$/../pyTK 2016/pitdata.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../pyTK 2016/model/team.py" afterPath="$PROJECT_DIR$/../pyTK 2016/model/team.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="FunctionFIRST2016.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,60 +105,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="PitScoutActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/activities/PitScoutActivity.java">
+      <file leaf-file-name="TeleFragment.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/tabs/TeleFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="93" column="69" selection-start-line="93" selection-start-column="69" selection-end-line="93" selection-end-column="69" />
+            <state vertical-scroll-proportion="0.083715595">
+              <caret line="341" column="69" selection-start-line="341" selection-start-column="69" selection-end-line="341" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PitTeamData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/model/PitTeamData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7585799">
-              <caret line="130" column="49" selection-start-line="130" selection-start-column="49" selection-end-line="130" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExternalStorageTools.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/tools/ExternalStorageTools.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="406" column="0" selection-start-line="406" selection-start-column="0" selection-end-line="406" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pit_scouting.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/pit_scouting.xml">
+      <file leaf-file-name="fragment_tele.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_tele.xml">
           <provider editor-type-id="android-designer">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.24138">
-              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-              <folding>
-                <element signature="e#994#1024#0" expanded="true" />
-                <element signature="e#5494#5524#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="204" column="85" selection-start-line="204" selection-start-column="85" selection-end-line="204" selection-end-column="85" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TeleData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/model/TeleData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AutoData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/model/AutoData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="81" column="73" selection-start-line="81" selection-start-column="73" selection-end-line="81" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AutoFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/tabs/AutoFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="190" column="34" selection-start-line="190" selection-start-column="34" selection-end-line="190" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fragment_auto.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_auto.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="60" column="39" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,6 +179,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="availableProjects">
@@ -1642,9 +1720,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$USER_HOME$/Desktop/data (2).txt" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_tele.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/tabs/TeleFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/model/TeleData.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/activities/EventListActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/views/OptionScreen.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/activities/OptionScreen.java" />
@@ -1653,17 +1728,22 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_post.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/tabs/PostFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/model/PostData.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/tabs/AutoFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/model/MatchData.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/activities/ScoutActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/activities/MatchActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/model/PitData.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/tools/ExternalStorageTools.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/activities/PitScoutActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/option_screen.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/model/PitTeamData.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/pit_scouting.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/activities/PitScoutActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_tele.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_auto.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/tabs/AutoFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/model/AutoData.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/model/TeleData.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/tabs/TeleFragment.java" />
       </list>
     </option>
   </component>
@@ -1686,7 +1766,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -1709,8 +1789,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1719,106 +1798,11 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FunctionFIRST2016" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FunctionFIRST2016" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FunctionFIRST2016" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FunctionFIRST2016" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="functionfirst" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FunctionFIRST2016" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="functionfirst" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tabs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FunctionFIRST2016" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1828,7 +1812,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
@@ -2032,8 +2016,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.4978678" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.4978678" order="13" side_tool="false" content_ui="tabs" />
@@ -2044,26 +2028,26 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.52111113" sideWeight="0.4978678" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28304905" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4609375" sideWeight="0.4941957" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15884861" sideWeight="0.4941957" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32995737" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5058043" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28091684" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -2083,19 +2067,19 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/tabs/AutoFragment.java</url>
-          <line>106</line>
+          <line>108</line>
           <properties class="com.vandenrobotics.functionfirst.tabs.AutoFragment" method="saveData" />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/tabs/AutoFragment.java</url>
-          <line>74</line>
+          <line>75</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/tabs/AutoFragment.java</url>
-          <line>82</line>
+          <line>83</line>
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
@@ -2246,24 +2230,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/model/TeleData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/model/PostData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/model/AutoData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -2278,16 +2248,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="71" column="26" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_tele.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.149466">
-          <caret line="225" column="14" selection-start-line="225" selection-start-column="14" selection-end-line="225" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -2415,14 +2375,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/activities/PitScoutActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="93" column="69" selection-start-line="93" selection-start-column="69" selection-end-line="93" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/model/MatchData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2430,17 +2382,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/tabs/TeleFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/pit_scouting.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="181" column="0" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/tabs/AutoFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/tools/ExternalStorageTools.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.019495413">
-          <caret line="89" column="61" selection-start-line="89" selection-start-column="61" selection-end-line="89" selection-end-column="61" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="406" column="0" selection-start-line="406" selection-start-column="0" selection-end-line="406" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/model/PitTeamData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="125" column="124" selection-start-line="125" selection-start-column="124" selection-end-line="125" selection-end-column="124" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/activities/PitScoutActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_tele.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="204" column="85" selection-start-line="204" selection-start-column="85" selection-end-line="204" selection-end-column="85" />
           <folding />
         </state>
       </provider>
@@ -2451,47 +2439,39 @@
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="60" column="39" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/model/PitTeamData.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/tabs/AutoFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          <caret line="190" column="34" selection-start-line="190" selection-start-column="34" selection-end-line="190" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/pit_scouting.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.24138">
-          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-          <folding>
-            <element signature="e#994#1024#0" expanded="true" />
-            <element signature="e#5494#5524#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/tools/ExternalStorageTools.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/model/AutoData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="406" column="0" selection-start-line="406" selection-start-column="0" selection-end-line="406" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <caret line="81" column="73" selection-start-line="81" selection-start-column="73" selection-end-line="81" selection-end-column="73" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/model/TeleData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7585799">
-          <caret line="130" column="49" selection-start-line="130" selection-start-column="49" selection-end-line="130" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/vandenrobotics/functionfirst/tabs/TeleFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.083715595">
+          <caret line="341" column="69" selection-start-line="341" selection-start-column="69" selection-end-line="341" selection-end-column="69" />
           <folding />
         </state>
       </provider>

@@ -52,13 +52,21 @@
         android:layout_toRightOf="@+id/cb_reachesDefences"
         android:layout_toEndOf="@+id/cb_reachesDefences" />
 
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_spybot"
+        android:text="Starts as Spybot"
+        android:layout_below="@+id/cb_crossesDefences"
+        android:textColor="@color/Gold"/>
+
 
 
     <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/pickerViewAuto"
-        android:layout_below="@+id/cb_crossesDefences"
+        android:layout_below="@+id/cb_spybot"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true">
 

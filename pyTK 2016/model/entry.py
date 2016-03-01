@@ -33,6 +33,8 @@ class Entry(object):
         index += 1
         self.autoCrossesDefences = (str(data[index]) == 'true')
         index += 1
+        self.autoStartsAsSpybot = (str(data[index]) == 'true')
+        index += 1
         self.autoDefences1 = int(data[index])
         index += 1
         self.autoDefences2 = int(data[index])
@@ -69,6 +71,8 @@ class Entry(object):
         self.teleBouldersInLowGoal = float(data[index])
         index +=1
         self.teleBouldersInHighGoal = float(data[index])
+        index +=1
+        self.teleBouldersHighGoalMissed = float(data[index])
         index +=1
          
         # post data
@@ -166,6 +170,8 @@ class Entry(object):
         self.teleLowGoal = (self.teleBouldersInLowGoal*2)
         self.teleHighGoal = (self.teleBouldersInHighGoal*5)
 
+        self.teleTotalBouldersShot = (self.teleBouldersInHighGoal + self.teleBouldersHighGoalMissed)
+
         self.postChallengeStateScore = 0
 
         if self.postChallengeState == 2:
@@ -200,6 +206,8 @@ class Entry(object):
 
         self.offensiveScore = (self.autoScore + self.teleScore)
         self.foulScore = (5*self.postFouls) + (5*self.postTechFouls)
+
+        #self.offensiveScore = 0 if self.foulScore >= self.offensiveScore else  self.offensiveScore = (self.autoScore + self.teleScore)
 
         self.offensive = True if self.offensiveScore > 0 else False
         self.defensive = self.postPlayedDefensively

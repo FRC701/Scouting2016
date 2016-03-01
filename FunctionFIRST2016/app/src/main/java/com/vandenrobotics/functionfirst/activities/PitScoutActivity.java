@@ -108,6 +108,10 @@ public class PitScoutActivity extends Activity implements Spinner.OnItemSelected
 
         saveData();
 
+        //teamSelected = team_numbers.get(position);
+        //indexTeamSelected = position;
+        //Team.setSelection(position + 1);
+
         //Don't see necessity to destroy activity. Unlikely we will leave while pit scouting
         /*
         Intent intent = new Intent(this, PitScoutActivity.class);

@@ -47,7 +47,8 @@ class _TeamInfo(object):
         self.teleDC9 = []
         self.teleLowGoal = []
         self.teleHighGoal = []
-        self.teleTotalBouldersShot = []
+        self.teleTotalBouldersShotLG = []
+        self.teleTotalBouldersShotHG = []
 
         self.postFouls = []                 # list containing the number of fouls each match
         self.postTechFouls = []
@@ -98,8 +99,9 @@ class _TeamInfo(object):
         
         self.avgTeleLowGoal = float(sum(self.teleLowGoal))/float(len(self.teleLowGoal)) if len(self.teleLowGoal) else 0
         self.avgTeleHighGoal = float(sum(self.teleHighGoal))/float(len(self.teleHighGoal)) if len(self.teleHighGoal) else 0
-        
-        self.pTeleHighGoalShooting = float(sum(100*self.teleHighGoal))/float(sum(self.teleTotalBouldersShot)) if sum(self.teleTotalBouldersShot) else 0
+
+        self.pTeleLowGoalShooting = float(sum(100*self.teleLowGoal))/float(sum(self.teleTotalBouldersShotLG)) if sum(self.teleTotalBouldersShotLG) else 0
+        self.pTeleHighGoalShooting = float(sum(100*self.teleHighGoal))/float(sum(self.teleTotalBouldersShotHG)) if sum(self.teleTotalBouldersShotHG) else 0
         
         self.avgPostFoul = sum(self.postFouls)/len(self.postFouls) if len(self.postFouls) else 0
         self.avgPostTechFoul = sum(self.postTechFouls)/len(self.postTechFouls) if len(self.postTechFouls) else 0 
@@ -346,7 +348,8 @@ class Team(object):
         self.avgTeleDefencesDamageScore = round(self.Scores.avgTeleDefencesDamageScore, 2)
         self.avgTeleLowGoal = round(self.Info.avgTeleLowGoal,2)
         self.avgTeleHighGoal = round(self.Info.avgTeleHighGoal,2)
-        self.pTeleShootingPercentage = str(round(self.Info.pTeleHighGoalShooting,2)) + "%"
+        self.pTeleShootingPercentageLG = str(round(self.Info.pTeleLowGoalShooting,2)) + "%"
+        self.pTeleShootingPercentageHG = str(round(self.Info.pTeleHighGoalShooting,2)) + "%"
        
         self.avgFoulScore = round(self.Scores.avgFoulScore,2)
         self.avgPostFoul = round(self.Info.avgPostFoul,2)

@@ -38,7 +38,7 @@ public class AutoFragment extends Fragment implements AdapterView.OnItemSelected
     private Spinner Defences1;
     private Spinner Defences2;
     private ArrayAdapter<CharSequence> DefencesA1;
-    private ArrayAdapter<CharSequence> DefencesA2;
+    //private ArrayAdapter<CharSequence> DefencesA2;
     private NumberPicker bouldersInLowGoal;
     private NumberPicker bouldersInHighGoal;
     private CheckBox hadOther;
@@ -92,7 +92,7 @@ public class AutoFragment extends Fragment implements AdapterView.OnItemSelected
         crossesDefences.setChecked(autoData.crossesDefences);
         spybot.setChecked(autoData.spybot);
         Defences1.setSelection(autoData.Defences1);
-        Defences2.setSelection(autoData.Defences2);
+        //Defences2.setSelection(autoData.Defences2);
         bouldersInLowGoal.setValue(autoData.bouldersInLowGoal);
         bouldersInHighGoal.setValue(autoData.bouldersInHighGoal);
         hadOther.setChecked(autoData.hadOther);
@@ -114,7 +114,7 @@ public class AutoFragment extends Fragment implements AdapterView.OnItemSelected
             autoData.crossesDefences = crossesDefences.isChecked();
             autoData.spybot = spybot.isChecked();
             autoData.Defences1 =  Defences1.getSelectedItemPosition();
-            autoData.Defences2 = Defences2.getSelectedItemPosition();
+            //autoData.Defences2 = Defences2.getSelectedItemPosition();
             autoData.bouldersInLowGoal = bouldersInLowGoal.getValue();
             autoData.bouldersInHighGoal = bouldersInHighGoal.getValue();
 
@@ -138,13 +138,13 @@ public class AutoFragment extends Fragment implements AdapterView.OnItemSelected
                     R.array.DefencesList1, R.layout.spinner_base);
             DefencesA1.setDropDownViewResource(R.layout.spinner_dropdown);
             Defences1.setAdapter(DefencesA1);
-
+           /**
             Defences2 = (Spinner)view.findViewById(R.id.spinnerDefences2);
             Defences2.setOnItemSelectedListener(this);
             DefencesA2 = ArrayAdapter.createFromResource(mActivity,
                     R.array.DefencesList1, R.layout.spinner_base);
             DefencesA2.setDropDownViewResource(R.layout.spinner_dropdown);
-            Defences2.setAdapter(DefencesA2);
+            Defences2.setAdapter(DefencesA2); */
 
             bouldersInLowGoal = (NumberPicker)view.findViewById(R.id.pickerBouldersInLowGoal);
             bouldersInHighGoal = (NumberPicker)view.findViewById(R.id.pickerBouldersInHighGoal);
@@ -231,6 +231,8 @@ public class AutoFragment extends Fragment implements AdapterView.OnItemSelected
         Defences2.setEnabled(true);
         reachesDefences.setEnabled(false);
         reachesDefences.setChecked(false);
+        spybot.setEnabled(false);
+        spybot.setChecked(false);
 
 
     }
@@ -240,10 +242,12 @@ public class AutoFragment extends Fragment implements AdapterView.OnItemSelected
         Defences2.setEnabled(false);
         Defences2.setSelection(0);
         reachesDefences.setEnabled(true);
+        spybot.setEnabled(true);
 
     }
     private void enableCrossesDefencesViews(){
         crossesDefences.setEnabled(true);
+        spybot.setEnabled(true);
         Defences1.setEnabled(true);
         Defences2.setEnabled(true);
         bouldersInLowGoal.setEnabled(true);
@@ -253,6 +257,8 @@ public class AutoFragment extends Fragment implements AdapterView.OnItemSelected
     private void disableCrossesDefenceViews(){
         crossesDefences.setEnabled(false);
         crossesDefences.setChecked(false);
+        spybot.setEnabled(false);
+        spybot.setChecked(false);
         Defences1.setEnabled(false);
         Defences1.setSelection(0);
         Defences2.setEnabled(false);

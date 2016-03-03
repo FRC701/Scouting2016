@@ -11,7 +11,6 @@ public class AutoData implements Parcelable {
     public boolean spybot;
 
     public int Defences1;
-    public int Defences2;
 
     public int bouldersInLowGoal;
     public int bouldersInHighGoal;
@@ -49,8 +48,6 @@ public class AutoData implements Parcelable {
             index += 1;
             Defences1 = Integer.parseInt(dataString[index]);
             index += 1;
-            Defences2 = Integer.parseInt(dataString[index]);
-            index += 1;
             bouldersInLowGoal = Integer.parseInt(dataString[index]);
             index += 1;
             bouldersInHighGoal = Integer.parseInt(dataString[index]);
@@ -70,7 +67,7 @@ public class AutoData implements Parcelable {
         crossesDefences = autoData.crossesDefences;
         spybot = autoData.spybot;
         Defences1 = autoData.Defences1;
-        Defences2 = autoData.Defences2;
+        //Defences2 = autoData.Defences2;
         bouldersInLowGoal = autoData.bouldersInLowGoal;
         bouldersInHighGoal = autoData.bouldersInHighGoal;
         hadOther = autoData.hadOther;
@@ -79,7 +76,7 @@ public class AutoData implements Parcelable {
     @Override
     public String toString(){
 
-        return hadAuto+","+reachesDefences+","+crossesDefences+","+spybot+","+Defences1+","+Defences2+","+
+        return hadAuto+","+reachesDefences+","+crossesDefences+","+spybot+","+Defences1+
                 bouldersInLowGoal+","+bouldersInHighGoal+","+hadOther;
     }
 

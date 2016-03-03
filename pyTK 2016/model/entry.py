@@ -37,8 +37,6 @@ class Entry(object):
         index += 1
         self.autoDefences1 = int(data[index])
         index += 1
-        self.autoDefences2 = int(data[index])
-        index += 1
         self.autoBouldersInLowGoal = float(data[index])
         index += 1
         self.autoBouldersInHighGoal = float(data[index])
@@ -69,6 +67,8 @@ class Entry(object):
         self.teleDamageCounter5 = float(data[index])
         index +=1
         self.teleBouldersInLowGoal = float(data[index])
+        index +=1
+        self.teleBouldersLowGoalMissed = float(data[index])
         index +=1
         self.teleBouldersInHighGoal = float(data[index])
         index +=1
@@ -111,14 +111,8 @@ class Entry(object):
 
         self.autoCrossesDefencesScore = 0 
 
-        if   self.autoDefences1 > 0 and self.autoDefences2 == 0:
+        if self.autoDefences1 > 0:
              self.autoCrossesDefencesScore = 10
-        elif self.autoDefences2 > 0 and self.autoDefences1 == 0:
-             self.autoCrossesDefencesScore = 10
-        elif self.autoDefences1 > 0 and self.autoDefences2 > 0:
-             self.autoCrossesDefencesScore = 20
-
-       
 
         self.autoLowGoal = (self.autoBouldersInLowGoal*5)
         self.autoHighGoal = (self.autoBouldersInHighGoal*10)
@@ -154,23 +148,59 @@ class Entry(object):
             self.teleRockWallDamage = self.teleDamageCounter5
         elif self.teleDefences4 == "Rough Terrain":
             self.teleRoughTerrainDamage = self.teleDamageCounter5
-        
-        self.teleDC1 = (self.teleLowBarDamage*5) 
-        self.teleDC2 = (self.telePortcullisDamage*5) 
-        self.teleDC3 = (self.teleChevaldeFriseDamage*5) 
-        self.teleDC4 = (self.teleMoatDamage*5) 
-        self.teleDC5 = (self.teleRampartsDamage*5)
-        self.teleDC6 = (self.teleDrawbridgeDamage*5)
-        self.teleDC7 = (self.teleSallyPortDamage*5)
-        self.teleDC8 = (self.teleRockWallDamage*5)
-        self.teleDC9 = (self.teleRoughTerrainDamage*5)
+            
+        if self.teleLowBarDamage <= 2:
+            self.teleDC1 = (self.teleLowBarDamage*5)
+        else:
+            self.teleDC1 = 10
+            
+        if self.telePortcullisDamage <= 2:
+            self.teleDC2 = (self.telePortcullisDamage*5)
+        else:
+            self.teleDC2 = 10
+
+        if self.teleChevaldeFriseDamage <= 2:
+            self.teleDC3 = (self.teleChevaldeFriseDamage*5)
+        else:
+            self.teleDC3 = 10
+
+        if self.teleMoatDamage <= 2:    
+            self.teleDC4 = (self.teleMoatDamage*5)
+        else:
+            self.teleDC4 = 10
+
+        if self.teleRampartsDamage <= 2:
+            self.teleDC5 = (self.teleRampartsDamage*5)
+        else:
+            self.teleDC5 = 10
+
+        if self.teleDrawbridgeDamage <= 2:
+            self.teleDC6 = (self.teleDrawbridgeDamage*5)
+        else:
+            self.teleDC6 = 10
+
+        if self.teleSallyPortDamage <= 2:
+            self.teleDC7 = (self.teleSallyPortDamage*5)
+        else:
+            self.teleDC7 = 10
+
+        if self.teleRockWallDamage <= 2:
+            self.teleDC8 = (self.teleRockWallDamage*5)
+        else:
+            self.teleDC8 = 10
+
+        if self.teleRoughTerrainDamage <= 2:
+            self.teleDC9 = (self.teleRoughTerrainDamage*5)
+        else:
+            self.teleDC9 = 10
         
         self.teleDefencesDamageScore = (self.teleDC1 + self.teleDC2 + self.teleDC3 + self.teleDC4 + self.teleDC5 + self.teleDC6 + self.teleDC7 + self.teleDC8 + self.teleDC9)
 
         self.teleLowGoal = (self.teleBouldersInLowGoal*2)
         self.teleHighGoal = (self.teleBouldersInHighGoal*5)
-
-        self.teleTotalBouldersShot = (self.teleBouldersInHighGoal + self.teleBouldersHighGoalMissed)
+        
+        self.teleTotalBouldersShotLG = (self.teleBouldersInLowGoal + self.teleBouldersLowGoalMissed)
+        self.teleTotalBouldersShotHG = (self.teleBouldersInHighGoal + self.teleBouldersHighGoalMissed)
 
         self.postChallengeStateScore = 0
 

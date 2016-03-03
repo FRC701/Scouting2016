@@ -169,13 +169,23 @@
                     <com.vandenrobotics.functionfirst.views.NumberPicker
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/picker_bouldersShotAtLowGoal"
+                        android:layout_below="@+id/text_bouldersShotAtLowGoal"
+                        android:orientation="horizontal"
+                        android:layout_gravity="bottom"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"/>
+
+
+                    <com.vandenrobotics.functionfirst.views.NumberPicker
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:id="@+id/picker_bouldersShotAtHighGoal"
                         android:layout_below="@+id/text_bouldersShotAtHighGoal"
                         android:orientation="horizontal"
                         android:layout_gravity="bottom"
                         android:layout_alignParentLeft="true"
-                        android:layout_alignParentStart="true"
-                        android:onClick="plusOne"/>
+                        android:layout_alignParentStart="true"/>
 
 
                     <TextView
@@ -191,10 +201,21 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/text_bouldersShotAtLowGoal"
+                        android:text="Number of Boulders Shot at Low Goal and Missed"
+                        android:textColor="@color/Gold"
+                        android:layout_below="@+id/picker_bouldersScoredInLowGoal"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:id="@+id/text_bouldersScoredInHighGoal"
                         android:text="@string/text_BouldersScoredInHighGoal"
                         android:textColor="@color/Gold"
-                        android:layout_below="@+id/picker_bouldersScoredInLowGoal"
+                        android:layout_below="@+id/picker_bouldersShotAtLowGoal"
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentStart="true" />
 

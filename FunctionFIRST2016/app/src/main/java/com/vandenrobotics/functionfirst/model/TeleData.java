@@ -23,6 +23,7 @@ public class TeleData implements Parcelable {
     public int P_DamageCounterTele5;
 
     public int BouldersInLowGoal;
+    public int BouldersLowGoalMissed;
     public int BouldersInHighGoal;
     public int BouldersHighGoalMissed;
 
@@ -42,6 +43,7 @@ public class TeleData implements Parcelable {
         P_DamageCounterTele5 = 0;
 
         BouldersInLowGoal = 0;
+        BouldersLowGoalMissed = 0;
         BouldersInHighGoal = 0;
         BouldersHighGoalMissed = 0;
 
@@ -77,8 +79,10 @@ public class TeleData implements Parcelable {
             index += 1;
             BouldersInLowGoal =  Integer.parseInt(dataString[index]);
             index += 1;
+            BouldersLowGoalMissed = Integer.parseInt(dataString[index]);
+            index += 1;
             BouldersInHighGoal =  Integer.parseInt(dataString[index]);
-            index +=1;
+            index += 1;
             BouldersHighGoalMissed = Integer.parseInt(dataString[index]);
 
 
@@ -105,6 +109,7 @@ public class TeleData implements Parcelable {
         P_DamageCounterTele5 = teleData.P_DamageCounterTele5;
 
         BouldersInLowGoal = teleData.BouldersInLowGoal;
+        BouldersLowGoalMissed = teleData.BouldersLowGoalMissed;
         BouldersInHighGoal = teleData.BouldersInHighGoal;
         BouldersHighGoalMissed = teleData.BouldersHighGoalMissed;
 
@@ -118,7 +123,7 @@ public class TeleData implements Parcelable {
 
          return  LowBar+","+P_DamageCounterTele1+","+TeleDefence1+","+P_DamageCounterTele2+","+
                  TeleDefence2+","+P_DamageCounterTele3+","+TeleDefence3+","+P_DamageCounterTele4+"," +TeleDefence4
-                 +","+P_DamageCounterTele5+","+BouldersInLowGoal+","+BouldersInHighGoal+","+BouldersHighGoalMissed;
+                 +","+P_DamageCounterTele5+","+BouldersInLowGoal+","+BouldersLowGoalMissed+","+BouldersInHighGoal+","+BouldersHighGoalMissed;
 
     }
 

@@ -169,7 +169,8 @@ def assign_basic_team_values(team, entry):
 
     team.Info.teleLowGoal.append(float(entry.teleBouldersInLowGoal))
     team.Info.teleHighGoal.append(float(entry.teleBouldersInHighGoal))
-    team.Info.teleTotalBouldersShot.append(float(entry.teleTotalBouldersShot))
+    team.Info.teleTotalBouldersShotLG.append(float(entry.teleTotalBouldersShotLG))
+    team.Info.teleTotalBouldersShotHG.append(float(entry.teleTotalBouldersShotHG))
 
     team.Info.postFouls.append(float(entry.postFouls))
     team.Info.postTechFouls.append(float(entry.postTechFouls))

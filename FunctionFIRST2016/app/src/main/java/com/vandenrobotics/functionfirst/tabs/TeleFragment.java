@@ -43,6 +43,7 @@ public class TeleFragment extends Fragment {
     private NumberPicker P_DamageCounterTele5;
 
     private NumberPicker BouldersInLowGoal;
+    private NumberPicker BouldersLowGoalMissed;
     private NumberPicker BouldersInHighGoal;
     private NumberPicker BouldersHighGoalMissed;
 
@@ -99,6 +100,7 @@ public class TeleFragment extends Fragment {
         P_DamageCounterTele5.setValue(teleData.P_DamageCounterTele5);
 
         BouldersInLowGoal.setValue(teleData.BouldersInLowGoal);
+        BouldersLowGoalMissed.setValue(teleData.BouldersLowGoalMissed);
         BouldersInHighGoal.setValue(teleData.BouldersInHighGoal);
         BouldersHighGoalMissed.setValue(teleData.BouldersHighGoalMissed);
 
@@ -126,6 +128,7 @@ public class TeleFragment extends Fragment {
         teleData.P_DamageCounterTele5 = P_DamageCounterTele5.getValue();
 
         teleData.BouldersInLowGoal = BouldersInLowGoal.getValue();
+        teleData.BouldersLowGoalMissed = BouldersLowGoalMissed.getValue();
         teleData.BouldersInHighGoal = BouldersInHighGoal.getValue();
         teleData.BouldersHighGoalMissed = BouldersHighGoalMissed.getValue();
 
@@ -149,6 +152,7 @@ public class TeleFragment extends Fragment {
               P_DamageCounterTele5 = (NumberPicker)view.findViewById(R.id.picker_DamageCounterTele5);
 
               BouldersInLowGoal = (NumberPicker)view.findViewById(R.id.picker_bouldersScoredInLowGoal);
+              BouldersLowGoalMissed = (NumberPicker)view.findViewById(R.id.picker_bouldersShotAtLowGoal);
               BouldersInHighGoal = (NumberPicker)view.findViewById(R.id.picker_bouldersScoredInHighGoal);
               BouldersHighGoalMissed = (NumberPicker)view.findViewById(R.id.picker_bouldersShotAtHighGoal);
 
@@ -167,21 +171,22 @@ public class TeleFragment extends Fragment {
               LowBar = lowBar.getText().toString();
 
               P_DamageCounterTele1.setMinValue(0);
-              P_DamageCounterTele1.setMaxValue(2);
+              P_DamageCounterTele1.setMaxValue(50);
               P_DamageCounterTele2.setMinValue(0);
-              P_DamageCounterTele2.setMaxValue(2);
+              P_DamageCounterTele2.setMaxValue(50);
               P_DamageCounterTele3.setMinValue(0);
-              P_DamageCounterTele3.setMaxValue(2);
+              P_DamageCounterTele3.setMaxValue(50);
               P_DamageCounterTele4.setMinValue(0);
-              P_DamageCounterTele4.setMaxValue(2);
+              P_DamageCounterTele4.setMaxValue(50);
               P_DamageCounterTele5.setMinValue(0);
-              P_DamageCounterTele5.setMaxValue(2);
+              P_DamageCounterTele5.setMaxValue(50);
 
               BouldersInLowGoal.setMinValue(0);
               BouldersInLowGoal.setMaxValue(50);
               BouldersInHighGoal.setMinValue(0);
               BouldersInHighGoal.setMaxValue(50);
               BouldersHighGoalMissed.setMinValue(0);
+              BouldersLowGoalMissed.setMinValue(0);
 
 
             B_DamageCounterTele1.setTag(0);

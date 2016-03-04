@@ -178,6 +178,16 @@ public class AutoFragment extends Fragment implements AdapterView.OnItemSelected
                 }
             });
 
+            spybot.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if (spybot.isChecked())
+                        disableDefenceView();
+                    else
+                        enableDefenceView();
+                }
+            });
+
 
             bouldersInLowGoal.setMinValue(0);
             bouldersInLowGoal.setMaxValue(50);
@@ -213,8 +223,6 @@ public class AutoFragment extends Fragment implements AdapterView.OnItemSelected
         spybot.setEnabled(false);
         Defences1.setEnabled(false);
         Defences1.setSelection(0);
-        Defences2.setEnabled(false);
-        Defences2.setSelection(0);
         bouldersInLowGoal.setValue(0);
         bouldersInLowGoal.setEnabled(false);
         bouldersInHighGoal.setValue(0);
@@ -228,7 +236,6 @@ public class AutoFragment extends Fragment implements AdapterView.OnItemSelected
     }
     private void enableDefenceViews(){
         Defences1.setEnabled(true);
-        Defences2.setEnabled(true);
         reachesDefences.setEnabled(false);
         reachesDefences.setChecked(false);
         spybot.setEnabled(false);
@@ -239,8 +246,6 @@ public class AutoFragment extends Fragment implements AdapterView.OnItemSelected
     private void disableDefenceViews(){
         Defences1.setEnabled(false);
         Defences1.setSelection(0);
-        Defences2.setEnabled(false);
-        Defences2.setSelection(0);
         reachesDefences.setEnabled(true);
         spybot.setEnabled(true);
 
@@ -249,7 +254,6 @@ public class AutoFragment extends Fragment implements AdapterView.OnItemSelected
         crossesDefences.setEnabled(true);
         spybot.setEnabled(true);
         Defences1.setEnabled(true);
-        Defences2.setEnabled(true);
         bouldersInLowGoal.setEnabled(true);
         bouldersInHighGoal.setEnabled(true);
     }
@@ -261,12 +265,25 @@ public class AutoFragment extends Fragment implements AdapterView.OnItemSelected
         spybot.setChecked(false);
         Defences1.setEnabled(false);
         Defences1.setSelection(0);
-        Defences2.setEnabled(false);
-        Defences2.setSelection(0);
         bouldersInLowGoal.setEnabled(false);
         bouldersInLowGoal.setValue(0);
         bouldersInHighGoal.setEnabled(false);
         bouldersInHighGoal.setValue(0);
+    }
+
+    private void disableDefenceView(){
+        reachesDefences.setEnabled(false);
+        reachesDefences.setChecked(false);
+        crossesDefences.setEnabled(false);
+        crossesDefences.setChecked(false);
+        Defences1.setEnabled(false);
+        Defences1.setSelection(0);
+    }
+
+    private void enableDefenceView(){
+        reachesDefences.setEnabled(true);
+        crossesDefences.setEnabled(true);
+        Defences1.setEnabled(true);
     }
 
     public void onItemSelected(AdapterView<?> parent, View view,

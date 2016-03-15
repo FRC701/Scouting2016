@@ -20,6 +20,8 @@ class _TeamInfo(object):
         self.autoHadAuto = 0                # number of matches for which the team had autonomous
         self.autoReachesDefences = 0
         self.autoCrossesDefences = 0
+        self.autoReachesDefencesScores = []
+        self.autoCrossesDefencesScores = []
         self.autoStartsAsSpybot = 0
         self.autoLowGoal = []
         self.autoHighGoal = []
@@ -78,6 +80,9 @@ class _TeamInfo(object):
         self.avgAutoLowGoal = float(sum(self.autoLowGoal))/float(len(self.autoLowGoal)) if len(self.autoLowGoal) else 0
         self.avgAutoHighGoal = float(sum(self.autoHighGoal))/float(len(self.autoHighGoal)) if len(self.autoHighGoal) else 0
         
+        self.avgAutoReachesDefencesScores = sum(self.autoReachesDefencesScores)/len(self.autoReachesDefencesScores) if len(self.autoReachesDefencesScores) else 0
+        self.avgAutoCrossesDefencesScores = sum(self.autoCrossesDefencesScores)/len(self.autoCrossesDefencesScores) if len(self.autoCrossesDefencesScores) else 0
+        
         self.pTeleLowBarDamage = float(sum(100*self.teleDC1))/float(sum(self.teleDefencesDamageScore)) if sum(self.teleDefencesDamageScore) else 0
         self.pTeleLowBarDamageM = float(sum(self.teleLowBarDamage))/float(len(self.matches)) if len(self.matches) else 0
         self.pTelePortcullisDamage = float(sum(100*self.teleDC2))/float(sum(self.teleDefencesDamageScore)) if sum(self.teleDefencesDamageScore) else 0
@@ -99,7 +104,7 @@ class _TeamInfo(object):
         
         self.avgTeleLowGoal = float(sum(self.teleLowGoal))/float(len(self.teleLowGoal)) if len(self.teleLowGoal) else 0
         self.avgTeleHighGoal = float(sum(self.teleHighGoal))/float(len(self.teleHighGoal)) if len(self.teleHighGoal) else 0
-
+        
         self.pTeleLowGoalShooting = float(sum(100*self.teleLowGoal))/float(sum(self.teleTotalBouldersShotLG)) if sum(self.teleTotalBouldersShotLG) else 0
         self.pTeleHighGoalShooting = float(sum(100*self.teleHighGoal))/float(sum(self.teleTotalBouldersShotHG)) if sum(self.teleTotalBouldersShotHG) else 0
         
@@ -189,8 +194,8 @@ class _TeamScores(object):
         self.avgAutoHighGoal = sum(self.autoHighGoal)/auto if auto else 0
         self.avgTeleScore = sum(self.teleScores)/matches if matches else 0
         self.avgTeleDefencesDamageScore = sum(self.teleDefencesDamageScore)/matches if matches else 0
-        #self.avgTeleLowGoal = sum(self.teleLowGoal)/matches if matches else 0
-        #self.avgTeleHighGoal = sum(self.teleHighGoal)/matches if matches else 0
+        self.avgTeleLowGoal = sum(self.teleLowGoal)/matches if matches else 0
+        self.avgTeleHighGoal = sum(self.teleHighGoal)/matches if matches else 0
         self.avgPostChallengeStateScore = sum(self.postChallengeStateScore)/matches if matches else 0
         self.avgPostChallengeStateSuccessful = sum(self.postChallengeStateSuccessful)/matches if matches else 0
         self.avgPostScaleStateScore = sum(self.postScaleStateScore)/matches if matches else 0

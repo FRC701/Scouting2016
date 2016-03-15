@@ -142,6 +142,8 @@ def assign_basic_team_values(team, entry):
     team.Info.autoHadAuto += int(entry.autoHadAuto)
     team.Info.autoReachesDefences += int (entry.autoReachesDefences)
     team.Info.autoCrossesDefences += int (entry.autoCrossesDefences)
+    team.Info.autoReachesDefencesScores.append(entry.autoReachesDefencesScore)
+    team.Info.autoCrossesDefencesScores.append(entry.autoCrossesDefencesScore)
     team.Info.autoStartsAsSpybot += int (entry.autoStartsAsSpybot)
     team.Info.autoLowGoal.append(float(entry.autoBouldersInLowGoal))
     team.Info.autoHighGoal.append(float(entry.autoBouldersInHighGoal))

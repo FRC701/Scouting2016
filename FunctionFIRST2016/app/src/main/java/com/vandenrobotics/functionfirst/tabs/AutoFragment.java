@@ -205,7 +205,6 @@ public class AutoFragment extends Fragment implements AdapterView.OnItemSelected
     private void enableAutoViews(){
         reachesDefences.setEnabled(true);
         crossesDefences.setEnabled(true);
-        spybot.setEnabled(true);
         bouldersInLowGoal.setEnabled(true);
         bouldersInHighGoal.setEnabled(true);
         /*for(ToggleButton tb : autoStack){
@@ -219,8 +218,6 @@ public class AutoFragment extends Fragment implements AdapterView.OnItemSelected
         reachesDefences.setEnabled(false);
         crossesDefences.setChecked(false);
         crossesDefences.setEnabled(false);
-        spybot.setChecked(false);
-        spybot.setEnabled(false);
         Defences1.setEnabled(false);
         Defences1.setSelection(0);
         bouldersInLowGoal.setValue(0);

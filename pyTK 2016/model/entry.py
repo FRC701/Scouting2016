@@ -149,48 +149,102 @@ class Entry(object):
         elif self.teleDefences4 == "Rough Terrain":
             self.teleRoughTerrainDamage = self.teleDamageCounter5
             
-        if self.teleLowBarDamage <= 2:
+        if self.teleLowBarDamage <= 2 and not self.autoDefences1 == 9:
             self.teleDC1 = (self.teleLowBarDamage*5)
+        elif self.teleLowBarDamage <= 2 and self.teleLowBarDamage != 0 and self.autoDefences1 == 9:
+            self.teleDC1 = (self.teleLowBarDamage*5) - 5
+        elif self.teleLowBarDamage == 0 and self.autoDefences1 == 9:
+            self.teleDC1 = 0
+        elif self.teleLowBarDamage > 2 and self.autoDefences1 == 9:
+            self.teleDC1 = 5
         else:
             self.teleDC1 = 10
             
-        if self.telePortcullisDamage <= 2:
+        if self.telePortcullisDamage <= 2 and not self.autoDefences1 == 1:
             self.teleDC2 = (self.telePortcullisDamage*5)
+        elif self.telePortcullisDamage <= 2 and self.telePortcullisDamage != 0 and self.autoDefences1 == 1:
+            self.teleDC2 = (self.telePortcullisDamage*5) - 5
+        elif self.telePortcullisDamage == 0 and self.autoDefences1 == 1:
+            self.teleDC2 = 0
+        elif self.telePortcullisDamage > 2 and self.autoDefences1 == 1:
+            self.teleDC2 = 5
         else:
             self.teleDC2 = 10
 
-        if self.teleChevaldeFriseDamage <= 2:
+        if self.teleChevaldeFriseDamage <= 2 and not self.autoDefences1 == 2:
             self.teleDC3 = (self.teleChevaldeFriseDamage*5)
+        elif self.teleChevaldeFriseDamage <= 2 and self.teleChevaldeFriseDamage != 0 and self.autoDefences1 == 2:
+            self.teleDC3 = (self.teleChevaldeFrise*5) - 5
+        elif self.teleChevaldeFriseDamage == 0 and self.autoDefences1 == 2:
+            self.teleDC3 = 0
+        elif self.teleChevaldeFriseDamage > 2 and self.autoDefences1 == 2:
+            self.teleDC3 = 5
         else:
             self.teleDC3 = 10
 
-        if self.teleMoatDamage <= 2:    
+        if self.teleMoatDamage <= 2 and not self.autoDefences1 == 3:    
             self.teleDC4 = (self.teleMoatDamage*5)
+        elif self.teleMoatDamage <= 2 and self.teleMoatDamage != 0 and self.autoDefences1 == 3:
+            self.teleDC4 = (self.teleMoatDamage*5) - 5
+        elif self.teleMoatDamage == 0 and self.autoDefences1 == 3:
+            self.teleDC4 = 0
+        elif self.teleMoatDamage > 2 and self.autoDefences1 == 3:
+            self.teleDC4 = 5
         else:
             self.teleDC4 = 10
 
-        if self.teleRampartsDamage <= 2:
+        if self.teleRampartsDamage <= 2 and not self.autoDefences1 == 4:
             self.teleDC5 = (self.teleRampartsDamage*5)
+        elif self.teleRampartsDamage <= 2 and self.teleRampartsDamage != 0 and self.autoDefences1 == 4:
+            self.teleDC5 = (self.teleRampartsDamag*5) - 5
+        elif self.teleRampartsDamage == 0 and self.autoDefences1 == 4:
+            self.teleDC5 = 0
+        elif self.teleRampartsDamage > 2 and self.autoDefences1 == 4:
+            self.teleDC5 = 5
         else:
             self.teleDC5 = 10
 
-        if self.teleDrawbridgeDamage <= 2:
+        if self.teleDrawbridgeDamage <= 2 and not self.autoDefences1 == 5:
             self.teleDC6 = (self.teleDrawbridgeDamage*5)
+        elif self.teleDrawbridgeDamage <= 2 and self.teleDrawbridgeDamage != 0 and self.autoDefences1 ==5:
+            self.teleDC6 = (self.teleDrawbridgeDamage*5) - 5
+        elif self.teleDrawbridgeDamage == 0 and self.autoDefences1 == 5:
+            self.teleDC6 = 0
+        elif self.teleDrawbridgeDamage > 2 and self.autoDefences1 == 5:
+            self.teleDC6 = 5
         else:
             self.teleDC6 = 10
 
-        if self.teleSallyPortDamage <= 2:
+        if self.teleSallyPortDamage <= 2 and not self.autoDefences1 == 6:
             self.teleDC7 = (self.teleSallyPortDamage*5)
+        elif self.teleSallyPortDamage <= 2 and self.teleSallyPortDamage != 0 and self.autoDefences1 == 6:
+            self.teleDC7 = (self.teleSallyPOrtDamage*5) - 5
+        elif self.teleSallyPortDamage == 0 and self.autoDefences1 == 6:
+            self.teleDC7 = 0
+        elif self.teleSallyPortDamage > 2 and self.autoDefences == 6:
+            self.teelDC7 = 5
         else:
             self.teleDC7 = 10
 
-        if self.teleRockWallDamage <= 2:
+        if self.teleRockWallDamage <= 2 and not self.autoDefences1 == 7:
             self.teleDC8 = (self.teleRockWallDamage*5)
+        elif self.teleRockWallDamage <= 2 and self.teleRockWallDamage != 0 and self.autoDefences1 == 7:
+            self.teleDC8 = (self.teleRockWallDamage*5) - 5
+        elif self.teleRockWallDamage == 0 and self.autoDefences1 == 7:
+            self.teleDC8 = 0
+        elif self.teleRockWallDamage > 2 and self.autoDefences1 == 7:
+            self.teleDC8 = 5
         else:
             self.teleDC8 = 10
 
-        if self.teleRoughTerrainDamage <= 2:
+        if self.teleRoughTerrainDamage <= 2 and not self.autoDefences1 == 8:
             self.teleDC9 = (self.teleRoughTerrainDamage*5)
+        elif self.teleRoughTerrainDamage <= 2 and self.teleRoughTerrainDamage != 0 and self.autoDefences1 == 8:
+            self.teleDC9 = (self.teleRoughTerrainDamage*5) - 5
+        elif self.teleRoughTerrainDamage == 0 and self.autoDefences1 == 8:
+            self.teleDC9 = 0
+        elif self.teleRoughTerrainDamage > 2 and self.autoDefences1 == 8:
+            self.teleDC9 = 5
         else:
             self.teleDC9 = 10
         
@@ -250,8 +304,8 @@ class Entry(object):
         self.defensiveScore = (allOff-oppOff) / allDef / 2.0 if self.defensive else 0
     def tertiary_sort(self):
         """Calculates total scores."""
-        self.totalScore = (self.offensiveScore + self.defensiveScore 
-                           - self.foulScore)
+        self.totalScore = (self.offensiveScore + self.defensiveScore) 
+                           #- self.foulScore)
         self.totalTAScore = (self.offensiveScore + self.defensiveScore)
 
 

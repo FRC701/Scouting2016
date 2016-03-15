@@ -76,7 +76,7 @@ public class AutoData implements Parcelable {
     @Override
     public String toString(){
 
-        return hadAuto+","+reachesDefences+","+crossesDefences+","+spybot+","+Defences1+
+        return hadAuto+","+reachesDefences+","+crossesDefences+","+spybot+","+Defences1+","+
                 bouldersInLowGoal+","+bouldersInHighGoal+","+hadOther;
     }
 

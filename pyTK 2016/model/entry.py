@@ -106,7 +106,7 @@ class Entry(object):
        
         self.autoReachesDefencesScore = 0
 
-        if self.autoReachesDefences == False:
+        if self.autoReachesDefences == True:
              self.autoReachesDefencesScore = 2
 
         self.autoCrossesDefencesScore = 0 
@@ -272,8 +272,7 @@ class Entry(object):
         self.postChallengeStateScore = 0
         self.postScaleStateScore = 0
 
-        self.postChallengeStateScore = 5 if self.postChallengeState == 2 else 0
-        #self.postScaleStateScore = 5 if self.postScaleState == 1 else 0
+        self.postChallengeStateScore = 5 if self.postChallengeState == 2 and not self.postScaleState == 2 else 0
         self.postScaleStateScore = 15 if self.postScaleState == 2 else 0
 
         self.NotAttemptedC = True if self.postChallengeState == 0 else False

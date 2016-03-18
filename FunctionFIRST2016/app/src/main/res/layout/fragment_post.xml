@@ -41,25 +41,6 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textNumTechFouls"
-        android:layout_toRightOf="@+id/textNumFouls"
-        android:layout_toEndOf="@+id/textNumFouls"
-        android:text="@string/text_numTechFouls"
-        android:paddingLeft="10dp"
-        android:textColor="@color/Gold"/>
-
-    <com.vandenrobotics.functionfirst.views.NumberPicker
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/pickerNumTechFouls"
-        android:layout_below="@+id/textNumTechFouls"
-        android:layout_toRightOf="@+id/textNumFouls"
-        android:layout_toEndOf="@+id/pickerNumFouls"
-        android:paddingLeft="10dp" />
-
 
     <CheckBox
         android:layout_width="wrap_content"
@@ -77,10 +58,9 @@
         android:layout_height="wrap_content"
         android:text="@string/cb_gotYellowCard"
         android:id="@+id/cb_gotYellowCard"
-        android:layout_alignLeft="@+id/pickerNumTechFouls"
         android:checked="false"
         android:textColor="@color/Gold"
-        android:layout_below="@+id/pickerNumTechFouls"
+        android:layout_below="@+id/cb_gotRedCard"
         />
 
     <CheckBox
@@ -88,7 +68,7 @@
         android:layout_height="wrap_content"
         android:text="@string/cb_wasDisabled"
         android:id="@+id/cb_wasDisabled"
-        android:layout_below="@+id/cb_gotRedCard"
+        android:layout_below="@+id/cb_gotYellowCard"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:checked="false"

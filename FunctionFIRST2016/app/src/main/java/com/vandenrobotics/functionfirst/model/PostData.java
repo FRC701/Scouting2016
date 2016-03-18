@@ -23,7 +23,6 @@ public class PostData implements Parcelable {
 
     public PostData(){
         numFouls = 0;
-        numTechFouls = 0;
         gotRedCard = false;
         gotYellowCard = false;
         wasDisabled = false;
@@ -51,16 +50,15 @@ public class PostData implements Parcelable {
             }
 
             numFouls = data[0];
-            numTechFouls = data[1];
-            gotRedCard = (data[2]==1);
-            gotYellowCard = (data[3]==1);
-            wasDisabled = (data[4]==1);
-            playedDefensively = (data[5]==1);
-            playedAssistively = (data[6]==1);
-            capture = (data[7]==1);
-            breached = (data[8]==1);
-            challengeState = data[9];
-            scaleState= data[10];
+            gotRedCard = (data[1]==1);
+            gotYellowCard = (data[2]==1);
+            wasDisabled = (data[3]==1);
+            playedDefensively = (data[4]==1);
+            playedAssistively = (data[5]==1);
+            capture = (data[6]==1);
+            breached = (data[7]==1);
+            challengeState = data[8];
+            scaleState= data[9];
 
         } catch (IndexOutOfBoundsException e){
             e.printStackTrace();
@@ -70,7 +68,6 @@ public class PostData implements Parcelable {
     public PostData(PostData postData) {
         this();
         numFouls = postData.numFouls;
-        numTechFouls = postData.numTechFouls;
         gotRedCard = postData.gotRedCard;
         gotYellowCard = postData.gotYellowCard;
         wasDisabled = postData.wasDisabled;
@@ -92,7 +89,7 @@ public class PostData implements Parcelable {
         int tempCapture = capture? 1 : 0;
         int tempBreached = breached? 1 : 0;
 
-        return numFouls+","+numTechFouls+","+tempRedCard+","+tempYellowCard+","+tempDisabled+","+tempPlayedDefensively+","
+        return numFouls+","+tempRedCard+","+tempYellowCard+","+tempDisabled+","+tempPlayedDefensively+","
                 +tempPlayedAssistively+","
                 +tempCapture+","+tempBreached+","+challengeState+","+scaleState;
     }

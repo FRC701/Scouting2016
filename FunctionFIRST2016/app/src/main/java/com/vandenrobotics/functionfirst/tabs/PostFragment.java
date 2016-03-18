@@ -76,7 +76,7 @@ public class PostFragment extends Fragment {
     public void loadData(final PostData postData){
         // take the postData and assign it to each view
         numFouls.setValue(postData.numFouls);
-        numTechFouls.setValue(postData.numTechFouls);
+        //numTechFouls.setValue(postData.numTechFouls);
         gotRedCard.setChecked(postData.gotRedCard);
         gotYellowCard.setChecked(postData.gotYellowCard);
         wasDisabled.setChecked(postData.wasDisabled);
@@ -92,7 +92,7 @@ public class PostFragment extends Fragment {
         PostData postData = new PostData();
         if(viewsAssigned){
             postData.numFouls = numFouls.getValue();
-            postData.numTechFouls = numTechFouls.getValue();
+            //postData.numTechFouls = numTechFouls.getValue();
             postData.gotRedCard = gotRedCard.isChecked();
             postData.gotYellowCard = gotYellowCard.isChecked();
             postData.wasDisabled = wasDisabled.isChecked();
@@ -140,7 +140,6 @@ public class PostFragment extends Fragment {
         try{
             // assign all the custom view info to their respective views in the xml
             numFouls = (NumberPicker)view.findViewById(R.id.pickerNumFouls);
-            numTechFouls = (NumberPicker)view.findViewById(R.id.pickerNumTechFouls);
             gotRedCard = (CheckBox)view.findViewById(R.id.cb_gotRedCard);
             gotYellowCard = (CheckBox)view.findViewById(R.id.cb_gotYellowCard);
             wasDisabled = (CheckBox)view.findViewById(R.id.cb_wasDisabled);
@@ -186,8 +185,8 @@ public class PostFragment extends Fragment {
 
             numFouls.setMinValue(0);
             numFouls.setMaxValue(999);
-            numTechFouls.setMinValue(0);
-            numTechFouls.setMaxValue(999);
+            //numTechFouls.setMinValue(0);
+            //numTechFouls.setMaxValue(999);
 
             viewsAssigned = true;
         } catch (Exception e){

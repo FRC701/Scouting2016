@@ -78,8 +78,6 @@ class Entry(object):
         # post data
         self.postFouls = float(data[index])
         index += 1
-        self.postTechFouls = float(data[index])
-        index += 1
         self.postRedCard = bool(int(data[index]))
         index += 1
         self.postYellowCard = bool(int(data[index]))
@@ -288,7 +286,7 @@ class Entry(object):
         self.hasFoul      = True if self.postFouls >0 or self.postTechFouls > 0 else False
 
         self.offensiveScore = (self.autoScore + self.teleScore)
-        self.foulScore = (5*self.postFouls) + (5*self.postTechFouls)
+        self.foulScore = (5*self.postFouls) 
 
         #self.offensiveScore = 0 if self.foulScore >= self.offensiveScore else  self.offensiveScore = (self.autoScore + self.teleScore)
 

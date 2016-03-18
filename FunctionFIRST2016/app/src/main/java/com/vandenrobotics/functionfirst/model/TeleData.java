@@ -30,7 +30,7 @@ public class TeleData implements Parcelable {
 
 
     public TeleData(){
-
+        
         TeleDefence1 = "Category 1";
         TeleDefence2 = "Category 2";
         TeleDefence3 = "Category 3";

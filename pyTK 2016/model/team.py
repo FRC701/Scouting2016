@@ -53,7 +53,6 @@ class _TeamInfo(object):
         self.teleTotalBouldersShotHG = []
 
         self.postFouls = []                 # list containing the number of fouls each match
-        self.postTechFouls = []
         self.postRedCard = 0                # number of matches for which robot received red card
         self.postYellowCard = 0             # number of matches for which robot received yellow card
         self.postDisabled = 0               # number of matches for which robot was disabled
@@ -109,7 +108,6 @@ class _TeamInfo(object):
         self.pTeleHighGoalShooting = float(sum(100*self.teleHighGoal))/float(sum(self.teleTotalBouldersShotHG)) if sum(self.teleTotalBouldersShotHG) else 0
         
         self.avgPostFoul = sum(self.postFouls)/len(self.postFouls) if len(self.postFouls) else 0
-        self.avgPostTechFoul = sum(self.postTechFouls)/len(self.postTechFouls) if len(self.postTechFouls) else 0 
                 
     def getAttr(self, source):
         return getattr(self, source)
@@ -224,7 +222,7 @@ class _TeamPitInfo(object):
 
     def __init__(self):
       self.answer1 = ""
-      self.answer2 = ""
+      #self.answer2 = ""
       self.answer3 = ""
       self.answer4 = ""
       self.answer5 = ""

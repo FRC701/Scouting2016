@@ -32,7 +32,7 @@ public class PitScoutActivity extends Activity implements Spinner.OnItemSelected
 
     private ArrayList<EditText> Answers;
     public EditText Answer1;
-    public EditText Answer2;
+    //public EditText Answer2;
     public EditText Answer3;
     public EditText Answer4;
     public EditText Answer5;
@@ -50,15 +50,15 @@ public class PitScoutActivity extends Activity implements Spinner.OnItemSelected
         setContentView(R.layout.pit_scouting);
 
         //Array of EditText, storing for easy calling of getText method
-        Answers = new ArrayList<>(6);
+        Answers = new ArrayList<>(5);
 
         mEvent = getIntent().getStringExtra("event");
 
         Answer1 = (EditText) findViewById(R.id.answer_1);
         Answers.add(Answer1);
 
-        Answer2 = (EditText) findViewById(R.id.answer_2);
-        Answers.add(Answer2);
+        //Answer2 = (EditText) findViewById(R.id.answer_2);
+        //Answers.add(Answer2);
 
         Answer3 = (EditText) findViewById(R.id.answer_3);
         Answers.add(Answer3);
@@ -152,7 +152,7 @@ public class PitScoutActivity extends Activity implements Spinner.OnItemSelected
         pitData = ExternalStorageTools.readPitData(team_numbers.size(), mEvent);
 
         Answer1.setText(pitData.get(indexTeamSelected).answer1);
-        Answer2.setText(pitData.get(indexTeamSelected).answer2);
+        //Answer2.setText(pitData.get(indexTeamSelected).answer2);
         Answer3.setText(pitData.get(indexTeamSelected).answer3);
         Answer4.setText(pitData.get(indexTeamSelected).answer4);
         Answer5.setText(pitData.get(indexTeamSelected).answer5);
@@ -164,7 +164,7 @@ public class PitScoutActivity extends Activity implements Spinner.OnItemSelected
 
         pitData.get(indexTeamSelected).team = "" + teamSelected;
         pitData.get(indexTeamSelected).answer1 = "" + Answer1.getText();
-        pitData.get(indexTeamSelected).answer2 = "" + Answer2.getText();
+        //pitData.get(indexTeamSelected).answer2 = "" + Answer2.getText();
         pitData.get(indexTeamSelected).answer3 = "" + Answer3.getText();
         pitData.get(indexTeamSelected).answer4 = "" + Answer4.getText();
         pitData.get(indexTeamSelected).answer5 = "" + Answer5.getText();

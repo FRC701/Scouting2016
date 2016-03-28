@@ -175,7 +175,6 @@ def assign_basic_team_values(team, entry):
     team.Info.teleTotalBouldersShotHG.append(float(entry.teleTotalBouldersShotHG))
 
     team.Info.postFouls.append(float(entry.postFouls))
-    team.Info.postTechFouls.append(float(entry.postTechFouls))
     team.Info.postRedCard += int(entry.postRedCard)
     team.Info.postYellowCard += int(entry.postYellowCard)
     team.Info.postDisabled += int(entry.postDisabled)
@@ -240,7 +239,7 @@ def assign_basic_match_values(match, entry):
 def assign_pit_entry_values(team, entry):
     
     team.PitInfo.answer1 = entry.answer1
-    team.PitInfo.answer2 = entry.answer2
+    #team.PitInfo.answer2 = entry.answer2
     team.PitInfo.answer3 = entry.answer3
     team.PitInfo.answer4 = entry.answer4
     team.PitInfo.answer5 = entry.answer5

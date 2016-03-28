@@ -19,7 +19,7 @@ public class PitTeamData {
         //If will display text " " by default, can be changed to have hit
         team = "0";
         answer1 = " ";
-        answer2 = " ";
+        //answer2 = " ";
         answer3 = " ";
         answer4 = " ";
         answer5 = " ";
@@ -33,16 +33,18 @@ public class PitTeamData {
         team = dataString[0];
 
         answer1 = dataString[1];
-        answer2 = dataString[2];
-        answer3 = dataString[3];
-        answer4 = dataString[4];
-        answer5 = dataString[5];
-        answer6 = dataString[6];
+        //answer2 = dataString[2];
+        answer3 = dataString[2];
+        answer4 = dataString[3];
+        answer5 = dataString[4];
+        answer6 = dataString[5];
 
     }
 
     public String toString(){
-        return team + "$" + answer1 + "$" + answer2 + "$" +  answer3 + "$" + answer4 + "$"
+        return team + "$" + answer1 + "$"
+                //+ answer2 + "$"
+                + answer3 + "$" + answer4 + "$"
                 + answer5 + "$" + answer6 + "\n";
     }
 

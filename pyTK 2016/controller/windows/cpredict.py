@@ -32,7 +32,7 @@ class PredictController():
                     ("avgTeleScore","T-Scr"),
                     ("avgTeleDefencesDamageScore","T-Dd-Scr"),
                     ("avgTeleLowGoal","T-Bilg-Scr"),
-                    ("avgTeleHighGoal","T-Bihg-Totes"),
+                    ("avgTeleHighGoal","T-Bihg-Scr"),
                     ("avgPostChallengeStateScores","T-Cs-Scr"),
                     ("avgPostScaleStateScores","T-Ss-Scr"),
                     ("avgFoulScore","F-Scr"),

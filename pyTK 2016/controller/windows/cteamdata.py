@@ -87,7 +87,7 @@ class TeamDataController():
                        ("maxFoulScore","Maximum Foul Score: "),("minFoulScore","Minimum Foul Score: ")]
     
     pitDataStrings = [("answer1","How experienced are your drivers?: "),
-                      ("answer2","How many cycles can you do?: "),
+                      #("answer2","How many cycles can you do?: "),
                       ("answer3","Can you play defensively?: "),
                       ("answer4","Does the robot shoot in the low goal or high goal?: "),
                       ("answer5","Where do you prefer to shoot?: "),

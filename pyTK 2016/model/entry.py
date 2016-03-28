@@ -115,7 +115,7 @@ class Entry(object):
         self.autoLowGoal = (self.autoBouldersInLowGoal*5)
         self.autoHighGoal = (self.autoBouldersInHighGoal*10)
 
-        self.autoScore = (self.autoReachesDefences + self.autoCrossesDefences + self.autoLowGoal + self.autoHighGoal)
+        self.autoScore = (self.autoReachesDefencesScore + self.autoCrossesDefencesScore + self.autoLowGoal + self.autoHighGoal)
 
         self.teleLowBarDamage = self.teleDamageCounter1
 
@@ -172,7 +172,7 @@ class Entry(object):
         if self.teleChevaldeFriseDamage <= 2 and not self.autoDefences1 == 2:
             self.teleDC3 = (self.teleChevaldeFriseDamage*5)
         elif self.teleChevaldeFriseDamage <= 2 and self.teleChevaldeFriseDamage != 0 and self.autoDefences1 == 2:
-            self.teleDC3 = (self.teleChevaldeFrise*5) - 5
+            self.teleDC3 = (self.teleChevaldeFriseDamage*5) - 5
         elif self.teleChevaldeFriseDamage == 0 and self.autoDefences1 == 2:
             self.teleDC3 = 0
         elif self.teleChevaldeFriseDamage > 2 and self.autoDefences1 == 2:
@@ -283,7 +283,7 @@ class Entry(object):
 
         self.scoredInAuto = True if self.autoScore > 0 else False
         self.scoredInTele = True if self.teleScore > 0 else False
-        self.hasFoul      = True if self.postFouls >0 or self.postTechFouls > 0 else False
+        self.hasFoul      = True if self.postFouls >0 else False
 
         self.offensiveScore = (self.autoScore + self.teleScore)
         self.foulScore = (5*self.postFouls) 
@@ -314,11 +314,11 @@ class PitEntry(object):
         self.team =int(data[0])
 
         self.answer1 = str(data[1])
-        self.answer2 = str(data[2])
-        self.answer3 = str(data[3])
-        self.answer4 = str(data[4])
-        self.answer5 = str(data[5])
-        self.answer6 = str(data[6])
+        #self.answer2 = str(data[2])
+        self.answer3 = str(data[2])
+        self.answer4 = str(data[3])
+        self.answer5 = str(data[4])
+        self.answer6 = str(data[5])
 
         self.entries.append(self)
 

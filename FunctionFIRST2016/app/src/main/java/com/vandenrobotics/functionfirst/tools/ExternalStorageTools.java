@@ -204,6 +204,20 @@ public class ExternalStorageTools {
         return (mNum >0)? mNum : 1;
     }
 
+    public static void writeMatchList(ArrayList<JSONObject> matches, String event){
+        JSONArray presentTeams = new JSONArray(matches);
+        if(isExternalStorageWritable()){
+            try {
+                FileWriter fileWriter = new FileWriter(createFile("ScoutData/"+event,"matchlist.json"));
+                fileWriter.write(presentTeams.toString());
+                fileWriter.flush();
+                fileWriter.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
     // creates a txt file matchlist out of the ArrayList of matches
     public static void writeMatches(ArrayList<Match> matches, String event){
         if(isExternalStorageWritable()){
@@ -226,7 +240,7 @@ public class ExternalStorageTools {
         if(isExternalStorageReadable()){
             try{
                 String line;
-                FileInputStream fileInputStream = new FileInputStream(createFile("ScoutData/"+event,"matchlist.txt"));
+                FileInputStream fileInputStream = new FileInputStream(createFile("ScoutData/"+event,"matchlist.json"));
                 BufferedReader br = new BufferedReader(new InputStreamReader(fileInputStream));
                 while((line = br.readLine())!=null)
                     matches.add(new Match(line));

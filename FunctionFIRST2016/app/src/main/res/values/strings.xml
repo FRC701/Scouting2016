@@ -67,7 +67,7 @@
 
     <string name="cb_hadAuto">Had Autonomous?</string>
     <string name="cb_reachesDefences">Reaches Defences?</string>
-    <string name="text_crossesDefences">Crosses Defences?</string>
+    <string name="text_crossesDefences">Crosses Defences? (Choose which Defence)</string>
     <string-array name="DefencesList1">
         <item>None</item>
         <item>Portcullis</item>

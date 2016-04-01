@@ -112,6 +112,35 @@ class Entry(object):
         if self.autoDefences1 > 0:
              self.autoCrossesDefencesScore = 10
 
+        self.autoPortcullis = 0
+        self.autoChevaldeFrise = 0
+        self.autoMoat = 0
+        self.autoRamparts = 0
+        self.autoDrawbridge = 0
+        self.autoSallyPort = 0
+        self.autoRockWall = 0
+        self.autoRoughTerrain = 0
+        self.autoLowBar = 0
+        
+        if self.autoDefences1 == 1:
+            self.autoPortcullis += 1
+        elif self.autoDefences1 == 2:
+            self.autoChevaldeFrise += 1
+        elif self.autoDefences1 == 3:
+            self.autoMoat += 1
+        elif self.autoDefences1 == 4:
+            self.autoRamparts += 1
+        elif self.autoDefences1 == 5:
+            self.autoDrawbridge += 1 
+        elif self.autoDefences1 == 6:
+            self.autoSallyPort += 1
+        elif self.autoDefences1 == 7:
+            self.autoRockWall += 1
+        elif self.autoDefences1 == 8:
+            self.autoRoughTerrain += 1
+        elif self.autoDefences1 == 9:
+            self.autoLowBar += 1
+
         self.autoLowGoal = (self.autoBouldersInLowGoal*5)
         self.autoHighGoal = (self.autoBouldersInHighGoal*10)
 
@@ -130,14 +159,14 @@ class Entry(object):
         self.teleRampartsDamage = 0
         if self.teleDefences2 == "Moat":
             self.teleMoatDamage = self.teleDamageCounter3
-        elif self.teleDefences2 == "Rmaparts":
+        elif self.teleDefences2 == "Ramparts":
             self.teleRampartsDamage = self.teleDamageCounter3
             
         self.teleDrawbridgeDamage = 0
         self.teleSallyPortDamage = 0
         if self.teleDefences3 == "Drawbridge":
             self.teleDrawbridgeDamage = self.teleDamageCounter4
-        elif self.teleDefences4 == "Sally Port":
+        elif self.teleDefences3 == "Sally Port":
             self.teleSallyPortDamage = self.teleDamageCounter4
 
         self.teleRockWallDamage = 0
@@ -194,7 +223,7 @@ class Entry(object):
         if self.teleRampartsDamage <= 2 and not self.autoDefences1 == 4:
             self.teleDC5 = (self.teleRampartsDamage*5)
         elif self.teleRampartsDamage <= 2 and self.teleRampartsDamage != 0 and self.autoDefences1 == 4:
-            self.teleDC5 = (self.teleRampartsDamag*5) - 5
+            self.teleDC5 = (self.teleRampartsDamage*5) - 5
         elif self.teleRampartsDamage == 0 and self.autoDefences1 == 4:
             self.teleDC5 = 0
         elif self.teleRampartsDamage > 2 and self.autoDefences1 == 4:
@@ -216,10 +245,10 @@ class Entry(object):
         if self.teleSallyPortDamage <= 2 and not self.autoDefences1 == 6:
             self.teleDC7 = (self.teleSallyPortDamage*5)
         elif self.teleSallyPortDamage <= 2 and self.teleSallyPortDamage != 0 and self.autoDefences1 == 6:
-            self.teleDC7 = (self.teleSallyPOrtDamage*5) - 5
+            self.teleDC7 = (self.teleSallyPortDamage*5) - 5
         elif self.teleSallyPortDamage == 0 and self.autoDefences1 == 6:
             self.teleDC7 = 0
-        elif self.teleSallyPortDamage > 2 and self.autoDefences == 6:
+        elif self.teleSallyPortDamage > 2 and self.autoDefences1 == 6:
             self.teelDC7 = 5
         else:
             self.teleDC7 = 10
@@ -283,7 +312,7 @@ class Entry(object):
 
         self.scoredInAuto = True if self.autoScore > 0 else False
         self.scoredInTele = True if self.teleScore > 0 else False
-        self.hasFoul      = True if self.postFouls >0 else False
+        self.hasFoul      = True if self.postFouls > 0 else False
 
         self.offensiveScore = (self.autoScore + self.teleScore)
         self.foulScore = (5*self.postFouls) 
@@ -291,8 +320,8 @@ class Entry(object):
         #self.offensiveScore = 0 if self.foulScore >= self.offensiveScore else  self.offensiveScore = (self.autoScore + self.teleScore)
 
         self.offensive = True if self.offensiveScore > 0 else False
-        self.defensive = self.postPlayedDefensively
-        self.assistive = self.postPlayedAssistively
+        self.defensive = True if self.postPlayedDefensively > 0 else False
+        self.assistive = True if self.postPlayedAssistively > 0 else False
         
 
     def secondary_sort(self, oppOff, allOff, allDef):

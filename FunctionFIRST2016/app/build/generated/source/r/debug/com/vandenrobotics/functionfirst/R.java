@@ -1492,7 +1492,7 @@ containing a value of this type.
         public static final int cb_gotRedCard=0x7f0c006a;
         public static final int cb_gotYellowCard=0x7f0c006b;
         public static final int cb_hadAuto=0x7f0c0059;
-        public static final int cb_hadOther=0x7f0c0063;
+        public static final int cb_hadOther=0x7f0c0062;
         public static final int cb_noShow=0x7f0c0065;
         public static final int cb_reachesDefences=0x7f0c005a;
         public static final int cb_spybot=0x7f0c005c;
@@ -1529,8 +1529,8 @@ containing a value of this type.
         public static final int option_layout=0x7f0c0090;
         public static final int pager=0x7f0c004a;
         public static final int pager_title_strip=0x7f0c004b;
-        public static final int pickerBouldersInHighGoal=0x7f0c0062;
-        public static final int pickerBouldersInLowGoal=0x7f0c0060;
+        public static final int pickerBouldersInHighGoal=0x7f0c0061;
+        public static final int pickerBouldersInLowGoal=0x7f0c005f;
         public static final int pickerMatch=0x7f0c0054;
         public static final int pickerNumFouls=0x7f0c0069;
         public static final int pickerViewAuto=0x7f0c005d;
@@ -1575,7 +1575,7 @@ containing a value of this type.
         public static final int showCustom=0x7f0c000f;
         public static final int showHome=0x7f0c0010;
         public static final int showTitle=0x7f0c0011;
-        public static final int spinnerDefences1=0x7f0c005e;
+        public static final int spinnerDefences1=0x7f0c0063;
         public static final int spinnerDeviceNumber=0x7f0c0052;
         public static final int spinnerTeamNumber=0x7f0c0056;
         public static final int spinnerTeamNumberP=0x7f0c0093;
@@ -1584,8 +1584,8 @@ containing a value of this type.
         public static final int tabHost=0x7f0c004f;
         public static final int tabMode=0x7f0c000b;
         public static final int tbaEventListView=0x7f0c0042;
-        public static final int textBouldersInHighGoal=0x7f0c0061;
-        public static final int textBouldersInLowGoal=0x7f0c005f;
+        public static final int textBouldersInHighGoal=0x7f0c0060;
+        public static final int textBouldersInLowGoal=0x7f0c005e;
         public static final int textNumFouls=0x7f0c0068;
         public static final int textView=0x7f0c0051;
         public static final int textView2=0x7f0c0053;

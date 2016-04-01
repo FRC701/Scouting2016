@@ -20,6 +20,15 @@ class _TeamInfo(object):
         self.autoHadAuto = 0                # number of matches for which the team had autonomous
         self.autoReachesDefences = 0
         self.autoCrossesDefences = 0
+        self.autoPortcullis = []
+        self.autoChevaldeFrise = []
+        self.autoMoat = []
+        self.autoRamparts = []
+        self.autoDrawbridge = []
+        self.autoSallyPort = []
+        self.autoRockWall = []
+        self.autoRoughTerrain = []
+        self.autoLowBar = [] 
         self.autoReachesDefencesScores = []
         self.autoCrossesDefencesScores = []
         self.autoStartsAsSpybot = 0
@@ -81,6 +90,16 @@ class _TeamInfo(object):
         
         self.avgAutoReachesDefencesScores = sum(self.autoReachesDefencesScores)/len(self.autoReachesDefencesScores) if len(self.autoReachesDefencesScores) else 0
         self.avgAutoCrossesDefencesScores = sum(self.autoCrossesDefencesScores)/len(self.autoCrossesDefencesScores) if len(self.autoCrossesDefencesScores) else 0
+
+        self.totalAutoPortcullis = sum(self.autoPortcullis)
+        self.totalAutoChevaldeFrise= sum(self.autoChevaldeFrise)
+        self.totalAutoMoat = sum(self.autoMoat)
+        self.totalAutoRamparts = sum(self.autoRamparts)
+        self.totalAutoDrawbridge = sum(self.autoDrawbridge)
+        self.totalAutoSallyPort = sum(self.autoSallyPort)
+        self.totalAutoRockWall = sum(self.autoRockWall)
+        self.totalAutoRoughTerrain = sum(self.autoRoughTerrain)
+        self.totalAutoLowBar = sum(self.autoLowBar)
         
         self.pTeleLowBarDamage = float(sum(100*self.teleDC1))/float(sum(self.teleDefencesDamageScore)) if sum(self.teleDefencesDamageScore) else 0
         self.pTeleLowBarDamageM = float(sum(self.teleLowBarDamage))/float(len(self.matches)) if len(self.matches) else 0
@@ -321,9 +340,18 @@ class Team(object):
         self.pHadAuto = str(int(100*self.Info.autoHadAuto)/len(matches)) + "%"
         self.pReachesDefences = str(int(100*self.Info.autoReachesDefences)/len(matches)) + "%"
         self.pCrossesDefences = str(int(100*self.Info.autoCrossesDefences)/len(matches)) + "%"
+        self.totalAutoPortcullis = self.Info.totalAutoPortcullis
+        self.totalAutoChevaldeFrise = self.Info.totalAutoChevaldeFrise
+        self.totalAutoMoat = self.Info.totalAutoMoat
+        self.totalAutoRamparts = self.Info.totalAutoRamparts
+        self.totalAutoDrawbridge = self.Info.totalAutoDrawbridge
+        self.totalAutoSallyPort = self.Info.totalAutoSallyPort
+        self.totalAutoRockWall = self.Info.totalAutoRockWall
+        self.totalAutoRoughTerrain = self.Info.totalAutoRoughTerrain
+        self.totalAutoLowBar = self.Info.totalAutoLowBar
         self.pStartsAsSpybot = str(int(100*self.Info.autoStartsAsSpybot)/len(matches)) + "%"
-        self.avgAutoReachesDefencesScores = str(self.Scores.avgAutoReachesDefencesScores)
-        self.avgAutoCrossesDefencesScores = str(self.Scores.avgAutoCrossesDefencesScores)
+        self.avgAutoReachesDefencesScores = self.Scores.avgAutoReachesDefencesScores
+        self.avgAutoCrossesDefencesScores = self.Scores.avgAutoCrossesDefencesScores
         self.avgAutoScore = round(self.Scores.avgAutoScore,2)
         self.avgAutoLowGoal = round(self.Info.avgAutoLowGoal,2)
         self.avgAutoHighGoal = round(self.Info.avgAutoHighGoal,2)
@@ -353,6 +381,7 @@ class Team(object):
         self.avgTeleHighGoal = round(self.Info.avgTeleHighGoal,2)
         self.pTeleShootingPercentageLG = str(round(self.Info.pTeleLowGoalShooting,2)) + "%"
         self.pTeleShootingPercentageHG = str(round(self.Info.pTeleHighGoalShooting,2)) + "%"
+        self.pTeleShootingPercentageHG2 = round(self.Info.pTeleHighGoalShooting,2)
        
         self.avgFoulScore = round(self.Scores.avgFoulScore,2)
         self.avgPostFoul = round(self.Info.avgPostFoul,2)

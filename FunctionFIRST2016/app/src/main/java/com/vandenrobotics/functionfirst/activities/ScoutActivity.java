@@ -35,6 +35,7 @@ public class ScoutActivity extends Activity {
     private int mCurMatch;
     private int mTeamNumber;
     private ArrayList<Integer> team_numbers;
+    private ArrayList<String> alliances;
 
     private ArrayList<Match> mMatchList;
     private ArrayList<MatchData> mMatchData;
@@ -73,6 +74,20 @@ public class ScoutActivity extends Activity {
 
 
         Collections.sort(team_numbers);
+
+        /*
+        ArrayList<JSONObject> MatchInfo = ExternalStorageTools.readMatches(mEvent);
+
+        MatchInfo = JSONTools.sortJSONArray(MatchInfo, "alliances");
+        alliances = new ArrayList<>(MatchInfo.size());
+        try {
+            for (int i = 0; i < MatchInfo.size(); i++) {
+                alliances.add(i, MatchInfo.get(i).getString("alliances"));
+            }
+        } catch (JSONException e){
+            e.printStackTrace();
+        }*/
+
 
         spinnerDevices = (Spinner)findViewById(R.id.spinnerDeviceNumber);
         deviceAdapter = ArrayAdapter.createFromResource(this, R.array.deviceOptions, R.layout.spinner_base);

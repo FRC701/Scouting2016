@@ -362,7 +362,7 @@
     <string name="text_appSubtitle">For the 2016 FRC Season: Stronghold</string>
     <string name="text_appTitle">FUNCTION FIRST</string>
     <string name="text_appVersion">Deployment Version 2</string>
-    <string name="text_crossesDefences">Crosses Defences?</string>
+    <string name="text_crossesDefences">Crosses Defences? (Choose which Defence)</string>
     <string name="text_developerInfo">Designed by FIRST Team 701</string>
     <string name="text_deviceNumber">Device #</string>
     <string name="text_disableDefences">Disable Defences</string>

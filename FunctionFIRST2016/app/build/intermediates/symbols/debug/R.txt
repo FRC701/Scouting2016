@@ -522,7 +522,7 @@ int id cb_crossesDefences 0x7f0c005b
 int id cb_gotRedCard 0x7f0c006a
 int id cb_gotYellowCard 0x7f0c006b
 int id cb_hadAuto 0x7f0c0059
-int id cb_hadOther 0x7f0c0063
+int id cb_hadOther 0x7f0c0062
 int id cb_noShow 0x7f0c0065
 int id cb_reachesDefences 0x7f0c005a
 int id cb_spybot 0x7f0c005c
@@ -559,8 +559,8 @@ int id normal 0x7f0c000a
 int id option_layout 0x7f0c0090
 int id pager 0x7f0c004a
 int id pager_title_strip 0x7f0c004b
-int id pickerBouldersInHighGoal 0x7f0c0062
-int id pickerBouldersInLowGoal 0x7f0c0060
+int id pickerBouldersInHighGoal 0x7f0c0061
+int id pickerBouldersInLowGoal 0x7f0c005f
 int id pickerMatch 0x7f0c0054
 int id pickerNumFouls 0x7f0c0069
 int id pickerViewAuto 0x7f0c005d
@@ -605,7 +605,7 @@ int id shortcut 0x7f0c002a
 int id showCustom 0x7f0c000f
 int id showHome 0x7f0c0010
 int id showTitle 0x7f0c0011
-int id spinnerDefences1 0x7f0c005e
+int id spinnerDefences1 0x7f0c0063
 int id spinnerDeviceNumber 0x7f0c0052
 int id spinnerTeamNumber 0x7f0c0056
 int id spinnerTeamNumberP 0x7f0c0093
@@ -614,8 +614,8 @@ int id submit_area 0x7f0c003c
 int id tabHost 0x7f0c004f
 int id tabMode 0x7f0c000b
 int id tbaEventListView 0x7f0c0042
-int id textBouldersInHighGoal 0x7f0c0061
-int id textBouldersInLowGoal 0x7f0c005f
+int id textBouldersInHighGoal 0x7f0c0060
+int id textBouldersInLowGoal 0x7f0c005e
 int id textNumFouls 0x7f0c0068
 int id textView 0x7f0c0051
 int id textView2 0x7f0c0053

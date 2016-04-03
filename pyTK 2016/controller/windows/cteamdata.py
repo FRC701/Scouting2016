@@ -132,8 +132,8 @@ class TeamDataController():
                  ("avgTeleDefencesDamageScore","Scores","teleDefencesDamageScore"),
                  ("avgTeleLowGoal","Info","teleLowGoal"),
                  ("avgTeleHighGoal","Info","teleHighGoal"),
-                 ("avgPostChallengeStateScores","Scores","teleChallengStateScore"),
-                 ("avgPostScaleStateScores","Scores","teleScaleStateScore"),
+                 ("avgPostChallengeStateScores","Scores","postChallengStateScore"),
+                 ("avgPostScaleStateScores","Scores","postScaleStateScore"),
                  ("avgFoulScore","Scores","foulScores"),
                  ("avgPostFoul","Info","postFouls")]
     

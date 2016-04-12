@@ -31,6 +31,7 @@ import java.util.Collections;
 public class ScoutActivity extends Activity {
 
     private String mEvent;
+    private String mMatches;
     private int mDeviceNumber;
     private int mCurMatch;
     private int mTeamNumber;
@@ -53,9 +54,9 @@ public class ScoutActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scout);
         mEvent = getIntent().getStringExtra("event");
+        //mMatches = getIntent().getStringExtra("matches");
         mDeviceNumber = ExternalStorageTools.readDevice(mEvent);
         mCurMatch = ExternalStorageTools.readCurrentMatch(mEvent, mDeviceNumber);
-        mMatchList = ExternalStorageTools.readMatches(mEvent);
         mMatchData = ExternalStorageTools.readData(mEvent, mDeviceNumber);
 
 
@@ -76,7 +77,7 @@ public class ScoutActivity extends Activity {
         Collections.sort(team_numbers);
 
         /*
-        ArrayList<JSONObject> MatchInfo = ExternalStorageTools.readMatches(mEvent);
+        ArrayList<JSONObject> MatchInfo = ExternalStorageTools.readMatches(mMatches);
 
         MatchInfo = JSONTools.sortJSONArray(MatchInfo, "alliances");
         alliances = new ArrayList<>(MatchInfo.size());
@@ -87,6 +88,7 @@ public class ScoutActivity extends Activity {
         } catch (JSONException e){
             e.printStackTrace();
         }*/
+
 
 
         spinnerDevices = (Spinner)findViewById(R.id.spinnerDeviceNumber);

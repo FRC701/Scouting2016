@@ -213,12 +213,14 @@ public class EventListActivity extends Activity {
                         public void onSuccess(int statusCode, Header[] headers, JSONArray teams) {
                             // handle the incoming JSONArray of teams and write them to a file
                             try {
-                                final ArrayList<JSONObject> matchlist = JSONTools.sortJSONArray(JSONTools.parseJSONArray(teams), "alliances");
+                                final ArrayList<JSONObject> matchlist = JSONTools.sortJSonArrayMatchList(JSONTools.parseJSONArray(teams));
                                 ExternalStorageTools.writeMatchList(matchlist, event.getString("key"));
 
                             } catch (JSONException e) {
                                 e.printStackTrace();
                             }
+
+
                             progressDialog.dismiss();
                         }
                     });

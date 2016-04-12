@@ -20,6 +20,29 @@ public class JSONTools {
         return jsonObjects;
     }
 
+    public static ArrayList<JSONObject> sortJSonArrayMatchList(ArrayList<JSONObject> match_list){
+        int validData = 0;
+        for (int i = 0; i < match_list.size(); i++){
+            if (match_list.get(i) != null){
+                validData++;
+            }
+        }
+        ArrayList<JSONObject> sortedmatchlist = new ArrayList<>(validData);
+        for (int i = 0; i < match_list.size(); i++){
+            try {
+                sortedmatchlist.set(match_list.get(i).getInt("match_number"),match_list.get(i));
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+
+
+            }
+
+
+
+        return sortedmatchlist;
+    }
+
     public static ArrayList<JSONObject> sortJSONArray(ArrayList<JSONObject> jsonObjects, final String sortParam) {
         ArrayList<JSONObject> jso = jsonObjects;
 

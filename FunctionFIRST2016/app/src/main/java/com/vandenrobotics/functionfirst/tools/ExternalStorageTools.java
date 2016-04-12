@@ -139,7 +139,7 @@ public class ExternalStorageTools {
         if(isExternalStorageWritable()){
             try {
                 FileWriter fileWriter = new FileWriter(createFile("ScoutData/"+event,"device.txt"));
-                fileWriter.write(device+"");
+                fileWriter.write(device + "");
                 fileWriter.flush();
                 fileWriter.close();
             } catch (IOException e) {
@@ -204,7 +204,7 @@ public class ExternalStorageTools {
         return (mNum >0)? mNum : 1;
     }
 
-    public static void writeMatchList(ArrayList<JSONObject> matches, String event){
+  /*  public static void writeMatchList(ArrayList<JSONObject> matches, String event){
         JSONArray presentTeams = new JSONArray(matches);
         if(isExternalStorageWritable()){
             try {
@@ -216,7 +216,7 @@ public class ExternalStorageTools {
                 e.printStackTrace();
             }
         }
-    }
+    }*/
 
     // creates a txt file matchlist out of the ArrayList of matches
     public static void writeMatches(ArrayList<Match> matches, String event){
@@ -234,28 +234,56 @@ public class ExternalStorageTools {
         }
     }
 
+    public static void writeMatchList(ArrayList<JSONObject> alliances, String event){
+        //ArrayList<JSONObject> match_list = new ArrayList<>();
+        if(isExternalStorageWritable()){
+            try{
+                FileWriter fileWriter = new FileWriter(createFile("ScoutData/"+event, "matchlist.txt"));
+               /* for(int i = 0; i < alliances.length(); i++){
+                    match_list.add(alliances.getJSONObject(i));
+
+                }*/
+
+                //fileWriter.write(alliances.getJSONObject(0).getString("match_number"));
+                fileWriter.write(alliances.toString());
+                fileWriter.flush();
+                fileWriter.close();
+            } catch (IOException e){
+                e.printStackTrace();
+            }
+        }
+    }
+
     // reads the text-file matchlist and creates a matchlist to return
-    public static ArrayList<Match> readMatches(String event){
-        ArrayList<Match> matches = new ArrayList<>();
+    /*
+    public static ArrayList<JSONObject> readMatches(String event){
+        ArrayList<JSONObject> downloadedMatchlist = new ArrayList<>();
         if(isExternalStorageReadable()){
             try{
+                String fileContents = "";
                 String line;
                 FileInputStream fileInputStream = new FileInputStream(createFile("ScoutData/"+event,"matchlist.json"));
                 BufferedReader br = new BufferedReader(new InputStreamReader(fileInputStream));
                 while((line = br.readLine())!=null)
-                    matches.add(new Match(line));
+                    fileContents += line;
                 br.close();
                 fileInputStream.close();
+
+                JSONArray matches = new JSONArray(fileContents);
+                downloadedMatchlist = JSONTools.parseJSONArray(matches);
+
 
             } catch(FileNotFoundException e){
                 e.printStackTrace();
             } catch (IOException e) {
                 e.printStackTrace();
+            }  catch (JSONException e) {
+                e.printStackTrace();
             }
         }
 
-        return matches;
-    }
+        return downloadedMatchlist;
+    }*/
 
     // writes a JSONDocument data file out of MatchData to the event/device directory
     public static void writeData(ArrayList<MatchData> matchData, String event, int device){

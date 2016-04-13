@@ -215,6 +215,7 @@ public class EventListActivity extends Activity {
                             try {
                                 final ArrayList<JSONObject> matchlist = JSONTools.sortJSonArrayMatchList(JSONTools.parseJSONArray(teams));
                                 ExternalStorageTools.writeMatchList(matchlist, event.getString("key"));
+                                ExternalStorageTools.writeMatchList2(teams, event.getString("key"));
 
                             } catch (JSONException e) {
                                 e.printStackTrace();

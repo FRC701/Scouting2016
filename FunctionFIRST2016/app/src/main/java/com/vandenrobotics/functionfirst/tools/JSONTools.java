@@ -21,25 +21,19 @@ public class JSONTools {
     }
 
     public static ArrayList<JSONObject> sortJSonArrayMatchList(ArrayList<JSONObject> match_list){
-        int validData = 0;
+        ArrayList<JSONObject> sortedmatchlist = new ArrayList<>();
         for (int i = 0; i < match_list.size(); i++){
-            if (match_list.get(i) != null){
-                validData++;
-            }
+                sortedmatchlist.add(null);
+
         }
-        ArrayList<JSONObject> sortedmatchlist = new ArrayList<>(validData);
-        for (int i = 0; i < match_list.size(); i++){
+        for (int i = 0; i < sortedmatchlist.size(); i++){
             try {
-                sortedmatchlist.set(match_list.get(i).getInt("match_number"),match_list.get(i));
+                sortedmatchlist.set(match_list.get(i).getInt("match_number") - 1,match_list.get(i));
             } catch (JSONException e) {
                 e.printStackTrace();
             }
-
-
             }
-
-
-
+        sortedmatchlist.removeAll(Collections.singleton(null));
         return sortedmatchlist;
     }
 

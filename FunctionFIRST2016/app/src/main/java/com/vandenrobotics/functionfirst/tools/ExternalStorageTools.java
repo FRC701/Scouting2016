@@ -254,6 +254,25 @@ public class ExternalStorageTools {
         }
     }
 
+    public static void writeMatchList2(JSONArray teams, String event){
+        if (isExternalStorageWritable()) {
+            try {
+                FileWriter fileWriter = new FileWriter(createFile("ScoutData/"+event, "matchlist2.txt"));
+                ArrayList<JSONObject> sortedmatchlist = JSONTools.sortJSonArrayMatchList(JSONTools.parseJSONArray(teams));
+                for (int i = 0; i < sortedmatchlist.size(); i++) {
+                    fileWriter.write(new Match(sortedmatchlist.get(i)).toString());
+                }
+
+                fileWriter.flush();
+                fileWriter.close();
+            } catch (JSONException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
     // reads the text-file matchlist and creates a matchlist to return
     /*
     public static ArrayList<JSONObject> readMatches(String event){

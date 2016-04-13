@@ -259,9 +259,13 @@ public class ExternalStorageTools {
             try {
                 FileWriter fileWriter = new FileWriter(createFile("ScoutData/"+event, "matchlist2.txt"));
                 ArrayList<JSONObject> sortedmatchlist = JSONTools.sortJSonArrayMatchList(JSONTools.parseJSONArray(teams));
+
                 for (int i = 0; i < sortedmatchlist.size(); i++) {
                     fileWriter.write(new Match(sortedmatchlist.get(i)).toString());
                 }
+
+                //fileWriter.write(sortedmatchlist.get(0).getJSONObject("alliances").getJSONObject("red").getJSONArray("teams").getString(0));
+
 
                 fileWriter.flush();
                 fileWriter.close();

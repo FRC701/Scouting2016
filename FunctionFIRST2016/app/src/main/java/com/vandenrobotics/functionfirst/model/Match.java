@@ -17,24 +17,41 @@ public class Match {
     }
 
     public Match(JSONObject singlematch){
+        teams = new int[6];
         try {
-            int matchnumber = singlematch.getInt("match_number");
-            JSONObject alliances = singlematch.getJSONObject("alliances");
-            JSONObject red = alliances.getJSONObject("red");
-            JSONObject blue = alliances.getJSONObject("blue");
-            number = matchnumber;
-            teams[0] = red.get(0).toString();
+            number = singlematch.getInt("match_number");
+
+            JSONObject alliance = singlematch.getJSONObject("alliances");
+
+            JSONObject red = alliance.getJSONObject("red");
+
+            JSONArray teamR = red.getJSONArray("teams");
+
+            teams[0] = Integer.parseInt(teamR.getString(0).substring(3));
+            teams[1] = Integer.parseInt(teamR.getString(1).substring(3));
+            teams[2] = Integer.parseInt(teamR.getString(2).substring(3));
+
+            JSONObject blue = alliance.getJSONObject("blue");
+
+            JSONArray teamB = blue.getJSONArray("teams");
+
+            teams[3] = Integer.parseInt(teamB.getString(0).substring(3));
+            teams[4] = Integer.parseInt(teamB.getString(1).substring(3));
+            teams[5] = Integer.parseInt(teamB.getString(2).substring(3));
+
+
 
             /*
-            JSONArray teamR = red.getJSONArray("teams");
-            teams[0] = teamR.getInt(0);
-            teams[1] = teamR.getInt(1);
-            teams[2] = teamR.getInt(2);
-            JSONArray teamB = blue.getJSONArray("teams");
-            teams[3] = teamB.getInt(0);
-            teams[4] = teamB.getInt(1);
-            teams[5] = teamB.getInt(2);*/
 
+            teams[0] = Integer.parseInt(singlematch.getJSONObject("alliances").getJSONObject("red").getJSONArray("teams").getString(0).substring(3));
+            teams[1] = Integer.parseInt(singlematch.getJSONObject("alliances").getJSONObject("red").getJSONArray("teams").getString(1).substring(3));
+            teams[2] = Integer.parseInt(singlematch.getJSONObject("alliances").getJSONObject("red").getJSONArray("teams").getString(2).substring(3));
+
+            teams[3] = Integer.parseInt(singlematch.getJSONObject("alliances").getJSONObject("blue").getJSONArray("teams").getString(0).substring(3));
+            teams[4] = Integer.parseInt(singlematch.getJSONObject("alliances").getJSONObject("blue").getJSONArray("teams").getString(1).substring(3));
+            teams[5] = Integer.parseInt(singlematch.getJSONObject("alliances").getJSONObject("blue").getJSONArray("teams").getString(2).substring(3));
+
+            */
             
 
         } catch (JSONException e) {

@@ -274,35 +274,28 @@ public class ExternalStorageTools {
     }
 
     // reads the text-file matchlist and creates a matchlist to return
-    /*
-    public static ArrayList<JSONObject> readMatches(String event){
-        ArrayList<JSONObject> downloadedMatchlist = new ArrayList<>();
+
+    public static ArrayList<Match> readMatches(String event){
+        ArrayList<Match> downloadedMatchlist = new ArrayList<>();
         if(isExternalStorageReadable()){
             try{
-                String fileContents = "";
                 String line;
-                FileInputStream fileInputStream = new FileInputStream(createFile("ScoutData/"+event,"matchlist.json"));
+                FileInputStream fileInputStream = new FileInputStream(createFile("ScoutData/"+event,"matchlist2.txt"));
                 BufferedReader br = new BufferedReader(new InputStreamReader(fileInputStream));
                 while((line = br.readLine())!=null)
-                    fileContents += line;
+                    downloadedMatchlist.add(new Match(line));
                 br.close();
                 fileInputStream.close();
-
-                JSONArray matches = new JSONArray(fileContents);
-                downloadedMatchlist = JSONTools.parseJSONArray(matches);
-
 
             } catch(FileNotFoundException e){
                 e.printStackTrace();
             } catch (IOException e) {
                 e.printStackTrace();
-            }  catch (JSONException e) {
-                e.printStackTrace();
             }
         }
 
         return downloadedMatchlist;
-    }*/
+    }
 
     // writes a JSONDocument data file out of MatchData to the event/device directory
     public static void writeData(ArrayList<MatchData> matchData, String event, int device){

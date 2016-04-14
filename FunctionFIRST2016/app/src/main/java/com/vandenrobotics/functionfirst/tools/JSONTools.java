@@ -24,11 +24,12 @@ public class JSONTools {
         ArrayList<JSONObject> sortedmatchlist = new ArrayList<>();
         for (int i = 0; i < match_list.size(); i++){
                 sortedmatchlist.add(null);
-
         }
         for (int i = 0; i < sortedmatchlist.size(); i++){
             try {
+                if (match_list.get(i).getString("comp_level").equals("qm")){
                 sortedmatchlist.set(match_list.get(i).getInt("match_number") - 1,match_list.get(i));
+                }
             } catch (JSONException e) {
                 e.printStackTrace();
             }

@@ -43,7 +43,7 @@ public class ScoutActivity extends Activity {
     private Spinner spinnerDevices;
     private ArrayAdapter<CharSequence> deviceAdapter;
     private NumberPicker pickerMatches;
-    private Spinner spinnerTeams;
+    private static Spinner spinnerTeams;
     private ArrayAdapter<Integer> teamAdapter;
 
     private final int MAX_MATCHES = 200; // a reasonable amount of matches to expect any event to have less than
@@ -82,6 +82,7 @@ public class ScoutActivity extends Activity {
         spinnerDevices.setSelection(mDeviceNumber-1);
 
         pickerMatches = (NumberPicker)findViewById(R.id.pickerMatch);
+        pickerMatches.something(true);
         pickerMatches.setMinValue(1);
         pickerMatches.setMaxValue(MAX_MATCHES);
         pickerMatches.setValue(mCurMatch);
@@ -142,4 +143,11 @@ public class ScoutActivity extends Activity {
         startActivity(intent);
         this.finish();
     }
+
+    public static void upDateTeam(int currentMatch){
+
+        spinnerTeams.setSelection(currentMatch);
+
+    }
+
 }

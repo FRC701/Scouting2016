@@ -44,6 +44,8 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.vandenrobotics.functionfirst.activities.ScoutActivity;
+
 /**
  * A simple layout group that provides a numeric text area with two buttons to
  * increment or decrement the value in the text area. Holding either button
@@ -73,6 +75,7 @@ public class NumberPicker extends LinearLayout {
     private boolean autoIncrement = false;
     private boolean autoDecrement = false;
 
+    private boolean listentingToScoutActivity = false;
     private boolean enabled = true;
 
     /**
@@ -204,6 +207,8 @@ public class NumberPicker extends LinearLayout {
         if( value < maxValue ){
             value = value + 1;
             valueText.setText( value.toString() );
+            if(listentingToScoutActivity)
+                ScoutActivity.upDateTeam(value);
         }
     }
 
@@ -211,6 +216,8 @@ public class NumberPicker extends LinearLayout {
         if( value > minValue ){
             value = value - 1;
             valueText.setText( value.toString() );
+            if(listentingToScoutActivity)
+                ScoutActivity.upDateTeam(value);
         }
     }
 
@@ -251,6 +258,10 @@ public class NumberPicker extends LinearLayout {
 
     public int getMaxValue(){
         return maxValue;
+    }
+
+    public void something(boolean state){
+        listentingToScoutActivity = state;
     }
 
 }

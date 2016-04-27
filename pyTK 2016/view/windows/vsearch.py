@@ -27,13 +27,20 @@ class Search(Frame):
             self.current = now
         self.after(250, self.pollList)
         
-    def load_team(self,event=None,data="",wanted=False):
+    def load_team(self,event=None,data="",wanted=False,index=None, value=None):
         if wanted==False:
             data = self.labelVars[int(data[0])]
         elif wanted==True:
             data = self.wantedList.rList[int(data[0])]
         try:
+            """self.controller.searchVariables.append((index, value))
+            for team in self.controller.matchedList:
+                try:        
+                    self.teamValue = team.getAttr(index)
+                except AttributeError:
+                    self.teamValue = team.Info.getAttr(index)"""
             number = re.search('Team (.*)', data).group(1)
+            #len(number) - len(self.teamValue)
         except AttributeError:
             number = ""
         newWindow = Toplevel(self.grandParent)
@@ -70,7 +77,11 @@ class Search(Frame):
 
         self.labelVars = []
         for team in self.controller.matchedList:
-            self.labelVar  = ("Team "+str(team.number))
+            try:        
+                self.teamValue = team.getAttr(index)
+            except AttributeError:
+                self.teamValue = team.Info.getAttr(index)
+            self.labelVar  = ("Team "+str(team.number)+" "+str(self.teamValue))
             self.labelVars.append(self.labelVar)
             self.matchesList.insert(END,self.labelVar)
         
@@ -142,7 +153,7 @@ class Search(Frame):
                                       yscrollcommand=self.scrollbar.set)
         self.labelVars = []
         for team in self.controller.matchedList:
-            self.labelVar  = "Team "+str(team.number)
+            self.labelVar  = "Team "+str(team.number)+" "+str(0)
             self.labelVars.append(self.labelVar)
             self.matchesList.insert(END,self.labelVar)
         self.matchesList.bind("<Double-Button-1>",lambda event: self.load_team(data=self.matchesList.curselection()))

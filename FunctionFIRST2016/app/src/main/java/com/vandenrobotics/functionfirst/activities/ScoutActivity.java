@@ -79,7 +79,7 @@ public class ScoutActivity extends Activity {
         deviceAdapter = ArrayAdapter.createFromResource(this, R.array.deviceOptions, R.layout.spinner_base);
         deviceAdapter.setDropDownViewResource(R.layout.spinner_dropdown);
         spinnerDevices.setAdapter(deviceAdapter);
-        spinnerDevices.setSelection(mDeviceNumber-1);
+        spinnerDevices.setSelection(mDeviceNumber - 1);
 
         pickerMatches = (NumberPicker)findViewById(R.id.pickerMatch);
         pickerMatches.something(true);
@@ -123,27 +123,42 @@ public class ScoutActivity extends Activity {
         });
     }
 
-    public void activityMatch(View view){
+    public void activityMatch(View view) {
         // load the new match, passing all the info to it
-        mDeviceNumber = spinnerDevices.getSelectedItemPosition()+1;
+        mDeviceNumber = spinnerDevices.getSelectedItemPosition() + 1;
         ExternalStorageTools.writeDevice(mDeviceNumber, mEvent);
         mCurMatch = pickerMatches.getValue();
-        ExternalStorageTools.writeCurrentMatch(mCurMatch, mEvent, mDeviceNumber);
-        mTeamNumber = (int)spinnerTeams.getSelectedItem();
-        Intent intent = new Intent(this, MatchActivity.class);
-        try {
-            intent.putExtra("event", mEvent);
-            intent.putExtra("matchNumber", mCurMatch);
-            intent.putExtra("teamNumber", mTeamNumber);
-            intent.putExtra("deviceNumber", mDeviceNumber);
-            intent.putExtra("matchData", mMatchData);
-        } catch (IndexOutOfBoundsException e){
-            e.printStackTrace();
-        }
-        startActivity(intent);
-        this.finish();
-    }
 
+           // if (ExternalStorageTools.readCurrentMatch(mEvent, mDeviceNumber) == mCurMatch - 1) {
+                ExternalStorageTools.writeCurrentMatch(mCurMatch, mEvent, mDeviceNumber);
+                mTeamNumber = (int) spinnerTeams.getSelectedItem();
+                Intent intent = new Intent(this, MatchActivity.class);
+                try {
+                    intent.putExtra("event", mEvent);
+                    intent.putExtra("matchNumber", mCurMatch);
+                    intent.putExtra("teamNumber", mTeamNumber);
+                    intent.putExtra("deviceNumber", mDeviceNumber);
+                    intent.putExtra("matchData", mMatchData);
+                } catch (IndexOutOfBoundsException e) {
+                    e.printStackTrace();
+                }
+                startActivity(intent);
+                this.finish();
+           // }
+        /*
+            else if (ExternalStorageTools.readCurrentMatch(mEvent, mDeviceNumber) != mCurMatch - 1){
+                if (ExternalStorageTools.readCurrentMatch(mEvent, mDeviceNumber) < mCurMatch){
+                    int savedmatch = ExternalStorageTools.readCurrentMatch(mEvent,mDeviceNumber);
+                    int differenceofmatches = mCurMatch - savedmatch;
+                    for (int i = 0; i < differenceofmatches; i++){
+                        ArrayList<Match> nullmatches = new ArrayList<Match>();
+                        nullmatches.set(0, Match.nullMatch);
+
+                    }
+                }
+        }*/
+
+    }
     public static void upDateTeam(int currentMatch){
 
         spinnerTeams.setSelection(currentMatch);

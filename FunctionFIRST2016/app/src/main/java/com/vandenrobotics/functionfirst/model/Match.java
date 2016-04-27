@@ -43,6 +43,29 @@ public class Match {
             teams = new int[6];
         }
     }
+/*
+    public nullMatch(String s) {
+        teams = new int[6];
+        try {
+            String[] info = s.split(",");
+            number = 0;
+            teams[0] = Integer.parseInt(null);
+            teams[1] = Integer.parseInt(null);
+            teams[2] = Integer.parseInt(null);
+            teams[3] = Integer.parseInt(null);
+            teams[4] = Integer.parseInt(null);
+            teams[5] = Integer.parseInt(null);
+        } catch (IndexOutOfBoundsException e){
+            e.printStackTrace();
+            number = 0;
+            teams = new int[6];
+        } catch (NumberFormatException e){
+            e.printStackTrace();
+            number = 0;
+            teams = new int[6];
+        }
+    }
+*/
 
     public Match(String s) {
         teams = new int[6];

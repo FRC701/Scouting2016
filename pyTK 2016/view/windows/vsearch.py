@@ -40,6 +40,8 @@ class Search(Frame):
                 except AttributeError:
                     self.teamValue = team.Info.getAttr(index)"""
             number = re.search('Team (.*)', data).group(1)
+            if len(number) > 4:
+                number = number[:4-len(number)]
             #len(number) - len(self.teamValue)
         except AttributeError:
             number = ""
@@ -52,6 +54,8 @@ class Search(Frame):
             data = self.wantedList.rList[data]
             try:
                 number = re.search('Team (.*)', data).group(1)
+                if len(number) > 4:
+                    number = number[:4-len(number)]
             except AttributeError:
                 number = 0
             self.controller.subWanted(number=number)
@@ -59,6 +63,8 @@ class Search(Frame):
             data = self.labelVars[data]
             try:
                 number = re.search('Team (.*)', data).group(1)
+                if len(number) > 4:
+                    number = number[:4-len(number)]
             except AttributeError:
                 number = 0
             self.controller.addWanted(number=number)
@@ -81,7 +87,7 @@ class Search(Frame):
                 self.teamValue = team.getAttr(index)
             except AttributeError:
                 self.teamValue = team.Info.getAttr(index)
-            self.labelVar  = ("Team "+str(team.number)+" "+str(self.teamValue))
+            self.labelVar  = ("Team "+str(team.number)+" :"+str(self.teamValue))
             self.labelVars.append(self.labelVar)
             self.matchesList.insert(END,self.labelVar)
         

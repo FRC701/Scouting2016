@@ -35,4 +35,9 @@ class ChooseController():
                     
         team.Team.wanted = newList
         self.wantedList = team.Team.wanted
+
+    
+
+    
         
+    

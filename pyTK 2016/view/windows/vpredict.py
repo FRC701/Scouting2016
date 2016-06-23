@@ -93,6 +93,18 @@ class Predict(Frame):
                                       command=lambda new_value,ally=self.rVals:self.load_alliance(teams=new_value,ally=ally))
         self.rAllianceOM.config(width=15)
         self.rAllianceOM.pack(side=TOP,padx=5,pady=5)
+
+        self.label = Label(self.rOptionFrame,text="Match:")
+        self.label.pack(side=LEFT,pady=5)
+
+        self.rMatchVar = StringVar()
+        self.rMatchVar.set("0")
+        self.rVals.append(self.rMatchVar)
+        self.rMatchEntry = Entry(self.rOptionFrame, textvariable=self.rMatchVar,width=4,readonlybackground="lightgreen",takefocus=True)
+        #self.rMatchEntry.bind("<Return>",
+        #                        lambda event, value=self.rVals:self.load_team(event,teamVals=value,index=index))
+        self.rMatchEntry.pack(side=TOP,pady=5)
+        
         
         # create a frame to put the OptionMenu in
         self.bOptionFrame = Frame(self.blueAlliance)
@@ -108,6 +120,17 @@ class Predict(Frame):
                                       command=lambda new_value,ally=self.bVals:self.load_alliance(teams=new_value,ally=ally))
         self.bAllianceOM.config(width=15)
         self.bAllianceOM.pack(side=TOP,padx=5,pady=5)
+
+        self.label = Label(self.bOptionFrame,text="Match:")
+        self.label.pack(side=LEFT,pady=5)
+
+        self.bMatchVar = StringVar()
+        self.bMatchVar.set("0")
+        self.bVals.append(self.bMatchVar)
+        self.bMatchEntry = Entry(self.bOptionFrame, textvariable=self.bMatchVar,width=4,readonlybackground="lightgreen",takefocus=True)
+        #self.bMatchEntry.bind("<Return>",
+        #                        lambda event, value=self.bVals:self.load_team(event,teamVals=value,index=index))
+        self.bMatchEntry.pack(side=TOP,pady=5)
 
         # will eventually allow to save user alliances with custom names
 

@@ -33,16 +33,9 @@ class Search(Frame):
         elif wanted==True:
             data = self.wantedList.rList[int(data[0])]
         try:
-            """self.controller.searchVariables.append((index, value))
-            for team in self.controller.matchedList:
-                try:        
-                    self.teamValue = team.getAttr(index)
-                except AttributeError:
-                    self.teamValue = team.Info.getAttr(index)"""
             number = re.search('Team (.*)', data).group(1)
             if len(number) > 4:
                 number = number[:4-len(number)]
-            #len(number) - len(self.teamValue)
         except AttributeError:
             number = ""
         newWindow = Toplevel(self.grandParent)

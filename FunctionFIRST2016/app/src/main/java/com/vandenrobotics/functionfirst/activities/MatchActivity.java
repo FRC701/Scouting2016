@@ -7,6 +7,7 @@ import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.support.v4.app.FragmentTabHost;
 import android.support.v4.view.PagerTabStrip;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 import android.content.Intent;
@@ -54,12 +55,20 @@ public class MatchActivity extends FragmentActivity implements DialogListener {
 
         try {
             mMatchData = mMatchDataList.get(mMatchNumber - 1);
-        } catch (Exception e){
-            e.printStackTrace();
+        } catch (IndexOutOfBoundsException e) {
             mMatchData = new MatchData();
-            mMatchDataList.add(mMatchNumber-1, mMatchData);
+            if (ExternalStorageTools.readCurrentMatch(mEvent, mDeviceNumber) != mMatchNumber-1 && ExternalStorageTools.readCurrentMatch(mEvent, mDeviceNumber) < mMatchNumber ){
+                    int differenceofMatch = mMatchNumber - ExternalStorageTools.readCurrentMatch(mEvent, mDeviceNumber);
+                    for (int i = 0; i < differenceofMatch + 1; i++){
+                        mMatchDataList.add(mMatchNumber-1, mMatchData);
+                }
+            }
+            else if(ExternalStorageTools.readCurrentMatch(mEvent, mDeviceNumber) == mMatchNumber-1){
+                mMatchData = new MatchData();
+                mMatchDataList.add(mMatchNumber-1, mMatchData);
+            }
+            Log.d("BEN", "onCreate: Next Match");
         }
-
         if(mMatchData == null){
             mMatchData = new MatchData();
         }

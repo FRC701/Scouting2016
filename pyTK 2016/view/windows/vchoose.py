@@ -82,15 +82,32 @@ class Choose(Frame):
         available = False
         taken = False
         captain = False
+        fileOpen = False
 
+        print str(int(team.get()))
+        
         # search for the current status of the team
         for item in self.controller.availableList:
             if item.number == int(team.get()) or int(team.get()) == 0:
                 available = True
                 break
- 
+        try:
+            newData = open("alliances.txt","w")
+            print "File Opened"
+            fileOpen = True
+        except:
+            fileOpen = Flase
+            print "File Not Opened"
+            
+            
+            
         for i in xrange(0,len(self.alliances)):
+            if fileOpen == True:
+                newData.write("Alliance " + str(i+1)+"\n")
             for j in xrange(0,3):
+                if fileOpen == True:
+                    newData.write( str(self.alliances[i][j].get())+"\n")
+
                 if team.get() == self.alliances[i][j].get() and int(team.get()) != 0 and i != ally:
                     if int(self.alliances[i][1].get()) != 0:
                         taken = True

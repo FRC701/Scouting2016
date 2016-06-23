@@ -87,19 +87,19 @@ class PredictController():
         try:
             newData = open("alliances.txt","r")
             print "Alliance File Opened"
+            for line in newData:
+                if line == alliance + "\n":
+                    go = True
+                    print "FOUND"
+                elif go and i<3:
+                    teams[i]=line.replace("\n","")
+                    i+=1
+                    if i >= 3:
+                        go = False
+                        break
         except:
             pass
             print "Error, could not open alliance file."
-        for line in newData:
-            if line == alliance + "\n":
-                go = True
-                print "FOUND"
-            elif go and i<3:
-                teams[i]=line.replace("\n","")
-                i+=1
-            if i >= 3:
-                go = False
-                break
         return teams
 
     def saveAlliance(self,name="Custom Alliance",teams=[]):

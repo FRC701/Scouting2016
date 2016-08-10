@@ -101,6 +101,45 @@ class PredictController():
             pass
             print "Error, could not open alliance file."
         return teams
+        
+    def loadAllianceMatches(self,match=None, ally=None):
+        print match
+        teams = [0,0,0]
+        go = False
+        i=0
+        j=4
+        try:
+            newData = open("matchlist.txt","r")
+            print "Match List File Openned"
+            for line in newData:
+                matchline = str(line).split(',')
+                [s.strip('\n') for s in matchline]
+                if matchline[0] == match:
+                    go = True
+                    print "FOUND"
+                    for x in range(0,3):
+                        if go and ally==0:
+                            if i<3:
+                                teams[i]=matchline[i+1]
+                                i+=1
+                                if i >= 3:
+                                    go = False
+                                    break
+                        elif go and ally==1:
+                            if i<3:
+                                teams[i]=matchline[j]
+                                i+=1
+                                j+=1
+                                if i >= 3:
+                                    go = False
+                                    break
+              
+        except:
+            pass
+            print "Error"
+        teams = map(lambda each:each.strip("\n"), teams)
+        return teams
+    
 
     def saveAlliance(self,name="Custom Alliance",teams=[]):
         self.allianceOptions.append(name)

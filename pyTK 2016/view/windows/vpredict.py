@@ -22,7 +22,7 @@ class Predict(Frame):
             teams.append(i[0])
         for i in self.bVals:
             teams.append(i[0])
-
+            
         self.outcomeVar.set("Winner - " + self.controller.getComparison(teams) + "%")
 
     def clear_predict(self):
@@ -46,10 +46,37 @@ class Predict(Frame):
                 self.bVals[i][0].set(loadedTeams[i])
                 self.load_team(teamVals=self.bVals,index=i)
                 i+=1
-
-        # eventually will load pre-saved alliances, including the 8 seeded alliances
         
-                
+        # eventually will load pre-saved alliances, including the 8 seeded alliances
+
+    def load_alliance_matches(self, match=None, ally=None):
+        if match == True:
+            if ally == 0:
+                self.rMatchNum = self.rMatchEntry.get()
+                loadedRedTeams = self.controller.loadAllianceMatches(match=self.rMatchNum, ally=ally)
+                print loadedRedTeams
+                i=0
+                for entry in self.rTeamEntries:
+                     self.rVals[i][0].set(loadedRedTeams[i])
+                     self.load_team(teamVals=self.rVals,index=i)
+                     i+=1
+            elif ally == 1:
+                self.bMatchNum = self.bMatchEntry.get()
+                loadedBlueTeams = self.controller.loadAllianceMatches(match=self.bMatchNum, ally=ally)
+                print loadedBlueTeams
+                i = 0
+                for entry in self.bTeamEntries:
+                    self.bVals[i][0].set(loadedBlueTeams[i])
+                    self.load_team(teamVals=self.bVals,index=i)
+                    i+=1
+        
+    def load_blue_alliance_matches(self, match=None):
+        if match ==True:
+            self.bMatchNum = self.bMatchEntry.get()
+        loadedBlueTeams = self.controller.loadAllianceMatches(match=self.bMatchNum)
+
+        print loadedBlueTeams
+
         
     def load_team(self, event=None, teamVals=None, index=None):
         team = teamVals[index][0].get()
@@ -96,15 +123,13 @@ class Predict(Frame):
 
         self.label = Label(self.rOptionFrame,text="Match:")
         self.label.pack(side=LEFT,pady=5)
-
-        self.rMatchVar = StringVar()
+                
+        self.rMatchVar = StringVar(self.rOptionFrame)
         self.rMatchVar.set("0")
-        self.rVals.append(self.rMatchVar)
-        self.rMatchEntry = Entry(self.rOptionFrame, textvariable=self.rMatchVar,width=4,readonlybackground="lightgreen",takefocus=True)
-        #self.rMatchEntry.bind("<Return>",
-        #                        lambda event, value=self.rVals:self.load_team(event,teamVals=value,index=index))
+        self.rMatchEntry = Entry(self.rOptionFrame,width=4,textvariable=self.rMatchVar,readonlybackground="lightgreen",takefocus=True)
+        self.rMatchEntry.bind("<Return>", lambda event,value=True,rTeam=0:self.load_alliance_matches(match=value, ally=rTeam))
         self.rMatchEntry.pack(side=TOP,pady=5)
-        
+               
         
         # create a frame to put the OptionMenu in
         self.bOptionFrame = Frame(self.blueAlliance)
@@ -124,16 +149,14 @@ class Predict(Frame):
         self.label = Label(self.bOptionFrame,text="Match:")
         self.label.pack(side=LEFT,pady=5)
 
-        self.bMatchVar = StringVar()
+        self.bMatchVar = StringVar(self.bOptionFrame)
         self.bMatchVar.set("0")
-        self.bVals.append(self.bMatchVar)
-        self.bMatchEntry = Entry(self.bOptionFrame, textvariable=self.bMatchVar,width=4,readonlybackground="lightgreen",takefocus=True)
-        #self.bMatchEntry.bind("<Return>",
-        #                        lambda event, value=self.bVals:self.load_team(event,teamVals=value,index=index))
+        self.bMatchEntry = Entry(self.bOptionFrame,width=4,textvariable=self.bMatchVar,readonlybackground="lightgreen",takefocus=True)
+        self.bMatchEntry.bind("<Return>", lambda event,value=True,bTeam=1:self.load_alliance_matches(match=value,ally=bTeam))
         self.bMatchEntry.pack(side=TOP,pady=5)
-
         # will eventually allow to save user alliances with custom names
 
+        
     def create_AllianceTeamEntries(self):
         # Red Alliance
         # create a frame to put the team entries in

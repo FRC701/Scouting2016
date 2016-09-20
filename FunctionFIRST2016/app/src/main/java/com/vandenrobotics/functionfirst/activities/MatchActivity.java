@@ -57,15 +57,15 @@ public class MatchActivity extends FragmentActivity implements DialogListener {
             mMatchData = mMatchDataList.get(mMatchNumber - 1);
         } catch (IndexOutOfBoundsException e) {
             mMatchData = new MatchData();
-            if (ExternalStorageTools.readCurrentMatch(mEvent, mDeviceNumber) != mMatchNumber-1 && ExternalStorageTools.readCurrentMatch(mEvent, mDeviceNumber) < mMatchNumber ){
-                    int differenceofMatch = mMatchNumber - ExternalStorageTools.readCurrentMatch(mEvent, mDeviceNumber);
+            if (ExternalStorageTools.readCurrentMatch(mEvent, mDeviceNumber) != mMatchNumber && ExternalStorageTools.readCurrentMatch(mEvent, mDeviceNumber) < mMatchNumber ){  //Look at comment
+                    int differenceofMatch = mMatchNumber - ExternalStorageTools.readCurrentMatch(mEvent, mDeviceNumber);                                                        //  below
                     for (int i = 0; i < differenceofMatch + 1; i++){
                         mMatchDataList.add(mMatchNumber-1, mMatchData);
                 }
             }
-            else if(ExternalStorageTools.readCurrentMatch(mEvent, mDeviceNumber) == mMatchNumber-1){
-                mMatchData = new MatchData();
-                mMatchDataList.add(mMatchNumber-1, mMatchData);
+            else if(ExternalStorageTools.readCurrentMatch(mEvent, mDeviceNumber) == mMatchNumber){      //Looking at the value of mMatchNumber, not where it should be placed
+                mMatchData = new MatchData();                                                           //  in an array
+                mMatchDataList.add(mMatchNumber-1, mMatchData);                                         //Here mMatchNumber-1 for its position in an array
             }
             Log.d("BEN", "onCreate: Next Match");
         }

@@ -195,23 +195,23 @@ public class TeleFragment extends Fragment {
                 public void onClick(View view) {
                     B_DamageCounterTele1.setText("Category 1");
                     final int status = (Integer) view.getTag();
-                    switch (status) {
+                    switch (status) { /*
                         case 0:
                             B_DamageCounterTele1.setText("Portcullis");
                             view.setTag(1);
+                            break; */
+                        case 0:
+                            B_DamageCounterTele1.setText("Cheval de Frise");
+                            view.setTag(1);
                             break;
                         case 1:
-                            B_DamageCounterTele1.setText("Cheval de Frise");
-                            view.setTag(0);
-                            break;/*
-                        case 2:
                             B_DamageCounterTele1.setText("Moat");
-                            view.setTag(3);
+                            view.setTag(2);
                             break;
-                        case 3:
+                        case 2:
                             B_DamageCounterTele1.setText("Ramparts");
-                            view.setTag(4);
-                            break;
+                            view.setTag(3);
+                            break;/*
                         case 4:
                             B_DamageCounterTele1.setText("Drawbridge");
                             view.setTag(5);
@@ -219,15 +219,15 @@ public class TeleFragment extends Fragment {
                         case 5:
                             B_DamageCounterTele1.setText("Sally Port");
                             view.setTag(6);
-                            break;
-                        case 6:
+                            break; */
+                        case 3:
                             B_DamageCounterTele1.setText("Rock Wall");
-                            view.setTag(7);
+                            view.setTag(4);
                             break;
-                        case 7:
+                        case 4:
                             B_DamageCounterTele1.setText("Rough Terrain");
                             view.setTag(0);
-                            break;*/
+                            break;
                     }
 
 
@@ -245,18 +245,18 @@ public class TeleFragment extends Fragment {
                      /*   case 0:
                             B_DamageCounterTele2.setText("Portcullis");
                             view.setTag(1); //pause
-                            break;
-                        case 1:
-                            B_DamageCounterTele2.setText("Cheval de Frise");
-                            view.setTag(2); //pause
                             break;*/
                         case 0:
-                            B_DamageCounterTele2.setText("Moat");
-                            view.setTag(1);
+                            B_DamageCounterTele2.setText("Cheval de Frise");
+                            view.setTag(1); //pause
                             break;
                         case 1:
+                            B_DamageCounterTele2.setText("Moat");
+                            view.setTag(2);
+                            break;
+                        case 2:
                             B_DamageCounterTele2.setText("Ramparts");
-                            view.setTag(0);
+                            view.setTag(3);
                             break;/*
                         case 4:
                             B_DamageCounterTele2.setText("Drawbridge");
@@ -265,15 +265,15 @@ public class TeleFragment extends Fragment {
                         case 5:
                             B_DamageCounterTele2.setText("Sally Port");
                             view.setTag(6);
-                            break;
-                        case 6:
+                            break;*/
+                        case 3:
                             B_DamageCounterTele2.setText("Rock Wall");
-                            view.setTag(7);
+                            view.setTag(4);
                             break;
-                        case 7:
+                        case 4:
                             B_DamageCounterTele2.setText("Rough Terrain");
                             view.setTag(0);
-                            break;*/
+                            break;
                     }
 
                 }
@@ -286,23 +286,23 @@ public class TeleFragment extends Fragment {
                 public void onClick(View view) {
                     B_DamageCounterTele4.setText("Category 4");
                     final int status = (Integer) view.getTag();
-                    switch (status) {
-                     /*   case 0:
+                    switch (status) { /*
+                        case 0:
                             B_DamageCounterTele4.setText("Portcullis");
+                            view.setTag(1); //pause
+                            break; */
+                        case 0:
+                            B_DamageCounterTele4.setText("Cheval de Frise");
                             view.setTag(1); //pause
                             break;
                         case 1:
-                            B_DamageCounterTele4.setText("Cheval de Frise");
-                            view.setTag(2); //pause
+                            B_DamageCounterTele4.setText("Moat");
+                            view.setTag(2);
                             break;
                         case 2:
-                            B_DamageCounterTele4.setText("Moat");
-                            view.setTag(3);
-                            break;
-                        case 3:
                             B_DamageCounterTele4.setText("Ramparts");
-                            view.setTag(4);
-                            break;
+                            view.setTag(3);
+                            break;/*
                         case 4:
                             B_DamageCounterTele4.setText("Drawbridge");
                             view.setTag(1);
@@ -311,11 +311,11 @@ public class TeleFragment extends Fragment {
                             B_DamageCounterTele4.setText("Sally Port");
                             view.setTag(0);
                             break;*/
-                        case 0:
+                        case 3:
                             B_DamageCounterTele4.setText("Rock Wall");
-                            view.setTag(1);
+                            view.setTag(4);
                             break;
-                        case 1:
+                        case 4:
                             B_DamageCounterTele4.setText("Rough Terrain");
                             view.setTag(0);
                             break;
@@ -330,23 +330,23 @@ public class TeleFragment extends Fragment {
                 public void onClick(View view) {
                     B_DamageCounterTele3.setText("Category 3");
                     final int status = (Integer) view.getTag();
-                    switch (status) {
-                        /*case 0:
+                    switch (status) { /*
+                        case 0:
                             B_DamageCounterTele3.setText("Portcullis");
+                            view.setTag(1); //pause
+                            break; */
+                        case 0:
+                            B_DamageCounterTele3.setText("Cheval de Frise");
                             view.setTag(1); //pause
                             break;
                         case 1:
-                            B_DamageCounterTele3.setText("Cheval de Frise");
-                            view.setTag(2); //pause
+                            B_DamageCounterTele3.setText("Moat");
+                            view.setTag(2);
                             break;
                         case 2:
-                            B_DamageCounterTele3.setText("Moat");
-                            view.setTag(3);
-                            break;
-                        case 3:
                             B_DamageCounterTele3.setText("Ramparts");
-                            view.setTag(4);
-                            break;*/
+                            view.setTag(3);
+                            break; /*
                         case 0:
                             B_DamageCounterTele3.setText("Drawbridge");
                             view.setTag(1);
@@ -354,15 +354,15 @@ public class TeleFragment extends Fragment {
                         case 1:
                             B_DamageCounterTele3.setText("Sally Port");
                             view.setTag(0);
-                            break;/*
-                        case 6:
+                            break; */
+                        case 3:
                             B_DamageCounterTele3.setText("Rock Wall");
-                            view.setTag(7);
+                            view.setTag(4);
                             break;
-                        case 7:
+                        case 4:
                             B_DamageCounterTele3.setText("Rough Terrain");
                             view.setTag(0);
-                            break;*/
+                            break;
                     }
 
                 }

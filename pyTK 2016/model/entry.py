@@ -150,28 +150,53 @@ class Entry(object):
 
         self.telePortcullisDamage = 0
         self.teleChevaldeFriseDamage = 0
-        if self.teleDefences1 == "Portcullis":
-            self.telePortcullisDamage = self.teleDamageCounter2
-        elif self.teleDefences1 == "Cheval de Frise":
-            self.teleChevaldeFriseDamage = self.teleDamageCounter2
-
         self.teleMoatDamage = 0
         self.teleRampartsDamage = 0
-        if self.teleDefences2 == "Moat":
+        self.teleDrawbridgeDamage = 0
+        self.teleSallyPortDamage = 0
+        self.teleRockWallDamage = 0
+        self.teleRoughTerrainDamage = 0
+        
+        if self.teleDefences1 == "Cheval de Frise":
+            self.teleChevaldeFriseDamage = self.teleDamageCounter2
+        elif self.teleDefences1 == "Moat":
+            self.teleMoatDamage = self.teleDamageCounter2
+        elif self.teleDefences1 == "Ramparts":
+            self.teleRampartsDamage = self.teleDamageCounter2
+        elif self.teleDefences1 == "Rock Wall":
+            self.teleRockWallDamage = self.teleDamageCounter2
+        elif self.teleDefences1 == "Rough Terrain":
+            self.teleRoughTerrainDamage = self.teleDamageCounter2
+
+        if self.teleDefences2 == "Cheval de Frise":
+            self.teleChevaldeFriseDamage = self.teleDamageCounter3
+        elif self.teleDefences2 == "Moat":
             self.teleMoatDamage = self.teleDamageCounter3
         elif self.teleDefences2 == "Ramparts":
             self.teleRampartsDamage = self.teleDamageCounter3
-            
-        self.teleDrawbridgeDamage = 0
-        self.teleSallyPortDamage = 0
-        if self.teleDefences3 == "Drawbridge":
-            self.teleDrawbridgeDamage = self.teleDamageCounter4
-        elif self.teleDefences3 == "Sally Port":
-            self.teleSallyPortDamage = self.teleDamageCounter4
+        elif self.teleDefences2 == "Rock Wall":
+            self.teleRockWallDamage = self.teleDamageCounter3
+        elif self.teleDefences2 == "Rough Terrain":
+            self.teleRoughTerrainDamage = self.teleDamageCounter3
 
-        self.teleRockWallDamage = 0
-        self.teleRoughTerrainDamage = 0
-        if self.teleDefences4 == "Rock Wall":
+        if self.teleDefences3 == "Cheval de Frise":
+            self.teleChevaldeFriseDamage = self.teleDamageCounter4
+        elif self.teleDefences3 == "Moat":
+            self.teleMoatDamage = self.teleDamageCounter4
+        elif self.teleDefences3 == "Ramparts":
+            self.teleRampartsDamage = self.teleDamageCounter4
+        elif self.teleDefences3 == "Rock Wall":
+            self.teleRockWallDamage = self.teleDamageCounter4
+        elif self.teleDefences3 == "Rough Terrain":
+            self.teleRoughTerrainDamage = self.teleDamageCounter4
+
+        if self.teleDefences4 == "Cheval de Frise":
+            self.teleChevaldeFriseDamage = self.teleDamageCounter5
+        elif self.teleDefences4 == "Moat":
+            self.teleMoatDamage = self.teleDamageCounter5
+        elif self.teleDefences4 == "Ramparts":
+            self.teleRampartsDamage = self.teleDamageCounter5
+        elif self.teleDefences4 == "Rock Wall":
             self.teleRockWallDamage = self.teleDamageCounter5
         elif self.teleDefences4 == "Rough Terrain":
             self.teleRoughTerrainDamage = self.teleDamageCounter5

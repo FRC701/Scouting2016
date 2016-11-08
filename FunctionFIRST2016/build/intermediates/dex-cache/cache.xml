@@ -1,3 +1,77 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        is-multidex="false"
+        jar="C:\Users\Programming701-A\AppData\Local\Android\sdk2\extras\android\m2repository\com\android\support\support-annotations\21.0.2\support-annotations-21.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.1"
+        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6">
+        <dex dex="C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.2_d5fc9ed2582d35f332ec52fd2dd25a7e8f57a1d9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.1"
+        sha1="96836e31921da5ce42643fe9085a2d0cfd6c9d83">
+        <dex dex="C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\build\intermediates\pre-dexed\debug\instant-run_48a4521476f5873d771f8efebfc6a1dcb60af6a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.1"
+        sha1="7ae2d38807a43b2f2185ff4089a92c790b579e54">
+        <dex dex="C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-21.0.2_585341c19fbcaccb10ef578ea5896cbc15dbd125.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Programming701-A\.gradle\caches\modules-2\files-2.1\com.loopj.android\android-async-http\1.4.6\a845a88238be0b5be9d238652c1bc0605ef91f52\android-async-http-1.4.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.1"
+        sha1="a845a88238be0b5be9d238652c1bc0605ef91f52">
+        <dex dex="C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.6_eceef006318f9bdda4b7fe89fb79ca06803c29ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Programming701-A\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.0\7ff0e000d1e27e356567f56c92af3b8ab912636f\picasso-2.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.1"
+        sha1="7ff0e000d1e27e356567f56c92af3b8ab912636f">
+        <dex dex="C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\build\intermediates\pre-dexed\debug\picasso-2.5.0_8a45e1444bf486ba58565ff7e80decf084a197c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.1"
+        sha1="3747a0cb4cc039f3d9c5f6e9b5d8bb7dad2fdd45">
+        <dex dex="C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_09f71ce7708b3739c0316b8ec44c811dea9dc9be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\jars\libs\internal_impl-21.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.1"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
+        <dex dex="C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.2_68d8b29e79251253405933964c769cc742cee4de.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.1"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
+        <dex dex="C:\Workspace2016\Scouting2016\FunctionFIRST2016\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-21.0.2_c9c1d7b97e751fc9f31708d94de3ba31cabf25e9.jar" />
+    </item>
+
+</items>

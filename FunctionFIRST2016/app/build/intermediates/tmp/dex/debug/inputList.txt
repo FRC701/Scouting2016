@@ -1,7 +1,0 @@
-C:\Users\Programming701-A\Downloads\FunctionFIRST\app\build\intermediates\classes\debug
-C:\Users\Programming701-A\Downloads\FunctionFIRST\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.2-68e899be54433327fb653808da22574f980d5652.jar
-C:\Users\Programming701-A\Downloads\FunctionFIRST\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.6-eceef006318f9bdda4b7fe89fb79ca06803c29ef.jar
-C:\Users\Programming701-A\Downloads\FunctionFIRST\app\build\intermediates\pre-dexed\debug\picasso-2.5.0-8a45e1444bf486ba58565ff7e80decf084a197c9.jar
-C:\Users\Programming701-A\Downloads\FunctionFIRST\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-34e1ef46eafcd76f414861048536cd791949ecce.jar
-C:\Users\Programming701-A\Downloads\FunctionFIRST\app\build\intermediates\pre-dexed\debug\classes-7f45ad8321413ed1dfd264eac044cf2f26fa689e.jar
-C:\Users\Programming701-A\Downloads\FunctionFIRST\app\build\intermediates\pre-dexed\debug\classes-c1728474a3127f4371fafe312ac3a836e117399a.jar

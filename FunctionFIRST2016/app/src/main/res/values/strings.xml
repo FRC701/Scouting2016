@@ -131,6 +131,7 @@
     <string name="pit_scout_question_7"></string>
     <string name="pit_scout_question_8"></string>
     <string name="pit_scout_question_9"></string>
+    <string name="send_data_via_bluetooth">Send Data Via Bluetooth</string>
 
 
 </resources>

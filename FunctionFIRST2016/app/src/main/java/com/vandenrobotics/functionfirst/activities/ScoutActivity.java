@@ -1,19 +1,21 @@
 package com.vandenrobotics.functionfirst.activities;
 
+import android.app.Activity;
+import android.bluetooth.BluetoothAdapter;
+import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
+import android.net.Uri;
+import android.os.Bundle;
+import android.os.Environment;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.Spinner;
-import android.widget.EditText;
 import android.widget.ArrayAdapter;
-import android.content.Intent;
-import android.app.Activity;
-import android.os.Bundle;
-
-import android.widget.TextView;
-import android.view.inputmethod.EditorInfo;
-import android.view.KeyEvent;
-import android.view.inputmethod.InputMethodManager;
-import android.content.Context;
+import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.Spinner;
+import android.widget.Toast;
 
 import com.vandenrobotics.functionfirst.R;
 import com.vandenrobotics.functionfirst.model.Match;
@@ -25,8 +27,10 @@ import com.vandenrobotics.functionfirst.views.NumberPicker;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 public class ScoutActivity extends Activity {
 
@@ -45,8 +49,12 @@ public class ScoutActivity extends Activity {
     private NumberPicker pickerMatches;
     private static Spinner spinnerTeams;
     private ArrayAdapter<Integer> teamAdapter;
+    private CheckBox DataTransfer;
+    private Button SendViaBluetooth;
 
     private final int MAX_MATCHES = 200; // a reasonable amount of matches to expect any event to have less than
+    private static final int DISCOVER_DURATION = 300;
+    private static final int REQUEST_BLU = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,7 +66,18 @@ public class ScoutActivity extends Activity {
         mCurMatch = ExternalStorageTools.readCurrentMatch(mEvent, mDeviceNumber);
         mMatchData = ExternalStorageTools.readData(mEvent, mDeviceNumber);
 
-
+        SendViaBluetooth = (Button)findViewById(R.id.button_sendData);
+        SendViaBluetooth.setEnabled(false);
+        DataTransfer = (CheckBox)findViewById(R.id.checkBox_enableDataTransfer);
+        DataTransfer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (DataTransfer.isChecked())
+                    enableDataTransfer();
+                else
+                    diableDataTransfer();
+            }
+        });
 
         ArrayList<JSONObject> teamInfo = ExternalStorageTools.readTeams(mEvent);
 
@@ -163,6 +182,72 @@ public class ScoutActivity extends Activity {
 
         spinnerTeams.setSelection(currentMatch);
 
+    }
+
+    public void sendDataViaBluetooth(View v) {
+        BluetoothAdapter btAdapter = BluetoothAdapter.getDefaultAdapter();
+
+        if (btAdapter == null) {
+            Toast.makeText(this, "Bluetooth is not supported on this device", Toast.LENGTH_LONG).show();
+        } else {
+            enableBluetooth();
+        }
+
+    }
+    public void enableBluetooth(){
+        Intent discoveryIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_DISCOVERABLE);
+
+        discoveryIntent.putExtra(BluetoothAdapter.EXTRA_DISCOVERABLE_DURATION, DISCOVER_DURATION);
+
+        startActivityForResult(discoveryIntent, REQUEST_BLU);
+    }
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data){
+
+        if(resultCode == DISCOVER_DURATION && requestCode == REQUEST_BLU){
+
+            Intent intent = new Intent();
+            intent.setAction(Intent.ACTION_SEND);
+            intent.setType("text/plain");
+            File f = new File(Environment.getExternalStorageDirectory().toString() +  "/ScoutData" + "/" + mEvent + "/device" + mDeviceNumber, "data.txt");
+            Log.d("Words",Environment.getExternalStorageDirectory().toString() +  "/ScoutData" + "/" + mEvent + "/device" + mDeviceNumber);
+            intent.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(f));
+
+            PackageManager pm = getPackageManager();
+            List<ResolveInfo> appList = pm.queryIntentActivities(intent, 0);
+
+            if(appList.size() > 0){
+                String packageName = null;
+                String className = null;
+                boolean found = false;
+                for (ResolveInfo info: appList){
+                    packageName = info.activityInfo.packageName;
+                    if (packageName.equals("com.android.bluetooth")){
+                        className = info.activityInfo.name;
+                        found = true;
+                        break;
+                    }
+                }
+                if (!found){
+                    Toast.makeText(this, "Bluetooth hasn't been found", Toast.LENGTH_LONG).show();
+                }
+                else {
+                    intent.setClassName(packageName, className);
+                    startActivity(intent);
+                }
+            }
+            else{
+                Toast.makeText(this, "Bluetooth is not cancelled", Toast.LENGTH_LONG).show();
+            }
+        }
+
+    }
+    private void enableDataTransfer(){
+        SendViaBluetooth.setEnabled(true);
+    }
+
+    private void diableDataTransfer(){
+        SendViaBluetooth.setEnabled(false);
     }
 
 }

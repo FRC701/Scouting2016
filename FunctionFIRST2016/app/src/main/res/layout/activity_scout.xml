@@ -91,4 +91,25 @@
         android:onClick="activityMatch"
         android:textSize="24sp" />
 
+    <Button
+        android:text="@string/send_data_via_bluetooth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinnerTeamNumber"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp"
+        android:id="@+id/button_sendData"
+        android:textColor="@color/Gold"
+        android:onClick="sendDataViaBluetooth"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox_enableDataTransfer"
+        android:layout_alignBaseline="@+id/button_sendData"
+        android:layout_alignBottom="@+id/button_sendData"
+        android:layout_toRightOf="@+id/button_sendData"
+        android:layout_toEndOf="@+id/button_sendData" />
+
 </RelativeLayout>

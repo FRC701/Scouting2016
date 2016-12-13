@@ -1,0 +1,17 @@
+1,5677,0,0$true,false,true,false,7,0,0,false$Low Bar,0,Rock Wall,0,Moat,0,Cheval de Frise,0,Ramparts,0,1,0,0,0$0,0,0,1,0,0,0,0,0,0
+2,8,0,0$true,false,true,false,9,0,0,false$Low Bar,1,Rock Wall,1,Moat,0,Cheval de Frise,0,Ramparts,0,0,0,0,0$0,0,0,0,0,1,0,0,2,0
+3,4698,0,0$true,false,true,false,9,0,0,false$Low Bar,0,Rock Wall,0,Moat,0,Cheval de Frise,0,Ramparts,0,1,0,0,0$0,0,0,0,0,1,0,0,0,0
+4,2122,0,0$true,false,true,false,4,0,0,false$Low Bar,0,Rock Wall,1,Moat,0,Cheval de Frise,0,Ramparts,3,0,0,5,1$0,0,0,0,0,1,1,0,2,1
+5,3859,0,0$true,false,true,false,7,0,0,false$Low Bar,1,Rock Wall,0,Moat,1,Cheval de Frise,0,Ramparts,0,0,0,3,2$0,0,0,0,0,1,0,0,0,0
+6,5274,0,0$false,false,false,false,0,0,0,false$Low Bar,0,Rock Wall,0,Moat,0,Cheval de Frise,0,Ramparts,0,0,0,0,0$0,0,0,1,0,0,0,0,0,0
+7,5499,0,0$true,false,true,false,7,0,0,false$Low Bar,1,Rock Wall,1,Moat,1,Cheval de Frise,0,Ramparts,0,2,2,0,0$0,0,0,0,0,1,0,0,0,0
+8,4698,0,0$true,false,true,false,9,0,0,false$Low Bar,0,Rock Wall,0,Moat,0,Cheval de Frise,0,Ramparts,0,0,0,0,0$0,0,0,0,0,0,0,0,0,0
+9,3189,0,0$false,false,false,false,0,0,0,false$Low Bar,0,Rock Wall,1,Moat,0,Cheval de Frise,1,Ramparts,0,2,0,0,0$0,0,0,0,0,1,1,0,2,0
+10,9671,0,0$true,false,true,false,7,0,0,false$Low Bar,0,Rock Wall,0,Moat,1,Cheval de Frise,0,Ramparts,0,0,0,1,1$0,0,0,0,0,1,0,0,0,0
+11,5499,0,0$true,false,true,false,7,0,0,false$Low Bar,0,Rock Wall,0,Moat,0,Cheval de Frise,0,Ramparts,1,0,1,0,0$0,0,0,1,0,0,0,0,0,0
+12,701,0,0$true,false,true,false,7,0,0,false$Low Bar,0,Rock Wall,2,Moat,0,Cheval de Frise,0,Ramparts,0,1,2,0,3$0,0,0,1,0,0,0,0,0,0
+13,2073,0,0$true,false,true,false,3,0,0,false$Low Bar,0,Rock Wall,0,Moat,2,Cheval de Frise,0,Ramparts,0,0,0,4,1$0,0,0,1,0,0,0,0,0,0
+14,3250,0,0$true,false,true,false,3,0,0,false$Low Bar,0,Rock Wall,1,Moat,1,Cheval de Frise,0,Ramparts,0,0,0,2,0$0,0,0,0,0,0,0,0,2,0
+15,6039,0,0$true,false,true,false,9,0,0,false$Low Bar,2,Rock Wall,0,Moat,2,Cheval de Frise,0,Ramparts,2,0,0,0,0$0,0,0,0,0,0,0,1,0,0
+16,9973,0,0$false,false,false,false,0,0,0,false$Low Bar,0,Rock Wall,0,Moat,1,Cheval de Frise,0,Ramparts,1,0,0,1,2$0,0,0,0,0,0,0,1,2,0
+17,973,0,0$false,false,false,false,0,0,0,false$Low Bar,0,Rock Wall,0,Moat,0,Cheval de Frise,0,Ramparts,0,0,0,0,0$0,0,0,1,0,0,0,0,0,0

@@ -1,0 +1,369 @@
+1,5803,0,0$true,false,true,false,8,0,0,false$Low Bar,7,Rough Terrain,0,Cheval de Frise,0,Moat,2,Ramparts,1,4,0,0,0$0,0,0,0,0,1,0,1,1,2
+2,972,0,0$true,false,true,false,8,0,0,false$Low Bar,0,Rough Terrain,0,Cheval de Frise,0,Moat,0,Ramparts,0,3,1,0,0$0,0,0,0,1,1,0,1,0,0
+3,5026,0,0$false,false,false,false,0,0,0,false$Low Bar,3,Rough Terrain,0,Cheval de Frise,0,Moat,0,Ramparts,0,0,0,0,5$0,0,0,0,0,0,0,0,0,0
+4,604,0,0$true,false,true,false,3,0,0,false$Low Bar,2,Rough Terrain,0,Cheval de Frise,0,Moat,4,Ramparts,2,0,0,0,0$0,0,0,0,0,1,0,1,2,0
+5,3859,0,0$true,false,true,false,8,0,0,false$Low Bar,2,Rough Terrain,1,Cheval de Frise,0,Moat,0,Ramparts,5,0,0,5,0$0,0,0,0,1,1,0,1,2,0
+6,114,0,0$true,true,false,false,0,0,0,false$Low Bar,1,Rough Terrain,0,Cheval de Frise,0,Rock Wall,1,Ramparts,2,0,0,1,0$0,0,0,0,0,0,0,0,2,0
+7,1836,0,0$false,false,false,false,0,0,0,false$Low Bar,0,Ramparts,0,Rock Wall,2,Rough Terrain,0,Moat,2,0,0,1,2$0,0,0,0,0,1,0,1,1,0
+8,254,0,0$true,false,true,false,8,0,2,false$Low Bar,0,Ramparts,3,Rock Wall,3,Rough Terrain,0,Moat,2,0,0,8,0$0,0,0,0,0,1,1,1,2,2
+9,5026,0,0$false,false,false,false,0,0,0,false$Low Bar,4,Ramparts,0,Rock Wall,1,Rough Terrain,0,Moat,0,0,0,2,2$0,0,0,0,0,1,0,1,2,0
+10,3663,0,0$true,false,true,false,8,0,0,false$Low Bar,2,Ramparts,1,Rock Wall,0,Rough Terrain,1,Moat,2,0,0,4,4$0,0,0,0,0,1,0,1,2,0
+11,5924,0,0$true,false,true,false,9,0,0,false$Low Bar,4,Moat,0,Rough Terrain,0,Rock Wall,0,Ramparts,0,4,0,0,0$0,0,0,0,0,0,1,1,2,0
+12,5012,0,0$false,false,false,true,0,0,0,false$Low Bar,0,Moat,0,Rough Terrain,0,Rock Wall,0,Ramparts,0,1,0,0,0$0,0,0,1,0,0,0,0,2,0
+13,3309,0,0$true,false,true,false,9,0,1,false$Low Bar,1,Ramparts,0,Rough Terrain,2,Cheval de Frise,2,Rock Wall,0,0,0,3,3$0,0,0,0,0,0,0,1,2,0
+14,841,0,0$false,false,false,false,0,0,0,false$Low Bar,0,Ramparts,0,Rough Terrain,0,Cheval de Frise,0,Rock Wall,0,0,0,0,0$0,0,0,0,0,0,0,0,2,0
+15,5012,0,0$false,false,false,true,0,0,0,false$Low Bar,0,Ramparts,0,Rough Terrain,0,Cheval de Frise,0,Rock Wall,0,0,0,5,1$0,0,0,0,0,0,0,1,2,0
+16,4,0,0$false,false,false,false,0,0,0,false$Low Bar,0,Ramparts,0,Rough Terrain,0,Cheval de Frise,1,Rock Wall,1,0,0,0,3$0,0,0,0,0,0,0,0,2,2
+17,254,0,0$true,false,true,false,7,0,2,false$Low Bar,0,Ramparts,1,Rough Terrain,0,Cheval de Frise,2,Rock Wall,2,0,0,7,1$1,0,0,0,0,0,1,1,2,0
+18,115,0,0$false,false,false,false,0,0,0,false$Low Bar,2,Ramparts,2,Rough Terrain,1,Cheval de Frise,0,Rock Wall,0,2,0,0,0$0,0,0,0,0,0,0,1,2,0
+19,5803,0,0$true,false,true,false,9,0,0,false$Low Bar,0,Ramparts,1,Moat,0,Rough Terrain,3,Rock Wall,0,6,0,0,0$0,0,0,0,0,0,1,1,2,2
+20,4488,0,0$true,false,true,false,8,0,1,false$Low Bar,0,Ramparts,2,Moat,2,Rough Terrain,2,Rock Wall,0,0,0,6,0$0,0,0,0,0,0,1,1,2,0
+21,3250,0,0$true,false,true,false,3,0,0,false$Low Bar,0,Rock Wall,0,Rough Terrain,1,Moat,2,Ramparts,2,0,0,4,2$0,0,0,0,0,1,0,1,2,0
+22,3663,0,0$true,false,true,false,3,0,0,false$Low Bar,1,Rock Wall,0,Rough Terrain,0,Moat,2,Ramparts,2,0,0,1,4$0,0,0,0,0,1,0,1,2,0
+23,4488,0,0$true,false,true,false,9,0,1,false$Low Bar,1,Rock Wall,0,Rough Terrain,1,Moat,1,Ramparts,1,0,0,2,3$0,0,0,0,0,1,0,1,2,0
+24,4,0,0$true,false,true,false,9,0,0,false$Low Bar,0,Rock Wall,0,Rough Terrain,0,Moat,0,Ramparts,0,0,1,0,0$0,0,0,1,0,0,0,1,0,0
+25,972,0,0$false,false,false,false,0,0,0,false$Low Bar,0,Moat,0,Rough Terrain,0,Ramparts,0,Cheval de Frise,0,0,0,0,0$0,0,0,1,0,0,0,1,0,0
+26,1678,0,0$true,false,true,false,9,0,1,false$Low Bar,0,Moat,0,Rough Terrain,2,Ramparts,4,Cheval de Frise,1,0,0,8,0$0,0,0,0,0,0,0,0,2,0
+27,115,0,0$true,false,true,false,8,0,0,false$Low Bar,0,Moat,1,Rough Terrain,1,Ramparts,1,Cheval de Frise,0,0,1,0,0$0,0,0,0,0,1,1,1,2,0
+28,841,0,0$true,true,false,false,0,0,0,false$Low Bar,0,Moat,1,Rough Terrain,0,Ramparts,0,Cheval de Frise,1,0,0,1,0$0,0,0,0,0,0,0,0,0,0
+29,604,0,0$true,true,false,false,0,0,0,false$Low Bar,0,Moat,1,Rough Terrain,2,Ramparts,0,Cheval de Frise,1,0,1,0,0$0,0,0,0,0,1,0,0,1,0
+30,968,0,0$true,false,true,false,8,0,0,false$Low Bar,1,Moat,0,Rough Terrain,1,Ramparts,1,Cheval de Frise,0,0,0,1,1$0,0,0,0,0,1,0,0,2,0
+31,971,0,0$true,false,true,false,9,0,1,false$Low Bar,0,Ramparts,1,Moat,0,Cheval de Frise,3,Rock Wall,0,0,0,6,3$0,0,0,0,0,0,1,1,2,2
+32,3859,0,0$true,false,true,false,3,0,0,false$Low Bar,0,Ramparts,2,Moat,1,Cheval de Frise,0,Rock Wall,0,0,0,5,2$0,0,0,0,0,0,1,1,2,0
+33,2073,0,0$true,false,false,true,0,0,0,false$Low Bar,0,Ramparts,1,Moat,0,Cheval de Frise,3,Rock Wall,0,0,0,4,0$0,0,0,1,0,0,0,0,0,0
+34,3309,0,0$true,false,true,false,9,0,0,false$Low Bar,0,Ramparts,1,Moat,1,Cheval de Frise,2,Rock Wall,1,0,0,7,1$0,0,0,0,0,0,1,1,2,1
+35,5803,0,0$true,false,true,false,9,0,0,false$Low Bar,1,Ramparts,4,Moat,0,Cheval de Frise,0,Ramparts,0,4,0,0,0$0,0,0,0,0,0,0,1,1,0
+36,5012,0,0$false,false,false,true,0,0,0,false$Low Bar,0,Ramparts,0,Moat,0,Cheval de Frise,0,Rock Wall,0,0,0,1,0$0,0,0,1,0,0,0,0,0,0
+37,3309,0,0$true,false,true,false,9,0,0,false$Low Bar,1,Ramparts,2,Rock Wall,0,Cheval de Frise,2,Rough Terrain,0,0,0,5,1$0,0,0,1,0,0,1,1,2,0
+38,4543,0,0$true,false,true,false,8,0,0,false$Low Bar,0,Ramparts,0,Rock Wall,1,Cheval de Frise,0,Rough Terrain,0,3,0,1,1$0,0,0,0,0,0,0,1,2,0
+39,973,0,0$true,false,true,false,8,0,0,false$Low Bar,0,Ramparts,0,Rock Wall,1,Cheval de Frise,0,Rough Terrain,3,0,0,5,0$0,0,0,0,0,0,0,0,2,2
+40,5803,0,0$true,false,true,false,9,0,0,false$Low Bar,1,Ramparts,2,Rock Wall,2,Cheval de Frise,1,Rough Terrain,1,1,0,0,0$0,0,0,0,0,0,0,1,2,2
+41,254,0,0$true,false,true,false,8,0,2,false$Low Bar,3,Rough Terrain,0,Cheval de Frise,2,Rock Wall,0,Ramparts,1,0,0,5,5$1,0,0,0,0,1,0,1,2,1
+42,1678,0,0$true,false,true,false,9,0,1,false$Low Bar,0,Rough Terrain,0,Cheval de Frise,1,Rock Wall,4,Ramparts,0,0,0,5,0$0,0,0,0,0,1,0,1,0,0
+43,115,0,0$true,false,true,false,7,0,0,false$Low Bar,2,Rough Terrain,0,Rock Wall,0,Moat,0,Ramparts,2,2,0,0,0$0,0,0,0,0,1,1,1,2,0
+44,254,0,0$true,false,true,false,7,0,2,false$Low Bar,0,Rough Terrain,0,Rock Wall,2,Moat,2,Ramparts,2,0,0,7,0$0,0,0,0,0,1,0,1,2,0
+45,5829,0,0$true,false,true,false,8,0,0,false$Low Bar,1,Rough Terrain,0,Cheval de Frise,0,Moat,0,Ramparts,2,0,0,4,2$0,0,0,0,0,1,0,1,1,0
+46,972,0,0$true,true,false,false,0,0,0,false$Low Bar,0,Rough Terrain,0,Rock Wall,0,Moat,2,Ramparts,1,0,0,0,0$0,0,0,0,0,1,0,0,2,0
+47,973,0,0$true,false,true,false,3,0,0,false$Low Bar,0,Rough Terrain,1,Rock Wall,0,Moat,0,Ramparts,0,0,0,6,0$0,0,0,0,0,1,1,1,2,2
+48,4543,0,0$true,false,true,false,7,0,0,false$Low Bar,0,Rough Terrain,0,Rock Wall,0,Moat,1,Ramparts,0,2,0,0,1$0,0,0,0,0,1,1,1,2,0
+49,5829,0,0$true,false,true,false,4,0,0,false$Low Bar,0,Rough Terrain,0,Cheval de Frise,0,Moat,0,Ramparts,1,0,0,2,3$0,0,0,0,0,1,0,1,2,0
+50,1351,0,0$true,false,true,false,9,0,0,false$Low Bar,1,Rough Terrain,0,Cheval de Frise,0,Moat,0,Ramparts,0,0,1,0,0$0,0,0,0,0,1,0,1,0,0
+51,604,0,0$true,false,true,false,8,0,0,false$Low Bar,1,Ramparts,0,Moat,2,Cheval de Frise,0,Rough Terrain,1,1,0,0,0$0,0,0,0,0,0,0,1,2,0
+52,4904,0,0$false,false,false,false,0,0,0,false$Low Bar,0,Ramparts,0,Moat,0,Cheval de Frise,0,Rough Terrain,0,0,0,0,0$0,0,0,0,0,0,0,0,0,0
+53,973,0,0$true,false,false,true,0,0,1,false$Low Bar,0,Ramparts,0,Moat,0,Cheval de Frise,0,Rough Terrain,1,0,0,2,0$0,0,0,1,0,0,0,1,0,0
+54,1678,0,0$true,false,true,false,9,0,2,false$Low Bar,0,Ramparts,2,Moat,2,Cheval de Frise,2,Rock Wall,0,0,0,3,0$0,0,0,0,0,0,1,1,2,2
+55,971,0,0$true,false,true,false,9,0,1,false$Low Bar,1,Ramparts,1,Moat,0,Rock Wall,0,Cheval de Frise,1,0,0,9,0$0,0,0,0,0,0,0,1,2,2
+56,5817,0,0$false,false,false,true,0,0,0,false$Low Bar,1,Ramparts,0,Moat,0,Rock Wall,0,Cheval de Frise,0,0,0,1,1$0,0,0,0,0,0,0,1,2,0
+57,766,0,0$false,false,false,false,0,0,0,false$Low Bar,3,Ramparts,0,Moat,0,Rock Wall,0,Cheval de Frise,0,1,1,0,0$0,0,0,0,0,1,0,0,2,0
+58,4543,0,0$true,false,true,false,7,0,0,false$Low Bar,0,Ramparts,0,Moat,0,Rock Wall,0,Cheval de Frise,0,0,0,0,0$0,0,0,0,1,0,0,1,0,0
+59,1351,0,0$true,false,true,false,9,0,0,false$Low Bar,1,Ramparts,0,Moat,0,Rock Wall,0,Cheval de Frise,1,1,2,0,0$0,0,0,0,0,1,0,1,2,0
+60,3250,0,0$true,false,true,false,3,0,1,false$Low Bar,0,Cheval de Frise,0,Rock Wall,0,Moat,1,Ramparts,0,0,0,9,0$0,0,0,0,0,1,0,0,2,2
+61,968,0,0$true,false,true,false,4,0,0,false$Low Bar,0,Moat,0,Rock Wall,0,Cheval de Frise,0,Ramparts,1,0,0,4,3$0,0,0,0,0,1,0,1,2,0
+62,115,0,0$true,false,true,false,3,0,0,false$Low Bar,0,Moat,1,Rock Wall,1,Cheval de Frise,0,Ramparts,0,1,1,0,0$0,0,0,0,0,1,0,0,2,0
+63,604,0,0$false,false,false,true,0,0,0,false$Low Bar,0,Ramparts,0,Cheval de Frise,0,Rock Wall,1,Moat,0,0,0,0,0$0,0,0,0,1,0,1,1,2,0
+1,1351,0,0$true,true,false,false,0,0,0,false$Low Bar,0,Cheval de Frise,2,Ramparts,0,Rock Wall,0,Rough Terrain,3,0,1,0,0$0,0,0,0,0,0,0,1,0,0
+2,846,0,0$true,true,false,false,0,0,0,false$Low Bar,1,Cheval de Frise,0,Ramparts,3,Rock Wall,4,Rough Terrain,2,1,0,0,2$0,0,0,0,0,0,0,1,0,0
+3,5677,0,0$true,true,false,false,0,0,0,false$Low Bar,0,Cheval de Frise,0,Ramparts,0,Rock Wall,0,Rough Terrain,3,0,0,0,0$0,0,0,0,0,0,0,0,0,0
+4,2073,0,0$true,false,false,false,0,0,0,false$Low Bar,0,Ramparts,0,Rock Wall,0,Cheval de Frise,1,Rough Terrain,7,0,0,0,0$0,0,0,1,0,0,0,1,2,0
+5,4488,0,0$true,false,true,false,9,0,0,false$Low Bar,1,Ramparts,0,Rock Wall,4,Cheval de Frise,2,Rough Terrain,1,0,0,6,0$0,0,0,0,0,0,0,1,2,0
+6,4543,0,0$true,false,false,false,0,0,0,false$Low Bar,0,Ramparts,0,Rock Wall,0,Cheval de Frise,2,Rough Terrain,4,0,0,5,0$0,0,0,0,0,0,0,0,2,0
+7,846,0,0$true,false,true,false,8,0,0,false$Low Bar,2,Moat,0,Rough Terrain,1,Rock Wall,0,Ramparts,3,0,0,0,0$0,0,0,0,0,0,0,1,1,0
+8,1678,0,0$true,false,true,false,9,0,0,false$Low Bar,1,Moat,1,Rough Terrain,4,Rock Wall,5,Ramparts,1,0,0,8,1$0,0,0,0,0,0,1,1,2,0
+9,701,0,0$true,false,false,false,0,0,0,false$Low Bar,0,Moat,0,Rough Terrain,0,Rock Wall,1,Ramparts,1,0,0,0,2$0,0,0,0,0,0,0,1,2,0
+10,4,0,0$false,false,false,false,0,0,0,false$Low Bar,1,Moat,0,Rough Terrain,0,Rock Wall,0,Ramparts,0,0,0,0,3$0,0,0,0,0,0,0,1,2,2
+11,114,0,0$true,true,false,false,0,0,0,false$Low Bar,0,Moat,2,Rough Terrain,2,Rock Wall,0,Ramparts,3,1,0,4,0$0,0,0,0,0,0,1,1,2,0
+12,4543,0,0$true,false,true,false,7,0,0,false$Low Bar,0,Moat,0,Rough Terrain,1,Rock Wall,1,Ramparts,0,0,0,2,0$0,0,0,1,0,0,0,0,1,0
+13,3250,0,0$true,false,true,false,8,0,1,false$Low Bar,0,Rock Wall,0,Cheval de Frise,0,Rough Terrain,1,Ramparts,4,0,0,7,0$0,0,0,0,0,0,0,1,2,0
+14,1351,0,0$true,true,false,false,0,0,0,false$Low Bar,0,Ramparts,0,Rough Terrain,2,Cheval de Frise,2,Rock Wall,0,0,0,0,1$0,0,0,0,0,0,0,0,2,0
+15,846,0,0$false,false,false,false,0,0,0,false$Low Bar,2,Ramparts,1,Rough Terrain,3,Cheval de Frise,2,Rock Wall,0,0,0,0,0$0,0,0,0,0,0,0,1,2,0
+16,3476,0,0$false,false,false,false,0,0,0,false$Low Bar,0,Ramparts,1,Rock Wall,2,Cheval de Frise,0,Rough Terrain,0,0,0,3,0$0,0,0,1,0,0,0,0,0,2
+17,5700,0,0$true,false,true,false,9,0,0,false$Low Bar,0,Rock Wall,0,Cheval de Frise,0,Rough Terrain,1,Ramparts,0,0,0,0,0$0,0,0,0,1,0,1,1,2,1
+18,1678,0,0$true,false,true,false,9,0,2,false$Low Bar,0,Cheval de Frise,2,Ramparts,0,Rough Terrain,2,Rock Wall,2,0,0,0,9$0,0,0,0,0,0,0,1,1,0
+19,973,0,0$true,false,true,false,8,0,1,false$Low Bar,0,Ramparts,1,Moat,1,Rough Terrain,2,Rock Wall,0,0,0,5,2$0,0,0,0,0,0,1,1,2,1
+20,5817,0,0$true,false,false,true,0,0,1,true$Low Bar,0,Moat,1,Ramparts,0,Rock Wall,0,Rough Terrain,0,0,0,2,2$0,0,0,0,0,0,1,1,2,0
+21,5026,0,0$true,false,false,false,0,0,0,false$Low Bar,0,Rock Wall,0,Rough Terrain,2,Moat,0,Ramparts,0,0,0,0,2$0,0,0,0,0,0,0,1,1,0
+22,3309,0,0$true,false,true,false,9,0,0,false$Low Bar,1,Ramparts,0,Moat,0,Rough Terrain,4,Rock Wall,4,0,0,4,2$0,0,0,0,0,0,0,1,2,0
+23,3256,0,0$true,false,true,false,7,0,0,false$Low Bar,0,Ramparts,0,Moat,0,Rough Terrain,1,Rock Wall,1,1,0,1,2$0,0,0,0,0,0,0,1,2,0
+24,5829,0,0$true,false,true,false,3,0,0,false$Low Bar,0,Ramparts,2,Moat,2,Rough Terrain,0,Rock Wall,0,0,0,0,2$0,0,0,1,0,0,0,1,0,0
+25,2135,0,0$true,false,false,false,0,0,0,false$Low Bar,4,Ramparts,5,Moat,1,Cheval de Frise,0,Rough Terrain,0,0,0,0,0$0,0,0,0,0,0,0,1,2,0
+26,1868,0,0$true,false,true,false,8,0,0,false$Low Bar,0,Cheval de Frise,0,Ramparts,0,Rough Terrain,0,Moat,0,0,0,0,0$0,0,0,1,0,0,0,1,0,0
+27,5803,0,0$true,false,false,false,0,0,0,false$Low Bar,7,Cheval de Frise,0,Ramparts,0,Rough Terrain,1,Moat,0,3,0,0,0$0,0,0,0,0,0,1,1,2,2
+28,1836,0,0$true,false,true,false,8,0,0,false$Low Bar,0,Cheval de Frise,0,Ramparts,0,Rough Terrain,2,Moat,0,0,0,2,0$0,0,0,1,0,0,0,0,2,0
+29,5012,0,0$false,false,false,false,0,0,0,false$Low Bar,0,Cheval de Frise,0,Ramparts,0,Rough Terrain,2,Moat,1,0,0,3,0$0,0,0,0,0,0,0,0,2,0
+30,2135,0,0$false,false,false,false,0,0,0,false$Low Bar,0,Cheval de Frise,0,Ramparts,0,Rough Terrain,0,Moat,0,0,0,0,0$0,0,0,1,0,0,0,0,0,0
+31,973,0,0$true,false,true,false,3,0,0,false$Low Bar,0,Cheval de Frise,0,Moat,1,Ramparts,0,Rock Wall,2,0,0,6,1$0,0,0,0,0,0,1,1,0,2
+32,4,0,0$true,false,true,false,7,0,0,false$Low Bar,0,Rock Wall,2,Cheval de Frise,1,Moat,0,Ramparts,0,1,1,0,0$0,0,0,0,0,0,1,1,2,0
+33,5677,0,0$true,true,false,false,0,0,0,false$Low Bar,0,Rock Wall,0,Cheval de Frise,0,Moat,1,Ramparts,0,1,0,0,0$0,0,0,0,0,0,0,0,2,0
+34,5499,0,0$true,false,false,true,0,0,1,false$Low Bar,2,Rock Wall,0,Cheval de Frise,0,Moat,0,Ramparts,0,0,0,1,3$0,0,0,0,0,0,1,1,2,0
+35,972,0,0$false,false,false,true,0,0,0,false$Low Bar,0,Rock Wall,0,Cheval de Frise,0,Moat,0,Ramparts,0,0,0,0,0$0,0,0,0,0,0,0,0,0,0
+36,1868,0,0$true,true,false,false,0,0,0,false$Low Bar,0,Rock Wall,0,Cheval de Frise,0,Moat,0,Ramparts,0,0,0,0,0$1,0,0,1,0,0,0,0,0,0
+37,841,0,0$true,false,true,false,4,0,0,false$Low Bar,1,Rough Terrain,0,Cheval de Frise,0,Rock Wall,1,Ramparts,0,1,0,0,1$0,0,0,0,0,0,1,1,0,0
+38,5700,0,0$false,false,false,false,0,0,0,false$Low Bar,0,Rough Terrain,0,Cheval de Frise,0,Rock Wall,0,Ramparts,0,0,0,0,0$0,0,0,1,0,0,0,1,0,0
+39,766,0,0$false,false,false,false,0,0,0,false$Low Bar,3,Rough Terrain,0,Cheval de Frise,0,Rock Wall,0,Ramparts,0,0,0,0,0$0,0,0,1,0,0,0,1,2,0
+40,2073,0,0$true,false,false,true,0,0,0,false$Low Bar,0,Rough Terrain,0,Cheval de Frise,0,Rock Wall,0,Ramparts,0,0,0,4,2$0,0,0,0,0,0,0,1,2,0
+41,5829,0,0$true,false,false,false,0,0,0,false$Low Bar,0,Ramparts,1,Rock Wall,4,Cheval de Frise,0,Rough Terrain,3,0,0,2,0$0,0,0,0,1,0,0,1,2,0
+42,5026,0,0$false,false,false,false,0,0,0,false$Low Bar,3,Ramparts,0,Rock Wall,0,Cheval de Frise,0,Rough Terrain,0,0,0,0,0$0,0,0,0,1,0,0,1,0,0
+43,5677,0,0$true,false,true,false,8,0,0,false$Low Bar,0,Ramparts,0,Moat,0,Rock Wall,0,Rough Terrain,3,4,0,0,0$0,0,0,0,0,0,1,1,2,0
+44,968,0,0$true,false,true,false,8,0,0,false$Low Bar,0,Ramparts,0,Moat,0,Rock Wall,0,Rough Terrain,2,0,0,2,1$0,0,0,1,0,0,1,1,2,0
+45,4904,0,0$true,false,true,false,8,0,0,false$Low Bar,0,Ramparts,0,Moat,4,Rock Wall,2,Rough Terrain,2,0,0,0,0$0,0,0,0,0,0,0,1,2,0
+46,3250,0,0$true,false,true,false,8,0,1,false$Low Bar,0,Ramparts,2,Moat,2,Rock Wall,0,Rough Terrain,1,0,0,4,1$0,0,0,0,0,0,1,1,2,2
+47,3663,0,0$true,false,true,false,4,0,0,false$Low Bar,2,Ramparts,1,Moat,5,Rock Wall,1,Rough Terrain,1,0,0,3,2$0,0,0,0,0,0,1,1,2,0
+48,4,0,0$true,false,false,false,0,0,0,false$Low Bar,1,Ramparts,0,Moat,0,Rock Wall,1,Rough Terrain,5,3,0,0,0$0,0,0,0,0,0,1,1,2,0
+49,766,0,0$true,false,false,false,0,0,0,false$Low Bar,3,Ramparts,0,Moat,0,Cheval de Frise,0,Rough Terrain,0,0,0,0,0$0,0,0,1,0,0,0,1,2,0
+50,3476,0,0$true,false,true,false,8,0,1,false$Low Bar,0,Ramparts,0,Moat,0,Cheval de Frise,2,Rough Terrain,6,0,0,5,0$0,0,0,0,0,0,0,1,2,2
+51,399,0,0$false,false,false,true,0,0,0,false$Low Bar,0,Rough Terrain,0,Cheval de Frise,0,Moat,0,Ramparts,1,4,2,0,0$0,0,0,1,0,0,0,1,2,0
+52,972,0,0$true,true,false,false,0,0,0,false$Low Bar,0,Rough Terrain,0,Cheval de Frise,0,Moat,1,Ramparts,0,0,0,0,0$0,0,0,0,0,0,0,1,2,0
+53,5012,0,0$false,false,false,false,0,0,0,false$Low Bar,0,Rough Terrain,1,Cheval de Frise,0,Moat,0,Ramparts,0,0,0,2,1$0,0,0,0,0,0,0,0,1,0
+54,5677,0,0$true,true,false,false,0,0,0,false$Low Bar,0,Rough Terrain,0,Cheval de Frise,0,Moat,1,Ramparts,0,0,0,0,0$0,0,0,0,0,0,1,1,2,0
+55,1671,0,0$false,false,false,false,0,0,0,false$Low Bar,0,Cheval de Frise,0,Rock Wall,0,Moat,0,Ramparts,0,0,0,0,0$0,0,0,1,0,0,0,0,0,0
+56,3859,0,0$true,false,true,false,3,0,0,false$Low Bar,1,Cheval de Frise,1,Rock Wall,0,Moat,0,Ramparts,2,0,0,3,2$0,0,0,0,0,0,0,1,0,0
+57,696,0,0$true,false,false,false,0,0,0,true$Low Bar,0,Cheval de Frise,0,Rock Wall,0,Moat,0,Ramparts,0,0,0,0,0$0,0,0,1,0,0,0,0,0,0
+58,4904,0,0$true,false,true,false,3,0,0,false$Low Bar,0,Cheval de Frise,0,Rock Wall,0,Cheval de Frise,0,Ramparts,2,0,0,0,0$1,0,0,0,1,0,0,1,2,0
+59,5677,0,0$true,false,false,false,0,0,0,false$Low Bar,0,Ramparts,0,Moat,5,Rock Wall,0,Cheval de Frise,0,2,0,0,1$0,0,0,0,0,0,0,1,2,0
+60,5499,0,0$false,false,false,false,0,0,0,false$Low Bar,1,Ramparts,0,Moat,0,Rock Wall,0,Cheval de Frise,0,0,0,0,0$0,0,0,0,0,0,0,0,0,0
+61,1967,0,0$true,false,true,false,9,0,0,false$Low Bar,2,Ramparts,1,Cheval de Frise,0,Rock Wall,2,Moat,3,0,0,0,0$1,0,0,0,0,0,0,1,2,1
+62,5924,0,0$true,false,true,false,9,0,0,false$Low Bar,4,Ramparts,0,Cheval de Frise,0,Rock Wall,2,Moat,0,4,1,0,0$0,0,0,0,0,0,0,0,2,0
+63,971,0,0$true,false,true,false,9,0,2,false$Low Bar,0,Ramparts,2,Cheval de Frise,2,Rock Wall,2,Moat,3,0,0,9,0$0,0,0,0,0,0,1,1,2,1
+
+1,5700,1,0$true,false,true,false,9,0,0,false$Low Bar,1,Cheval de Frise,0,Rock Wall,1,Rough Terrain,0,Ramparts,0,0,0,0,0$0,0,0,0,0,0,0,1,1,0
+2,1678,1,0$true,false,true,false,9,0,1,false$Low Bar,1,Ramparts,2,Rock Wall,2,Cheval de Frise,0,Rough Terrain,0,0,0,7,1$0,0,0,0,0,0,1,1,2,0
+3,254,1,0$true,false,true,false,7,0,1,false$Low Bar,0,Cheval de Frise,2,Ramparts,2,Rock Wall,0,Rough Terrain,1,0,0,7,2$0,0,0,0,0,0,0,1,2,1
+4,115,1,0$false,false,false,false,0,0,0,false$Low Bar,1,Cheval de Frise,0,Ramparts,2,Rock Wall,1,Rough Terrain,0,0,1,0,1$1,0,0,0,0,0,0,1,1,0
+5,4904,1,0$true,false,true,false,7,0,0,false$Low Bar,0,Cheval de Frise,0,Ramparts,1,Rock Wall,1,Rough Terrain,1,1,0,0,1$0,0,0,0,0,0,0,1,1,0
+6,1967,1,0$false,false,false,false,0,0,0,false$Low Bar,0,Ramparts,0,Cheval de Frise,0,Rock Wall,0,Rough Terrain,0,0,0,0,0$0,0,0,0,0,0,0,0,0,0
+7,3663,1,0$true,false,true,false,8,0,0,false$Low Bar,1,Moat,0,Ramparts,0,Rock Wall,0,Rough Terrain,4,0,0,5,1$1,0,0,0,0,0,1,1,2,0
+8,1351,1,0$true,false,true,false,9,0,0,false$Low Bar,0,Ramparts,0,Moat,0,Rock Wall,0,Rough Terrain,0,0,0,0,0$0,0,0,0,0,0,0,0,2,0
+9,1967,1,0$true,false,false,false,0,0,0,false$Low Bar,0,Moat,0,Ramparts,1,Rock Wall,0,Rough Terrain,0,1,2,0,0$0,0,0,0,0,0,0,0,2,2
+10,5817,1,0$true,false,false,true,0,0,1,false$Low Bar,0,Moat,0,Ramparts,0,Rock Wall,0,Rough Terrain,0,0,0,0,0$0,0,0,0,0,0,0,0,0,0
+11,1671,1,0$true,false,true,false,7,0,0,false$Low Bar,0,Moat,0,Rough Terrain,1,Rock Wall,1,Ramparts,2,0,0,3,1$0,0,0,0,0,1,0,1,1,0
+12,1836,1,0$false,false,false,false,0,0,0,false$Low Bar,0,Moat,0,Rough Terrain,0,Rock Wall,0,Ramparts,0,0,0,0,0$0,0,0,1,0,0,0,1,0,0
+13,4488,1,0$true,false,true,false,2,0,0,false$Low Bar,2,Ramparts,2,Rough Terrain,1,Cheval de Frise,1,Rock Wall,0,0,0,6,0$0,0,0,0,0,1,1,1,2,0
+14,115,1,0$true,false,true,false,8,0,0,false$Low Bar,0,Ramparts,2,Rough Terrain,1,Cheval de Frise,0,Rock Wall,2,1,2,0,0$0,0,0,0,0,0,0,0,0,0
+15,4904,1,0$true,false,true,false,7,0,0,false$Low Bar,2,Ramparts,2,Rough Terrain,0,Cheval de Frise,0,Rock Wall,1,0,0,0,1$0,0,0,0,0,0,0,1,2,0
+16,5026,1,0$true,false,false,false,0,0,0,false$Low Bar,0,Ramparts,1,Rough Terrain,0,Cheval de Frise,0,Rock Wall,0,0,0,1,2$0,0,0,0,0,0,0,0,0,0
+17,5499,1,0$true,true,false,false,0,0,0,false$Low Bar,0,Ramparts,0,Rough Terrain,0,Cheval de Frise,0,Rock Wall,0,0,0,0,0$0,0,0,0,0,0,0,0,0,0
+18,3309,1,0$true,false,true,false,9,0,0,false$Low Bar,0,Ramparts,0,Rough Terrain,0,Cheval de Frise,2,Rock Wall,1,0,0,4,0$0,0,0,0,0,0,1,1,2,0
+19,399,1,0$false,false,false,true,0,0,0,false$Low Bar,3,Ramparts,0,Moat,0,Rough Terrain,0,Rock Wall,0,6,0,0,0$0,0,0,0,0,0,0,1,1,0
+20,696,1,0$true,false,true,false,9,1,0,false$Low Bar,2,Ramparts,2,Moat,0,Rough Terrain,0,Rock Wall,1,0,0,2,3$0,0,0,0,0,0,0,1,0,1
+21,4543,1,0$true,false,true,false,3,0,0,false$Low Bar,0,Moat,1,Ramparts,0,Rock Wall,0,Rough Terrain,1,4,0,0,0$0,0,0,0,0,0,0,0,0,0
+22,254,1,0$true,false,true,false,7,0,0,false$Low Bar,7,Moat,0,Ramparts,0,Rock Wall,1,Rough Terrain,2,0,0,10,0$0,0,0,0,0,0,0,1,1,1
+23,766,1,0$true,false,false,false,0,0,0,false$Low Bar,1,Moat,0,Ramparts,0,Rock Wall,0,Rough Terrain,0,0,0,0,0$0,0,0,0,0,1,0,0,0,0
+24,5700,1,0$true,false,false,false,0,0,0,false$Low Bar,0,Ramparts,0,Moat,2,Rock Wall,2,Rough Terrain,1,0,1,0,0$1,0,0,0,0,0,0,0,2,1
+25,1836,1,0$true,false,false,false,0,0,0,false$Low Bar,0,Ramparts,0,Cheval de Frise,0,Moat,0,Rough Terrain,1,0,0,1,0$0,0,0,1,0,0,0,1,0,0
+26,1967,1,0$true,false,true,false,9,0,0,false$Low Bar,2,Cheval de Frise,0,Moat,0,Ramparts,1,Rough Terrain,0,0,0,0,0$0,0,0,0,0,1,0,1,1,2
+27,973,1,0$true,false,false,false,0,0,0,false$Low Bar,0,Cheval de Frise,0,Ramparts,1,Rough Terrain,0,Moat,0,0,0,2,1$0,0,0,0,0,0,0,0,0,1
+28,3476,1,0$true,false,false,false,0,0,0,false$Low Bar,0,Moat,0,Cheval de Frise,1,Ramparts,1,Rough Terrain,0,0,0,0,0$0,0,0,0,0,0,0,0,2,1
+29,766,1,0$true,false,false,false,0,0,0,false$Low Bar,0,Cheval de Frise,0,Ramparts,0,Rough Terrain,0,Moat,1,0,0,0,0$1,0,0,0,0,0,0,1,2,0
+30,696,1,0$true,true,false,false,0,0,0,false$Low Bar,0,Cheval de Frise,0,Ramparts,4,Rough Terrain,1,Moat,0,0,0,0,1$0,0,0,0,0,0,0,1,2,0
+31,972,1,0$true,true,false,false,0,0,0,false$Low Bar,0,Ramparts,2,Moat,2,Cheval de Frise,0,Rock Wall,0,0,1,0,0$0,0,0,0,0,0,0,1,1,0
+32,701,1,0$true,true,false,false,0,0,0,false$Low Bar,0,Ramparts,0,Moat,0,Cheval de Frise,0,Rock Wall,2,0,0,0,1$0,0,0,0,0,0,0,1,2,0
+33,114,1,0$true,false,true,false,4,0,0,false$Low Bar,2,Ramparts,1,Moat,1,Cheval de Frise,0,Rock Wall,0,0,0,5,0$0,0,0,0,0,0,0,1,2,0
+34,4543,1,0$true,false,true,false,2,0,0,false$Low Bar,0,Ramparts,0,Moat,1,Cheval de Frise,1,Rock Wall,0,0,0,0,1$0,0,0,0,0,0,0,1,2,0
+35,604,1,0$true,false,false,false,0,0,0,false$Low Bar,0,Ramparts,1,Moat,2,Cheval de Frise,2,Rock Wall,0,1,0,0,0$0,0,0,0,0,0,0,1,2,0
+36,1678,1,0$true,false,true,false,3,0,0,false$Low Bar,0,Ramparts,0,Moat,1,Cheval de Frise,2,Rock Wall,0,0,0,5,2$1,0,0,0,0,0,1,1,2,0
+37,701,1,0$false,false,false,false,0,0,0,false$Low Bar,0,Ramparts,1,Rock Wall,2,Cheval de Frise,0,Rough Terrain,0,0,0,1,0$0,0,0,0,0,0,0,1,2,0
+38,846,1,0$true,false,true,false,8,0,0,false$Low Bar,0,Ramparts,0,Rock Wall,0,Cheval de Frise,3,Rough Terrain,0,5,0,0,0$0,0,0,0,0,0,1,1,2,0
+39,5829,1,0$false,false,false,false,0,0,0,false$Low Bar,0,Ramparts,0,Rock Wall,1,Cheval de Frise,0,Rough Terrain,1,0,0,3,2$0,0,0,0,0,0,0,0,2,0
+40,399,1,0$false,false,false,true,0,0,0,false$Low Bar,0,Ramparts,0,Rock Wall,1,Cheval de Frise,0,Rough Terrain,0,12,1,0,0$0,0,0,0,0,1,0,1,2,0
+41,3250,1,0$true,false,true,false,8,0,1,false$Low Bar,0,Ramparts,2,Rock Wall,0,Cheval de Frise,0,Rough Terrain,1,0,0,6,1$0,0,0,0,0,0,0,1,2,0
+42,4488,1,0$true,false,true,false,2,0,0,false$Low Bar,1,Ramparts,2,Rock Wall,2,Cheval de Frise,1,Rough Terrain,0,0,0,5,1$0,0,0,0,0,0,0,1,2,0
+43,5012,1,0$false,false,false,true,0,0,0,false$Low Bar,0,Ramparts,0,Moat,0,Rock Wall,0,Rough Terrain,0,0,0,8,0$1,0,0,0,0,0,0,0,2,0
+44,5803,1,0$true,false,true,false,9,0,0,false$Low Bar,0,Ramparts,0,Moat,0,Rock Wall,0,Rough Terrain,0,5,1,0,0$0,0,0,0,1,0,0,1,0,1
+45,3256,1,0$true,false,true,false,7,0,0,false$Low Bar,4,Ramparts,0,Moat,0,Rock Wall,0,Rough Terrain,0,0,0,4,3$0,0,0,0,0,0,0,1,2,0
+46,846,1,0$true,false,true,false,4,0,0,false$Low Bar,0,Ramparts,2,Rough Terrain,0,Rock Wall,0,Moat,1,0,0,4,0$0,0,0,0,0,0,0,1,2,0
+47,3309,1,0$true,false,true,false,9,0,0,false$Low Bar,1,Moat,0,Ramparts,0,Rock Wall,1,Rough Terrain,0,0,0,2,4$0,0,0,0,0,0,0,1,1,1
+48,114,1,0$true,false,true,false,3,0,0,false$Low Bar,1,Moat,1,Ramparts,2,Rock Wall,0,Rough Terrain,0,1,0,5,2$0,0,0,0,0,0,1,1,2,0
+49,5026,1,0$false,false,false,false,0,0,0,false$Low Bar,1,Rough Terrain,0,Ramparts,0,Moat,0,Cheval de Frise,0,0,0,0,0$0,0,0,0,0,0,0,0,0,0
+50,254,1,0$true,false,true,false,8,0,2,true$Low Bar,3,Cheval de Frise,0,Moat,1,Ramparts,1,Rough Terrain,2,0,0,7,0$0,0,0,0,0,0,1,1,2,0
+51,3309,1,0$true,false,true,false,9,0,0,false$Low Bar,2,Ramparts,2,Cheval de Frise,2,Rough Terrain,0,Moat,0,0,0,7,1$0,0,0,0,0,0,1,1,2,1
+52,1868,1,0$true,false,true,false,4,0,0,false$Low Bar,0,Cheval de Frise,1,Moat,2,Ramparts,1,Rough Terrain,0,0,0,0,0$0,0,0,0,0,1,1,1,2,0
+53,5817,1,0$false,false,false,false,0,0,0,false$Low Bar,2,Cheval de Frise,0,Moat,0,Ramparts,0,Rough Terrain,0,1,0,4,1$0,0,0,0,0,0,0,1,2,0
+54,3663,1,0$true,false,true,false,3,0,0,false$Low Bar,1,Cheval de Frise,0,Moat,0,Ramparts,1,Rough Terrain,0,0,0,4,2$0,0,0,0,0,1,0,1,2,0
+55,115,1,0$true,false,true,false,3,0,0,false$Low Bar,1,Ramparts,2,Moat,1,Rock Wall,0,Cheval de Frise,0,4,0,0,0$0,0,0,0,0,0,0,1,2,0
+56,2135,1,0$true,false,true,false,7,0,0,false$Low Bar,0,Ramparts,2,Moat,0,Rock Wall,1,Cheval de Frise,0,0,0,1,1$0,0,0,0,0,0,0,1,1,0
+57,5924,1,0$true,false,true,false,9,0,0,false$Low Bar,1,Ramparts,2,Moat,0,Rock Wall,0,Cheval de Frise,0,0,0,0,0$0,0,0,0,0,1,0,1,2,0
+58,1836,1,0$false,false,false,false,0,0,0,false$Low Bar,0,Ramparts,1,Moat,0,Rock Wall,2,Cheval de Frise,0,0,0,1,1$0,0,0,0,0,0,0,1,0,0
+59,846,1,0$true,false,true,false,3,0,0,false$Low Bar,1,Moat,1,Cheval de Frise,1,Ramparts,0,Rock Wall,0,0,0,0,0$0,0,0,0,0,0,1,1,2,0
+60,972,1,0$true,false,true,false,7,0,0,false$Low Bar,0,Cheval de Frise,0,Moat,1,Ramparts,0,Rock Wall,1,0,0,0,0$0,0,0,0,0,0,0,1,2,0
+61,4488,1,0$true,false,true,false,2,0,0,false$Low Bar,1,Cheval de Frise,0,Moat,0,Rock Wall,0,Ramparts,0,0,0,0,0$0,0,0,0,0,0,0,0,0,0
+62,5026,1,0$false,false,false,false,0,0,0,false$Low Bar,3,Moat,0,Cheval de Frise,0,Ramparts,0,Rock Wall,0,0,0,3,1$0,0,0,0,0,0,0,0,1,0
+63,4904,1,0$true,false,true,false,4,0,0,false$Low Bar,0,Moat,0,Cheval de Frise,0,Ramparts,1,Rock Wall,1,0,0,2,0$0,0,0,0,0,0,1,1,2,0
+1,3250,1,0$true,false,true,false,8,0,0,false$Low Bar,0,Cheval de Frise,0,Ramparts,1,Rock Wall,1,Rough Terrain,1,0,0,5,2$0,0,0,0,0,0,0,1,0,2
+2,3309,1,0$true,false,true,false,8,0,0,false$Low Bar,0,Cheval de Frise,1,Ramparts,0,Rock Wall,0,Rough Terrain,1,0,0,7,5$0,0,0,0,0,0,0,1,2,0
+3,2135,1,0$true,false,true,false,8,0,0,false$Low Bar,0,Ramparts,0,Rock Wall,2,Cheval de Frise,0,Rough Terrain,0,0,0,0,0$0,0,0,0,1,0,0,1,2,0
+4,973,1,0$true,true,false,false,0,0,0,false$Low Bar,0,Ramparts,0,Rock Wall,0,Cheval de Frise,0,Rough Terrain,1,0,0,3,1$0,0,0,0,0,0,0,1,0,2
+5,5924,1,0$true,false,true,false,8,0,0,false$Low Bar,0,Ramparts,0,Rock Wall,2,Cheval de Frise,0,Rough Terrain,1,0,1,0,0$0,0,0,0,1,0,0,1,2,0
+6,3256,1,0$true,false,false,false,0,0,0,true$Low Bar,2,Ramparts,0,Rock Wall,0,Cheval de Frise,1,Rough Terrain,0,0,0,2,2$0,0,0,0,0,0,0,1,0,0
+7,701,1,0$true,false,false,false,0,0,0,true$Low Bar,0,Moat,0,Rough Terrain,0,Rock Wall,1,Ramparts,0,0,0,2,1$0,0,0,0,0,0,0,1,0,2
+8,973,1,0$true,false,true,false,8,0,0,false$Low Bar,0,Moat,1,Rough Terrain,2,Rock Wall,0,Ramparts,0,0,0,5,0$0,0,0,0,1,0,0,0,0,2
+9,2073,1,0$true,false,false,true,0,0,0,true$Low Bar,0,Moat,2,Rough Terrain,1,Rock Wall,0,Ramparts,0,0,0,5,1$0,0,0,0,0,0,0,1,2,0
+10,4904,1,0$true,false,true,false,8,0,0,false$Low Bar,0,Moat,1,Rough Terrain,1,Rock Wall,1,Ramparts,1,0,0,0,1$0,0,0,0,0,0,0,0,2,0
+11,972,1,0$false,false,false,true,0,0,0,false$Low Bar,0,Ramparts,0,Rock Wall,0,Rough Terrain,0,Moat,0,0,0,0,0$0,0,0,1,0,0,0,1,0,0
+12,604,1,0$true,false,true,false,7,0,0,false$Low Bar,1,Ramparts,0,Rock Wall,1,Rough Terrain,0,Moat,1,3,0,0,0$0,0,0,1,0,0,0,1,0,0
+13,968,1,0$true,false,true,false,8,0,0,false$Low Bar,0,Rock Wall,2,Cheval de Frise,0,Rough Terrain,0,Ramparts,0,1,0,1,2$0,0,0,0,0,0,1,1,2,0
+14,1868,1,0$true,false,false,true,0,0,0,false$Low Bar,2,Rock Wall,0,Cheval de Frise,0,Rough Terrain,0,Ramparts,0,2,0,0,0$0,0,0,0,0,0,0,0,2,0
+15,604,1,0$false,false,false,true,0,0,0,false$Low Bar,0,Rock Wall,0,Cheval de Frise,0,Rough Terrain,0,Ramparts,0,0,0,0,0$0,0,0,1,0,0,0,1,0,0
+16,2073,1,0$true,false,false,true,0,0,1,true$Low Bar,0,Rock Wall,0,Cheval de Frise,0,Rough Terrain,0,Ramparts,0,0,0,0,0$1,0,0,1,0,0,0,0,0,0
+17,971,1,0$true,false,true,false,9,0,0,false$Low Bar,0,Rock Wall,1,Cheval de Frise,0,Rough Terrain,1,Ramparts,2,1,0,6,0$1,0,0,0,0,0,0,1,0,2
+18,3256,1,0$true,false,true,false,7,0,0,false$Low Bar,0,Rock Wall,1,Cheval de Frise,1,Rough Terrain,0,Ramparts,0,0,0,1,0$1,0,0,0,0,0,1,1,2,0
+19,5829,1,0$true,false,true,false,3,0,0,false$Low Bar,0,Rock Wall,0,Rough Terrain,0,Moat,0,Ramparts,0,0,0,1,0$0,0,0,1,0,0,0,0,0,0
+20,972,1,0$true,true,false,false,0,0,0,false$Low Bar,0,Rock Wall,1,Rough Terrain,2,Moat,0,Ramparts,0,1,0,0,0$1,0,0,0,1,0,0,1,0,0
+21,1351,1,0$true,false,true,false,9,0,0,false$Low Bar,1,Ramparts,0,Moat,0,Rough Terrain,2,Rock Wall,0,2,0,0,0$0,0,0,0,0,0,0,0,0,0
+22,4904,1,0$false,false,false,false,0,0,0,false$Low Bar,0,Ramparts,0,Moat,0,Rough Terrain,0,Rock Wall,0,0,0,0,0$0,0,0,1,0,0,0,1,0,0
+23,5012,1,0$false,false,false,true,0,0,0,false$Low Bar,0,Ramparts,0,Moat,0,Rough Terrain,0,Rock Wall,0,0,0,7,1$0,0,0,0,0,0,0,0,2,0
+24,5924,1,0$true,false,true,false,9,0,0,false$Low Bar,2,Ramparts,0,Moat,0,Rough Terrain,2,Rock Wall,0,0,0,0,0$0,0,0,0,0,0,0,1,2,0
+25,1671,1,0$true,true,false,false,0,0,0,false$Low Bar,0,Cheval de Frise,0,Ramparts,2,Rough Terrain,2,Moat,1,0,0,3,1$0,0,0,0,0,0,0,1,2,0
+26,3859,1,0$true,false,true,false,3,0,0,false$Low Bar,0,Cheval de Frise,0,Ramparts,1,Rough Terrain,0,Moat,1,0,0,4,3$0,0,0,0,0,0,0,1,1,0
+27,5817,1,0$true,false,false,true,0,0,0,false$Low Bar,2,Cheval de Frise,0,Ramparts,0,Rough Terrain,0,Moat,0,0,0,0,6$0,0,0,0,0,0,0,0,2,0
+28,5026,1,0$false,false,false,false,0,0,0,false$Low Bar,1,Cheval de Frise,0,Ramparts,0,Rough Terrain,0,Moat,0,0,0,0,2$0,0,0,0,0,0,0,0,2,0
+29,1678,1,0$true,false,true,false,9,0,0,false$Low Bar,1,Cheval de Frise,0,Ramparts,2,Rough Terrain,4,Moat,1,0,0,8,4$0,0,0,0,0,0,0,1,2,0
+30,115,1,0$true,false,true,false,8,0,0,false$Low Bar,1,Cheval de Frise,0,Ramparts,0,Rough Terrain,1,Moat,0,0,0,0,0$1,0,0,0,1,0,0,1,1,0
+31,3476,1,0$true,false,true,false,7,0,0,false$Low Bar,0,Rock Wall,1,Cheval de Frise,2,Moat,0,Ramparts,0,0,0,3,1$0,0,0,0,0,0,0,1,2,1
+32,846,1,0$true,false,true,false,3,0,0,false$Low Bar,0,Moat,1,Cheval de Frise,1,Ramparts,0,Rock Wall,0,2,0,1,0$0,0,0,0,0,0,0,1,2,0
+33,1868,1,0$true,true,false,false,0,0,0,false$Low Bar,0,Rock Wall,0,Cheval de Frise,0,Moat,1,Ramparts,0,0,0,0,0$0,0,0,0,0,0,0,1,2,0
+34,3250,1,0$true,false,true,false,7,0,1,false$Low Bar,0,Rock Wall,1,Cheval de Frise,0,Moat,1,Ramparts,1,0,0,7,1$0,0,0,0,0,0,0,1,0,2
+35,115,1,0$true,false,true,false,7,0,0,false$Low Bar,0,Rock Wall,1,Cheval de Frise,0,Moat,0,Ramparts,0,0,1,0,0$0,0,0,1,0,0,0,1,2,0
+36,971,1,0$true,false,true,false,9,0,0,false$Low Bar,1,Cheval de Frise,0,Moat,0,Rock Wall,1,Ramparts,3,0,0,7,0$0,0,0,0,0,0,1,1,0,2
+37,696,1,0$true,false,true,false,9,1,0,false$Low Bar,2,Ramparts,0,Rock Wall,1,Cheval de Frise,1,Rough Terrain,0,0,0,0,4$0,0,0,0,0,0,0,1,0,0
+38,3859,1,0$true,true,false,false,0,0,0,false$Low Bar,3,Rough Terrain,0,Cheval de Frise,0,Rock Wall,0,Ramparts,2,0,0,4,0$0,0,0,0,0,0,1,1,2,0
+39,4904,1,0$true,false,true,false,4,0,0,false$Low Bar,0,Rough Terrain,0,Cheval de Frise,0,Rock Wall,0,Ramparts,0,1,0,0,1$0,0,0,0,0,0,0,0,0,0
+40,1967,1,0$true,false,true,false,8,0,0,false$Low Bar,2,Rough Terrain,1,Cheval de Frise,0,Rock Wall,2,Ramparts,2,0,0,0,0$0,0,0,0,0,0,0,1,0,2
+41,5817,1,0$true,false,false,true,0,0,1,false$Low Bar,0,Ramparts,0,Rock Wall,0,Cheval de Frise,0,Rough Terrain,0,0,0,1,1$0,0,0,0,0,0,0,0,0,0
+42,604,1,0$true,true,false,false,0,0,0,false$Low Bar,0,Ramparts,0,Rock Wall,1,Cheval de Frise,0,Rough Terrain,1,1,0,0,0$0,0,0,0,1,0,0,1,2,0
+43,5499,1,0$false,false,false,false,0,0,0,false$Low Bar,2,Ramparts,0,Moat,0,Rock Wall,0,Rough Terrain,0,0,1,0,0$0,0,0,1,0,0,0,0,0,0
+44,5817,1,0$false,false,false,false,0,0,0,false$Low Bar,1,Ramparts,0,Moat,0,Rock Wall,0,Rough Terrain,0,0,0,0,0$1,0,0,0,1,0,0,1,1,0
+45,2073,1,0$true,false,true,false,4,0,1,false$Low Bar,0,Ramparts,0,Moat,2,Rock Wall,0,Rough Terrain,0,0,0,5,0$0,0,0,0,0,0,1,1,2,0
+46,766,1,0$true,false,false,false,0,0,0,true$Low Bar,2,Ramparts,0,Moat,0,Rock Wall,0,Rough Terrain,2,0,0,0,0$0,0,0,0,0,1,0,1,2,0
+47,701,1,0$false,false,false,false,0,0,0,false$Low Bar,0,Ramparts,0,Moat,0,Rock Wall,0,Rough Terrain,0,0,0,0,0$0,0,0,0,1,0,0,1,1,0
+48,968,1,0$true,false,true,false,8,0,0,false$Low Bar,0,Ramparts,0,Moat,0,Rock Wall,0,Rough Terrain,1,0,0,3,0$0,0,0,0,1,0,1,1,2,0
+49,841,1,0$true,false,false,false,0,0,0,true$Low Bar,0,Ramparts,0,Moat,0,Cheval de Frise,0,Rough Terrain,0,0,0,0,0$0,0,0,0,0,1,0,0,0,0
+50,701,1,0$false,false,false,false,0,0,0,false$Low Bar,0,Ramparts,0,Moat,0,Cheval de Frise,0,Rough Terrain,0,0,0,0,0$0,0,0,0,0,0,1,1,2,0
+51,5499,1,0$false,false,false,false,0,0,0,false$Low Bar,0,Rough Terrain,0,Cheval de Frise,0,Moat,0,Ramparts,0,0,0,0,0$0,0,0,1,0,0,0,1,0,0
+52,5803,1,0$true,false,true,false,9,0,0,false$Low Bar,1,Rough Terrain,1,Cheval de Frise,0,Moat,0,Ramparts,1,5,0,0,0$0,0,0,0,0,0,1,1,0,2
+53,5924,1,0$true,false,true,false,8,0,0,false$Low Bar,0,Ramparts,0,Moat,0,Cheval de Frise,0,Rough Terrain,2,3,0,0,0$0,0,0,0,0,0,0,1,2,0
+54,4543,1,0$true,true,false,false,0,0,0,false$Low Bar,0,Ramparts,0,Moat,1,Cheval de Frise,1,Rough Terrain,3,0,1,0,0$0,0,0,0,0,0,0,1,2,0
+55,4,1,0$true,false,true,false,9,0,0,false$Low Bar,1,Ramparts,0,Moat,0,Cheval de Frise,1,Rough Terrain,0,4,1,0,0$0,0,0,0,0,0,0,1,2,0
+56,604,1,0$false,false,false,true,0,0,0,false$Low Bar,0,Cheval de Frise,0,Moat,0,Ramparts,0,Rough Terrain,0,1,0,0,0$0,0,0,1,0,0,0,0,0,0
+57,5803,1,0$true,false,true,false,3,0,0,false$Low Bar,0,Cheval de Frise,0,Moat,2,Ramparts,1,Rock Wall,0,4,0,0,0$0,0,0,0,0,0,0,1,0,2
+58,5700,1,0$true,true,false,false,0,0,0,false$Low Bar,3,Cheval de Frise,0,Moat,0,Ramparts,1,Rock Wall,0,0,0,0,0$0,0,0,0,0,0,0,1,2,1
+59,2073,1,0$true,false,false,true,0,0,1,false$Low Bar,0,Ramparts,4,Moat,0,Rock Wall,0,Cheval de Frise,0,0,0,0,0$0,0,0,0,0,0,1,1,2,0
+60,5829,1,0$true,false,true,false,9,0,0,false$Low Bar,0,Ramparts,2,Moat,0,Rock Wall,0,Cheval de Frise,0,0,0,2,2$0,0,0,0,0,1,0,1,2,0
+61,5012,1,0$true,false,false,true,0,0,0,false$Low Bar,0,Ramparts,0,Cheval de Frise,0,Rock Wall,0,Moat,0,0,0,5,1$0,0,0,0,0,0,0,1,2,0
+62,1836,1,0$false,false,false,false,0,0,0,false$Low Bar,0,Ramparts,0,Cheval de Frise,0,Rock Wall,0,Moat,0,0,0,0,0$2,0,0,0,1,0,0,1,0,0
+63,696,1,0$false,false,false,false,0,0,0,false$Low Bar,0,Ramparts,0,Cheval de Frise,0,Rock Wall,1,Moat,0,1,0,1,0$0,0,0,0,0,0,1,1,2,0
+
+1,5012,0,0$false,false,false,true,0,0,0,false$Low Bar,0,Cheval de
+Frise,0,Ramparts,0,Rock Wall,0,Rough Terrain,0,0,0,1,3$0,0,0,0,0,0,0,1,2,0
+2,5499,0,0$false,false,false,false,0,0,0,false$Low Bar,1, Cheval de
+Frise,0,Ramparts,0,Rock Wall,0,Rough Terrain,0,0,0,0,0$0,0,0,0,0,0,0,1,0,0
+3,1868,0,0$true,false,true,false,4,0,0,false$Low Bar,0,Cheval de
+Frise,0,Ramparts,0,Rock Wall,0,Rough Terrain,0,1,0,0,0$0,0,0,0,1,0,0,0,0,0
+4,4,0,0,$false,false,false,false,0,0,0,false$Low Bar,1,Cheval de
+Frise,1,Ramparts,0,Rock Wall,0,Rough Terrain,0,0,0,03$0,0,0,0,0,0,0,1,2,1
+5,399,0,0$false,false,false,true,0,0,0,false$Low Bar,1,Cheval de Frise,0,Ramparts,0,Rock Wall,0,Rough Terrain,3,3,0,0,0$0,0,0,0,0,0,0,1,1,0
+6,766,00$false,false,false,0,0,0,false$Low Bar,1,Cheval de Frise,0,Ramparts,0,Rock Wall,0,Rough Terrain,0,1,0,0$0,0,0,0,0,0,0,0,1,0
+7,696,0,0$true,true,false,fakse,0,0,0,false$Low Bar,0,Ramparts,0,Moat,2,Rough Terrain,1,Rock Wall,0,1,0,0,0$0,0,0,0,0,0,0,1,1,0
+8,3859,0,0$false,false,false,0,0,0,false$Low Bar,0,Ramparts,0,Rock Wall,0,Rough Terrain,0,Moat,0,0,0,0,0$1,0,0,0,0,0,1,1,2,0
+9,2135,0,0$true,false,true,false,8,0,0,false$Low Bar,0,Ramparts,0,Rock Wall,0,Rough Terrain,3,Moat,0,0,0,0,0$0,0,0,0,0,0,1,2,0
+10,5499,0,0$true,true,false,false,0,0,0,false$Low Bar,0,Ramparts,0,Rock Wall,0,Rough Terrain,0,Moat,0,0,0,0$0,0,0,1,0,0,0,1,0,0
+11,3476,0,0$false,false,false,false,0,0,0,false$Low Bar,0,Moat,0,Ramparts,0,Rock Wall,2,Rough Terrain,2,0,0,4,0$0,0,0,0,0,0,1,1,2,1
+12,5677,0,0$true,false,true,false,8,0,0,false$Low Bar,0,Moat,0,Rough Terrain,0,Rock Wall,0,Ramparts,0,0,0,0,0$0,0,0,1,0,0,0,0,0,0
+13,5829,0,0$true,false,true,false,7,0,0,false$Low Bar,0,Rock Wall,2,Rough Terrain,1,Cheval de Frise,0,Ramparts,0,0,0,5,0$0,0,0,0,0,0,0,1,0,0
+15,1967,0,0$true,false,true,false,7,0,0,false$Low Bar,0,Ramparts,1,Rough Terrain,0,Cheval de Frise,0,Rock Wall,3,0,0,0,0$0,0,0,0,0,0,0,1,2,1
+16,766,0,0$true,false,true,false,8,0,0,false$Low Bar,1,Ramparts,0,Rough Terrain,1,Cheval de Frise,0,Rock Wall,0,2,0,0,0$0,0,0,0,0,0,0,0,2,0
+17,3663,0,0$true,false,true,false,8,0,0,false$Low Bar,3,Ramparts,1,Rough Terrain,0,Cheval de Frise,0,Rock Wall,0,0,0,3,3$0,0,0,0,0,0,1,1,2,0
+18,701,0,0$false,false,false,false,0,0,0,false$Low Bar,0,Ramparts,0,Rough Terrain,0,Cheval de Frise,0,Rock Wall,2,0,0,0,1$0,0,0,0,0,0,0,1,2,0
+19,1868,0,0$true,false,true,false,7,0,0,false$Low Bar,0,Ramparts,0,Moat,0,Rough Terrain,0,Rock Wall,1,0,0,0,0$1,0,0,0,1,0,1,1,2,0
+20,1836,0,0$false,false,false,false,0,0,0,false$Low Bar,0,Ramparts,0,Moat,0,Rough Terrain,2,Rock Wall,0,2,2,0,0$0,0,0,0,0,0,1,1,2,0
+21,5924,0,0$false,false,false,false,0,0,0,false$Low Bar,0,Rock Wall,3,Rough Terrain,0,Moat,0,Ramparts,1,0,0,0,0$0,0,0,0,0,0,0,1,1,0
+22,604,0,1$false,false,false,false,0,0,0,false$Low Bar,0,Rock Wall,0,Rough Terrain,0,Moat,0,Ramparts,0,0,0,0,0$0,0,0,0,0,0,0,0,0,0
+23,846,0,0$true,false,true,false,3,0,0,false$Low Bar,0,Rock Wall,0,Rough Terrain,0,Moat,3,Ramparts,1,0,0,0,0$0,0,0,0,0,0,0,1,1,0
+24,968,0,0$true,false,true,false,8,0,0,false$Low Bar,1,Rock Wall,0,Rough Terrain,0,Moat,1,Ramparts,1,0,1,0,3$0,0,0,0,0,0,0,1,2,0
+25,2073,0,0$true,false,false,true,0,0,1,false$Low Bar,0,Moat,0,Rough Terrain,0,Cheval de Frise,2,Ramparts,0,0,0,7,0$0,0,0,0,0,0,0,1,2,0
+26,696,0,0$true,true,false,false,0,0,0,false$Low Bar,1,Moat,0,Rough Terrain,1,Ramparts,0,Cheval de Frise,1,0,0,3,0$0,0,0,0,0,0,0,1,1,1
+27,971,0,0$true,false,true,false,9,0,1,false$Low Bar,0,Moat,0,Rough Terrain,2,Rock Wall,0,Cheval de Frise,2,0,0,6,0$0,0,0,0,0,0,1,1,2,2
+28,3256,0,0$true,false,true,false,9,0,0,false$Low Bar,1,Moat,0,Rock Wall,0,Ramparts,0,Cheval de Frise,0,0,0,1,2$0,0,0,0,0,0,0,1,0,0
+29,5829,0,0$false,false,false,false,0,0,0,false$Low Bar,0,Moat,0,Rough Terrain,0,Ramparts,0,Cheval de Frise,0,0,0,0,0$0,0,0,0,0,0,0,1,0,0
+30,4904,0,0$true,false,true,false,9,0,0,false$Low Bar,0,Moat,0,Rough Terrain,0,Ramparts,0,Cheval de Frise,0,0,0,0,1$0,0,0,0,0,0,0,0,0,0
+31,5700,0,0$true,false,true,false,7,0,0,false$Low Bar,1,Ramparts,1,Moat,0,Cheval de Frise,0,Rock Wall,0,0,0,0,0$0,0,0,1,0,0,1,1,2,0
+32,5924,0,0$true,false,true,false,9,0,0,false$Low Bar,2,Ramparts,0,Moat,0,Cheval de Frise,0,Rock Wall,0,4,0,0,0$1,0,0,0,0,0,1,1,2,0
+33,5499,0,0$true,true,false,false,0,0,0,false$Low Bar,1,Ramparts,0,Moat,0,Cheval de Frise,0,Moat,0,1,0,0,0$0,0,0,1,0,0,0,0,0,0
+34,399,0,0$false,false,false,false,0,0,0,false$Low Bar,0,Ramparts,2,Moat,1,Cheval de Frise,0,Rock Wall,3,7,0,0,0$0,0,0,0,0,0,1,1,2,0
+35,3663,0,0$true,false,true,false,3,0,0,false$Low Bar,0,Ramparts,0,Moat,2,Cheval de Frise,2,Rock Wall,2,0,0,4,1$0,0,0,0,0,0,0,1,0,0
+36,5924,0,0$true,false,true,false,9,0,0,false$Low Bar,0,Ramparts,1,Moat,0,Cheval de Frise,0,Rough Terrain,0,0,1,0,0$0,0,0,0,1,0,0,0,2,0
+37,1671,0,0$true,false,true,false,8,0,1,false$Low Bar,0,Ramparts,0,Rock Wall,0,Cheval de Frise,0,Rough Terrain,2,0,0,4,0$0,0,0,0,0,0,1,1,2,0
+38,4488,0,0$true,false,true,false,2,0,1,false$Low Bar,0,Ramparts,3,Rock Wall,0,Cheval de Frise,1,Rough Terrain,0,0,0,4,0$0,0,0,0,0,0,0,1,2,0
+39,968,0,0$true,false,true,false,4,0,0,false$Low Bar,0,Ramparts,0,Rock Wall,1,Cheval de Frise,0,Rough Terrain,0,0,0,1,0$0,0,0,1,0,0,0,0,2,0
+40,3476,0,0$true,false,true,false,8,0,0,false$Low Bar,0,Ramparts,0,Rock Wall,0,Cheval de Frise,1,Rough Terrain,2,0,0,0,2$0,0,0,0,0,0,0,1,2,0
+41,3256,0,0$true,false,true,false,9,0,0,false$Low Bar,0,Rough Terrain,0,Cheval de Frise,0,Rock Wall,0,Ramparts,0,0,0,0,5$0,0,0,0,0,0,0,1,2,0
+42,1671,0,0$true,false,true,false,8,0,0,false$Low Bar,0,Rough Terrain,2,Cheval de Frise,0,Rock Wall,0,Ramparts,1,0,0,2,1$0,0,0,0,0,0,0,1,2,0
+43,3859,0,0$true,false,true,false,3,0,0,false$Low Bar,0,Rough Terrain,0,Rock Wall,1,Moat,1,Ramparts,0,0,0,4,1$0,0,0,0,0,0,1,1,2,0
+44,1351,0,0$true,false,true,false,9,0,0,false$Low Bar,1,Rough Terrain,1,Rock Wall,0,Moat,0,Ramparts,0,3,0,0,0$0,0,0,0,0,0,1,1,2,0
+45,5700,0,0$true,false,true,false,9,0,0,false$Low Bar,1,Rough Terrain,0,Rock Wall,0,Moat,0,Ramparts,1,3,0,0,0$0,0,0,0,0,0,0,1,2,1
+46,971,0,0$true,false,true,false,9,0,2,false$Low Bar,0,Rough Terrain,0,Rock Wall,4,Moat,0,Ramparts,0,0,0,6,0$0,0,0,0,0,0,1,1,0,2
+47,1836,0,0$false,false,false,false,0,0,0,false$Low Bar,0,Rough Terrain,0,Rock Wall,2,Moat,0,Ramparts,0,0,0,3,0$0,0,0,0,0,0,1,1,2,0
+48,399,0,0$false,false,false,true,0,0,0,false$Low Bar,1,Rough Terrain,0,Rock Wall,0,Moat,0,Ramparts,3,5,0,0,0$4,0,0,0,0,0,1,0,2,0
+49,1671,0,0$true,false,true,false,8,0,1,false$Low Bar,0,Rough Terrain,1,Cheval de Frise,0,Moat,3,Ramparts,0,0,0,3,2$0,0,0,0,0,0,0,1,2,0
+50,2135,0,0$true,false,true,false,3,0,0,false$Low Bar,0,Rough Terrain,0,Cheval de Frise,0,Moat,0,Ramparts,3,0,0,0,0$0,0,0,0,1,0,0,1,2,0
+51,846,0,0$false,false,false,false,0,0,0,false$Low Bar,1,Rough Terrain,0,Cheval de Frise,2,Moat,2,Ramparts,0,0,0,4,0$0,0,0,0,0,0,0,0,2,0
+52,3256,0,0$true,false,true,false,9,0,0,false$Low Bar,0,Ramparts,0,Moat,0,Cheval de Frise,1,Rough Terrain,0,0,0,3,3$0,0,0,0,0,0,0,1,2,0
+53,114,0,0$true,false,true,false,3,0,0,false$Low Bar,2,Ramparts,2,Moat,2,Cheval de Frise,2,Rough Terrain,0,1,0,1,0$0,0,0,0,0,0,0,1,0,0
+54,3250,0,0$true,false,true,false,8,0,1,false$Low Bar,0,Ramparts,0,Moat,0,Cheval de Frise,0,Rough Terrain,1,0,0,8,0$0,0,0,0,0,0,1,1,0,2
+55,1967,0,0$true,true,false,false,0,0,0,false$Low Bar,0,Ramparts,1,Moat,3,Cheval de Frise,0,Rough Terrain,0,0,0,0,0$0,0,0,0,0,0,0,0,0,2
+56,3256,0,0$false,false,false,false,0,0,0,false$Low Bar,0,Ramparts,0,Moat,0,Cheval de Frise,1,Rock Wall,1,0,0,1,1$0,0,0,0,0,0,0,1,2,0
+57,3309,0,0$true,false,true,false,9,0,0,false$Low Bar,0,Ramparts,2,Moat,0,Rock Wall,0,Cheval de Frise,2,0,0,3,1$0,0,0,0,0,0,0,0,2,1
+58,1678,0,0$true,false,true,false,9,0,2,false$Low Bar,1,Ramparts,0,Moat,1,Rock Wall,2,Cheval de Frise,1,0,0,8,2$0,0,0,0,0,0,0,1,1,0
+59,114,0,0$true,false,true,false,7,0,0,false$Low Bar,0,Ramparts,1,Moat,1,Rock Wall,1,Cheval de Frise,2,0,0,4,1$0,0,0,0,0,0,0,1,2,0
+60,701,0,0$true,false,false,false,0,0,0,false$Low Bar,1,Cheval de Frise,0,Rock Wall,0,Moat,0,Ramparts,2,0,0,0,0$0,0,0,0,0,0,0,0,0,0
+61,841,0,0$true,false,true,false,8,0,0,false$Low Bar,0,Cheval de Frise,2,Rock Wall,1,Moat,0,Ramparts,0,0,0,1,1$0,0,0,0,0,0,0,1,2,0
+62,399,0,0$false,false,false,true,0,0,0,false$Low Bar,1,Moat,0,Rock Wall,0,Cheval de Frise,0,Ramparts,0,2,0,0,0$0,0,0,0,0,0,0,1,2,0
+63,701,0,0$false,false,false,false,0,0,0,false$Low Bar,0,Moat,0,Rock Wall,3,Cheval de Frise,0,Ramparts,1,0,0,0,0$0,0,0,0,0,0,1,1,2,0
+15,1671,1,0$true,false,false,false,0,0,0,false$Low Bar,1,Ramparts,0,Rough Terrain,2,Cheval de Frise,0,Rock Wall,0,2,0,0,0$0,0,0,0,0,0,0,1,2,0
+16,968,1,0$true,false,true,false,8,0,0,false$Low Bar,0,Ramparts,2,Rough Terrain,1,Cheval de Frise,0,Rock Wall,1,0,0,3,1$0,0,0,0,0,0,0,0,0,0
+17,841,1,0$true,false,true,false,8,0,0,false$Low Bar,2,Ramparts,0,Rough Terrain,0,Cheval de Frise,0,Rock Wall,0,4,0,0,1$0,0,0,0,0,0,0,1,2,0
+18,5677,1,0$true,false,false,false,8,0,0,false$Low Bar,0,Ramparts,0,Rough Terrain,2,Cheval de Frise,0,Rock Wall,0,7,0,0,0$0,0,0,0,0,0,1,1,2,0
+19,1868,1,0$true,false,false,false,0,0,0,false$Low Bar,0,Ramparts,3,Moat,0,Rough Terrain,1,Rock Wall,2,1,0,0,1$2,0,0,0,0,0,0,1,0,0
+20,3859,1,0$true,false,true,false,3,0,0,false$Low Bar,0,Ramparts,1,Moat,2,Rough Terrain,2,Rock Wall,0,0,0,6,1$0,0,0,0,0,0,0,1,2,0
+21,5499,1,1$false,false,false,false,0,0,0,false$null,0,Category 1,0,Category 2,0,Category 3,0,Category 4,0,0,0,0,0$0,0,0,0,0,0,0,0,0,0
+22,114,1,0$true,false,true,false,4,0,0,false$Low Bar,0,Ramparts,3,Moat,0,Rough Terrain,1,Rock Wall,0,0,0,2,4$0,0,0,0,0,0,0,1,2,0
+23,399,1,0$false,false,false,false,0,0,0,false$Low Bar,1,Ramparts,1,Moat,0,Rough Terrain,2,Rock Wall,0,6,0,0,0$0,0,0,0,0,0,0,0,2,0
+24,5677,1,0$true,true,false,false,0,0,0,false$Low Bar,0,Ramparts,0,Moat,0,Rough Terrain,1,Rock Wall,0,0,0,0,0$0,0,0,0,0,0,0,1,2,0
+25,4543,1,0$true,false,true,false,2,0,0,false$Low Bar,0,Cheval de Frise,2,Ramparts,0,Rough Terrain,0,Moat,0,0,0,1,0$0,0,0,0,0,0,0,0,0,0
+26,3250,1,0$true,false,true,false,8,0,0,false$Low Bar,0,Cheval de Frise,0,Ramparts,0,Rough Terrain,1,Moat,0,0,0,4,0$0,0,0,0,0,0,0,1,0,0
+27,701,1,0$false,false,false,false,0,0,0,false$Low Bar,1,Cheval de Frise,0,Ramparts,0,Rough Terrain,0,Moat,0,0,0,0,0$0,0,0,0,0,0,0,0,0,0
+28,254,1,0$true,false,true,false,8,0,1,false$Low Bar,2,Cheval de Frise,0,Ramparts,0,Rough Terrain,1,Moat,2,1,0,4,0$0,0,0,0,0,0,0,1,0,0
+29,1351,1,0$true,false,true,false,8,0,0,false$Low Bar,0,Cheval de Frise,2,Ramparts,0,Rough Terrain,0,Moat,0,2,0,0,0$0,0,0,0,0,0,0,1,0,0
+30,1671,1,0$false,false,false,false,0,0,0,false$Low Bar,0,Cheval de Frise,0,Ramparts,0,Rough Terrain,1,Moat,2,0,0,4,0$0,0,0,0,0,0,0,1,0,0
+31,1967,1,0$true,false,true,false,9,0,0,false$Low Bar,2,Ramparts,0,Moat,0,Cheval de Frise,0,Rock Wall,0,2,0,0,0$0,0,0,0,0,0,0,1,1,1
+32,3663,1,0$true,false,true,false,4,0,0,false$Low Bar,2,Ramparts,1,Moat,1,Cheval de Frise,0,Rock Wall,0,0,0,3,2$0,0,0,0,0,0,0,1,2,0
+33,4488,1,0$true,false,true,false,2,0,0,false$Low Bar,0,Ramparts,0,Moat,0,Cheval de Frise,2,Rock Wall,1,0,0,3,1$0,0,0,0,0,0,0,1,2,0
+34,841,1,0$true,false,true,false,2,0,0,false$Low Bar,0,Ramparts,0,Moat,1,Cheval de Frise,1,Rock Wall,0,1,0,0,1$0,0,0,0,0,0,0,1,2,0
+35,5026,1,0$false,false,false,false,0,0,0,false$Low Bar,2,Ramparts,0,Moat,0,Cheval de Frise,0,Rock Wall,0,0,0,0,0$0,0,0,0,0,0,0,1,2,0
+36,2135,1,0$true,false,true,false,7,0,0,false$Low Bar,0,Ramparts,0,Moat,0,Cheval de Frise,0,Rock Wall,3,0,0,0,1$0,0,0,0,0,1,1,1,2,0
+37,5803,1,0$true,false,true,false,7,0,0,false$Low Bar,0,Ramparts,0,Rock Wall,0,Cheval de Frise,0,Rough Terrain,2,3,0,0,0$0,0,0,0,0,0,0,1,2,0
+38,114,1,0$true,false,true,false,7,0,0,false$Low Bar,0,Ramparts,1,Rock Wall,1,Cheval de Frise,2,Rough Terrain,0,2,0,1,3$0,0,0,0,0,0,1,1,2,0
+39,5829,1,0$true,false,true,false,9,0,0,false$Low Bar,1,Ramparts,0,Rock Wall,0,Cheval de Frise,2,Rough Terrain,0,2,0,0,0$0,0,0,0,0,0,0,0,2,0
+40,5499,1,0$false,false,false,false,0,0,0,false$Low Bar,2,Ramparts,0,Rock Wall,0,Cheval de Frise,0,Rough Terrain,0,0,0,0,0$1,0,0,1,0,1,0,1,0,0
+41,4,1,0$true,false,true,false,9,0,0,false$Low Bar,2,Ramparts,0,Rock Wall,2,Cheval de Frise,2,Rough Terrain,1,2,0,0,0$0,0,0,0,0,0,0,1,2,0
+42,841,1,0$false,false,false,false,0,0,0,false$Low Bar,1,Ramparts,0,Rock Wall,0,Cheval de Frise,0,Rough Terrain,1,0,0,0,0$0,0,0,0,0,0,0,1,0,0
+43,3476,1,0$true,false,true,false,7,0,1,false$Low Bar,0,Ramparts,1,Moat,0,Rock Wall,1,Rough Terrain,1,0,0,4,0$0,0,0,0,0,0,0,0,0,0
+44,1967,1,0$true,false,true,false,8,0,0,false$Low Bar,0,Ramparts,2,Moat,2,Rock Wall,2,Rough Terrain,1,1,0,0,0$0,0,0,0,0,0,0,1,0,0
+45,5924,1,0$true,false,true,false,9,0,0,false$Low Bar,2,Ramparts,1,Moat,0,Rock Wall,0,Rough Terrain,1,0,0,0,0$0,0,0,0,0,0,1,1,2,0
+46,2135,1,0$true,false,true,false,7,0,0,false$Low Bar,0,Ramparts,0,Moat,0,Rock Wall,1,Rough Terrain,1,0,0,0,0$0,0,0,0,0,0,0,1,2,0
+47,1868,1,0$true,false,true,false,8,0,0,false$Low Bar,0,Ramparts,1,Moat,0,Rock Wall,1,Rough Terrain,0,0,0,0,0$0,0,0,0,0,0,0,1,2,0
+48,696,1,0$true,false,true,false,8,0,0,false$Low Bar,0,Ramparts,1,Moat,1,Rock Wall,0,Rough Terrain,0,0,0,2,0$0,0,0,0,0,0,1,1,0,1
+49,3859,1,0$false,false,false,false,0,0,0,false$Low Bar,1,Ramparts,2,Moat,2,Cheval de Frise,0,Rough Terrain,1,0,0,5,0$0,0,0,0,0,0,0,1,2,0
+50,4488,1,0$true,false,true,false,9,0,0,false$Low Bar,0,Ramparts,0,Moat,0,Cheval de Frise,2,Rough Terrain,3,0,0,5,0$0,0,0,0,0,0,1,1,2,0
+51,5700,1,0$true,false,true,false,8,0,0,false$Low Bar,0,Ramparts,0,Moat,0,Cheval de Frise,0,Rough Terrain,2,1,0,0,0$0,0,0,0,0,1,0,1,2,0
+52,4,1,0$true,false,true,false,8,0,0,false$Low Bar,0,Ramparts,0,Moat,0,Cheval de Frise,0,Rough Terrain,3,8,0,0,0$0,0,0,0,0,0,1,1,2,0
+53,696,1,0$false,false,false,false,0,0,0,false$Low Bar,0,Ramparts,2,Moat,2,Cheval de Frise,0,Rough Terrain,0,0,0,0,0$0,0,0,0,1,1,0,0,1,1
+54,2073,1,0$true,false,true,false,3,0,0,false$Low Bar,0,Ramparts,2,Moat,1,Cheval de Frise,1,Rough Terrain,0,0,0,4,0$0,0,0,0,0,0,0,1,1,0
+55,1836,1,0$true,false,true,false,7,0,0,false$Low Bar,0,Ramparts,0,Moat,1,Rock Wall,2,Cheval de Frise,0,0,0,2,1$0,0,0,0,0,0,0,1,1,0
+56,1868,1,0$true,false,true,false,9,0,0,false$Low Bar,2,Ramparts,0,Moat,0,Rock Wall,0,Cheval de Frise,0,0,0,0,0$0,0,0,0,0,0,0,0,1,0
+57,254,1,0$true,false,true,false,7,0,1,false$Low Bar,0,Ramparts,0,Moat,0,Rock Wall,1,Cheval de Frise,2,0,0,1,0$0,0,0,1,0,0,0,1,0,0
+58,3476,1,0$true,false,true,false,3,0,1,false$Low Bar,0,Ramparts,0,Moat,1,Rock Wall,0,Cheval de Frise,2,0,0,3,1$0,0,0,0,0,0,0,1,0,2
+59,971,1,0$true,false,true,false,9,0,2,false$Low Bar,0,Ramparts,0,Moat,0,Rock Wall,2,Cheval de Frise,0,0,0,12,0$0,0,0,0,0,0,1,1,0,2
+60,973,1,0$true,false,true,false,3,0,0,false$Low Bar,0,Cheval de Frise,0,Rock Wall,0,Moat,2,Ramparts,0,0,0,4,3$0,0,0,0,0,0,0,1,0,2
+61,3663,1,0$true,false,true,false,9,0,0,false$Low Bar,0,Ramparts,2,Cheval de Frise,1,Rock Wall,2,Moat,2,0,0,5,2$0,0,0,0,0,0,0,1,2,0
+62,114,1,0$true,false,true,false,7,0,0,false$Low Bar,0,Ramparts,4,Cheval de Frise,1,Rock Wall,1,Moat,3,0,0,5,0$0,0,0,0,0,0,0,1,0,0
+63,3250,1,0$true,false,true,false,3,0,0,false$Low Bar,0,Ramparts,2,Cheval de Frise,0,Rock Wall,0,Moat,1,0,0,4,2$0,0,0,0,0,0,1,1,2,0

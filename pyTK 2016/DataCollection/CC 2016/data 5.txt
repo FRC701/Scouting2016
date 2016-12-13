@@ -1,0 +1,2 @@
+15,1671,1,0$true,false,false,false,0,0,0,false$Low Bar,1,Ramparts,0,Rough Terrain,2,Cheval de Frise,0,Rock Wall,0,2,0,0,0$0,0,0,0,0,0,0,1,2,0
+16,968,1,0$true,false,true,false,8,0,0,false$Low Bar,0,Ramparts,2,Rough Terrain,1,Cheval de Frise,0,Rock Wall,1,0,0,3,1$0,0,0,0,0,0,0,0,0,0

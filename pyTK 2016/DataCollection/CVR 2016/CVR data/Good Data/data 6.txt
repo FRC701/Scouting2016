@@ -1,0 +1,15 @@
+57,5677,1,0$true,false,true,false,7,0,0,false$Low Bar,0,Portcullis,0,Moat,0,Sally Port,0,Rock Wall,4,3,2,0,0$0,0,0,0,0,0,0,0,1,2,0
+58,4135,1,0$true,true,false,false,4,0,0,false$Low Bar,1,Portcullis,0,Moat,0,Sally Port,0,Rock Wall,2,0,0,0,1$0,0,0,0,0,0,1,1,1,2,0
+59,4711,1,0$true,false,true,false,3,0,0,false$Low Bar,0,Portcullis,0,Moat,6,Drawbridge,1,Rough Terrain,1,0,0,0,1$0,0,0,0,0,0,1,0,0,2,0
+60,701,1,0$true,false,true,false,9,0,0,false$Low Bar,0,Portcullis,2,Ramparts,0,Sally Port,0,Rock Wall,3,0,0,0,0$0,0,0,0,0,0,0,0,0,0,0
+61,1323,1,0$true,false,true,false,9,0,0,false$Low Bar,0,Portcullis,2,Moat,0,Drawbridge,0,Rock Wall,1,0,0,4,0$1,0,0,0,0,0,0,0,1,0,0
+62,5496,1,0$true,false,true,false,3,0,0,false$Low Bar,0,Portcullis,0,Ramparts,0,Sally Port,0,Rock Wall,0,0,0,0,0$0,0,0,0,1,0,0,0,1,0,0
+63,973,1,0$true,false,true,false,7,0,0,false$Low Bar,0,Portcullis,2,Moat,4,Drawbridge,0,Rock Wall,0,0,0,5,1$0,0,0,0,0,0,0,1,1,2,0
+64,2813,1,0$true,true,false,false,0,0,0,false$Low Bar,0,Portcullis,0,Ramparts,2,Sally Port,0,Rough Terrain,2,0,0,0,0$0,0,0,0,1,0,0,0,0,2,0
+65,1671,1,0$true,false,true,false,4,0,0,false$Low Bar,0,Cheval de Frise,0,Ramparts,0,Sally Port,2,Rock Wall,3,0,0,2,2$0,0,0,0,0,0,0,0,0,2,0
+66,5496,1,0$true,true,false,false,0,0,0,false$Low Bar,0,Portcullis,0,Ramparts,0,Sally Port,0,Rock Wall,0,0,0,0,0$0,0,0,0,1,0,0,0,0,0,0
+67,3495,1,0$true,true,false,false,0,0,0,false$Low Bar,0,Cheval de Frise,0,Ramparts,3,Sally Port,1,Rock Wall,0,0,0,4,0$0,0,0,0,0,0,0,1,1,2,0
+68,2643,1,0$false,false,false,false,0,0,0,false$Low Bar,0,Portcullis,0,Ramparts,0,Sally Port,0,Rock Wall,0,0,0,0,0$0,0,0,0,1,1,0,0,0,0,0
+69,4255,1,0$false,false,false,false,0,0,0,false$null,0,Category 1,0,Category 2,0,Category 3,0,Category 4,0,0,0,0,0$0,0,0,0,0,0,0,0,0,0,0
+70,4543,1,0$true,false,true,false,7,0,0,false$Low Bar,0,Cheval de Frise,1,Ramparts,0,Sally Port,0,Rock Wall,0,0,0,0,0$0,0,0,0,0,0,0,0,0,0,0
+75,701,1,0$true,false,true,false,9,0,0,false$Low Bar,1,Cheval de Frise,0,Ramparts,0,SallyPort,0,Rough Terrain,2,7,0,0,0$0,0,0,0,0,0,0,1,1,2,0

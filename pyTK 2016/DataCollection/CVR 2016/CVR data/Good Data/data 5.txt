@@ -1,0 +1,19 @@
+57,3925,1,0$true,true,false,false,0,0,0,false$Low Bar,2,Portcullis,1,Moat,0,Sally Port,0,Rock Wall,0,2,2,0,0$0,0,0,0,0,0,0,0,1,2,0
+58,254,1,0$true,false,true,false,1,0,1,false$Low Bar,3,Portcullis,1,Ramparts,0,Sally Port,0,Rock Wall,0,0,0,4,3$1,0,0,0,0,0,0,1,1,0,2
+59,5817,1,0$true,false,true,false,9,0,0,false$Low Bar,0,Portcullis,0,Moat,0,Drawbridge,0,Rough Terrain,0,0,0,1,1$0,0,0,0,0,0,0,0,0,0,0
+60,585,1,0$false,false,false,false,0,0,0,false$Low Bar,0,Portcullis,0,Ramparts,0,Sally Port,0,Rock Wall,0,0,0,0,0$1,0,0,0,1,1,0,0,0,0,0
+61,4973,1,0$true,false,false,false,0,0,0,true$Low Bar,1,Portcullis,0,Moat,0,Drawbridge,0,Rock Wall,0,0,0,0,0$0,0,0,0,1,0,0,0,1,0,0
+62,3501,1,0$false,false,false,false,0,0,0,false$Low Bar,0,Portcullis,0,Ramparts,0,Sally Port,0,Rock Wall,1,1,0,0,0$0,0,0,0,0,0,0,0,1,1,0
+63,3482,1,0$true,false,true,false,3,0,0,false$Low Bar,0,Portcullis,0,Moat,2,Drawbridge,1,Rock Wall,0,1,0,0,0$0,0,0,0,0,0,0,1,1,2,0
+64,1967,1,0$false,false,false,false,0,0,0,false$Low Bar,2,Portcullis,0,Ramparts,0,Sally Port,0,Rough Terrain,2,0,0,0,0$0,0,0,0,1,0,0,0,0,0,0
+65,3303,1,0$true,true,false,false,4,0,0,false$Low Bar,0,Cheval de Frise,0,Ramparts,2,Sally Port,0,Rock Wall,0,0,0,0,0$0,0,0,0,0,0,1,0,0,2,0
+66,4973,1,0$true,true,false,false,0,0,0,false$Low Bar,0,Portcullis,0,Ramparts,0,Sally Port,0,Rock Wall,0,0,0,0,0$0,0,0,0,1,0,0,0,0,2,0
+67,3045,1,0$true,true,false,false,0,0,0,false$Low Bar,1,Cheval de Frise,0,Ramparts,0,Sally Port,0,Rock Wall,1,1,1,0,0$0,0,0,0,0,0,1,1,1,2,0
+68,649,1,0$true,false,true,false,9,0,0,false$Low Bar,1,Portcullis,2,Ramparts,2,Sally Port,0,Rock Wall,1,0,0,4,0$0,0,0,0,0,0,0,0,0,0,0
+69,3482,1,0$true,false,true,false,4,0,0,false$Low Bar,2,Cheval de Frise,2,Ramparts,0,Drawbridge,0,Rock Wall,1,1,0,0,0$0,0,0,0,0,0,1,0,0,2,0
+70,6059,1,0$true,false,true,false,4,0,0,false$Low Bar,0,Cheval de Frise,0,Ramparts,1,Sally Port,0,Rock Wall,1,0,0,0,0$0,0,0,0,0,0,0,0,0,2,0
+71,1967,1,0$true,false,true,false,8,0,0,false$Low Bar,0,Cheval de Frise,1,Ramparts,0,Sally Port,0,Rough Terrain,1,0,0,0,0$0,0,0,0,1,0,0,0,0,0,0
+72,5458,1,0$true,false,true,false,9,0,0,false$Low Bar,1,Cheval de Frise,0,Ramparts,2,Sally Port,0,Rock Wall,0,2,0,0,0$0,0,0,0,0,0,0,0,1,2,0
+73,2761,1,0$true,false,true,false,3,0,0,false$Low Bar,0,Cheval de Frise,1,Moat,0,Drawbridge,0,Rough Terrain,0,0,0,0,0$0,0,0,0,1,0,0,0,0,0,0
+74,670,1,0$true,false,true,false,3,0,0,false$Low Bar,1,Cheval de Frise,0,Moat,0,Drawbridge,1,Rock Wall,0,0,0,1,0$0,0,0,0,0,0,0,0,0,2,0
+75,3482,1,0$true,false,true,false,4,0,0,false$Low Bar,2,Cheval de Frise,0,Ramparts,1,Drawbridge,0,Rough Terrain,0,0,0,0,0$0,0,0,0,0,0,0,1,1,0,0

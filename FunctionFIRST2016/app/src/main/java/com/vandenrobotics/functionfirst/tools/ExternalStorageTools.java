@@ -2,7 +2,6 @@ package com.vandenrobotics.functionfirst.tools;
 
 import android.graphics.Bitmap;
 import android.os.Environment;
-import android.util.Log;
 
 import com.vandenrobotics.functionfirst.model.Match;
 import com.vandenrobotics.functionfirst.model.MatchData;
@@ -12,14 +11,14 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileWriter;
-import java.io.FileInputStream;
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
 import java.io.IOException;
-import java.io.FileNotFoundException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 
 /**
@@ -301,7 +300,7 @@ public class ExternalStorageTools {
     public static void writeData(ArrayList<MatchData> matchData, String event, int device){
         if(isExternalStorageWritable()) {
             try {
-                FileWriter fileWriter = new FileWriter(createFile("ScoutData/" + event + "/device" + device, "data.txt"));
+                FileWriter fileWriter = new FileWriter(createFile("ScoutData/" + event + "/device" + device, "data"+device+".txt"));
                 for (int i = 0; i < matchData.size(); i++) {
                     fileWriter.append(matchData.get(i).toString() + "\n");
                 }
@@ -333,7 +332,7 @@ public class ExternalStorageTools {
         if(isExternalStorageReadable()) {
             try {
                 String line;
-                FileInputStream fileInputStream = new FileInputStream(createFile("ScoutData/" + event + "/device" + device, "data.txt"));
+                FileInputStream fileInputStream = new FileInputStream(createFile("ScoutData/" + event + "/device" + device, "data"+device+".txt"));
                 BufferedReader br = new BufferedReader(new InputStreamReader(fileInputStream));
                 while ((line = br.readLine()) != null) {
                     try {
